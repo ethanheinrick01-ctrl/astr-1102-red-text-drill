@@ -1507,21 +1507,21 @@ window.ASTR1102_MODULES = [
         "concept": "exam-two-concept-radius-temperature",
         "type": "single",
         "responseType": "single",
-        "prompt": "Which relationship lets you infer constant-radius lines from luminosity and surface temperature on an H–R diagram?",
+        "prompt": "Constant-radius lines on an H–R diagram combine emitting area with temperature-dependent surface flux. Which named relation supplies both factors?",
         "choices": [
-          "L = 4πR²σT⁴",
-          "b = L/(4πd²)",
-          "d(pc) = 1/p(arcsec)",
-          "λpeak T = constant"
+          "Stefan–Boltzmann: L = 4πR²σT⁴",
+          "Inverse-square: b = L/(4πd²)",
+          "Parallax: d(pc) = 1/p(arcsec)",
+          "Wien: λpeak T = constant"
         ],
         "answer": 0,
         "hint": "You need the law that includes both emitting area and temperature-dependent surface flux.",
-        "explanation": "The Stefan–Boltzmann luminosity relation combines R² with T⁴. The inverse-square law includes observer distance, Wien’s law gives the peak wavelength, and parallax gives distance.",
+        "explanation": "Stefan–Boltzmann combines emitting surface area with temperature-dependent flux, giving L = 4πR²σT⁴. Inverse-square relates the light received to observer distance, parallax measures distance, and Wien locates the peak wavelength. This is a named-law decision, not a multi-row matching task.",
         "source": "Lecture 18 pages 21 · original practice",
         "sourceRefs": [
           {
             "id": "exam-two-source-l18",
-            "locator": "pages 21",
+            "locator": "page 21",
             "boundary": "verified"
           }
         ],
@@ -2776,7 +2776,7 @@ window.ASTR1102_MODULES = [
         "concept": "exam-two-concept-collapse-conditions",
         "type": "single",
         "responseType": "single",
-        "prompt": "A dense gas pocket cools while its size and composition are initially unchanged. Which effect makes collapse easier?",
+        "prompt": "A dense gas pocket cools while its mass, size and composition are initially unchanged. Which effect makes collapse easier?",
         "choices": [
           "Its thermal pressure support decreases",
           "Its thermal pressure support increases",
@@ -2786,11 +2786,11 @@ window.ASTR1102_MODULES = [
         "answer": 0,
         "hint": "Separate the initial temperature change from a later size change.",
         "explanation": "Lower temperature weakens thermal pressure support, favoring gravity in an already dense pocket. Cooling alone does not remove gravity.",
-        "source": "Lecture 18 pages 12–13 · original practice",
+        "source": "Lecture 18 pages 12–13, 18 · original practice",
         "sourceRefs": [
           {
             "id": "exam-two-source-l18",
-            "locator": "pages 12–13",
+            "locator": "pages 12–13, 18",
             "boundary": "verified"
           }
         ],
@@ -2846,7 +2846,7 @@ window.ASTR1102_MODULES = [
         "concept": "exam-two-concept-collapse-conditions",
         "type": "target",
         "responseType": "target",
-        "prompt": "Select the region that best combines weak thermal support with strong self-gravity in these comparable-size clouds.",
+        "prompt": "Select the region that most favors gravity over thermal support in these comparable-size clouds.",
         "choices": [
           "Region A",
           "Region B",
@@ -2855,7 +2855,7 @@ window.ASTR1102_MODULES = [
         ],
         "answer": 1,
         "hint": "Look for both low temperature and high density.",
-        "explanation": "B is the coldest and densest offered region. Its favorable combination, rather than visible brightness, supports the choice.",
+        "explanation": "B is both coldest and densest. Lower temperature reduces thermal resistance, while higher density strengthens self-gravity in comparable-size clouds. The choice depends on that balance, not on claiming B has the lowest absolute gas pressure.",
         "source": "Lecture 18 pages 13 · original practice",
         "sourceRefs": [
           {
@@ -3083,7 +3083,7 @@ window.ASTR1102_MODULES = [
         "concept": "exam-two-concept-collapse-pressure",
         "type": "single",
         "responseType": "single",
-        "prompt": "A cloud parcel has half its earlier particle density. What temperature change keeps its gas pressure unchanged in the simple model?",
+        "prompt": "A cloud parcel of unchanged composition has half its earlier particle density. What temperature change keeps its gas pressure unchanged in the simple model?",
         "choices": [
           "Double the temperature",
           "Halve the temperature",
@@ -3157,17 +3157,22 @@ window.ASTR1102_MODULES = [
         "choices": [
           "Core hydrogen fusion replaces radiated energy",
           "Stored heat replaces radiated energy indefinitely",
-          "External dust scattering maintains the core temperature",
+          "Core helium fusion supplies ordinary main-sequence heating",
           "Gravitational contraction releases heat at fixed radius"
         ],
         "answer": 0,
         "hint": "A long-lived energy source is different from a one-time heat release.",
         "explanation": "Sustained core hydrogen fusion replenishes the energy radiated away. Gravity is balanced by pressure; nuclear reactions supply the heat supporting that pressure.",
-        "source": "Lecture 18 pages 12, 19 · original practice",
+        "source": "Lecture 18 pages 12, 19; Lecture 16 pages 16, 21 · original practice",
         "sourceRefs": [
           {
             "id": "exam-two-source-l18",
             "locator": "pages 12, 19",
+            "boundary": "verified"
+          },
+          {
+            "id": "exam-two-source-l16",
+            "locator": "pages 16, 21",
             "boundary": "verified"
           }
         ],
