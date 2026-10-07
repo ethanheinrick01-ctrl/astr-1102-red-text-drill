@@ -4,13 +4,13 @@ window.ASTR1102_QUIZZES = [
     "examId": "exam-two",
     "kind": "boss",
     "title": "Exam 2 Boss Drill",
-    "description": "25 original questions across every available concept. Confidence before feedback; first answers stay saved.",
+    "description": "25 original tasks across the supplied material, now including Lecture 18. Saved older forms remain unchanged.",
     "lane": "Exam 2",
-    "chapters": "Lectures 13–17 · material available so far",
+    "chapters": "Lectures 13–18 · Exam 2: material available so far",
     "status": "Ready",
     "questions": [
       {
-        "id": "exam-two-boss-drill--exam-two-item-parallax-reference",
+        "id": "exam-two-item-parallax-reference",
         "rootId": "exam-two-item-parallax-reference",
         "moduleId": "exam-two-module-01",
         "conceptId": "exam-two-concept-parallax-geometry",
@@ -45,7 +45,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-boss-drill--exam-two-item-parsec-convert",
+        "id": "exam-two-item-parsec-convert",
         "rootId": "exam-two-item-parsec-convert",
         "moduleId": "exam-two-module-01",
         "conceptId": "exam-two-concept-parsec",
@@ -80,48 +80,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-boss-drill--exam-two-item-parallax-reverse",
-        "rootId": "exam-two-item-parallax-reverse",
-        "moduleId": "exam-two-module-01",
-        "conceptId": "exam-two-concept-parallax-ratio",
-        "concept": "exam-two-concept-parallax-ratio",
-        "type": "single",
-        "responseType": "single",
-        "prompt": "Star A is three times farther away than star B. How does A’s parallax compare with B’s?",
-        "choices": [
-          "Three times as large",
-          "One-third as large",
-          "Nine times as large",
-          "The same size"
-        ],
-        "answer": 1,
-        "hint": "Reverse the relationship between distance and angle.",
-        "explanation": "Tripling distance divides parallax by three: pA/pB = dB/dA = 1/3.",
-        "source": "Lecture 13 pages 10–16 · original practice",
-        "sourceRefs": [
-          {
-            "id": "exam-two-source-l13",
-            "locator": "pages 10–16",
-            "boundary": "verified"
-          }
-        ],
-        "claimIds": [
-          "exam-two-claim-parallax-ratio"
-        ],
-        "provenance": "original",
-        "original": true,
-        "status": "verified",
-        "topic": "Original Exam 2 practice",
-        "mockEligible": true,
-        "media": {
-          "src": "assets/visuals/exam-two/parallax-assessment.svg",
-          "alt": "Original schematic of the comparison described in the question; no answer is marked.",
-          "caption": "Original instructional model from the supplied relationship.",
-          "source": "Lecture 13 pages 10–16 · original practice"
-        }
-      },
-      {
-        "id": "exam-two-boss-drill--exam-two-item-observer-move",
+        "id": "exam-two-item-observer-move",
         "rootId": "exam-two-item-observer-move",
         "moduleId": "exam-two-module-02",
         "conceptId": "exam-two-concept-flux-luminosity",
@@ -156,7 +115,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-boss-drill--exam-two-item-brightness-infer-distance",
+        "id": "exam-two-item-brightness-infer-distance",
         "rootId": "exam-two-item-brightness-infer-distance",
         "moduleId": "exam-two-module-02",
         "conceptId": "exam-two-concept-inverse-square",
@@ -197,42 +156,7 @@ window.ASTR1102_QUIZZES = [
         }
       },
       {
-        "id": "exam-two-boss-drill--exam-two-item-combined-luminosity",
-        "rootId": "exam-two-item-combined-luminosity",
-        "moduleId": "exam-two-module-02",
-        "conceptId": "exam-two-concept-combined-ratio",
-        "concept": "exam-two-concept-combined-ratio",
-        "type": "single",
-        "responseType": "single",
-        "prompt": "Star A appears twice as bright as B and is three times farther away. Neglecting dust, what is LA/LB?",
-        "choices": [
-          "2",
-          "6",
-          "9",
-          "18"
-        ],
-        "answer": 3,
-        "hint": "Multiply the brightness ratio by the squared distance ratio.",
-        "explanation": "LA/LB = 2 × 3² = 18.",
-        "source": "Lecture 13 pages 23–25 · original practice",
-        "sourceRefs": [
-          {
-            "id": "exam-two-source-l13",
-            "locator": "pages 23–25",
-            "boundary": "verified"
-          }
-        ],
-        "claimIds": [
-          "exam-two-claim-combined-ratio"
-        ],
-        "provenance": "original",
-        "original": true,
-        "status": "verified",
-        "topic": "Original Exam 2 practice",
-        "mockEligible": true
-      },
-      {
-        "id": "exam-two-boss-drill--exam-two-item-magnitude-five",
+        "id": "exam-two-item-magnitude-five",
         "rootId": "exam-two-item-magnitude-five",
         "moduleId": "exam-two-module-03",
         "conceptId": "exam-two-concept-magnitude-ratio",
@@ -267,7 +191,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-boss-drill--exam-two-item-absolute-reference",
+        "id": "exam-two-item-absolute-reference",
         "rootId": "exam-two-item-absolute-reference",
         "moduleId": "exam-two-module-03",
         "conceptId": "exam-two-concept-absolute-magnitude",
@@ -302,7 +226,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-boss-drill--exam-two-item-dust-distance-correct",
+        "id": "exam-two-item-dust-distance-correct",
         "rootId": "exam-two-item-dust-distance-correct",
         "moduleId": "exam-two-module-03",
         "conceptId": "exam-two-concept-extinction-distance",
@@ -337,7 +261,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-boss-drill--exam-two-item-color-ratio",
+        "id": "exam-two-item-color-ratio",
         "rootId": "exam-two-item-color-ratio",
         "moduleId": "exam-two-module-04",
         "conceptId": "exam-two-concept-color-temperature",
@@ -372,7 +296,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-boss-drill--exam-two-item-spectral-removed",
+        "id": "exam-two-item-spectral-removed",
         "rootId": "exam-two-item-spectral-removed",
         "moduleId": "exam-two-module-04",
         "conceptId": "exam-two-concept-spectral-temperature",
@@ -407,7 +331,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-boss-drill--exam-two-item-red-not-cool",
+        "id": "exam-two-item-red-not-cool",
         "rootId": "exam-two-item-red-not-cool",
         "moduleId": "exam-two-module-04",
         "conceptId": "exam-two-concept-reddening",
@@ -442,7 +366,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-boss-drill--exam-two-item-radius-from-luminosity",
+        "id": "exam-two-item-radius-from-luminosity",
         "rootId": "exam-two-item-radius-from-luminosity",
         "moduleId": "exam-two-module-05",
         "conceptId": "exam-two-concept-radius-temperature",
@@ -477,7 +401,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-boss-drill--exam-two-item-mass-evidence",
+        "id": "exam-two-item-mass-evidence",
         "rootId": "exam-two-item-mass-evidence",
         "moduleId": "exam-two-module-05",
         "conceptId": "exam-two-concept-mass-measurement",
@@ -512,42 +436,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-boss-drill--exam-two-item-brown-dwarf-boundary",
-        "rootId": "exam-two-item-brown-dwarf-boundary",
-        "moduleId": "exam-two-module-05",
-        "conceptId": "exam-two-concept-brown-dwarfs",
-        "concept": "exam-two-concept-brown-dwarfs",
-        "type": "single",
-        "responseType": "single",
-        "prompt": "What separates a brown dwarf from an ordinary main-sequence star in this packet?",
-        "choices": [
-          "It does not sustain core hydrogen fusion",
-          "It sustains core hydrogen fusion at a low rate",
-          "It has exhausted hydrogen after a giant phase",
-          "It appears faint because intervening dust dims it"
-        ],
-        "answer": 0,
-        "hint": "Use the energy-source boundary, not the word dwarf.",
-        "explanation": "Main-sequence stars sustain core hydrogen fusion. Brown dwarfs do not, although they radiate and form in a star-like way.",
-        "source": "Lecture 16 pages 16, 19–20 · original practice",
-        "sourceRefs": [
-          {
-            "id": "exam-two-source-l16",
-            "locator": "pages 16, 19–20",
-            "boundary": "verified"
-          }
-        ],
-        "claimIds": [
-          "exam-two-claim-brown-dwarfs"
-        ],
-        "provenance": "original",
-        "original": true,
-        "status": "verified",
-        "topic": "Original Exam 2 practice",
-        "mockEligible": true
-      },
-      {
-        "id": "exam-two-boss-drill--exam-two-item-hr-right",
+        "id": "exam-two-item-hr-right",
         "rootId": "exam-two-item-hr-right",
         "moduleId": "exam-two-module-06",
         "conceptId": "exam-two-concept-hr-axes",
@@ -587,7 +476,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-boss-drill--exam-two-item-white-dwarf-reason",
+        "id": "exam-two-item-white-dwarf-reason",
         "rootId": "exam-two-item-white-dwarf-reason",
         "moduleId": "exam-two-module-06",
         "conceptId": "exam-two-concept-hr-regions",
@@ -622,7 +511,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-boss-drill--exam-two-item-mass-lifetime",
+        "id": "exam-two-item-mass-lifetime",
         "rootId": "exam-two-item-mass-lifetime",
         "moduleId": "exam-two-module-06",
         "conceptId": "exam-two-concept-main-sequence-mass",
@@ -657,42 +546,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-boss-drill--exam-two-item-sun-giant-properties",
-        "rootId": "exam-two-item-sun-giant-properties",
-        "moduleId": "exam-two-module-06",
-        "conceptId": "exam-two-concept-sun-path",
-        "concept": "exam-two-concept-sun-path",
-        "type": "single",
-        "responseType": "single",
-        "prompt": "As a Sun-like star expands toward the red-giant region in the supplied preview, what happens to its surface temperature and luminosity?",
-        "choices": [
-          "Temperature falls; luminosity rises",
-          "Temperature rises; luminosity falls",
-          "Both temperature and luminosity fall",
-          "Both temperature and luminosity rise"
-        ],
-        "answer": 0,
-        "hint": "Translate upper right into the two plotted quantities.",
-        "explanation": "The red-giant region is cooler but more luminous. Expansion supplies enough surface area for greater total power.",
-        "source": "Lecture 16 pages 27–29 · original practice",
-        "sourceRefs": [
-          {
-            "id": "exam-two-source-l16",
-            "locator": "pages 27–29",
-            "boundary": "verified"
-          }
-        ],
-        "claimIds": [
-          "exam-two-claim-sun-path"
-        ],
-        "provenance": "original",
-        "original": true,
-        "status": "verified",
-        "topic": "Original Exam 2 practice",
-        "mockEligible": true
-      },
-      {
-        "id": "exam-two-boss-drill--exam-two-item-ism-not",
+        "id": "exam-two-item-ism-not",
         "rootId": "exam-two-item-ism-not",
         "moduleId": "exam-two-module-07",
         "conceptId": "exam-two-concept-ism-density",
@@ -727,7 +581,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-boss-drill--exam-two-item-reflection-versus-transmission",
+        "id": "exam-two-item-reflection-versus-transmission",
         "rootId": "exam-two-item-reflection-versus-transmission",
         "moduleId": "exam-two-module-07",
         "conceptId": "exam-two-concept-dust-scattering",
@@ -762,42 +616,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-boss-drill--exam-two-item-hii-neutral",
-        "rootId": "exam-two-item-hii-neutral",
-        "moduleId": "exam-two-module-07",
-        "conceptId": "exam-two-concept-nebula-mechanism",
-        "concept": "exam-two-concept-nebula-mechanism",
-        "type": "single",
-        "responseType": "single",
-        "prompt": "Which label denotes neutral hydrogen in the lecture’s notation?",
-        "choices": [
-          "H I",
-          "H II",
-          "H₂",
-          "He II"
-        ],
-        "answer": 0,
-        "hint": "Roman numeral I denotes a neutral atom in this notation.",
-        "explanation": "H I is neutral hydrogen; H II is ionized hydrogen. H₂ is molecular hydrogen.",
-        "source": "Lecture 17 pages 12–14, 17–19 · original practice",
-        "sourceRefs": [
-          {
-            "id": "exam-two-source-l17",
-            "locator": "pages 12–14, 17–19",
-            "boundary": "verified"
-          }
-        ],
-        "claimIds": [
-          "exam-two-claim-nebula-mechanism"
-        ],
-        "provenance": "original",
-        "original": true,
-        "status": "verified",
-        "topic": "Original Exam 2 practice",
-        "mockEligible": true
-      },
-      {
-        "id": "exam-two-boss-drill--exam-two-item-formation-material",
+        "id": "exam-two-item-formation-material",
         "rootId": "exam-two-item-formation-material",
         "moduleId": "exam-two-module-08",
         "conceptId": "exam-two-concept-formation-regions",
@@ -832,7 +651,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-boss-drill--exam-two-item-bok-description",
+        "id": "exam-two-item-bok-description",
         "rootId": "exam-two-item-bok-description",
         "moduleId": "exam-two-module-08",
         "conceptId": "exam-two-concept-bok-globules",
@@ -867,7 +686,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-boss-drill--exam-two-item-hh-association",
+        "id": "exam-two-item-hh-association",
         "rootId": "exam-two-item-hh-association",
         "moduleId": "exam-two-module-08",
         "conceptId": "exam-two-concept-herbig-haro",
@@ -894,6 +713,181 @@ window.ASTR1102_QUIZZES = [
         ],
         "claimIds": [
           "exam-two-claim-herbig-haro"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l18-collapse-not",
+        "rootId": "exam-two-item-l18-collapse-not",
+        "moduleId": "exam-two-module-09",
+        "conceptId": "exam-two-concept-collapse-conditions",
+        "concept": "exam-two-concept-collapse-conditions",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Which change would NOT favor collapse of an otherwise comparable cold, dense cloud?",
+        "choices": [
+          "Lowering its temperature",
+          "Increasing its density at fixed size",
+          "Heating it without increasing density",
+          "Reducing its thermal support"
+        ],
+        "answer": 2,
+        "hint": "Gravity must overcome the resistance supplied by thermal pressure.",
+        "explanation": "Heating at unchanged density strengthens thermal pressure support. The other changes favor the balance toward collapse.",
+        "source": "Lecture 18 pages 12–13 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l18",
+            "locator": "pages 12–13",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-collapse-conditions"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l18-infrared-pair",
+        "rootId": "exam-two-item-l18-infrared-pair",
+        "moduleId": "exam-two-module-09",
+        "conceptId": "exam-two-concept-infrared-protostars",
+        "concept": "exam-two-concept-infrared-protostars",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Which pair explains the lecture’s use of infrared for embedded young objects?",
+        "choices": [
+          "Less dust scattering and relatively long-wavelength emission",
+          "More dust scattering and relatively long-wavelength emission",
+          "Less dust scattering and relatively short-wavelength emission",
+          "More dust scattering and relatively short-wavelength emission"
+        ],
+        "answer": 0,
+        "hint": "One reason concerns the path; the other concerns the source.",
+        "explanation": "The lecture combines reduced infrared scattering by dust with the cooler source’s longer-wavelength thermal emission.",
+        "source": "Lecture 18 pages 7 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l18",
+            "locator": "pages 7",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-infrared-protostars"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l18-energy-before-fusion",
+        "rootId": "exam-two-item-l18-energy-before-fusion",
+        "moduleId": "exam-two-module-09",
+        "conceptId": "exam-two-concept-protostar-energy",
+        "concept": "exam-two-concept-protostar-energy",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "A young object is luminous, is contracting, and has not begun sustained core hydrogen burning. What supplies energy in the lecture model?",
+        "choices": [
+          "Release of gravitational potential energy",
+          "Release of sustained hydrogen-fusion energy",
+          "Release of energy mainly from chemical combustion",
+          "Release of heat mainly by expansion of the gas"
+        ],
+        "answer": 0,
+        "hint": "The source is named Kelvin–Helmholtz contraction.",
+        "explanation": "Contraction releases gravitational energy; some heats the interior and some escapes as radiation. Luminosity alone does not prove sustained hydrogen fusion.",
+        "source": "Lecture 18 pages 17–18 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l18",
+            "locator": "pages 17–18",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-protostar-energy"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l18-pressure-ratio",
+        "rootId": "exam-two-item-l18-pressure-ratio",
+        "moduleId": "exam-two-module-09",
+        "conceptId": "exam-two-concept-collapse-pressure",
+        "concept": "exam-two-concept-collapse-pressure",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "For gas of unchanged composition, particle density doubles and temperature falls to one quarter. In the lecture’s P ∝ nT model, what happens to pressure?",
+        "choices": [
+          "It becomes one half as large",
+          "It becomes twice as large",
+          "It becomes four times as large",
+          "It remains unchanged"
+        ],
+        "answer": 0,
+        "hint": "Multiply the two ratios.",
+        "explanation": "Pnew/Pold = 2 × 1/4 = 1/2. Considering only the density gives the wrong result.",
+        "source": "Lecture 18 pages 18 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l18",
+            "locator": "pages 18",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-collapse-pressure"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l18-cool-and-resume",
+        "rootId": "exam-two-item-l18-cool-and-resume",
+        "moduleId": "exam-two-module-09",
+        "conceptId": "exam-two-concept-protostar-support",
+        "concept": "exam-two-concept-protostar-support",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "A non-fusing young object radiates heat away after its contraction slows. Why can contraction resume?",
+        "choices": [
+          "Cooling reduces thermal pressure support",
+          "Cooling increases thermal pressure support",
+          "Radiation maintains the lost heat without a new energy source",
+          "A temporary pressure balance prevents any further energy loss"
+        ],
+        "answer": 0,
+        "hint": "Distinguish losing stored heat from generating replacement energy.",
+        "explanation": "Without ongoing replenishment, radiation and cooling weaken pressure support. Gravity can then drive further contraction.",
+        "source": "Lecture 18 pages 19 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l18",
+            "locator": "pages 19",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-protostar-support"
         ],
         "provenance": "original",
         "original": true,
@@ -910,11 +904,11 @@ window.ASTR1102_QUIZZES = [
     "title": "Exam 2 Everything Pool",
     "description": "All original tasks, including matching, ordering, and an H–R image target. Adaptive review follows misses and low confidence.",
     "lane": "Exam 2",
-    "chapters": "Lectures 13–17 · original source-linked practice",
+    "chapters": "Lectures 13–18 · Exam 2: material available so far",
     "status": "Ready",
     "questions": [
       {
-        "id": "exam-two-everything-pool--exam-two-item-parallax-reference",
+        "id": "exam-two-item-parallax-reference",
         "rootId": "exam-two-item-parallax-reference",
         "moduleId": "exam-two-module-01",
         "conceptId": "exam-two-concept-parallax-geometry",
@@ -949,7 +943,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-everything-pool--exam-two-item-parallax-motion",
+        "id": "exam-two-item-parallax-motion",
         "rootId": "exam-two-item-parallax-motion",
         "moduleId": "exam-two-module-01",
         "conceptId": "exam-two-concept-parallax-geometry",
@@ -984,7 +978,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-everything-pool--exam-two-item-parsec-convert",
+        "id": "exam-two-item-parsec-convert",
         "rootId": "exam-two-item-parsec-convert",
         "moduleId": "exam-two-module-01",
         "conceptId": "exam-two-concept-parsec",
@@ -1019,7 +1013,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-everything-pool--exam-two-item-parsec-limit",
+        "id": "exam-two-item-parsec-limit",
         "rootId": "exam-two-item-parsec-limit",
         "moduleId": "exam-two-module-01",
         "conceptId": "exam-two-concept-parsec",
@@ -1054,7 +1048,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-everything-pool--exam-two-item-parallax-reverse",
+        "id": "exam-two-item-parallax-reverse",
         "rootId": "exam-two-item-parallax-reverse",
         "moduleId": "exam-two-module-01",
         "conceptId": "exam-two-concept-parallax-ratio",
@@ -1095,7 +1089,7 @@ window.ASTR1102_QUIZZES = [
         }
       },
       {
-        "id": "exam-two-everything-pool--exam-two-item-parallax-compare",
+        "id": "exam-two-item-parallax-compare",
         "rootId": "exam-two-item-parallax-compare",
         "moduleId": "exam-two-module-01",
         "conceptId": "exam-two-concept-parallax-ratio",
@@ -1130,7 +1124,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-everything-pool--exam-two-item-observer-move",
+        "id": "exam-two-item-observer-move",
         "rootId": "exam-two-item-observer-move",
         "moduleId": "exam-two-module-02",
         "conceptId": "exam-two-concept-flux-luminosity",
@@ -1165,7 +1159,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-everything-pool--exam-two-item-flux-not",
+        "id": "exam-two-item-flux-not",
         "rootId": "exam-two-item-flux-not",
         "moduleId": "exam-two-module-02",
         "conceptId": "exam-two-concept-flux-luminosity",
@@ -1200,7 +1194,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-everything-pool--exam-two-item-brightness-infer-distance",
+        "id": "exam-two-item-brightness-infer-distance",
         "rootId": "exam-two-item-brightness-infer-distance",
         "moduleId": "exam-two-module-02",
         "conceptId": "exam-two-concept-inverse-square",
@@ -1241,7 +1235,7 @@ window.ASTR1102_QUIZZES = [
         }
       },
       {
-        "id": "exam-two-everything-pool--exam-two-item-brightness-quarter-distance",
+        "id": "exam-two-item-brightness-quarter-distance",
         "rootId": "exam-two-item-brightness-quarter-distance",
         "moduleId": "exam-two-module-02",
         "conceptId": "exam-two-concept-inverse-square",
@@ -1276,7 +1270,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-everything-pool--exam-two-item-combined-luminosity",
+        "id": "exam-two-item-combined-luminosity",
         "rootId": "exam-two-item-combined-luminosity",
         "moduleId": "exam-two-module-02",
         "conceptId": "exam-two-concept-combined-ratio",
@@ -1311,7 +1305,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-everything-pool--exam-two-item-equal-brightness",
+        "id": "exam-two-item-equal-brightness",
         "rootId": "exam-two-item-equal-brightness",
         "moduleId": "exam-two-module-02",
         "conceptId": "exam-two-concept-combined-ratio",
@@ -1346,7 +1340,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-everything-pool--exam-two-item-magnitude-five",
+        "id": "exam-two-item-magnitude-five",
         "rootId": "exam-two-item-magnitude-five",
         "moduleId": "exam-two-module-03",
         "conceptId": "exam-two-concept-magnitude-ratio",
@@ -1381,7 +1375,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-everything-pool--exam-two-item-magnitude-three",
+        "id": "exam-two-item-magnitude-three",
         "rootId": "exam-two-item-magnitude-three",
         "moduleId": "exam-two-module-03",
         "conceptId": "exam-two-concept-magnitude-ratio",
@@ -1416,7 +1410,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-everything-pool--exam-two-item-absolute-reference",
+        "id": "exam-two-item-absolute-reference",
         "rootId": "exam-two-item-absolute-reference",
         "moduleId": "exam-two-module-03",
         "conceptId": "exam-two-concept-absolute-magnitude",
@@ -1451,7 +1445,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-everything-pool--exam-two-item-absolute-equal",
+        "id": "exam-two-item-absolute-equal",
         "rootId": "exam-two-item-absolute-equal",
         "moduleId": "exam-two-module-03",
         "conceptId": "exam-two-concept-absolute-magnitude",
@@ -1486,7 +1480,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-everything-pool--exam-two-item-dust-distance-correct",
+        "id": "exam-two-item-dust-distance-correct",
         "rootId": "exam-two-item-dust-distance-correct",
         "moduleId": "exam-two-module-03",
         "conceptId": "exam-two-concept-extinction-distance",
@@ -1521,7 +1515,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-everything-pool--exam-two-item-dust-magnitude",
+        "id": "exam-two-item-dust-magnitude",
         "rootId": "exam-two-item-dust-magnitude",
         "moduleId": "exam-two-module-03",
         "conceptId": "exam-two-concept-extinction-distance",
@@ -1556,7 +1550,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-everything-pool--exam-two-item-color-ratio",
+        "id": "exam-two-item-color-ratio",
         "rootId": "exam-two-item-color-ratio",
         "moduleId": "exam-two-module-04",
         "conceptId": "exam-two-concept-color-temperature",
@@ -1591,7 +1585,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-everything-pool--exam-two-item-photometry-tradeoff",
+        "id": "exam-two-item-photometry-tradeoff",
         "rootId": "exam-two-item-photometry-tradeoff",
         "moduleId": "exam-two-module-04",
         "conceptId": "exam-two-concept-color-temperature",
@@ -1626,7 +1620,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-everything-pool--exam-two-item-spectral-removed",
+        "id": "exam-two-item-spectral-removed",
         "rootId": "exam-two-item-spectral-removed",
         "moduleId": "exam-two-module-04",
         "conceptId": "exam-two-concept-spectral-temperature",
@@ -1661,7 +1655,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-everything-pool--exam-two-item-absorption-inference",
+        "id": "exam-two-item-absorption-inference",
         "rootId": "exam-two-item-absorption-inference",
         "moduleId": "exam-two-module-04",
         "conceptId": "exam-two-concept-spectral-temperature",
@@ -1696,7 +1690,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-everything-pool--exam-two-item-red-not-cool",
+        "id": "exam-two-item-red-not-cool",
         "rootId": "exam-two-item-red-not-cool",
         "moduleId": "exam-two-module-04",
         "conceptId": "exam-two-concept-reddening",
@@ -1731,7 +1725,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-everything-pool--exam-two-item-red-ambiguity",
+        "id": "exam-two-item-red-ambiguity",
         "rootId": "exam-two-item-red-ambiguity",
         "moduleId": "exam-two-module-04",
         "conceptId": "exam-two-concept-reddening",
@@ -1766,7 +1760,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-everything-pool--exam-two-item-radius-from-luminosity",
+        "id": "exam-two-item-radius-from-luminosity",
         "rootId": "exam-two-item-radius-from-luminosity",
         "moduleId": "exam-two-module-05",
         "conceptId": "exam-two-concept-radius-temperature",
@@ -1801,7 +1795,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-everything-pool--exam-two-item-temperature-compensate",
+        "id": "exam-two-item-temperature-compensate",
         "rootId": "exam-two-item-temperature-compensate",
         "moduleId": "exam-two-module-05",
         "conceptId": "exam-two-concept-radius-temperature",
@@ -1836,7 +1830,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-everything-pool--exam-two-item-mass-evidence",
+        "id": "exam-two-item-mass-evidence",
         "rootId": "exam-two-item-mass-evidence",
         "moduleId": "exam-two-module-05",
         "conceptId": "exam-two-concept-mass-measurement",
@@ -1871,7 +1865,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-everything-pool--exam-two-item-spectroscopic-parallax",
+        "id": "exam-two-item-spectroscopic-parallax",
         "rootId": "exam-two-item-spectroscopic-parallax",
         "moduleId": "exam-two-module-05",
         "conceptId": "exam-two-concept-mass-measurement",
@@ -1906,7 +1900,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-everything-pool--exam-two-item-brown-dwarf-boundary",
+        "id": "exam-two-item-brown-dwarf-boundary",
         "rootId": "exam-two-item-brown-dwarf-boundary",
         "moduleId": "exam-two-module-05",
         "conceptId": "exam-two-concept-brown-dwarfs",
@@ -1941,7 +1935,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-everything-pool--exam-two-item-brown-dwarf-classes",
+        "id": "exam-two-item-brown-dwarf-classes",
         "rootId": "exam-two-item-brown-dwarf-classes",
         "moduleId": "exam-two-module-05",
         "conceptId": "exam-two-concept-brown-dwarfs",
@@ -1976,7 +1970,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-everything-pool--exam-two-item-hr-right",
+        "id": "exam-two-item-hr-right",
         "rootId": "exam-two-item-hr-right",
         "moduleId": "exam-two-module-06",
         "conceptId": "exam-two-concept-hr-axes",
@@ -2016,7 +2010,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-everything-pool--exam-two-item-hr-radius",
+        "id": "exam-two-item-hr-radius",
         "rootId": "exam-two-item-hr-radius",
         "moduleId": "exam-two-module-06",
         "conceptId": "exam-two-concept-hr-axes",
@@ -2056,7 +2050,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-everything-pool--exam-two-item-white-dwarf-reason",
+        "id": "exam-two-item-white-dwarf-reason",
         "rootId": "exam-two-item-white-dwarf-reason",
         "moduleId": "exam-two-module-06",
         "conceptId": "exam-two-concept-hr-regions",
@@ -2091,7 +2085,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-everything-pool--exam-two-item-main-sequence-definition",
+        "id": "exam-two-item-main-sequence-definition",
         "rootId": "exam-two-item-main-sequence-definition",
         "moduleId": "exam-two-module-06",
         "conceptId": "exam-two-concept-hr-regions",
@@ -2126,7 +2120,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-everything-pool--exam-two-item-mass-lifetime",
+        "id": "exam-two-item-mass-lifetime",
         "rootId": "exam-two-item-mass-lifetime",
         "moduleId": "exam-two-module-06",
         "conceptId": "exam-two-concept-main-sequence-mass",
@@ -2161,7 +2155,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-everything-pool--exam-two-item-mass-location",
+        "id": "exam-two-item-mass-location",
         "rootId": "exam-two-item-mass-location",
         "moduleId": "exam-two-module-06",
         "conceptId": "exam-two-concept-main-sequence-mass",
@@ -2196,7 +2190,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-everything-pool--exam-two-item-sun-giant-properties",
+        "id": "exam-two-item-sun-giant-properties",
         "rootId": "exam-two-item-sun-giant-properties",
         "moduleId": "exam-two-module-06",
         "conceptId": "exam-two-concept-sun-path",
@@ -2231,7 +2225,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-everything-pool--exam-two-item-sun-final-category",
+        "id": "exam-two-item-sun-final-category",
         "rootId": "exam-two-item-sun-final-category",
         "moduleId": "exam-two-module-06",
         "conceptId": "exam-two-concept-sun-path",
@@ -2266,7 +2260,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-everything-pool--exam-two-item-ism-not",
+        "id": "exam-two-item-ism-not",
         "rootId": "exam-two-item-ism-not",
         "moduleId": "exam-two-module-07",
         "conceptId": "exam-two-concept-ism-density",
@@ -2301,7 +2295,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-everything-pool--exam-two-item-cloud-density",
+        "id": "exam-two-item-cloud-density",
         "rootId": "exam-two-item-cloud-density",
         "moduleId": "exam-two-module-07",
         "conceptId": "exam-two-concept-ism-density",
@@ -2336,7 +2330,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-everything-pool--exam-two-item-reflection-versus-transmission",
+        "id": "exam-two-item-reflection-versus-transmission",
         "rootId": "exam-two-item-reflection-versus-transmission",
         "moduleId": "exam-two-module-07",
         "conceptId": "exam-two-concept-dust-scattering",
@@ -2371,7 +2365,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-everything-pool--exam-two-item-dust-band",
+        "id": "exam-two-item-dust-band",
         "rootId": "exam-two-item-dust-band",
         "moduleId": "exam-two-module-07",
         "conceptId": "exam-two-concept-dust-scattering",
@@ -2406,7 +2400,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-everything-pool--exam-two-item-hii-neutral",
+        "id": "exam-two-item-hii-neutral",
         "rootId": "exam-two-item-hii-neutral",
         "moduleId": "exam-two-module-07",
         "conceptId": "exam-two-concept-nebula-mechanism",
@@ -2441,7 +2435,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-everything-pool--exam-two-item-nebula-light",
+        "id": "exam-two-item-nebula-light",
         "rootId": "exam-two-item-nebula-light",
         "moduleId": "exam-two-module-07",
         "conceptId": "exam-two-concept-nebula-mechanism",
@@ -2476,7 +2470,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-everything-pool--exam-two-item-formation-material",
+        "id": "exam-two-item-formation-material",
         "rootId": "exam-two-item-formation-material",
         "moduleId": "exam-two-module-08",
         "conceptId": "exam-two-concept-formation-regions",
@@ -2511,7 +2505,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-everything-pool--exam-two-item-dark-cloud-infer",
+        "id": "exam-two-item-dark-cloud-infer",
         "rootId": "exam-two-item-dark-cloud-infer",
         "moduleId": "exam-two-module-08",
         "conceptId": "exam-two-concept-formation-regions",
@@ -2546,7 +2540,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-everything-pool--exam-two-item-bok-description",
+        "id": "exam-two-item-bok-description",
         "rootId": "exam-two-item-bok-description",
         "moduleId": "exam-two-module-08",
         "conceptId": "exam-two-concept-bok-globules",
@@ -2581,7 +2575,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-everything-pool--exam-two-item-bok-hydrogen",
+        "id": "exam-two-item-bok-hydrogen",
         "rootId": "exam-two-item-bok-hydrogen",
         "moduleId": "exam-two-module-08",
         "conceptId": "exam-two-concept-bok-globules",
@@ -2616,7 +2610,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-everything-pool--exam-two-item-hh-association",
+        "id": "exam-two-item-hh-association",
         "rootId": "exam-two-item-hh-association",
         "moduleId": "exam-two-module-08",
         "conceptId": "exam-two-concept-herbig-haro",
@@ -2651,7 +2645,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-everything-pool--exam-two-item-hh-distinguish",
+        "id": "exam-two-item-hh-distinguish",
         "rootId": "exam-two-item-hh-distinguish",
         "moduleId": "exam-two-module-08",
         "conceptId": "exam-two-concept-herbig-haro",
@@ -2686,7 +2680,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-everything-pool--exam-two-item-luminosity-tf",
+        "id": "exam-two-item-luminosity-tf",
         "rootId": "exam-two-item-luminosity-tf",
         "moduleId": "exam-two-module-02",
         "conceptId": "exam-two-concept-flux-luminosity",
@@ -2719,7 +2713,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-everything-pool--exam-two-item-quantity-match",
+        "id": "exam-two-item-quantity-match",
         "rootId": "exam-two-item-quantity-match",
         "moduleId": "exam-two-module-02",
         "conceptId": "exam-two-concept-flux-luminosity",
@@ -2783,7 +2777,7 @@ window.ASTR1102_QUIZZES = [
         ]
       },
       {
-        "id": "exam-two-everything-pool--exam-two-item-spectral-order",
+        "id": "exam-two-item-spectral-order",
         "rootId": "exam-two-item-spectral-order",
         "moduleId": "exam-two-module-04",
         "conceptId": "exam-two-concept-spectral-temperature",
@@ -2868,7 +2862,7 @@ window.ASTR1102_QUIZZES = [
         ]
       },
       {
-        "id": "exam-two-everything-pool--exam-two-item-hr-white-dwarf-target",
+        "id": "exam-two-item-hr-white-dwarf-target",
         "rootId": "exam-two-item-hr-white-dwarf-target",
         "moduleId": "exam-two-module-06",
         "conceptId": "exam-two-concept-hr-regions",
@@ -2931,7 +2925,7 @@ window.ASTR1102_QUIZZES = [
         ]
       },
       {
-        "id": "exam-two-everything-pool--exam-two-item-sun-phase-order",
+        "id": "exam-two-item-sun-phase-order",
         "rootId": "exam-two-item-sun-phase-order",
         "moduleId": "exam-two-module-06",
         "conceptId": "exam-two-concept-sun-path",
@@ -2988,7 +2982,7 @@ window.ASTR1102_QUIZZES = [
         ]
       },
       {
-        "id": "exam-two-everything-pool--exam-two-item-nebula-match",
+        "id": "exam-two-item-nebula-match",
         "rootId": "exam-two-item-nebula-match",
         "moduleId": "exam-two-module-07",
         "conceptId": "exam-two-concept-nebula-mechanism",
@@ -3043,6 +3037,705 @@ window.ASTR1102_QUIZZES = [
           "Dust redirects an illuminating star’s light",
           "Compact dusty molecular birth cloud"
         ]
+      },
+      {
+        "id": "exam-two-item-l18-cooling-core",
+        "rootId": "exam-two-item-l18-cooling-core",
+        "moduleId": "exam-two-module-09",
+        "conceptId": "exam-two-concept-collapse-conditions",
+        "concept": "exam-two-concept-collapse-conditions",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "A dense gas pocket cools while its size and composition are initially unchanged. Which effect makes collapse easier?",
+        "choices": [
+          "Its thermal pressure support decreases",
+          "Its thermal pressure support increases",
+          "Its self-gravity strengthens at fixed mass and size",
+          "Its gas pressure stays fixed as temperature falls"
+        ],
+        "answer": 0,
+        "hint": "Separate the initial temperature change from a later size change.",
+        "explanation": "Lower temperature weakens thermal pressure support, favoring gravity in an already dense pocket. Cooling alone does not remove gravity.",
+        "source": "Lecture 18 pages 12–13 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l18",
+            "locator": "pages 12–13",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-collapse-conditions"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l18-collapse-not",
+        "rootId": "exam-two-item-l18-collapse-not",
+        "moduleId": "exam-two-module-09",
+        "conceptId": "exam-two-concept-collapse-conditions",
+        "concept": "exam-two-concept-collapse-conditions",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Which change would NOT favor collapse of an otherwise comparable cold, dense cloud?",
+        "choices": [
+          "Lowering its temperature",
+          "Increasing its density at fixed size",
+          "Heating it without increasing density",
+          "Reducing its thermal support"
+        ],
+        "answer": 2,
+        "hint": "Gravity must overcome the resistance supplied by thermal pressure.",
+        "explanation": "Heating at unchanged density strengthens thermal pressure support. The other changes favor the balance toward collapse.",
+        "source": "Lecture 18 pages 12–13 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l18",
+            "locator": "pages 12–13",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-collapse-conditions"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l18-cloud-target",
+        "rootId": "exam-two-item-l18-cloud-target",
+        "moduleId": "exam-two-module-09",
+        "conceptId": "exam-two-concept-collapse-conditions",
+        "concept": "exam-two-concept-collapse-conditions",
+        "type": "target",
+        "responseType": "target",
+        "prompt": "Select the region that best combines weak thermal support with strong self-gravity in these comparable-size clouds.",
+        "choices": [
+          "Region A",
+          "Region B",
+          "Region C",
+          "Region D"
+        ],
+        "answer": 1,
+        "hint": "Look for both low temperature and high density.",
+        "explanation": "B is the coldest and densest offered region. Its favorable combination, rather than visible brightness, supports the choice.",
+        "source": "Lecture 18 pages 13 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l18",
+            "locator": "pages 13",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-collapse-conditions"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true,
+        "media": {
+          "src": "assets/visuals/exam-two/l18-cloud-regions.svg",
+          "alt": "Four comparable-size gas regions labeled A to D; A: 20 K, 50 particles per cubic centimeter; B: 10 K, 2000; C: 80 K, 30; D: 80 K, 1000.",
+          "caption": "Original comparison diagram; cloud size and composition are held comparable."
+        },
+        "targets": [
+          {
+            "label": "A",
+            "x": 25,
+            "y": 31
+          },
+          {
+            "label": "B",
+            "x": 75,
+            "y": 31
+          },
+          {
+            "label": "C",
+            "x": 25,
+            "y": 73
+          },
+          {
+            "label": "D",
+            "x": 75,
+            "y": 73
+          }
+        ]
+      },
+      {
+        "id": "exam-two-item-l18-infrared-pair",
+        "rootId": "exam-two-item-l18-infrared-pair",
+        "moduleId": "exam-two-module-09",
+        "conceptId": "exam-two-concept-infrared-protostars",
+        "concept": "exam-two-concept-infrared-protostars",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Which pair explains the lecture’s use of infrared for embedded young objects?",
+        "choices": [
+          "Less dust scattering and relatively long-wavelength emission",
+          "More dust scattering and relatively long-wavelength emission",
+          "Less dust scattering and relatively short-wavelength emission",
+          "More dust scattering and relatively short-wavelength emission"
+        ],
+        "answer": 0,
+        "hint": "One reason concerns the path; the other concerns the source.",
+        "explanation": "The lecture combines reduced infrared scattering by dust with the cooler source’s longer-wavelength thermal emission.",
+        "source": "Lecture 18 pages 7 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l18",
+            "locator": "pages 7",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-infrared-protostars"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l18-hidden-object",
+        "rootId": "exam-two-item-l18-hidden-object",
+        "moduleId": "exam-two-module-09",
+        "conceptId": "exam-two-concept-infrared-protostars",
+        "concept": "exam-two-concept-infrared-protostars",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "A compact object appears in an infrared image but is obscured in a visible image taken at the same time. What is the supported inference?",
+        "choices": [
+          "Dust can obscure visible light more strongly than infrared light",
+          "Infrared detection alone establishes sustained core hydrogen fusion",
+          "Detection only in infrared establishes a hotter surface than nearby O stars",
+          "The visible image establishes an empty cavity rather than a hidden source"
+        ],
+        "answer": 0,
+        "hint": "A change of observing band need not be a physical change in the source.",
+        "explanation": "Infrared can reveal objects behind dust that hides them in visible light. The observation does not alone establish a temperature change or fusion state.",
+        "source": "Lecture 18 pages 7 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l18",
+            "locator": "pages 7",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-infrared-protostars"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l18-energy-before-fusion",
+        "rootId": "exam-two-item-l18-energy-before-fusion",
+        "moduleId": "exam-two-module-09",
+        "conceptId": "exam-two-concept-protostar-energy",
+        "concept": "exam-two-concept-protostar-energy",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "A young object is luminous, is contracting, and has not begun sustained core hydrogen burning. What supplies energy in the lecture model?",
+        "choices": [
+          "Release of gravitational potential energy",
+          "Release of sustained hydrogen-fusion energy",
+          "Release of energy mainly from chemical combustion",
+          "Release of heat mainly by expansion of the gas"
+        ],
+        "answer": 0,
+        "hint": "The source is named Kelvin–Helmholtz contraction.",
+        "explanation": "Contraction releases gravitational energy; some heats the interior and some escapes as radiation. Luminosity alone does not prove sustained hydrogen fusion.",
+        "source": "Lecture 18 pages 17–18 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l18",
+            "locator": "pages 17–18",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-protostar-energy"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l18-shrinks-heats",
+        "rootId": "exam-two-item-l18-shrinks-heats",
+        "moduleId": "exam-two-module-09",
+        "conceptId": "exam-two-concept-protostar-energy",
+        "concept": "exam-two-concept-protostar-energy",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "During gravitational contraction, which combination is consistent with the lecture?",
+        "choices": [
+          "Radius decreases while the interior heats",
+          "Radius increases while the interior heats",
+          "Density decreases while the interior heats",
+          "Radius decreases while the interior must cool"
+        ],
+        "answer": 0,
+        "hint": "Shrinking does not imply an increasingly cold interior.",
+        "explanation": "Contraction compresses the gas and releases energy, allowing a smaller, denser object with a hotter interior. The surface track needs separate interpretation.",
+        "source": "Lecture 18 pages 17–18 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l18",
+            "locator": "pages 17–18",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-protostar-energy"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l18-pressure-ratio",
+        "rootId": "exam-two-item-l18-pressure-ratio",
+        "moduleId": "exam-two-module-09",
+        "conceptId": "exam-two-concept-collapse-pressure",
+        "concept": "exam-two-concept-collapse-pressure",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "For gas of unchanged composition, particle density doubles and temperature falls to one quarter. In the lecture’s P ∝ nT model, what happens to pressure?",
+        "choices": [
+          "It becomes one half as large",
+          "It becomes twice as large",
+          "It becomes four times as large",
+          "It remains unchanged"
+        ],
+        "answer": 0,
+        "hint": "Multiply the two ratios.",
+        "explanation": "Pnew/Pold = 2 × 1/4 = 1/2. Considering only the density gives the wrong result.",
+        "source": "Lecture 18 pages 18 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l18",
+            "locator": "pages 18",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-collapse-pressure"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l18-pressure-same",
+        "rootId": "exam-two-item-l18-pressure-same",
+        "moduleId": "exam-two-module-09",
+        "conceptId": "exam-two-concept-collapse-pressure",
+        "concept": "exam-two-concept-collapse-pressure",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "A cloud parcel has half its earlier particle density. What temperature change keeps its gas pressure unchanged in the simple model?",
+        "choices": [
+          "Double the temperature",
+          "Halve the temperature",
+          "Quarter the temperature",
+          "Keep the temperature unchanged"
+        ],
+        "answer": 0,
+        "hint": "The product of the density and temperature ratios must be one.",
+        "explanation": "A density factor of 1/2 requires a temperature factor of 2 so that nT, and hence pressure, is unchanged.",
+        "source": "Lecture 18 pages 18 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l18",
+            "locator": "pages 18",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-collapse-pressure"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l18-cool-and-resume",
+        "rootId": "exam-two-item-l18-cool-and-resume",
+        "moduleId": "exam-two-module-09",
+        "conceptId": "exam-two-concept-protostar-support",
+        "concept": "exam-two-concept-protostar-support",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "A non-fusing young object radiates heat away after its contraction slows. Why can contraction resume?",
+        "choices": [
+          "Cooling reduces thermal pressure support",
+          "Cooling increases thermal pressure support",
+          "Radiation maintains the lost heat without a new energy source",
+          "A temporary pressure balance prevents any further energy loss"
+        ],
+        "answer": 0,
+        "hint": "Distinguish losing stored heat from generating replacement energy.",
+        "explanation": "Without ongoing replenishment, radiation and cooling weaken pressure support. Gravity can then drive further contraction.",
+        "source": "Lecture 18 pages 19 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l18",
+            "locator": "pages 19",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-protostar-support"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l18-main-sequence-heating",
+        "rootId": "exam-two-item-l18-main-sequence-heating",
+        "moduleId": "exam-two-module-09",
+        "conceptId": "exam-two-concept-protostar-support",
+        "concept": "exam-two-concept-protostar-support",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "What change supplies the sustained heating associated with a stable main-sequence phase?",
+        "choices": [
+          "Core hydrogen fusion replaces radiated energy",
+          "Stored heat replaces radiated energy indefinitely",
+          "External dust scattering maintains the core temperature",
+          "Gravitational contraction releases heat at fixed radius"
+        ],
+        "answer": 0,
+        "hint": "A long-lived energy source is different from a one-time heat release.",
+        "explanation": "Sustained core hydrogen fusion replenishes the energy radiated away. Gravity is balanced by pressure; nuclear reactions supply the heat supporting that pressure.",
+        "source": "Lecture 18 pages 12, 19 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l18",
+            "locator": "pages 12, 19",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-protostar-support"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l18-sequence-setting",
+        "rootId": "exam-two-item-l18-sequence-setting",
+        "moduleId": "exam-two-module-09",
+        "conceptId": "exam-two-concept-protostar-track",
+        "concept": "exam-two-concept-protostar-track",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "In the supplied formation sequence, a central young object has an infalling envelope, a disk, and a bipolar flow. Which stage fits?",
+        "choices": [
+          "The illustrated protostar stage",
+          "The initial uncollapsed dark core",
+          "The illustrated pre-main-sequence stage with a remaining disk",
+          "The illustrated young stellar system"
+        ],
+        "answer": 0,
+        "hint": "Use the structures shown, rather than the brightness of the cloud.",
+        "explanation": "The protostar panel contains the envelope, disk, central object and bipolar outflow. The supplied pre-main-sequence and young-system panels show later structures rather than the same infalling envelope.",
+        "source": "Lecture 18 pages 16 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l18",
+            "locator": "pages 16",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-protostar-track"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l18-shrinking-luminosity",
+        "rootId": "exam-two-item-l18-shrinking-luminosity",
+        "moduleId": "exam-two-module-09",
+        "conceptId": "exam-two-concept-protostar-track",
+        "concept": "exam-two-concept-protostar-track",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "A young object halves its radius while its surface temperature stays approximately fixed. What is its new luminosity relative to before?",
+        "choices": [
+          "One quarter",
+          "One half",
+          "Twice as large",
+          "Four times as large"
+        ],
+        "answer": 0,
+        "hint": "Surface area depends on radius squared.",
+        "explanation": "At fixed surface temperature, Lnew/Lold = (1/2)² = 1/4. Internal heating alone does not force the surface luminosity to rise.",
+        "source": "Lecture 18 pages 20–21 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l18",
+            "locator": "pages 20–21",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-protostar-track"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l18-formation-order",
+        "rootId": "exam-two-item-l18-formation-order",
+        "moduleId": "exam-two-module-09",
+        "conceptId": "exam-two-concept-protostar-track",
+        "concept": "exam-two-concept-protostar-track",
+        "type": "order",
+        "responseType": "order",
+        "prompt": "Arrange the six stages in the order shown by the supplied formation illustration.",
+        "choices": [
+          "Dense dark-cloud core",
+          "Gravitational collapse",
+          "Protostar with disk and bipolar flow",
+          "T Tauri stage",
+          "Pre-main-sequence star with remaining disk",
+          "Young stellar system"
+        ],
+        "answer": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "hint": "Follow the supplied a-to-f illustrated sequence.",
+        "explanation": "The figure progresses from dense core and collapse to a protostar, T Tauri and pre-main-sequence stages, and then a young stellar system. The displayed ages are illustrative rather than universal.",
+        "source": "Lecture 18 pages 16 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l18",
+            "locator": "pages 16",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-protostar-track"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l18-luminosity-tf",
+        "rootId": "exam-two-item-l18-luminosity-tf",
+        "moduleId": "exam-two-module-09",
+        "conceptId": "exam-two-concept-protostar-track",
+        "concept": "exam-two-concept-protostar-track",
+        "type": "true-false",
+        "responseType": "true-false",
+        "prompt": "True or false: In the supplied protostar model, contraction guarantees a steady increase in total luminosity at every stage.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": 1,
+        "hint": "Total luminosity has both a radius factor and a surface-temperature factor.",
+        "explanation": "False. Radius and surface temperature change together; the lecture explicitly allows luminosity to rise or fall.",
+        "source": "Lecture 18 pages 20 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l18",
+            "locator": "pages 20",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-protostar-track"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l18-radius-lines-law",
+        "rootId": "exam-two-item-l18-radius-lines-law",
+        "moduleId": "exam-two-module-05",
+        "conceptId": "exam-two-concept-radius-temperature",
+        "concept": "exam-two-concept-radius-temperature",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Which relationship lets you infer constant-radius lines from luminosity and surface temperature on an H–R diagram?",
+        "choices": [
+          "L = 4πR²σT⁴",
+          "b = L/(4πd²)",
+          "d(pc) = 1/p(arcsec)",
+          "λpeak T = constant"
+        ],
+        "answer": 0,
+        "hint": "You need the law that includes both emitting area and temperature-dependent surface flux.",
+        "explanation": "The Stefan–Boltzmann luminosity relation combines R² with T⁴. The inverse-square law includes observer distance, Wien’s law gives the peak wavelength, and parallax gives distance.",
+        "source": "Lecture 18 pages 21 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l18",
+            "locator": "pages 21",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-radius-temperature"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l18-constant-radius-track",
+        "rootId": "exam-two-item-l18-constant-radius-track",
+        "moduleId": "exam-two-module-05",
+        "conceptId": "exam-two-concept-radius-temperature",
+        "concept": "exam-two-concept-radius-temperature",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Along a constant-radius line, surface temperature doubles. What must happen to luminosity?",
+        "choices": [
+          "It becomes sixteen times as large",
+          "It becomes four times as large",
+          "It becomes twice as large",
+          "It becomes one quarter as large"
+        ],
+        "answer": 0,
+        "hint": "Radius is held fixed; retain the temperature exponent.",
+        "explanation": "L ∝ T⁴ at fixed radius, so doubling T gives a factor of 2⁴ = 16. The area factor does not change.",
+        "source": "Lecture 18 pages 21 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l18",
+            "locator": "pages 21",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-radius-temperature"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l18-nebular-emission",
+        "rootId": "exam-two-item-l18-nebular-emission",
+        "moduleId": "exam-two-module-07",
+        "conceptId": "exam-two-concept-nebula-mechanism",
+        "concept": "exam-two-concept-nebula-mechanism",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "A nebular spectrum contains strong emission lines after hot stars ionize its hydrogen. Which mechanism explains the glow?",
+        "choices": [
+          "Emission from excited gas, including recombination",
+          "Reflection of a smooth stellar continuum by dust",
+          "Extinction of background starlight by cool dust",
+          "Thermal emission from the surface of a cool star"
+        ],
+        "answer": 0,
+        "hint": "Distinguish emitted radiation from scattered illumination.",
+        "explanation": "Excitation and recombination in ionized gas produce emission. Reflection redirects light from another source; dark obscuration does not itself explain the emitted lines.",
+        "source": "Lecture 18 pages 4, 6 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l18",
+            "locator": "pages 4, 6",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-nebula-mechanism"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l18-mixed-nebula",
+        "rootId": "exam-two-item-l18-mixed-nebula",
+        "moduleId": "exam-two-module-07",
+        "conceptId": "exam-two-concept-nebula-mechanism",
+        "concept": "exam-two-concept-nebula-mechanism",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "One nebular field contains pink line-emitting gas, blue reflected starlight, and a dark foreground lane. Which interpretation is supported?",
+        "choices": [
+          "Emission, reflection and obscuration coexist in this field",
+          "Hydrogen emission produces all three regions in this field",
+          "The dark lane marks a cavity with little intervening dust",
+          "The blue color alone establishes hotter gas than the pink region"
+        ],
+        "answer": 0,
+        "hint": "The discussion asks you to identify three mechanisms in one field.",
+        "explanation": "A single field can include glowing gas, dust-scattered starlight and dust obscuration. Color alone is not a complete temperature or density measurement.",
+        "source": "Lecture 18 pages 6, 14–15 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l18",
+            "locator": "pages 6, 14–15",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-nebula-mechanism"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
       }
     ]
   },
@@ -3053,11 +3746,11 @@ window.ASTR1102_QUIZZES = [
     "title": "Exam 2 Rehearsal · 25 questions",
     "description": "Feedback waits until submission. Uses the observed Exam 1 format mix as a practice design, not a confirmed Exam 2 blueprint.",
     "lane": "Exam 2",
-    "chapters": "Lectures 13–17 · available material only",
+    "chapters": "Lectures 13–18 · Exam 2: material available so far",
     "status": "Ready",
     "questions": [
       {
-        "id": "exam-two-smart-simulator--exam-two-item-parallax-reference",
+        "id": "exam-two-item-parallax-reference",
         "rootId": "exam-two-item-parallax-reference",
         "moduleId": "exam-two-module-01",
         "conceptId": "exam-two-concept-parallax-geometry",
@@ -3092,7 +3785,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-smart-simulator--exam-two-item-parallax-motion",
+        "id": "exam-two-item-parallax-motion",
         "rootId": "exam-two-item-parallax-motion",
         "moduleId": "exam-two-module-01",
         "conceptId": "exam-two-concept-parallax-geometry",
@@ -3127,7 +3820,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-smart-simulator--exam-two-item-parsec-convert",
+        "id": "exam-two-item-parsec-convert",
         "rootId": "exam-two-item-parsec-convert",
         "moduleId": "exam-two-module-01",
         "conceptId": "exam-two-concept-parsec",
@@ -3162,7 +3855,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-smart-simulator--exam-two-item-parsec-limit",
+        "id": "exam-two-item-parsec-limit",
         "rootId": "exam-two-item-parsec-limit",
         "moduleId": "exam-two-module-01",
         "conceptId": "exam-two-concept-parsec",
@@ -3197,7 +3890,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-smart-simulator--exam-two-item-parallax-reverse",
+        "id": "exam-two-item-parallax-reverse",
         "rootId": "exam-two-item-parallax-reverse",
         "moduleId": "exam-two-module-01",
         "conceptId": "exam-two-concept-parallax-ratio",
@@ -3238,7 +3931,7 @@ window.ASTR1102_QUIZZES = [
         }
       },
       {
-        "id": "exam-two-smart-simulator--exam-two-item-parallax-compare",
+        "id": "exam-two-item-parallax-compare",
         "rootId": "exam-two-item-parallax-compare",
         "moduleId": "exam-two-module-01",
         "conceptId": "exam-two-concept-parallax-ratio",
@@ -3273,7 +3966,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-smart-simulator--exam-two-item-observer-move",
+        "id": "exam-two-item-observer-move",
         "rootId": "exam-two-item-observer-move",
         "moduleId": "exam-two-module-02",
         "conceptId": "exam-two-concept-flux-luminosity",
@@ -3308,7 +4001,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-smart-simulator--exam-two-item-flux-not",
+        "id": "exam-two-item-flux-not",
         "rootId": "exam-two-item-flux-not",
         "moduleId": "exam-two-module-02",
         "conceptId": "exam-two-concept-flux-luminosity",
@@ -3343,7 +4036,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-smart-simulator--exam-two-item-brightness-infer-distance",
+        "id": "exam-two-item-brightness-infer-distance",
         "rootId": "exam-two-item-brightness-infer-distance",
         "moduleId": "exam-two-module-02",
         "conceptId": "exam-two-concept-inverse-square",
@@ -3384,7 +4077,7 @@ window.ASTR1102_QUIZZES = [
         }
       },
       {
-        "id": "exam-two-smart-simulator--exam-two-item-brightness-quarter-distance",
+        "id": "exam-two-item-brightness-quarter-distance",
         "rootId": "exam-two-item-brightness-quarter-distance",
         "moduleId": "exam-two-module-02",
         "conceptId": "exam-two-concept-inverse-square",
@@ -3419,7 +4112,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-smart-simulator--exam-two-item-combined-luminosity",
+        "id": "exam-two-item-combined-luminosity",
         "rootId": "exam-two-item-combined-luminosity",
         "moduleId": "exam-two-module-02",
         "conceptId": "exam-two-concept-combined-ratio",
@@ -3454,7 +4147,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-smart-simulator--exam-two-item-equal-brightness",
+        "id": "exam-two-item-equal-brightness",
         "rootId": "exam-two-item-equal-brightness",
         "moduleId": "exam-two-module-02",
         "conceptId": "exam-two-concept-combined-ratio",
@@ -3489,7 +4182,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-smart-simulator--exam-two-item-magnitude-five",
+        "id": "exam-two-item-magnitude-five",
         "rootId": "exam-two-item-magnitude-five",
         "moduleId": "exam-two-module-03",
         "conceptId": "exam-two-concept-magnitude-ratio",
@@ -3524,7 +4217,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-smart-simulator--exam-two-item-magnitude-three",
+        "id": "exam-two-item-magnitude-three",
         "rootId": "exam-two-item-magnitude-three",
         "moduleId": "exam-two-module-03",
         "conceptId": "exam-two-concept-magnitude-ratio",
@@ -3559,7 +4252,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-smart-simulator--exam-two-item-absolute-reference",
+        "id": "exam-two-item-absolute-reference",
         "rootId": "exam-two-item-absolute-reference",
         "moduleId": "exam-two-module-03",
         "conceptId": "exam-two-concept-absolute-magnitude",
@@ -3594,7 +4287,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-smart-simulator--exam-two-item-absolute-equal",
+        "id": "exam-two-item-absolute-equal",
         "rootId": "exam-two-item-absolute-equal",
         "moduleId": "exam-two-module-03",
         "conceptId": "exam-two-concept-absolute-magnitude",
@@ -3629,7 +4322,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-smart-simulator--exam-two-item-dust-distance-correct",
+        "id": "exam-two-item-dust-distance-correct",
         "rootId": "exam-two-item-dust-distance-correct",
         "moduleId": "exam-two-module-03",
         "conceptId": "exam-two-concept-extinction-distance",
@@ -3664,7 +4357,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-smart-simulator--exam-two-item-dust-magnitude",
+        "id": "exam-two-item-dust-magnitude",
         "rootId": "exam-two-item-dust-magnitude",
         "moduleId": "exam-two-module-03",
         "conceptId": "exam-two-concept-extinction-distance",
@@ -3699,7 +4392,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-smart-simulator--exam-two-item-color-ratio",
+        "id": "exam-two-item-color-ratio",
         "rootId": "exam-two-item-color-ratio",
         "moduleId": "exam-two-module-04",
         "conceptId": "exam-two-concept-color-temperature",
@@ -3734,7 +4427,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-smart-simulator--exam-two-item-photometry-tradeoff",
+        "id": "exam-two-item-photometry-tradeoff",
         "rootId": "exam-two-item-photometry-tradeoff",
         "moduleId": "exam-two-module-04",
         "conceptId": "exam-two-concept-color-temperature",
@@ -3769,7 +4462,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-smart-simulator--exam-two-item-spectral-removed",
+        "id": "exam-two-item-spectral-removed",
         "rootId": "exam-two-item-spectral-removed",
         "moduleId": "exam-two-module-04",
         "conceptId": "exam-two-concept-spectral-temperature",
@@ -3804,7 +4497,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-smart-simulator--exam-two-item-absorption-inference",
+        "id": "exam-two-item-absorption-inference",
         "rootId": "exam-two-item-absorption-inference",
         "moduleId": "exam-two-module-04",
         "conceptId": "exam-two-concept-spectral-temperature",
@@ -3839,7 +4532,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-smart-simulator--exam-two-item-red-not-cool",
+        "id": "exam-two-item-red-not-cool",
         "rootId": "exam-two-item-red-not-cool",
         "moduleId": "exam-two-module-04",
         "conceptId": "exam-two-concept-reddening",
@@ -3874,7 +4567,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-smart-simulator--exam-two-item-red-ambiguity",
+        "id": "exam-two-item-red-ambiguity",
         "rootId": "exam-two-item-red-ambiguity",
         "moduleId": "exam-two-module-04",
         "conceptId": "exam-two-concept-reddening",
@@ -3909,7 +4602,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-smart-simulator--exam-two-item-radius-from-luminosity",
+        "id": "exam-two-item-radius-from-luminosity",
         "rootId": "exam-two-item-radius-from-luminosity",
         "moduleId": "exam-two-module-05",
         "conceptId": "exam-two-concept-radius-temperature",
@@ -3944,7 +4637,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-smart-simulator--exam-two-item-temperature-compensate",
+        "id": "exam-two-item-temperature-compensate",
         "rootId": "exam-two-item-temperature-compensate",
         "moduleId": "exam-two-module-05",
         "conceptId": "exam-two-concept-radius-temperature",
@@ -3979,7 +4672,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-smart-simulator--exam-two-item-mass-evidence",
+        "id": "exam-two-item-mass-evidence",
         "rootId": "exam-two-item-mass-evidence",
         "moduleId": "exam-two-module-05",
         "conceptId": "exam-two-concept-mass-measurement",
@@ -4014,7 +4707,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-smart-simulator--exam-two-item-spectroscopic-parallax",
+        "id": "exam-two-item-spectroscopic-parallax",
         "rootId": "exam-two-item-spectroscopic-parallax",
         "moduleId": "exam-two-module-05",
         "conceptId": "exam-two-concept-mass-measurement",
@@ -4049,7 +4742,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-smart-simulator--exam-two-item-brown-dwarf-boundary",
+        "id": "exam-two-item-brown-dwarf-boundary",
         "rootId": "exam-two-item-brown-dwarf-boundary",
         "moduleId": "exam-two-module-05",
         "conceptId": "exam-two-concept-brown-dwarfs",
@@ -4084,7 +4777,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-smart-simulator--exam-two-item-brown-dwarf-classes",
+        "id": "exam-two-item-brown-dwarf-classes",
         "rootId": "exam-two-item-brown-dwarf-classes",
         "moduleId": "exam-two-module-05",
         "conceptId": "exam-two-concept-brown-dwarfs",
@@ -4119,7 +4812,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-smart-simulator--exam-two-item-hr-right",
+        "id": "exam-two-item-hr-right",
         "rootId": "exam-two-item-hr-right",
         "moduleId": "exam-two-module-06",
         "conceptId": "exam-two-concept-hr-axes",
@@ -4159,7 +4852,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-smart-simulator--exam-two-item-hr-radius",
+        "id": "exam-two-item-hr-radius",
         "rootId": "exam-two-item-hr-radius",
         "moduleId": "exam-two-module-06",
         "conceptId": "exam-two-concept-hr-axes",
@@ -4199,7 +4892,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-smart-simulator--exam-two-item-white-dwarf-reason",
+        "id": "exam-two-item-white-dwarf-reason",
         "rootId": "exam-two-item-white-dwarf-reason",
         "moduleId": "exam-two-module-06",
         "conceptId": "exam-two-concept-hr-regions",
@@ -4234,7 +4927,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-smart-simulator--exam-two-item-main-sequence-definition",
+        "id": "exam-two-item-main-sequence-definition",
         "rootId": "exam-two-item-main-sequence-definition",
         "moduleId": "exam-two-module-06",
         "conceptId": "exam-two-concept-hr-regions",
@@ -4269,7 +4962,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-smart-simulator--exam-two-item-mass-lifetime",
+        "id": "exam-two-item-mass-lifetime",
         "rootId": "exam-two-item-mass-lifetime",
         "moduleId": "exam-two-module-06",
         "conceptId": "exam-two-concept-main-sequence-mass",
@@ -4304,7 +4997,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-smart-simulator--exam-two-item-mass-location",
+        "id": "exam-two-item-mass-location",
         "rootId": "exam-two-item-mass-location",
         "moduleId": "exam-two-module-06",
         "conceptId": "exam-two-concept-main-sequence-mass",
@@ -4339,7 +5032,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-smart-simulator--exam-two-item-sun-giant-properties",
+        "id": "exam-two-item-sun-giant-properties",
         "rootId": "exam-two-item-sun-giant-properties",
         "moduleId": "exam-two-module-06",
         "conceptId": "exam-two-concept-sun-path",
@@ -4374,7 +5067,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-smart-simulator--exam-two-item-sun-final-category",
+        "id": "exam-two-item-sun-final-category",
         "rootId": "exam-two-item-sun-final-category",
         "moduleId": "exam-two-module-06",
         "conceptId": "exam-two-concept-sun-path",
@@ -4409,7 +5102,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-smart-simulator--exam-two-item-ism-not",
+        "id": "exam-two-item-ism-not",
         "rootId": "exam-two-item-ism-not",
         "moduleId": "exam-two-module-07",
         "conceptId": "exam-two-concept-ism-density",
@@ -4444,7 +5137,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-smart-simulator--exam-two-item-cloud-density",
+        "id": "exam-two-item-cloud-density",
         "rootId": "exam-two-item-cloud-density",
         "moduleId": "exam-two-module-07",
         "conceptId": "exam-two-concept-ism-density",
@@ -4479,7 +5172,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-smart-simulator--exam-two-item-reflection-versus-transmission",
+        "id": "exam-two-item-reflection-versus-transmission",
         "rootId": "exam-two-item-reflection-versus-transmission",
         "moduleId": "exam-two-module-07",
         "conceptId": "exam-two-concept-dust-scattering",
@@ -4514,7 +5207,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-smart-simulator--exam-two-item-dust-band",
+        "id": "exam-two-item-dust-band",
         "rootId": "exam-two-item-dust-band",
         "moduleId": "exam-two-module-07",
         "conceptId": "exam-two-concept-dust-scattering",
@@ -4549,7 +5242,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-smart-simulator--exam-two-item-hii-neutral",
+        "id": "exam-two-item-hii-neutral",
         "rootId": "exam-two-item-hii-neutral",
         "moduleId": "exam-two-module-07",
         "conceptId": "exam-two-concept-nebula-mechanism",
@@ -4584,7 +5277,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-smart-simulator--exam-two-item-nebula-light",
+        "id": "exam-two-item-nebula-light",
         "rootId": "exam-two-item-nebula-light",
         "moduleId": "exam-two-module-07",
         "conceptId": "exam-two-concept-nebula-mechanism",
@@ -4619,7 +5312,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-smart-simulator--exam-two-item-formation-material",
+        "id": "exam-two-item-formation-material",
         "rootId": "exam-two-item-formation-material",
         "moduleId": "exam-two-module-08",
         "conceptId": "exam-two-concept-formation-regions",
@@ -4654,7 +5347,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-smart-simulator--exam-two-item-dark-cloud-infer",
+        "id": "exam-two-item-dark-cloud-infer",
         "rootId": "exam-two-item-dark-cloud-infer",
         "moduleId": "exam-two-module-08",
         "conceptId": "exam-two-concept-formation-regions",
@@ -4689,7 +5382,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-smart-simulator--exam-two-item-bok-description",
+        "id": "exam-two-item-bok-description",
         "rootId": "exam-two-item-bok-description",
         "moduleId": "exam-two-module-08",
         "conceptId": "exam-two-concept-bok-globules",
@@ -4724,7 +5417,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-smart-simulator--exam-two-item-bok-hydrogen",
+        "id": "exam-two-item-bok-hydrogen",
         "rootId": "exam-two-item-bok-hydrogen",
         "moduleId": "exam-two-module-08",
         "conceptId": "exam-two-concept-bok-globules",
@@ -4759,7 +5452,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-smart-simulator--exam-two-item-hh-association",
+        "id": "exam-two-item-hh-association",
         "rootId": "exam-two-item-hh-association",
         "moduleId": "exam-two-module-08",
         "conceptId": "exam-two-concept-herbig-haro",
@@ -4794,7 +5487,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-smart-simulator--exam-two-item-hh-distinguish",
+        "id": "exam-two-item-hh-distinguish",
         "rootId": "exam-two-item-hh-distinguish",
         "moduleId": "exam-two-module-08",
         "conceptId": "exam-two-concept-herbig-haro",
@@ -4829,7 +5522,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-smart-simulator--exam-two-item-luminosity-tf",
+        "id": "exam-two-item-luminosity-tf",
         "rootId": "exam-two-item-luminosity-tf",
         "moduleId": "exam-two-module-02",
         "conceptId": "exam-two-concept-flux-luminosity",
@@ -4862,7 +5555,7 @@ window.ASTR1102_QUIZZES = [
         "mockEligible": true
       },
       {
-        "id": "exam-two-smart-simulator--exam-two-item-quantity-match",
+        "id": "exam-two-item-quantity-match",
         "rootId": "exam-two-item-quantity-match",
         "moduleId": "exam-two-module-02",
         "conceptId": "exam-two-concept-flux-luminosity",
@@ -4926,7 +5619,7 @@ window.ASTR1102_QUIZZES = [
         ]
       },
       {
-        "id": "exam-two-smart-simulator--exam-two-item-spectral-order",
+        "id": "exam-two-item-spectral-order",
         "rootId": "exam-two-item-spectral-order",
         "moduleId": "exam-two-module-04",
         "conceptId": "exam-two-concept-spectral-temperature",
@@ -5011,7 +5704,7 @@ window.ASTR1102_QUIZZES = [
         ]
       },
       {
-        "id": "exam-two-smart-simulator--exam-two-item-hr-white-dwarf-target",
+        "id": "exam-two-item-hr-white-dwarf-target",
         "rootId": "exam-two-item-hr-white-dwarf-target",
         "moduleId": "exam-two-module-06",
         "conceptId": "exam-two-concept-hr-regions",
@@ -5074,7 +5767,7 @@ window.ASTR1102_QUIZZES = [
         ]
       },
       {
-        "id": "exam-two-smart-simulator--exam-two-item-sun-phase-order",
+        "id": "exam-two-item-sun-phase-order",
         "rootId": "exam-two-item-sun-phase-order",
         "moduleId": "exam-two-module-06",
         "conceptId": "exam-two-concept-sun-path",
@@ -5131,7 +5824,7 @@ window.ASTR1102_QUIZZES = [
         ]
       },
       {
-        "id": "exam-two-smart-simulator--exam-two-item-nebula-match",
+        "id": "exam-two-item-nebula-match",
         "rootId": "exam-two-item-nebula-match",
         "moduleId": "exam-two-module-07",
         "conceptId": "exam-two-concept-nebula-mechanism",
@@ -5186,6 +5879,705 @@ window.ASTR1102_QUIZZES = [
           "Dust redirects an illuminating star’s light",
           "Compact dusty molecular birth cloud"
         ]
+      },
+      {
+        "id": "exam-two-item-l18-cooling-core",
+        "rootId": "exam-two-item-l18-cooling-core",
+        "moduleId": "exam-two-module-09",
+        "conceptId": "exam-two-concept-collapse-conditions",
+        "concept": "exam-two-concept-collapse-conditions",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "A dense gas pocket cools while its size and composition are initially unchanged. Which effect makes collapse easier?",
+        "choices": [
+          "Its thermal pressure support decreases",
+          "Its thermal pressure support increases",
+          "Its self-gravity strengthens at fixed mass and size",
+          "Its gas pressure stays fixed as temperature falls"
+        ],
+        "answer": 0,
+        "hint": "Separate the initial temperature change from a later size change.",
+        "explanation": "Lower temperature weakens thermal pressure support, favoring gravity in an already dense pocket. Cooling alone does not remove gravity.",
+        "source": "Lecture 18 pages 12–13 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l18",
+            "locator": "pages 12–13",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-collapse-conditions"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l18-collapse-not",
+        "rootId": "exam-two-item-l18-collapse-not",
+        "moduleId": "exam-two-module-09",
+        "conceptId": "exam-two-concept-collapse-conditions",
+        "concept": "exam-two-concept-collapse-conditions",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Which change would NOT favor collapse of an otherwise comparable cold, dense cloud?",
+        "choices": [
+          "Lowering its temperature",
+          "Increasing its density at fixed size",
+          "Heating it without increasing density",
+          "Reducing its thermal support"
+        ],
+        "answer": 2,
+        "hint": "Gravity must overcome the resistance supplied by thermal pressure.",
+        "explanation": "Heating at unchanged density strengthens thermal pressure support. The other changes favor the balance toward collapse.",
+        "source": "Lecture 18 pages 12–13 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l18",
+            "locator": "pages 12–13",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-collapse-conditions"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l18-cloud-target",
+        "rootId": "exam-two-item-l18-cloud-target",
+        "moduleId": "exam-two-module-09",
+        "conceptId": "exam-two-concept-collapse-conditions",
+        "concept": "exam-two-concept-collapse-conditions",
+        "type": "target",
+        "responseType": "target",
+        "prompt": "Select the region that best combines weak thermal support with strong self-gravity in these comparable-size clouds.",
+        "choices": [
+          "Region A",
+          "Region B",
+          "Region C",
+          "Region D"
+        ],
+        "answer": 1,
+        "hint": "Look for both low temperature and high density.",
+        "explanation": "B is the coldest and densest offered region. Its favorable combination, rather than visible brightness, supports the choice.",
+        "source": "Lecture 18 pages 13 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l18",
+            "locator": "pages 13",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-collapse-conditions"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true,
+        "media": {
+          "src": "assets/visuals/exam-two/l18-cloud-regions.svg",
+          "alt": "Four comparable-size gas regions labeled A to D; A: 20 K, 50 particles per cubic centimeter; B: 10 K, 2000; C: 80 K, 30; D: 80 K, 1000.",
+          "caption": "Original comparison diagram; cloud size and composition are held comparable."
+        },
+        "targets": [
+          {
+            "label": "A",
+            "x": 25,
+            "y": 31
+          },
+          {
+            "label": "B",
+            "x": 75,
+            "y": 31
+          },
+          {
+            "label": "C",
+            "x": 25,
+            "y": 73
+          },
+          {
+            "label": "D",
+            "x": 75,
+            "y": 73
+          }
+        ]
+      },
+      {
+        "id": "exam-two-item-l18-infrared-pair",
+        "rootId": "exam-two-item-l18-infrared-pair",
+        "moduleId": "exam-two-module-09",
+        "conceptId": "exam-two-concept-infrared-protostars",
+        "concept": "exam-two-concept-infrared-protostars",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Which pair explains the lecture’s use of infrared for embedded young objects?",
+        "choices": [
+          "Less dust scattering and relatively long-wavelength emission",
+          "More dust scattering and relatively long-wavelength emission",
+          "Less dust scattering and relatively short-wavelength emission",
+          "More dust scattering and relatively short-wavelength emission"
+        ],
+        "answer": 0,
+        "hint": "One reason concerns the path; the other concerns the source.",
+        "explanation": "The lecture combines reduced infrared scattering by dust with the cooler source’s longer-wavelength thermal emission.",
+        "source": "Lecture 18 pages 7 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l18",
+            "locator": "pages 7",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-infrared-protostars"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l18-hidden-object",
+        "rootId": "exam-two-item-l18-hidden-object",
+        "moduleId": "exam-two-module-09",
+        "conceptId": "exam-two-concept-infrared-protostars",
+        "concept": "exam-two-concept-infrared-protostars",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "A compact object appears in an infrared image but is obscured in a visible image taken at the same time. What is the supported inference?",
+        "choices": [
+          "Dust can obscure visible light more strongly than infrared light",
+          "Infrared detection alone establishes sustained core hydrogen fusion",
+          "Detection only in infrared establishes a hotter surface than nearby O stars",
+          "The visible image establishes an empty cavity rather than a hidden source"
+        ],
+        "answer": 0,
+        "hint": "A change of observing band need not be a physical change in the source.",
+        "explanation": "Infrared can reveal objects behind dust that hides them in visible light. The observation does not alone establish a temperature change or fusion state.",
+        "source": "Lecture 18 pages 7 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l18",
+            "locator": "pages 7",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-infrared-protostars"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l18-energy-before-fusion",
+        "rootId": "exam-two-item-l18-energy-before-fusion",
+        "moduleId": "exam-two-module-09",
+        "conceptId": "exam-two-concept-protostar-energy",
+        "concept": "exam-two-concept-protostar-energy",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "A young object is luminous, is contracting, and has not begun sustained core hydrogen burning. What supplies energy in the lecture model?",
+        "choices": [
+          "Release of gravitational potential energy",
+          "Release of sustained hydrogen-fusion energy",
+          "Release of energy mainly from chemical combustion",
+          "Release of heat mainly by expansion of the gas"
+        ],
+        "answer": 0,
+        "hint": "The source is named Kelvin–Helmholtz contraction.",
+        "explanation": "Contraction releases gravitational energy; some heats the interior and some escapes as radiation. Luminosity alone does not prove sustained hydrogen fusion.",
+        "source": "Lecture 18 pages 17–18 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l18",
+            "locator": "pages 17–18",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-protostar-energy"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l18-shrinks-heats",
+        "rootId": "exam-two-item-l18-shrinks-heats",
+        "moduleId": "exam-two-module-09",
+        "conceptId": "exam-two-concept-protostar-energy",
+        "concept": "exam-two-concept-protostar-energy",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "During gravitational contraction, which combination is consistent with the lecture?",
+        "choices": [
+          "Radius decreases while the interior heats",
+          "Radius increases while the interior heats",
+          "Density decreases while the interior heats",
+          "Radius decreases while the interior must cool"
+        ],
+        "answer": 0,
+        "hint": "Shrinking does not imply an increasingly cold interior.",
+        "explanation": "Contraction compresses the gas and releases energy, allowing a smaller, denser object with a hotter interior. The surface track needs separate interpretation.",
+        "source": "Lecture 18 pages 17–18 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l18",
+            "locator": "pages 17–18",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-protostar-energy"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l18-pressure-ratio",
+        "rootId": "exam-two-item-l18-pressure-ratio",
+        "moduleId": "exam-two-module-09",
+        "conceptId": "exam-two-concept-collapse-pressure",
+        "concept": "exam-two-concept-collapse-pressure",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "For gas of unchanged composition, particle density doubles and temperature falls to one quarter. In the lecture’s P ∝ nT model, what happens to pressure?",
+        "choices": [
+          "It becomes one half as large",
+          "It becomes twice as large",
+          "It becomes four times as large",
+          "It remains unchanged"
+        ],
+        "answer": 0,
+        "hint": "Multiply the two ratios.",
+        "explanation": "Pnew/Pold = 2 × 1/4 = 1/2. Considering only the density gives the wrong result.",
+        "source": "Lecture 18 pages 18 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l18",
+            "locator": "pages 18",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-collapse-pressure"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l18-pressure-same",
+        "rootId": "exam-two-item-l18-pressure-same",
+        "moduleId": "exam-two-module-09",
+        "conceptId": "exam-two-concept-collapse-pressure",
+        "concept": "exam-two-concept-collapse-pressure",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "A cloud parcel has half its earlier particle density. What temperature change keeps its gas pressure unchanged in the simple model?",
+        "choices": [
+          "Double the temperature",
+          "Halve the temperature",
+          "Quarter the temperature",
+          "Keep the temperature unchanged"
+        ],
+        "answer": 0,
+        "hint": "The product of the density and temperature ratios must be one.",
+        "explanation": "A density factor of 1/2 requires a temperature factor of 2 so that nT, and hence pressure, is unchanged.",
+        "source": "Lecture 18 pages 18 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l18",
+            "locator": "pages 18",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-collapse-pressure"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l18-cool-and-resume",
+        "rootId": "exam-two-item-l18-cool-and-resume",
+        "moduleId": "exam-two-module-09",
+        "conceptId": "exam-two-concept-protostar-support",
+        "concept": "exam-two-concept-protostar-support",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "A non-fusing young object radiates heat away after its contraction slows. Why can contraction resume?",
+        "choices": [
+          "Cooling reduces thermal pressure support",
+          "Cooling increases thermal pressure support",
+          "Radiation maintains the lost heat without a new energy source",
+          "A temporary pressure balance prevents any further energy loss"
+        ],
+        "answer": 0,
+        "hint": "Distinguish losing stored heat from generating replacement energy.",
+        "explanation": "Without ongoing replenishment, radiation and cooling weaken pressure support. Gravity can then drive further contraction.",
+        "source": "Lecture 18 pages 19 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l18",
+            "locator": "pages 19",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-protostar-support"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l18-main-sequence-heating",
+        "rootId": "exam-two-item-l18-main-sequence-heating",
+        "moduleId": "exam-two-module-09",
+        "conceptId": "exam-two-concept-protostar-support",
+        "concept": "exam-two-concept-protostar-support",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "What change supplies the sustained heating associated with a stable main-sequence phase?",
+        "choices": [
+          "Core hydrogen fusion replaces radiated energy",
+          "Stored heat replaces radiated energy indefinitely",
+          "External dust scattering maintains the core temperature",
+          "Gravitational contraction releases heat at fixed radius"
+        ],
+        "answer": 0,
+        "hint": "A long-lived energy source is different from a one-time heat release.",
+        "explanation": "Sustained core hydrogen fusion replenishes the energy radiated away. Gravity is balanced by pressure; nuclear reactions supply the heat supporting that pressure.",
+        "source": "Lecture 18 pages 12, 19 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l18",
+            "locator": "pages 12, 19",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-protostar-support"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l18-sequence-setting",
+        "rootId": "exam-two-item-l18-sequence-setting",
+        "moduleId": "exam-two-module-09",
+        "conceptId": "exam-two-concept-protostar-track",
+        "concept": "exam-two-concept-protostar-track",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "In the supplied formation sequence, a central young object has an infalling envelope, a disk, and a bipolar flow. Which stage fits?",
+        "choices": [
+          "The illustrated protostar stage",
+          "The initial uncollapsed dark core",
+          "The illustrated pre-main-sequence stage with a remaining disk",
+          "The illustrated young stellar system"
+        ],
+        "answer": 0,
+        "hint": "Use the structures shown, rather than the brightness of the cloud.",
+        "explanation": "The protostar panel contains the envelope, disk, central object and bipolar outflow. The supplied pre-main-sequence and young-system panels show later structures rather than the same infalling envelope.",
+        "source": "Lecture 18 pages 16 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l18",
+            "locator": "pages 16",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-protostar-track"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l18-shrinking-luminosity",
+        "rootId": "exam-two-item-l18-shrinking-luminosity",
+        "moduleId": "exam-two-module-09",
+        "conceptId": "exam-two-concept-protostar-track",
+        "concept": "exam-two-concept-protostar-track",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "A young object halves its radius while its surface temperature stays approximately fixed. What is its new luminosity relative to before?",
+        "choices": [
+          "One quarter",
+          "One half",
+          "Twice as large",
+          "Four times as large"
+        ],
+        "answer": 0,
+        "hint": "Surface area depends on radius squared.",
+        "explanation": "At fixed surface temperature, Lnew/Lold = (1/2)² = 1/4. Internal heating alone does not force the surface luminosity to rise.",
+        "source": "Lecture 18 pages 20–21 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l18",
+            "locator": "pages 20–21",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-protostar-track"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l18-formation-order",
+        "rootId": "exam-two-item-l18-formation-order",
+        "moduleId": "exam-two-module-09",
+        "conceptId": "exam-two-concept-protostar-track",
+        "concept": "exam-two-concept-protostar-track",
+        "type": "order",
+        "responseType": "order",
+        "prompt": "Arrange the six stages in the order shown by the supplied formation illustration.",
+        "choices": [
+          "Dense dark-cloud core",
+          "Gravitational collapse",
+          "Protostar with disk and bipolar flow",
+          "T Tauri stage",
+          "Pre-main-sequence star with remaining disk",
+          "Young stellar system"
+        ],
+        "answer": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "hint": "Follow the supplied a-to-f illustrated sequence.",
+        "explanation": "The figure progresses from dense core and collapse to a protostar, T Tauri and pre-main-sequence stages, and then a young stellar system. The displayed ages are illustrative rather than universal.",
+        "source": "Lecture 18 pages 16 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l18",
+            "locator": "pages 16",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-protostar-track"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l18-luminosity-tf",
+        "rootId": "exam-two-item-l18-luminosity-tf",
+        "moduleId": "exam-two-module-09",
+        "conceptId": "exam-two-concept-protostar-track",
+        "concept": "exam-two-concept-protostar-track",
+        "type": "true-false",
+        "responseType": "true-false",
+        "prompt": "True or false: In the supplied protostar model, contraction guarantees a steady increase in total luminosity at every stage.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": 1,
+        "hint": "Total luminosity has both a radius factor and a surface-temperature factor.",
+        "explanation": "False. Radius and surface temperature change together; the lecture explicitly allows luminosity to rise or fall.",
+        "source": "Lecture 18 pages 20 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l18",
+            "locator": "pages 20",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-protostar-track"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l18-radius-lines-law",
+        "rootId": "exam-two-item-l18-radius-lines-law",
+        "moduleId": "exam-two-module-05",
+        "conceptId": "exam-two-concept-radius-temperature",
+        "concept": "exam-two-concept-radius-temperature",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Which relationship lets you infer constant-radius lines from luminosity and surface temperature on an H–R diagram?",
+        "choices": [
+          "L = 4πR²σT⁴",
+          "b = L/(4πd²)",
+          "d(pc) = 1/p(arcsec)",
+          "λpeak T = constant"
+        ],
+        "answer": 0,
+        "hint": "You need the law that includes both emitting area and temperature-dependent surface flux.",
+        "explanation": "The Stefan–Boltzmann luminosity relation combines R² with T⁴. The inverse-square law includes observer distance, Wien’s law gives the peak wavelength, and parallax gives distance.",
+        "source": "Lecture 18 pages 21 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l18",
+            "locator": "pages 21",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-radius-temperature"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l18-constant-radius-track",
+        "rootId": "exam-two-item-l18-constant-radius-track",
+        "moduleId": "exam-two-module-05",
+        "conceptId": "exam-two-concept-radius-temperature",
+        "concept": "exam-two-concept-radius-temperature",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Along a constant-radius line, surface temperature doubles. What must happen to luminosity?",
+        "choices": [
+          "It becomes sixteen times as large",
+          "It becomes four times as large",
+          "It becomes twice as large",
+          "It becomes one quarter as large"
+        ],
+        "answer": 0,
+        "hint": "Radius is held fixed; retain the temperature exponent.",
+        "explanation": "L ∝ T⁴ at fixed radius, so doubling T gives a factor of 2⁴ = 16. The area factor does not change.",
+        "source": "Lecture 18 pages 21 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l18",
+            "locator": "pages 21",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-radius-temperature"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l18-nebular-emission",
+        "rootId": "exam-two-item-l18-nebular-emission",
+        "moduleId": "exam-two-module-07",
+        "conceptId": "exam-two-concept-nebula-mechanism",
+        "concept": "exam-two-concept-nebula-mechanism",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "A nebular spectrum contains strong emission lines after hot stars ionize its hydrogen. Which mechanism explains the glow?",
+        "choices": [
+          "Emission from excited gas, including recombination",
+          "Reflection of a smooth stellar continuum by dust",
+          "Extinction of background starlight by cool dust",
+          "Thermal emission from the surface of a cool star"
+        ],
+        "answer": 0,
+        "hint": "Distinguish emitted radiation from scattered illumination.",
+        "explanation": "Excitation and recombination in ionized gas produce emission. Reflection redirects light from another source; dark obscuration does not itself explain the emitted lines.",
+        "source": "Lecture 18 pages 4, 6 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l18",
+            "locator": "pages 4, 6",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-nebula-mechanism"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l18-mixed-nebula",
+        "rootId": "exam-two-item-l18-mixed-nebula",
+        "moduleId": "exam-two-module-07",
+        "conceptId": "exam-two-concept-nebula-mechanism",
+        "concept": "exam-two-concept-nebula-mechanism",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "One nebular field contains pink line-emitting gas, blue reflected starlight, and a dark foreground lane. Which interpretation is supported?",
+        "choices": [
+          "Emission, reflection and obscuration coexist in this field",
+          "Hydrogen emission produces all three regions in this field",
+          "The dark lane marks a cavity with little intervening dust",
+          "The blue color alone establishes hotter gas than the pink region"
+        ],
+        "answer": 0,
+        "hint": "The discussion asks you to identify three mechanisms in one field.",
+        "explanation": "A single field can include glowing gas, dust-scattered starlight and dust obscuration. Color alone is not a complete temperature or density measurement.",
+        "source": "Lecture 18 pages 6, 14–15 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l18",
+            "locator": "pages 6, 14–15",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-nebula-mechanism"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
       }
     ]
   },
@@ -5195,8 +6587,8 @@ window.ASTR1102_QUIZZES = [
     "kind": "source-review",
     "lane": "Exam 2",
     "title": "Top Hat source review",
-    "description": "Add your private course source pack to review the 17 supplied question families. Imported material stays in this browser.",
-    "chapters": "Lectures 13–17",
+    "description": "Import a compatible private pack for supplied course questions and captures. Source review does not award mastery.",
+    "chapters": "Lectures 13–18 · Exam 2: material available so far",
     "questions": [],
     "status": "review"
   }

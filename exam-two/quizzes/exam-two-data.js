@@ -1,6 +1,6 @@
 window.ASTR1102_EXAM2 = {
   "version": "exam-two-2026-10-06-v1",
-  "coverage": "Lectures 13–17 · Exam 2: material available so far",
+  "coverage": "Lectures 13–18 · Exam 2: material available so far",
   "concepts": [
     {
       "id": "exam-two-concept-parallax-geometry",
@@ -655,6 +655,162 @@ window.ASTR1102_EXAM2 = {
         }
       ],
       "source": "Lecture 17 pages 21",
+      "status": "verified"
+    },
+    {
+      "id": "exam-two-concept-collapse-conditions",
+      "moduleId": "exam-two-module-09",
+      "label": "Why cold, dense regions collapse",
+      "teaching": "Cloud contraction begins when inward gravity overcomes pressure support. For comparable cloud sizes and composition, higher density strengthens self-gravity, while lower temperature reduces thermal support. Both matter: the coldest, densest pockets are the favored sites in the lecture. Bright ionized gas near O/B stars is not, by itself, evidence of a collapsing cold core. The quoted Bok-globule values (about 10 K and 100–10,000 particles/cm³) are classroom examples, not universal thresholds.",
+      "body": [
+        "Cloud contraction begins when inward gravity overcomes pressure support. For comparable cloud sizes and composition, higher density strengthens self-gravity, while lower temperature reduces thermal support. Both matter: the coldest, densest pockets are the favored sites in the lecture. Bright ionized gas near O/B stars is not, by itself, evidence of a collapsing cold core. The quoted Bok-globule values (about 10 K and 100–10,000 particles/cm³) are classroom examples, not universal thresholds.",
+        "Worked example: Among comparable regions, 10 K with 2,000 particles/cm³ is a stronger candidate than 80 K with 30 particles/cm³.",
+        "Common mistake: Dense gas can also have substantial pressure. High density helps gravity; low temperature reduces thermal resistance. Do not equate a glowing nebula with the best birth site."
+      ],
+      "workedExample": "Among comparable regions, 10 K with 2,000 particles/cm³ is a stronger candidate than 80 K with 30 particles/cm³.",
+      "commonMistake": "Dense gas can also have substantial pressure. High density helps gravity; low temperature reduces thermal resistance. Do not equate a glowing nebula with the best birth site.",
+      "masteryEligible": true,
+      "claimIds": [
+        "exam-two-claim-collapse-conditions"
+      ],
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l18",
+          "locator": "pages 12–13",
+          "boundary": "verified"
+        }
+      ],
+      "source": "Lecture 18 pages 12–13",
+      "status": "verified"
+    },
+    {
+      "id": "exam-two-concept-infrared-protostars",
+      "moduleId": "exam-two-module-09",
+      "label": "Why infrared reveals embedded young stars",
+      "teaching": "Dust obscures many young objects at visible wavelengths. Infrared is scattered less than visible light in the lecture model, allowing more of it to reach us. Cool objects also radiate relatively strongly at longer wavelengths according to Wien’s relationship. These are two reasons to use infrared: the intervening dust and the source spectrum. “Penetrates” does not mean every infrared wavelength passes through every cloud unchanged.",
+      "body": [
+        "Dust obscures many young objects at visible wavelengths. Infrared is scattered less than visible light in the lecture model, allowing more of it to reach us. Cool objects also radiate relatively strongly at longer wavelengths according to Wien’s relationship. These are two reasons to use infrared: the intervening dust and the source spectrum. “Penetrates” does not mean every infrared wavelength passes through every cloud unchanged.",
+        "Worked example: A compact object hidden in a dusty visible image may appear in infrared without the object having changed.",
+        "Common mistake: Infrared does not create protostars, erase all extinction, or require that every object in an infrared image be a protostar."
+      ],
+      "workedExample": "A compact object hidden in a dusty visible image may appear in infrared without the object having changed.",
+      "commonMistake": "Infrared does not create protostars, erase all extinction, or require that every object in an infrared image be a protostar.",
+      "masteryEligible": true,
+      "claimIds": [
+        "exam-two-claim-infrared-protostars"
+      ],
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l18",
+          "locator": "pages 7",
+          "boundary": "verified"
+        }
+      ],
+      "source": "Lecture 18 pages 7",
+      "status": "verified"
+    },
+    {
+      "id": "exam-two-concept-protostar-energy",
+      "moduleId": "exam-two-module-09",
+      "label": "Kelvin–Helmholtz contraction supplies energy",
+      "teaching": "Before sustained core hydrogen fusion powers the main-sequence phase, contraction releases gravitational potential energy. Part becomes internal thermal energy and part is radiated. The contracting object becomes smaller and denser while its interior heats. The slide’s friction analogy is a teaching simplification; the important energy reservoir is gravity. Interior heating does not require surface temperature to rise at every point along a plotted pre-main-sequence track.",
+      "body": [
+        "Before sustained core hydrogen fusion powers the main-sequence phase, contraction releases gravitational potential energy. Part becomes internal thermal energy and part is radiated. The contracting object becomes smaller and denser while its interior heats. The slide’s friction analogy is a teaching simplification; the important energy reservoir is gravity. Interior heating does not require surface temperature to rise at every point along a plotted pre-main-sequence track.",
+        "Worked example: A shrinking young object can remain luminous before sustained hydrogen fusion begins because it releases gravitational energy.",
+        "Common mistake: Do not infer that a luminous protostar is already powered mainly by stable hydrogen burning, or that internal and surface temperature are interchangeable."
+      ],
+      "workedExample": "A shrinking young object can remain luminous before sustained hydrogen fusion begins because it releases gravitational energy.",
+      "commonMistake": "Do not infer that a luminous protostar is already powered mainly by stable hydrogen burning, or that internal and surface temperature are interchangeable.",
+      "masteryEligible": true,
+      "claimIds": [
+        "exam-two-claim-protostar-energy"
+      ],
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l18",
+          "locator": "pages 17–18",
+          "boundary": "verified"
+        }
+      ],
+      "source": "Lecture 18 pages 17–18",
+      "status": "verified"
+    },
+    {
+      "id": "exam-two-concept-collapse-pressure",
+      "moduleId": "exam-two-module-09",
+      "label": "Temperature and density both affect pressure",
+      "teaching": "For the same gas composition in the simple lecture model, pressure is proportional to temperature times particle density: P ∝ nT. Contraction raises density and heats the gas, increasing pressure support. This helps slow contraction or establish approximate mechanical balance, but it does not prove that energy losses have ceased. Compare ratios only when composition and the model assumptions stay the same.",
+      "body": [
+        "For the same gas composition in the simple lecture model, pressure is proportional to temperature times particle density: P ∝ nT. Contraction raises density and heats the gas, increasing pressure support. This helps slow contraction or establish approximate mechanical balance, but it does not prove that energy losses have ceased. Compare ratios only when composition and the model assumptions stay the same.",
+        "Worked example: Doubling particle density while temperature falls to one quarter gives Pnew/Pold = 2 × 1/4 = 1/2.",
+        "Common mistake: A temperature change alone cannot determine the pressure ratio when density changes too. Mechanical balance and a long-term energy supply are separate questions."
+      ],
+      "workedExample": "Doubling particle density while temperature falls to one quarter gives Pnew/Pold = 2 × 1/4 = 1/2.",
+      "commonMistake": "A temperature change alone cannot determine the pressure ratio when density changes too. Mechanical balance and a long-term energy supply are separate questions.",
+      "masteryEligible": true,
+      "claimIds": [
+        "exam-two-claim-collapse-pressure"
+      ],
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l18",
+          "locator": "pages 18",
+          "boundary": "verified"
+        }
+      ],
+      "source": "Lecture 18 pages 18",
+      "status": "verified"
+    },
+    {
+      "id": "exam-two-concept-protostar-support",
+      "moduleId": "exam-two-module-09",
+      "label": "Why contraction heating is not permanent support",
+      "teaching": "Contraction can replenish thermal energy only while contraction continues. If the object radiates energy away, cooling reduces thermal support and further contraction can follow. Temporary pressure support is not an inexhaustible energy supply. Sustained nuclear heating eventually balances radiative losses for a main-sequence star. Later compact-object support and detailed late evolution are not established by this lecture’s broad gravity-versus-pressure slogan.",
+      "body": [
+        "Contraction can replenish thermal energy only while contraction continues. If the object radiates energy away, cooling reduces thermal support and further contraction can follow. Temporary pressure support is not an inexhaustible energy supply. Sustained nuclear heating eventually balances radiative losses for a main-sequence star. Later compact-object support and detailed late evolution are not established by this lecture’s broad gravity-versus-pressure slogan.",
+        "Worked example: If a non-fusing young object radiates away heat after contraction slows, reduced thermal support can allow it to contract again.",
+        "Common mistake: “Collapse heats the gas” does not mean “collapse permanently stops itself.” Do not treat the slogan “gravity always wins” as a universal immediate collapse rule."
+      ],
+      "workedExample": "If a non-fusing young object radiates away heat after contraction slows, reduced thermal support can allow it to contract again.",
+      "commonMistake": "“Collapse heats the gas” does not mean “collapse permanently stops itself.” Do not treat the slogan “gravity always wins” as a universal immediate collapse rule.",
+      "masteryEligible": true,
+      "claimIds": [
+        "exam-two-claim-protostar-support"
+      ],
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l18",
+          "locator": "pages 18–19",
+          "boundary": "verified"
+        }
+      ],
+      "source": "Lecture 18 pages 18–19",
+      "status": "verified"
+    },
+    {
+      "id": "exam-two-concept-protostar-track",
+      "moduleId": "exam-two-module-09",
+      "label": "Formation sequence and changing luminosity",
+      "teaching": "The supplied sequence shows a dense dark core, gravitational collapse, a protostar with a disk and bipolar flow, a T Tauri stage, a pre-main-sequence star with a remaining disk, and a young stellar system. Its sizes and ages illustrate that model, not one timetable for all masses. The H–R track plots surface temperature and luminosity, not physical travel through space. Luminosity depends on both radius and surface temperature: L ∝ R²T⁴, so a shrinking object need not become brighter. Some young phases exceed the eventual main-sequence luminosity. The Sun-like example gives about 20 million years, much shorter than its main-sequence lifetime.",
+      "body": [
+        "The supplied sequence shows a dense dark core, gravitational collapse, a protostar with a disk and bipolar flow, a T Tauri stage, a pre-main-sequence star with a remaining disk, and a young stellar system. Its sizes and ages illustrate that model, not one timetable for all masses. The H–R track plots surface temperature and luminosity, not physical travel through space. Luminosity depends on both radius and surface temperature: L ∝ R²T⁴, so a shrinking object need not become brighter. Some young phases exceed the eventual main-sequence luminosity. The Sun-like example gives about 20 million years, much shorter than its main-sequence lifetime.",
+        "Worked example: At approximately fixed surface temperature, shrinking to half the radius reduces luminosity to one quarter. Diagonal constant-radius lines combine surface area with Stefan–Boltzmann surface flux.",
+        "Common mistake: A protostar can heat internally while surface temperature changes little. Its light output cannot be inferred from the word “hotter” without specifying temperature and radius."
+      ],
+      "workedExample": "At approximately fixed surface temperature, shrinking to half the radius reduces luminosity to one quarter. Diagonal constant-radius lines combine surface area with Stefan–Boltzmann surface flux.",
+      "commonMistake": "A protostar can heat internally while surface temperature changes little. Its light output cannot be inferred from the word “hotter” without specifying temperature and radius.",
+      "masteryEligible": true,
+      "claimIds": [
+        "exam-two-claim-protostar-track"
+      ],
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l18",
+          "locator": "pages 16–17, 20–21",
+          "boundary": "verified"
+        }
+      ],
+      "source": "Lecture 18 pages 16–17, 20–21",
       "status": "verified"
     }
   ],
@@ -2789,6 +2945,705 @@ window.ASTR1102_EXAM2 = {
         "Dust redirects an illuminating star’s light",
         "Compact dusty molecular birth cloud"
       ]
+    },
+    {
+      "id": "exam-two-item-l18-cooling-core",
+      "rootId": "exam-two-item-l18-cooling-core",
+      "moduleId": "exam-two-module-09",
+      "conceptId": "exam-two-concept-collapse-conditions",
+      "concept": "exam-two-concept-collapse-conditions",
+      "type": "single",
+      "responseType": "single",
+      "prompt": "A dense gas pocket cools while its size and composition are initially unchanged. Which effect makes collapse easier?",
+      "choices": [
+        "Its thermal pressure support decreases",
+        "Its thermal pressure support increases",
+        "Its self-gravity strengthens at fixed mass and size",
+        "Its gas pressure stays fixed as temperature falls"
+      ],
+      "answer": 0,
+      "hint": "Separate the initial temperature change from a later size change.",
+      "explanation": "Lower temperature weakens thermal pressure support, favoring gravity in an already dense pocket. Cooling alone does not remove gravity.",
+      "source": "Lecture 18 pages 12–13 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l18",
+          "locator": "pages 12–13",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-collapse-conditions"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l18-collapse-not",
+      "rootId": "exam-two-item-l18-collapse-not",
+      "moduleId": "exam-two-module-09",
+      "conceptId": "exam-two-concept-collapse-conditions",
+      "concept": "exam-two-concept-collapse-conditions",
+      "type": "single",
+      "responseType": "single",
+      "prompt": "Which change would NOT favor collapse of an otherwise comparable cold, dense cloud?",
+      "choices": [
+        "Lowering its temperature",
+        "Increasing its density at fixed size",
+        "Heating it without increasing density",
+        "Reducing its thermal support"
+      ],
+      "answer": 2,
+      "hint": "Gravity must overcome the resistance supplied by thermal pressure.",
+      "explanation": "Heating at unchanged density strengthens thermal pressure support. The other changes favor the balance toward collapse.",
+      "source": "Lecture 18 pages 12–13 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l18",
+          "locator": "pages 12–13",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-collapse-conditions"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l18-cloud-target",
+      "rootId": "exam-two-item-l18-cloud-target",
+      "moduleId": "exam-two-module-09",
+      "conceptId": "exam-two-concept-collapse-conditions",
+      "concept": "exam-two-concept-collapse-conditions",
+      "type": "target",
+      "responseType": "target",
+      "prompt": "Select the region that best combines weak thermal support with strong self-gravity in these comparable-size clouds.",
+      "choices": [
+        "Region A",
+        "Region B",
+        "Region C",
+        "Region D"
+      ],
+      "answer": 1,
+      "hint": "Look for both low temperature and high density.",
+      "explanation": "B is the coldest and densest offered region. Its favorable combination, rather than visible brightness, supports the choice.",
+      "source": "Lecture 18 pages 13 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l18",
+          "locator": "pages 13",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-collapse-conditions"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true,
+      "media": {
+        "src": "assets/visuals/exam-two/l18-cloud-regions.svg",
+        "alt": "Four comparable-size gas regions labeled A to D; A: 20 K, 50 particles per cubic centimeter; B: 10 K, 2000; C: 80 K, 30; D: 80 K, 1000.",
+        "caption": "Original comparison diagram; cloud size and composition are held comparable."
+      },
+      "targets": [
+        {
+          "label": "A",
+          "x": 25,
+          "y": 31
+        },
+        {
+          "label": "B",
+          "x": 75,
+          "y": 31
+        },
+        {
+          "label": "C",
+          "x": 25,
+          "y": 73
+        },
+        {
+          "label": "D",
+          "x": 75,
+          "y": 73
+        }
+      ]
+    },
+    {
+      "id": "exam-two-item-l18-infrared-pair",
+      "rootId": "exam-two-item-l18-infrared-pair",
+      "moduleId": "exam-two-module-09",
+      "conceptId": "exam-two-concept-infrared-protostars",
+      "concept": "exam-two-concept-infrared-protostars",
+      "type": "single",
+      "responseType": "single",
+      "prompt": "Which pair explains the lecture’s use of infrared for embedded young objects?",
+      "choices": [
+        "Less dust scattering and relatively long-wavelength emission",
+        "More dust scattering and relatively long-wavelength emission",
+        "Less dust scattering and relatively short-wavelength emission",
+        "More dust scattering and relatively short-wavelength emission"
+      ],
+      "answer": 0,
+      "hint": "One reason concerns the path; the other concerns the source.",
+      "explanation": "The lecture combines reduced infrared scattering by dust with the cooler source’s longer-wavelength thermal emission.",
+      "source": "Lecture 18 pages 7 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l18",
+          "locator": "pages 7",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-infrared-protostars"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l18-hidden-object",
+      "rootId": "exam-two-item-l18-hidden-object",
+      "moduleId": "exam-two-module-09",
+      "conceptId": "exam-two-concept-infrared-protostars",
+      "concept": "exam-two-concept-infrared-protostars",
+      "type": "single",
+      "responseType": "single",
+      "prompt": "A compact object appears in an infrared image but is obscured in a visible image taken at the same time. What is the supported inference?",
+      "choices": [
+        "Dust can obscure visible light more strongly than infrared light",
+        "Infrared detection alone establishes sustained core hydrogen fusion",
+        "Detection only in infrared establishes a hotter surface than nearby O stars",
+        "The visible image establishes an empty cavity rather than a hidden source"
+      ],
+      "answer": 0,
+      "hint": "A change of observing band need not be a physical change in the source.",
+      "explanation": "Infrared can reveal objects behind dust that hides them in visible light. The observation does not alone establish a temperature change or fusion state.",
+      "source": "Lecture 18 pages 7 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l18",
+          "locator": "pages 7",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-infrared-protostars"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l18-energy-before-fusion",
+      "rootId": "exam-two-item-l18-energy-before-fusion",
+      "moduleId": "exam-two-module-09",
+      "conceptId": "exam-two-concept-protostar-energy",
+      "concept": "exam-two-concept-protostar-energy",
+      "type": "single",
+      "responseType": "single",
+      "prompt": "A young object is luminous, is contracting, and has not begun sustained core hydrogen burning. What supplies energy in the lecture model?",
+      "choices": [
+        "Release of gravitational potential energy",
+        "Release of sustained hydrogen-fusion energy",
+        "Release of energy mainly from chemical combustion",
+        "Release of heat mainly by expansion of the gas"
+      ],
+      "answer": 0,
+      "hint": "The source is named Kelvin–Helmholtz contraction.",
+      "explanation": "Contraction releases gravitational energy; some heats the interior and some escapes as radiation. Luminosity alone does not prove sustained hydrogen fusion.",
+      "source": "Lecture 18 pages 17–18 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l18",
+          "locator": "pages 17–18",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-protostar-energy"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l18-shrinks-heats",
+      "rootId": "exam-two-item-l18-shrinks-heats",
+      "moduleId": "exam-two-module-09",
+      "conceptId": "exam-two-concept-protostar-energy",
+      "concept": "exam-two-concept-protostar-energy",
+      "type": "single",
+      "responseType": "single",
+      "prompt": "During gravitational contraction, which combination is consistent with the lecture?",
+      "choices": [
+        "Radius decreases while the interior heats",
+        "Radius increases while the interior heats",
+        "Density decreases while the interior heats",
+        "Radius decreases while the interior must cool"
+      ],
+      "answer": 0,
+      "hint": "Shrinking does not imply an increasingly cold interior.",
+      "explanation": "Contraction compresses the gas and releases energy, allowing a smaller, denser object with a hotter interior. The surface track needs separate interpretation.",
+      "source": "Lecture 18 pages 17–18 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l18",
+          "locator": "pages 17–18",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-protostar-energy"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l18-pressure-ratio",
+      "rootId": "exam-two-item-l18-pressure-ratio",
+      "moduleId": "exam-two-module-09",
+      "conceptId": "exam-two-concept-collapse-pressure",
+      "concept": "exam-two-concept-collapse-pressure",
+      "type": "single",
+      "responseType": "single",
+      "prompt": "For gas of unchanged composition, particle density doubles and temperature falls to one quarter. In the lecture’s P ∝ nT model, what happens to pressure?",
+      "choices": [
+        "It becomes one half as large",
+        "It becomes twice as large",
+        "It becomes four times as large",
+        "It remains unchanged"
+      ],
+      "answer": 0,
+      "hint": "Multiply the two ratios.",
+      "explanation": "Pnew/Pold = 2 × 1/4 = 1/2. Considering only the density gives the wrong result.",
+      "source": "Lecture 18 pages 18 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l18",
+          "locator": "pages 18",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-collapse-pressure"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l18-pressure-same",
+      "rootId": "exam-two-item-l18-pressure-same",
+      "moduleId": "exam-two-module-09",
+      "conceptId": "exam-two-concept-collapse-pressure",
+      "concept": "exam-two-concept-collapse-pressure",
+      "type": "single",
+      "responseType": "single",
+      "prompt": "A cloud parcel has half its earlier particle density. What temperature change keeps its gas pressure unchanged in the simple model?",
+      "choices": [
+        "Double the temperature",
+        "Halve the temperature",
+        "Quarter the temperature",
+        "Keep the temperature unchanged"
+      ],
+      "answer": 0,
+      "hint": "The product of the density and temperature ratios must be one.",
+      "explanation": "A density factor of 1/2 requires a temperature factor of 2 so that nT, and hence pressure, is unchanged.",
+      "source": "Lecture 18 pages 18 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l18",
+          "locator": "pages 18",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-collapse-pressure"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l18-cool-and-resume",
+      "rootId": "exam-two-item-l18-cool-and-resume",
+      "moduleId": "exam-two-module-09",
+      "conceptId": "exam-two-concept-protostar-support",
+      "concept": "exam-two-concept-protostar-support",
+      "type": "single",
+      "responseType": "single",
+      "prompt": "A non-fusing young object radiates heat away after its contraction slows. Why can contraction resume?",
+      "choices": [
+        "Cooling reduces thermal pressure support",
+        "Cooling increases thermal pressure support",
+        "Radiation maintains the lost heat without a new energy source",
+        "A temporary pressure balance prevents any further energy loss"
+      ],
+      "answer": 0,
+      "hint": "Distinguish losing stored heat from generating replacement energy.",
+      "explanation": "Without ongoing replenishment, radiation and cooling weaken pressure support. Gravity can then drive further contraction.",
+      "source": "Lecture 18 pages 19 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l18",
+          "locator": "pages 19",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-protostar-support"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l18-main-sequence-heating",
+      "rootId": "exam-two-item-l18-main-sequence-heating",
+      "moduleId": "exam-two-module-09",
+      "conceptId": "exam-two-concept-protostar-support",
+      "concept": "exam-two-concept-protostar-support",
+      "type": "single",
+      "responseType": "single",
+      "prompt": "What change supplies the sustained heating associated with a stable main-sequence phase?",
+      "choices": [
+        "Core hydrogen fusion replaces radiated energy",
+        "Stored heat replaces radiated energy indefinitely",
+        "External dust scattering maintains the core temperature",
+        "Gravitational contraction releases heat at fixed radius"
+      ],
+      "answer": 0,
+      "hint": "A long-lived energy source is different from a one-time heat release.",
+      "explanation": "Sustained core hydrogen fusion replenishes the energy radiated away. Gravity is balanced by pressure; nuclear reactions supply the heat supporting that pressure.",
+      "source": "Lecture 18 pages 12, 19 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l18",
+          "locator": "pages 12, 19",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-protostar-support"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l18-sequence-setting",
+      "rootId": "exam-two-item-l18-sequence-setting",
+      "moduleId": "exam-two-module-09",
+      "conceptId": "exam-two-concept-protostar-track",
+      "concept": "exam-two-concept-protostar-track",
+      "type": "single",
+      "responseType": "single",
+      "prompt": "In the supplied formation sequence, a central young object has an infalling envelope, a disk, and a bipolar flow. Which stage fits?",
+      "choices": [
+        "The illustrated protostar stage",
+        "The initial uncollapsed dark core",
+        "The illustrated pre-main-sequence stage with a remaining disk",
+        "The illustrated young stellar system"
+      ],
+      "answer": 0,
+      "hint": "Use the structures shown, rather than the brightness of the cloud.",
+      "explanation": "The protostar panel contains the envelope, disk, central object and bipolar outflow. The supplied pre-main-sequence and young-system panels show later structures rather than the same infalling envelope.",
+      "source": "Lecture 18 pages 16 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l18",
+          "locator": "pages 16",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-protostar-track"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l18-shrinking-luminosity",
+      "rootId": "exam-two-item-l18-shrinking-luminosity",
+      "moduleId": "exam-two-module-09",
+      "conceptId": "exam-two-concept-protostar-track",
+      "concept": "exam-two-concept-protostar-track",
+      "type": "single",
+      "responseType": "single",
+      "prompt": "A young object halves its radius while its surface temperature stays approximately fixed. What is its new luminosity relative to before?",
+      "choices": [
+        "One quarter",
+        "One half",
+        "Twice as large",
+        "Four times as large"
+      ],
+      "answer": 0,
+      "hint": "Surface area depends on radius squared.",
+      "explanation": "At fixed surface temperature, Lnew/Lold = (1/2)² = 1/4. Internal heating alone does not force the surface luminosity to rise.",
+      "source": "Lecture 18 pages 20–21 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l18",
+          "locator": "pages 20–21",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-protostar-track"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l18-formation-order",
+      "rootId": "exam-two-item-l18-formation-order",
+      "moduleId": "exam-two-module-09",
+      "conceptId": "exam-two-concept-protostar-track",
+      "concept": "exam-two-concept-protostar-track",
+      "type": "order",
+      "responseType": "order",
+      "prompt": "Arrange the six stages in the order shown by the supplied formation illustration.",
+      "choices": [
+        "Dense dark-cloud core",
+        "Gravitational collapse",
+        "Protostar with disk and bipolar flow",
+        "T Tauri stage",
+        "Pre-main-sequence star with remaining disk",
+        "Young stellar system"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "hint": "Follow the supplied a-to-f illustrated sequence.",
+      "explanation": "The figure progresses from dense core and collapse to a protostar, T Tauri and pre-main-sequence stages, and then a young stellar system. The displayed ages are illustrative rather than universal.",
+      "source": "Lecture 18 pages 16 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l18",
+          "locator": "pages 16",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-protostar-track"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l18-luminosity-tf",
+      "rootId": "exam-two-item-l18-luminosity-tf",
+      "moduleId": "exam-two-module-09",
+      "conceptId": "exam-two-concept-protostar-track",
+      "concept": "exam-two-concept-protostar-track",
+      "type": "true-false",
+      "responseType": "true-false",
+      "prompt": "True or false: In the supplied protostar model, contraction guarantees a steady increase in total luminosity at every stage.",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "answer": 1,
+      "hint": "Total luminosity has both a radius factor and a surface-temperature factor.",
+      "explanation": "False. Radius and surface temperature change together; the lecture explicitly allows luminosity to rise or fall.",
+      "source": "Lecture 18 pages 20 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l18",
+          "locator": "pages 20",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-protostar-track"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l18-radius-lines-law",
+      "rootId": "exam-two-item-l18-radius-lines-law",
+      "moduleId": "exam-two-module-05",
+      "conceptId": "exam-two-concept-radius-temperature",
+      "concept": "exam-two-concept-radius-temperature",
+      "type": "single",
+      "responseType": "single",
+      "prompt": "Which relationship lets you infer constant-radius lines from luminosity and surface temperature on an H–R diagram?",
+      "choices": [
+        "L = 4πR²σT⁴",
+        "b = L/(4πd²)",
+        "d(pc) = 1/p(arcsec)",
+        "λpeak T = constant"
+      ],
+      "answer": 0,
+      "hint": "You need the law that includes both emitting area and temperature-dependent surface flux.",
+      "explanation": "The Stefan–Boltzmann luminosity relation combines R² with T⁴. The inverse-square law includes observer distance, Wien’s law gives the peak wavelength, and parallax gives distance.",
+      "source": "Lecture 18 pages 21 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l18",
+          "locator": "pages 21",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-radius-temperature"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l18-constant-radius-track",
+      "rootId": "exam-two-item-l18-constant-radius-track",
+      "moduleId": "exam-two-module-05",
+      "conceptId": "exam-two-concept-radius-temperature",
+      "concept": "exam-two-concept-radius-temperature",
+      "type": "single",
+      "responseType": "single",
+      "prompt": "Along a constant-radius line, surface temperature doubles. What must happen to luminosity?",
+      "choices": [
+        "It becomes sixteen times as large",
+        "It becomes four times as large",
+        "It becomes twice as large",
+        "It becomes one quarter as large"
+      ],
+      "answer": 0,
+      "hint": "Radius is held fixed; retain the temperature exponent.",
+      "explanation": "L ∝ T⁴ at fixed radius, so doubling T gives a factor of 2⁴ = 16. The area factor does not change.",
+      "source": "Lecture 18 pages 21 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l18",
+          "locator": "pages 21",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-radius-temperature"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l18-nebular-emission",
+      "rootId": "exam-two-item-l18-nebular-emission",
+      "moduleId": "exam-two-module-07",
+      "conceptId": "exam-two-concept-nebula-mechanism",
+      "concept": "exam-two-concept-nebula-mechanism",
+      "type": "single",
+      "responseType": "single",
+      "prompt": "A nebular spectrum contains strong emission lines after hot stars ionize its hydrogen. Which mechanism explains the glow?",
+      "choices": [
+        "Emission from excited gas, including recombination",
+        "Reflection of a smooth stellar continuum by dust",
+        "Extinction of background starlight by cool dust",
+        "Thermal emission from the surface of a cool star"
+      ],
+      "answer": 0,
+      "hint": "Distinguish emitted radiation from scattered illumination.",
+      "explanation": "Excitation and recombination in ionized gas produce emission. Reflection redirects light from another source; dark obscuration does not itself explain the emitted lines.",
+      "source": "Lecture 18 pages 4, 6 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l18",
+          "locator": "pages 4, 6",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-nebula-mechanism"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l18-mixed-nebula",
+      "rootId": "exam-two-item-l18-mixed-nebula",
+      "moduleId": "exam-two-module-07",
+      "conceptId": "exam-two-concept-nebula-mechanism",
+      "concept": "exam-two-concept-nebula-mechanism",
+      "type": "single",
+      "responseType": "single",
+      "prompt": "One nebular field contains pink line-emitting gas, blue reflected starlight, and a dark foreground lane. Which interpretation is supported?",
+      "choices": [
+        "Emission, reflection and obscuration coexist in this field",
+        "Hydrogen emission produces all three regions in this field",
+        "The dark lane marks a cavity with little intervening dust",
+        "The blue color alone establishes hotter gas than the pink region"
+      ],
+      "answer": 0,
+      "hint": "The discussion asks you to identify three mechanisms in one field.",
+      "explanation": "A single field can include glowing gas, dust-scattered starlight and dust obscuration. Color alone is not a complete temperature or density measurement.",
+      "source": "Lecture 18 pages 6, 14–15 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l18",
+          "locator": "pages 6, 14–15",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-nebula-mechanism"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
     }
   ],
   "topHat": [],
@@ -4293,6 +5148,274 @@ window.ASTR1102_EXAM2 = {
       "reason": "Source assumptions or wording qualified; ambiguous/universal claims excluded from graded keys.",
       "textInspected": true,
       "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l18",
+      "lecture": 18,
+      "page": 1,
+      "title": "Lecture 18: course cover",
+      "disposition": "context",
+      "moduleIds": [],
+      "reason": "Dated context, not a scored astronomy retrieval target.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l18",
+      "lecture": 18,
+      "page": 2,
+      "title": "Dated announcements",
+      "disposition": "context",
+      "moduleIds": [],
+      "reason": "Dated context, not a scored astronomy retrieval target.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l18",
+      "lecture": 18,
+      "page": 3,
+      "title": "Shrimp Nebula image",
+      "disposition": "reference",
+      "moduleIds": [],
+      "reason": "Dated context, not a scored astronomy retrieval target.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l18",
+      "lecture": 18,
+      "page": 4,
+      "title": "Emission-nebula revision",
+      "disposition": "recap",
+      "moduleIds": [
+        "exam-two-module-07"
+      ],
+      "reason": "Source figure and supported relationships mapped to guide/practice; model limits noted where applicable.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l18",
+      "lecture": 18,
+      "page": 5,
+      "title": "Reflection-nebula revision",
+      "disposition": "recap",
+      "moduleIds": [
+        "exam-two-module-07"
+      ],
+      "reason": "Source figure and supported relationships mapped to guide/practice; model limits noted where applicable.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l18",
+      "lecture": 18,
+      "page": 6,
+      "title": "Nebular mechanisms",
+      "disposition": "recap",
+      "moduleIds": [
+        "exam-two-module-07"
+      ],
+      "reason": "Source figure and supported relationships mapped to guide/practice; model limits noted where applicable.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l18",
+      "lecture": 18,
+      "page": 7,
+      "title": "Infrared views through dust",
+      "disposition": "teaching",
+      "moduleIds": [
+        "exam-two-module-09"
+      ],
+      "reason": "Source figure and supported relationships mapped to guide/practice; model limits noted where applicable.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l18",
+      "lecture": 18,
+      "page": 8,
+      "title": "Horsehead image",
+      "disposition": "reference",
+      "moduleIds": [
+        "exam-two-module-07"
+      ],
+      "reason": "Named photographic example retained as source reference; do not infer an unsupported image-identification quota.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l18",
+      "lecture": 18,
+      "page": 9,
+      "title": "Eagle/Pillars image",
+      "disposition": "reference",
+      "moduleIds": [
+        "exam-two-module-07"
+      ],
+      "reason": "Named photographic example retained as source reference; do not infer an unsupported image-identification quota.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l18",
+      "lecture": 18,
+      "page": 10,
+      "title": "Tadpole image",
+      "disposition": "reference",
+      "moduleIds": [
+        "exam-two-module-07"
+      ],
+      "reason": "Named photographic example retained as source reference; do not infer an unsupported image-identification quota.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l18",
+      "lecture": 18,
+      "page": 11,
+      "title": "Trifid image",
+      "disposition": "reference",
+      "moduleIds": [
+        "exam-two-module-07"
+      ],
+      "reason": "Named photographic example retained as source reference; do not infer an unsupported image-identification quota.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l18",
+      "lecture": 18,
+      "page": 12,
+      "title": "Gravity versus pressure overview",
+      "disposition": "qualified",
+      "moduleIds": [
+        "exam-two-module-09"
+      ],
+      "reason": "Source figure and supported relationships mapped to guide/practice; model limits noted where applicable.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l18",
+      "lecture": 18,
+      "page": 13,
+      "title": "Conditions favoring collapse",
+      "disposition": "teaching",
+      "moduleIds": [
+        "exam-two-module-09"
+      ],
+      "reason": "Source figure and supported relationships mapped to guide/practice; model limits noted where applicable.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l18",
+      "lecture": 18,
+      "page": 14,
+      "title": "Nebular image discussion",
+      "disposition": "teaching",
+      "moduleIds": [
+        "exam-two-module-07"
+      ],
+      "reason": "Source figure and supported relationships mapped to guide/practice; model limits noted where applicable.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l18",
+      "lecture": 18,
+      "page": 15,
+      "title": "Nebular mechanisms recap",
+      "disposition": "recap",
+      "moduleIds": [
+        "exam-two-module-07"
+      ],
+      "reason": "Source figure and supported relationships mapped to guide/practice; model limits noted where applicable.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l18",
+      "lecture": 18,
+      "page": 16,
+      "title": "Illustrated formation sequence",
+      "disposition": "teaching",
+      "moduleIds": [
+        "exam-two-module-09"
+      ],
+      "reason": "Source figure and supported relationships mapped to guide/practice; model limits noted where applicable.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l18",
+      "lecture": 18,
+      "page": 17,
+      "title": "Protostar contraction and H–R track",
+      "disposition": "qualified",
+      "moduleIds": [
+        "exam-two-module-09"
+      ],
+      "reason": "Source figure and supported relationships mapped to guide/practice; model limits noted where applicable.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l18",
+      "lecture": 18,
+      "page": 18,
+      "title": "Contraction energy and pressure",
+      "disposition": "qualified",
+      "moduleIds": [
+        "exam-two-module-09"
+      ],
+      "reason": "Source figure and supported relationships mapped to guide/practice; model limits noted where applicable.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l18",
+      "lecture": 18,
+      "page": 19,
+      "title": "Cooling and renewed contraction",
+      "disposition": "teaching",
+      "moduleIds": [
+        "exam-two-module-09"
+      ],
+      "reason": "Source figure and supported relationships mapped to guide/practice; model limits noted where applicable.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l18",
+      "lecture": 18,
+      "page": 20,
+      "title": "Luminosity and formation timescale",
+      "disposition": "qualified",
+      "moduleIds": [
+        "exam-two-module-09"
+      ],
+      "reason": "Source figure and supported relationships mapped to guide/practice; model limits noted where applicable.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l18",
+      "lecture": 18,
+      "page": 21,
+      "title": "Radius-line classwork",
+      "disposition": "teaching",
+      "moduleIds": [
+        "exam-two-module-05",
+        "exam-two-module-09"
+      ],
+      "reason": "Source figure and supported relationships mapped to guide/practice; model limits noted where applicable.",
+      "textInspected": true,
+      "rendered": true
     }
   ],
   "blueprint": {
@@ -4308,10 +5431,8 @@ window.ASTR1102_EXAM2 = {
   "bossIds": [
     "exam-two-item-parallax-reference",
     "exam-two-item-parsec-convert",
-    "exam-two-item-parallax-reverse",
     "exam-two-item-observer-move",
     "exam-two-item-brightness-infer-distance",
-    "exam-two-item-combined-luminosity",
     "exam-two-item-magnitude-five",
     "exam-two-item-absolute-reference",
     "exam-two-item-dust-distance-correct",
@@ -4320,22 +5441,23 @@ window.ASTR1102_EXAM2 = {
     "exam-two-item-red-not-cool",
     "exam-two-item-radius-from-luminosity",
     "exam-two-item-mass-evidence",
-    "exam-two-item-brown-dwarf-boundary",
     "exam-two-item-hr-right",
     "exam-two-item-white-dwarf-reason",
     "exam-two-item-mass-lifetime",
-    "exam-two-item-sun-giant-properties",
     "exam-two-item-ism-not",
     "exam-two-item-reflection-versus-transmission",
-    "exam-two-item-hii-neutral",
     "exam-two-item-formation-material",
     "exam-two-item-bok-description",
-    "exam-two-item-hh-association"
+    "exam-two-item-hh-association",
+    "exam-two-item-l18-collapse-not",
+    "exam-two-item-l18-infrared-pair",
+    "exam-two-item-l18-energy-before-fusion",
+    "exam-two-item-l18-pressure-ratio",
+    "exam-two-item-l18-cool-and-resume"
   ],
   "pending": [
-    "Remaining Exam 2 lectures and final scope briefing",
-    "Detailed collapse and protostar stages beyond the supplied examples",
-    "Later stellar lifetimes, deaths, supernovae, compact objects, and binaries"
+    "Lectures after 18 and the final Exam 2 scope/format briefing",
+    "Detailed later stellar lifetimes, death, supernovae, compact-object support, and unsupplied binary evolution"
   ],
   "qualifications": [
     {
@@ -4369,6 +5491,82 @@ window.ASTR1102_EXAM2 = {
       "source": "L17 p21",
       "text": "Star-birth association and axis alignment are taught. The slide’s universal lifetime/composition wording is excluded from scoring; NASA describes young-star jets and shocks.",
       "url": "https://science.nasa.gov/missions/hubble/hubble-movies-provide-unprecedented-view-of-supersonic-jets-from-young-stars/"
+    },
+    {
+      "title": "Lecture credit",
+      "source": "L18 p1",
+      "text": "Lecture 18 credits Dr. Rob Hynes; earlier supplied covers credited Prof. Manos Chatzopoulos. Preserve those source attributions. The actual Exam 1 evidence calibrates observed task style without assuming the lecturer identity is unchanged."
+    },
+    {
+      "title": "Internal versus surface heating",
+      "source": "L18 pp17–20",
+      "text": "Contraction releases gravitational energy and heats the interior. Surface-temperature tracks depend on phase and mass; do not require a monotonic increase in surface temperature or total luminosity.",
+      "url": "https://openstax.org/books/astronomy/pages/21-2-the-h-r-diagram-and-the-study-of-stellar-evolution"
+    },
+    {
+      "title": "Pressure balance and continuing energy loss",
+      "source": "L18 pp12, 18–19",
+      "text": "The pressure–gravity story separates mechanical support from ongoing energy replacement. Approximate balance can coexist with slow contraction; the broad final-gravity slogan is not used as a universal collapse claim.",
+      "url": "https://openstax.org/books/astronomy/pages/21-1-star-formation"
+    },
+    {
+      "title": "Selected answer is not a graded key",
+      "source": "Lecture 18 supplied capture",
+      "text": "The new capture shows a selected response without a visible grading result. Source review distinguishes selected, displayed-credited and independently source-supported answers."
+    }
+  ],
+  "revision": "lecture-18-2026-10-07",
+  "lectureRange": "13–18",
+  "sourcePackRevisions": [
+    {
+      "revision": "lectures-13-17",
+      "version": "exam-two-2026-10-06-v1",
+      "slides": 117,
+      "families": 17,
+      "assets": 40,
+      "lectures": [
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "modules": [
+        "exam-two-module-01",
+        "exam-two-module-02",
+        "exam-two-module-03",
+        "exam-two-module-04",
+        "exam-two-module-05",
+        "exam-two-module-06",
+        "exam-two-module-07",
+        "exam-two-module-08"
+      ]
+    },
+    {
+      "revision": "lectures-13-18",
+      "version": "exam-two-2026-10-06-v1",
+      "slides": 138,
+      "families": 19,
+      "assets": 54,
+      "lectures": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "modules": [
+        "exam-two-module-01",
+        "exam-two-module-02",
+        "exam-two-module-03",
+        "exam-two-module-04",
+        "exam-two-module-05",
+        "exam-two-module-06",
+        "exam-two-module-07",
+        "exam-two-module-08",
+        "exam-two-module-09"
+      ]
     }
   ]
 };

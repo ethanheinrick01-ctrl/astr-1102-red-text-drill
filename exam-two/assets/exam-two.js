@@ -37,6 +37,7 @@
     const copy = clone(q);
     copy.instanceId = uid();
     copy.contentVersion = data.version;
+    if (data.revision) copy.contentRevision = data.revision;
     copy.choiceOrder = shuffle(q.choices.map((_, i) => i), rng);
     copy.rowOrder = q.rows ? shuffle(q.rows.map((_, i) => i), rng) : null;
     if (type(q) === 'order' && copy.choiceOrder.every((v, i) => v === q.answer[i])) {
@@ -247,7 +248,7 @@
     run = null; correction = null;
     const body = shell(mode.title, `Exam 2 · ${data.coverage}`);
     const simulator = mode.kind === 'simulator';
-    body.innerHTML = `<p class="e2-lead">${simulator ? 'One complete rehearsal. Answers and explanations stay hidden until submission.' : 'Choose confidence before checking. Your first checked answer stays saved; later corrections remain separate.'}</p><div class="e2-facts"><span><strong>${simulator ? 25 : mode.kind === 'boss' ? 25 : selectItems(mode).length}</strong> original tasks</span><span><strong>13–17</strong> lectures available</span><span><strong>Partial</strong> Exam 2 coverage</span></div>
+    body.innerHTML = `<p class="e2-lead">${simulator ? 'One complete rehearsal. Answers and explanations stay hidden until submission.' : 'Choose confidence before checking. Your first checked answer stays saved; later corrections remain separate.'}</p><div class="e2-facts"><span><strong>${simulator ? 25 : mode.kind === 'boss' ? 25 : selectItems(mode).length}</strong> original tasks</span><span><strong>${esc(data.lectureRange || "13–17")}</strong> lectures available</span><span><strong>Partial</strong> Exam 2 coverage</span></div>
       ${simulator ? `<p>Practice mix: 21 ordinary multiple choice, 1 T/F, 1 matching, 1 complete ordering, and 1 image target. Small source-supported calculations can appear.</p><p class="e2-muted">${esc(data.blueprint.authority)} Matching and ordering use whole-question scoring in this rehearsal; actual partial credit and allowed notes are not confirmed.</p><label class="e2-timer-label">Practice clock <select data-e2-timer><option value="0">Untimed</option><option value="30">30 minutes</option><option value="50">50 minutes</option></select></label><p class="e2-muted">An optional clock continues when you leave. An expired attempt is submitted when active or on resume; incomplete or uncommitted responses receive zero.</p>` : '<p class="e2-muted">Misses return after two intervening tasks; low-confidence correct answers after four. Two consecutive correct answers on different original roots, latest medium/high, establish mastery. A drill score uses its initial tasks only.</p>'}
       <div data-e2-start></div><h3>Saved attempts</h3><div data-e2-history></div>`;
     const start = button('Start new attempt', newRun, 'primary', {'data-e2-new':''}); start.disabled = Boolean(problem); body.querySelector('[data-e2-start]').append(start);
@@ -276,7 +277,7 @@
     });
     const concept = data.concepts.find(c => c.id === q.conceptId);
     const issues = data.qualifications.filter(x => found.some(s => x.source.includes(`L${s.lecture} p${s.page}`)));
-    return `<details class="e2-source"><summary>Direct source material</summary><p>${esc(q.source)}</p>${concept ? `<p class="e2-source-note">Study explanation: ${esc(concept.teaching)}</p>` : ''}${issues.map(x => `<aside class="e2-boundary"><strong>${esc(x.title)}</strong><p>${esc(x.text)}</p>${x.url ? `<a href="${esc(x.url)}" target="_blank" rel="noopener">Primary-source qualification</a>` : ''}</aside>`).join('')}${!data.sourceSlides.length ? '<p class="e2-muted">Lecture passages and figures are available after importing the private course source pack below.</p>' : ''}${found.map(s => `<section><h4>Lecture ${s.lecture} · page ${s.page}</h4><pre>${esc(s.text)}</pre>${s.image ? `<a href="${esc(s.image)}" target="_blank" rel="noopener" aria-label="Enlarge Lecture ${s.lecture} page ${s.page}"><img loading="lazy" src="${esc(s.image)}" alt="Original course slide, Lecture ${s.lecture} page ${s.page}. Open to enlarge."></a>` : ''}</section>`).join('')}</details>`;
+    return `<details class="e2-source"><summary>Direct source material</summary><p>${esc(q.source)}</p>${concept ? `<p class="e2-source-note">Study explanation: ${esc(concept.teaching)}</p>` : ''}${issues.map(x => `<aside class="e2-boundary"><strong>${esc(x.title)}</strong><p>${esc(x.text)}</p>${x.url ? `<a href="${esc(x.url)}" target="_blank" rel="noopener">Primary-source qualification</a>` : ''}</aside>`).join('')}${!found.length ? '<p class="e2-muted">Matching lecture passages and figures require a compatible private source pack. Import the updated pack for Lecture 18 sources.</p>' : ''}${found.map(s => `<section><h4>Lecture ${s.lecture} · page ${s.page}</h4><pre>${esc(s.text)}</pre>${s.image ? `<a href="${esc(s.image)}" target="_blank" rel="noopener" aria-label="Enlarge Lecture ${s.lecture} page ${s.page}"><img loading="lazy" src="${esc(s.image)}" alt="Original course slide, Lecture ${s.lecture} page ${s.page}. Open to enlarge."></a>` : ''}</section>`).join('')}</details>`;
   }
   function response(q, value, locked = false, scored = false, edit = null) {
     const wrap = document.createElement('div'); wrap.className = 'e2-response';
@@ -466,15 +467,15 @@
   function sourceReview() {
     if (!data.topHat.length) {
       const body=shell('Top Hat source review','Private course materials');
-      body.innerHTML='<p class="e2-lead">Import your private course source pack to add the 17 supplied question families and their screenshots.</p><p>Only this browser stores the imported materials. Nothing is uploaded. Original practice and mastery are ready now.</p>';
+      body.innerHTML='<p class="e2-lead">Import a compatible private course source pack to add supplied questions, their captures, and qualified answers.</p><p>Only this browser stores the imported materials. Nothing is uploaded. Original practice and mastery are ready now.</p>';
       body.append(button('Import course source pack',()=>window.ASTRSourcePack.choose(),'primary'));
       return;
     }
-    const body=shell('Top Hat source review','17 question families · 19 supplied captures');
-    body.innerHTML='<p class="e2-lead">Review the professor’s wording and displayed keys. These are supplied course questions, separate from original practice.</p><p class="e2-muted">No score or mastery is awarded. Duplicates are grouped. Source wording and qualified keys are preserved.</p><div data-e2-th></div>';
+    const body=shell('Supplied source questions',`${data.topHat.length} families · ${data.topHat.reduce((n,q)=>n+q.captures.length,0)} captures`);
+    body.innerHTML='<p class="e2-lead">Review supplied Top Hat and lecture questions, separate from original practice. A selected response is not a graded key.</p><p class="e2-muted">No score or mastery is awarded. Duplicates are grouped. Source wording and qualified keys are preserved.</p><div data-e2-th></div>';
     data.topHat.forEach((q,i)=>{
       const card=document.createElement('article');card.className='e2-th';
-      card.innerHTML=`<p class="e2-muted">Lecture ${q.lecture} · ${q.captures.length} capture${q.captures.length===1?'':'s'}${q.qualified?' · Qualified course key':''}</p><h3>${i+1}. ${esc(q.prompt)}</h3><ol type="a">${q.choices.map(c=>`<li>${esc(c)}</li>`).join('')}</ol><details><summary>Reveal displayed course key and source</summary><p class="e2-correct-answer">Displayed course key: ${esc(q.choices[q.displayedAnswer])}</p><p>${esc(q.note)}</p>${q.captures.map(c=>`<a href="${esc(c.src)}" target="_blank" rel="noopener"><img loading="lazy" src="${esc(c.src)}" alt="Supplied ${esc(c.source)}, including displayed correct answer."></a>`).join('')}</details>`;
+      card.innerHTML=`<p class="e2-muted">Lecture ${q.lecture} · ${q.captures.length} capture${q.captures.length===1?'':'s'}${q.qualified?' · Qualification note':''}</p><h3>${i+1}. ${esc(q.prompt)}</h3><ol type="a">${q.choices.map(c=>`<li>${esc(c)}</li>`).join('')}</ol><details><summary>Reveal answer evidence and source</summary>${Number.isInteger(q.displayedAnswer)?`<p class="e2-correct-answer">Displayed course key: ${esc(q.choices[q.displayedAnswer])}</p>`:`<p>No graded course key is displayed.</p>${Number.isInteger(q.selectedAnswer)?`<p class="e2-muted">Selected response in capture (ungraded): ${esc(q.choices[q.selectedAnswer])}</p>`:""}${Number.isInteger(q.supportedAnswer)?`<p class="e2-correct-answer">Source-supported answer: ${esc(q.choices[q.supportedAnswer])}</p>`:""}`}<p>${esc(q.note)}</p>${q.captures.map(c=>`<a href="${esc(c.src)}" target="_blank" rel="noopener"><img loading="lazy" src="${esc(c.src)}" alt="Supplied ${esc(c.source)}, including the selected or credited response where available."></a>`).join('')}</details>`;
       body.querySelector('[data-e2-th]').append(card);
     });
   }

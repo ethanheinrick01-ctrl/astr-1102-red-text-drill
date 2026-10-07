@@ -158,5 +158,49 @@ window.ASTR1102_VISUALS = {
       }
     ],
     "interactions": []
+  },
+  "exam-two-module-09": {
+    "id": "exam-two-module-09-visuals",
+    "label": "Cloud collapse and protostars",
+    "intro": "Original teaching diagrams for Lecture 18. Compatible private packs add supplied lecture figures.",
+    "visuals": [
+      {
+        "id": "exam-two-public-l18-cloud-regions",
+        "moduleId": "exam-two-module-09",
+        "src": "assets/visuals/exam-two/l18-cloud-regions.svg",
+        "title": "Comparing possible birth regions",
+        "alt": "Four comparable-size gas regions labeled A to D; A: 20 K, 50 particles per cubic centimeter; B: 10 K, 2000; C: 80 K, 30; D: 80 K, 1000.",
+        "caption": "Four comparable-size gas regions labeled A to D; A: 20 K, 50 particles per cubic centimeter; B: 10 K, 2000; C: 80 K, 30; D: 80 K, 1000.",
+        "notice": "Four comparable-size gas regions labeled A to D; A: 20 K, 50 particles per cubic centimeter; B: 10 K, 2000; C: 80 K, 30; D: 80 K, 1000.",
+        "source": "Lecture 18 page 13 · original teaching diagram",
+        "status": "verified",
+        "statusLabel": "Original teaching diagram"
+      },
+      {
+        "id": "exam-two-public-l18-contraction",
+        "moduleId": "exam-two-module-09",
+        "src": "assets/visuals/exam-two/l18-contraction.svg",
+        "title": "Contraction, heating and cooling",
+        "alt": "Contraction releases gravitational energy; radiated heat can allow further contraction unless an ongoing energy source replaces it.",
+        "caption": "Contraction releases gravitational energy; radiated heat can allow further contraction unless an ongoing energy source replaces it.",
+        "notice": "Contraction releases gravitational energy; radiated heat can allow further contraction unless an ongoing energy source replaces it.",
+        "source": "Lecture 18 pages 18–19 · original teaching diagram",
+        "status": "verified",
+        "statusLabel": "Original teaching diagram"
+      },
+      {
+        "id": "exam-two-public-l18-formation",
+        "moduleId": "exam-two-module-09",
+        "src": "assets/visuals/exam-two/l18-formation.svg",
+        "title": "Illustrated formation sequence",
+        "alt": "Six supplied stage labels arranged from a dark dense core to a young stellar system; the timeline is schematic rather than universal.",
+        "caption": "Six supplied stage labels arranged from a dark dense core to a young stellar system; the timeline is schematic rather than universal.",
+        "notice": "Six supplied stage labels arranged from a dark dense core to a young stellar system; the timeline is schematic rather than universal.",
+        "source": "Lecture 18 page 16 · original teaching diagram",
+        "status": "verified",
+        "statusLabel": "Original teaching diagram"
+      }
+    ],
+    "interactions": []
   }
 };

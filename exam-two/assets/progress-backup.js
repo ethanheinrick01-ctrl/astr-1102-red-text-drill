@@ -26,7 +26,7 @@
     if (!object(value)) throw Error(`Invalid data in ${key}.`);
     if (key === 'astr1102-exam2-ui-v1') {
       if (value.schemaVersion !== 1 || !object(value.notes) || !object(value.builder) || !['dark','light'].includes(value.theme)) throw Error('Invalid interface or notes backup.');
-      for (const [id,note] of Object.entries(value.notes)) if (!/^exam-two-module-0[1-8]$/.test(id) || !object(note) || typeof note.value !== 'string' || typeof note.updatedAt !== 'string') throw Error('Invalid chapter note.');
+      for (const [id,note] of Object.entries(value.notes)) if (!window.ASTR1102_MODULES.some(m=>m.examId==='exam-two'&&m.id===id) || !object(note) || typeof note.value !== 'string' || typeof note.updatedAt !== 'string') throw Error('Invalid chapter note.');
       if (!Array.isArray(value.builder.conceptIds) || value.builder.conceptIds.some(id=>!window.ASTR1102_EXAM2.concepts.some(c=>c.id===id)) || ![10,15,20,25,30,999].includes(value.builder.count) || typeof value.builder.mcOnly !== 'boolean') throw Error('Invalid practice selection.');
     } else if (key === 'astr1102-exam2-listing-v1') {
       if (value.schemaVersion !== 1 || !object(value.entries)) throw Error('Invalid typed listing backup.');
