@@ -4,7 +4,8 @@
   const keys = [
     'astr1102-study-lab-progress-v1', 'astr1102-guided-progress-v1',
     'astr1102-exam-simulator-attempts-v2',
-    'astr1102-exam2-practice-v1', 'astr1102-exam2-simulator-attempts-v1'
+    'astr1102-exam2-practice-v1', 'astr1102-exam2-simulator-attempts-v1',
+    'astr1102-exam2-ui-v1', 'astr1102-exam2-listing-v1'
   ];
   const format = 'astr1102-study-backup-v1';
   const copy = value => JSON.parse(JSON.stringify(value));
@@ -23,7 +24,17 @@
   }
   function validate(key, value) {
     if (!object(value)) throw Error(`Invalid data in ${key}.`);
-    if (key.includes('exam2-')) {
+    if (key === 'astr1102-exam2-ui-v1') {
+      if (value.schemaVersion !== 1 || !object(value.notes) || !object(value.builder) || !['dark','light'].includes(value.theme)) throw Error('Invalid interface or notes backup.');
+      for (const [id,note] of Object.entries(value.notes)) if (!/^exam-two-module-0[1-8]$/.test(id) || !object(note) || typeof note.value !== 'string' || typeof note.updatedAt !== 'string') throw Error('Invalid chapter note.');
+      if (!Array.isArray(value.builder.conceptIds) || value.builder.conceptIds.some(id=>!window.ASTR1102_EXAM2.concepts.some(c=>c.id===id)) || ![10,15,20,25,30,999].includes(value.builder.count) || typeof value.builder.mcOnly !== 'boolean') throw Error('Invalid practice selection.');
+    } else if (key === 'astr1102-exam2-listing-v1') {
+      if (value.schemaVersion !== 1 || !object(value.entries)) throw Error('Invalid typed listing backup.');
+      const response = a => object(a) && typeof a.text === 'string' && ['low','medium','high'].includes(a.confidence) && typeof a.checkedAt === 'string';
+      for (const [id,entry] of Object.entries(value.entries)) {
+        if (!window.ASTR1102_LISTINGS.some(t=>t.id===id) || !object(entry) || !object(entry.snapshot) || entry.snapshot.id !== id || !Array.isArray(entry.snapshot.rubric) || !object(entry.draft) || typeof entry.draft.text !== 'string' || !['','low','medium','high'].includes(entry.draft.confidence) || !Array.isArray(entry.marks) || entry.marks.some(mark=>mark !== null && typeof mark !== 'boolean') || !Array.isArray(entry.corrections) || entry.corrections.some(a=>!response(a)||typeof a.id !== 'string') || (entry.first && !response(entry.first))) throw Error('Invalid typed response or rubric.');
+      }
+    } else if (key.includes('exam2-')) {
       if (value.schemaVersion !== 1 || !Array.isArray(value.runs)) throw Error('Unsupported Exam 2 run format.');
       const ids = new Set();
       for (const r of value.runs) {
@@ -58,7 +69,21 @@
       const existing = before[key] ? safeParse(before[key]) : null;
       if (existing) validate(key,existing);
       let merged = copy(incoming);
-      if (existing && key.includes('exam2-')) {
+      if (existing && key === 'astr1102-exam2-ui-v1') {
+        merged = {...existing,notes:{...existing.notes},builder:existing.builder};
+        for (const [id,note] of Object.entries(incoming.notes)) if (!merged.notes[id] || note.updatedAt > merged.notes[id].updatedAt) merged.notes[id] = copy(note);
+        if ((incoming.builder.updatedAt || '') > (existing.builder.updatedAt || '')) merged.builder = copy(incoming.builder);
+      } else if (existing && key === 'astr1102-exam2-listing-v1') {
+        merged = {...existing,entries:{...existing.entries}};
+        for (const [id,entry] of Object.entries(incoming.entries)) {
+          const old = merged.entries[id];
+          if (!old) {merged.entries[id] = copy(entry); continue;}
+          const latest = (entry.updatedAt || '') > (old.updatedAt || '') ? entry : old;
+          const corrections = new Map(old.corrections.map(a=>[a.id,a]));
+          entry.corrections.forEach(a=>{if (!corrections.has(a.id)) corrections.set(a.id,copy(a));});
+          merged.entries[id] = {...copy(latest),snapshot:copy(old.snapshot),first:copy(old.first || entry.first || null),corrections:[...corrections.values()].sort((a,b)=>a.checkedAt.localeCompare(b.checkedAt))};
+        }
+      } else if (existing && key.includes('exam2-')) {
         const old = new Map(existing.runs.map(r => [r.id,r]));
         const additions = incoming.runs.map(r => {
           const current = old.get(r.id); if (!current) return r;

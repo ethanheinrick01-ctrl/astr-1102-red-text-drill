@@ -208,28 +208,46 @@
     el.addEventListener('click', action); return el;
   };
   function shell(title, label='Exam 2') {
-    host.innerHTML = `<div class="e2-toolbar"><button type="button" class="button ghost" data-e2-exit>← Lab library</button><span class="pill">${esc(label)}</span></div><article class="e2-card"><h2 tabindex="-1">${esc(title)}</h2><div data-e2-body></div></article><p class="e2-storage" data-e2-status role="status">${esc(problem)}</p>`;
+    host.innerHTML = `<div class="e2-toolbar"><button type="button" class="button ghost" data-e2-exit>← Practice</button><span class="pill">${esc(label)}</span></div><article class="e2-card"><h2 tabindex="-1">${esc(title)}</h2><div data-e2-body></div></article><p class="e2-storage" data-e2-status role="status">${esc(problem)}</p>`;
     host.querySelector('[data-e2-exit]').onclick = () => {if (run) save(); run = null; correction = null; leave();};
     return host.querySelector('[data-e2-body]');
+  }
+  function poolFor(options = {}) {
+    let pool = options.kind === 'boss' ? data.bossIds.map(id => itemMap.get(id)) : data.questions.slice();
+    if (options.moduleId) pool = pool.filter(q => q.moduleId === options.moduleId);
+    if (options.conceptId) pool = pool.filter(q => q.conceptId === options.conceptId);
+    if (Array.isArray(options.conceptIds)) pool = pool.filter(q => options.conceptIds.includes(q.conceptId));
+    if (Array.isArray(options.itemIds)) pool = pool.filter(q => options.itemIds.includes(q.id));
+    if (options.mcOnly) pool = pool.filter(q => type(q) === 'single');
+    return pool;
+  }
+  function selectItems(options = {}, rng = Math.random) {
+    const pool = poolFor(options);
+    const n = Math.min(pool.length, Number.isInteger(options.count) && options.count > 0 ? options.count : pool.length);
+    const picked = shuffle(pool, rng).slice(0, n);
+    if (options.mcFirst) picked.sort((a,b) => Number(type(a) !== 'single') - Number(type(b) !== 'single'));
+    return picked;
   }
   function newRun() {
     const seed = crypto.getRandomValues(new Uint32Array(1))[0];
     let questions;
     if (mode.kind === 'simulator') questions = form(seed);
     else {
-      const selected = mode.kind === 'boss' ? data.bossIds.map(id => itemMap.get(id)) : data.questions.filter(q => (!mode.moduleId || q.moduleId === mode.moduleId) && (!mode.conceptId || q.conceptId === mode.conceptId));
-      questions = shuffle(selected).map(q => snapshot(q));
+      questions = selectItems(mode).map(q => snapshot(q));
     }
     if (!questions.length) return error('This topic has no verified original practice yet.');
     const minutes = mode.kind === 'simulator' ? Number(host.querySelector('[data-e2-timer]').value) : 0;
     run = {id:`exam-two-${mode.kind}-${uid()}`, examId:'exam-two', mode:mode.kind, title:mode.title, moduleId:mode.moduleId || null, conceptFilter:mode.conceptId || null, contentVersion:data.version, seed, startedAt:now(), updatedAt:now(), deadline:minutes ? Date.now()+minutes*60000 : null, questions, initialIds:questions.map(q => q.instanceId), index:0, drafts:{}, draftTimes:{}, answers:{}, confidence:{}, flags:{}, corrections:{}, repeatCounts:{}};
+    run.selection = {moduleId:mode.moduleId || null, conceptId:mode.conceptId || null, conceptIds:mode.conceptIds || null, itemIds:mode.itemIds || null, mcOnly:Boolean(mode.mcOnly), mcFirst:Boolean(mode.mcFirst), count:mode.count || null};
+    run.selectionKey = JSON.stringify(run.selection);
     db.runs.push(run); save(); render();
+    window.dispatchEvent(new CustomEvent('astr-run-started',{detail:{id:run.id,key}}));
   }
   function home() {
     run = null; correction = null;
     const body = shell(mode.title, `Exam 2 · ${data.coverage}`);
     const simulator = mode.kind === 'simulator';
-    body.innerHTML = `<p class="e2-lead">${simulator ? 'One complete rehearsal. Answers and explanations stay hidden until submission.' : 'Choose confidence before checking. Your first checked answer stays saved; later corrections remain separate.'}</p><div class="e2-facts"><span><strong>${simulator ? 25 : mode.kind === 'boss' ? 25 : data.questions.filter(q => (!mode.moduleId || q.moduleId === mode.moduleId) && (!mode.conceptId || q.conceptId === mode.conceptId)).length}</strong> original tasks</span><span><strong>13–17</strong> lectures available</span><span><strong>Partial</strong> Exam 2 coverage</span></div>
+    body.innerHTML = `<p class="e2-lead">${simulator ? 'One complete rehearsal. Answers and explanations stay hidden until submission.' : 'Choose confidence before checking. Your first checked answer stays saved; later corrections remain separate.'}</p><div class="e2-facts"><span><strong>${simulator ? 25 : mode.kind === 'boss' ? 25 : selectItems(mode).length}</strong> original tasks</span><span><strong>13–17</strong> lectures available</span><span><strong>Partial</strong> Exam 2 coverage</span></div>
       ${simulator ? `<p>Practice mix: 21 ordinary multiple choice, 1 T/F, 1 matching, 1 complete ordering, and 1 image target. Small source-supported calculations can appear.</p><p class="e2-muted">${esc(data.blueprint.authority)} Matching and ordering use whole-question scoring in this rehearsal; actual partial credit and allowed notes are not confirmed.</p><label class="e2-timer-label">Practice clock <select data-e2-timer><option value="0">Untimed</option><option value="30">30 minutes</option><option value="50">50 minutes</option></select></label><p class="e2-muted">An optional clock continues when you leave. An expired attempt is submitted when active or on resume; incomplete or uncommitted responses receive zero.</p>` : '<p class="e2-muted">Misses return after two intervening tasks; low-confidence correct answers after four. Two consecutive correct answers on different original roots, latest medium/high, establish mastery. A drill score uses its initial tasks only.</p>'}
       <div data-e2-start></div><h3>Saved attempts</h3><div data-e2-history></div>`;
     const start = button('Start new attempt', newRun, 'primary', {'data-e2-new':''}); start.disabled = Boolean(problem); body.querySelector('[data-e2-start]').append(start);
@@ -240,7 +258,7 @@
       const row = document.createElement('div'); row.className = 'e2-history-row';
       const answered = r.questions.filter(q => r.answers[q.instanceId]).length;
       row.innerHTML = `<span>${esc(new Date(r.startedAt).toLocaleString())} · ${r.finishedAt || r.submittedAt ? 'Ended' : `${answered} checked / ${r.initialIds.length} initial tasks`}</span>`;
-      row.append(button(r.finishedAt || r.submittedAt ? 'Review' : 'Resume', () => {run = db.runs.find(x => x.id === r.id); render();}, 'ghost', {'data-e2-resume':r.id})); history.append(row);
+      row.append(button(r.finishedAt || r.submittedAt ? 'Review' : 'Resume', () => {run = db.runs.find(x => x.id === r.id); render(); window.dispatchEvent(new CustomEvent('astr-run-started',{detail:{id:run.id,key}}));}, 'ghost', {'data-e2-resume':r.id})); history.append(row);
     });
   }
   function commit(q, value, confidence) {
@@ -324,7 +342,7 @@
     const a = {value:clone(value), confidence, correct:correct(q, value), checkedAt:now()};
     run.answers[q.instanceId] = a;
     if (!a.correct || confidence === 'low') {
-      const pool = data.questions.filter(p => !run.moduleId || p.moduleId === run.moduleId);
+      const pool = poolFor(run.selection || {moduleId:run.moduleId,conceptId:run.conceptFilter});
       schedule(run, q, a.correct ? 4 : 2, pool);
     }
     if (save()) updateMastery(); render();
@@ -469,7 +487,7 @@
     });}; renderRows('');element.querySelector('[data-e2-coverage-search]').oninput=e=>renderRows(e.target.value);
   }
   window.ASTRExamTwo={
-    keys:KEYS, form, ready, correct, answerText, mastery, schedule, mergeRuns, snapshot, rebuildMastery:updateMastery,
+    keys:KEYS, form, ready, correct, answerText, mastery, schedule, mergeRuns, snapshot, poolFor, selectItems, rebuildMastery:updateMastery,
     exportPending(){return unsaved && run ? {key,raw:JSON.stringify(db)} : null;},
     renderEvidence,
     open(element,onLeave,options={}) {
@@ -477,7 +495,9 @@
       if(mode.kind==='source-review'){sourceReview();return;}
       key=mode.kind==='simulator'?KEYS.simulator:KEYS.practice;
       try{db=read(key);}catch(e){db={schemaVersion:1,runs:[]};problem=e.message;}
+      if(options.runId){run=db.runs.find(r=>r.id===options.runId);if(run){render();return;}problem='That saved activity is not available in this browser.';}
       home();
+      if(options.autoStart && !problem)newRun();
     },
     refresh(){if(!host||host.classList.contains('hidden')||mode.kind==='source-review')return;try{db=read(key);if(run)run=db.runs.find(r=>r.id===run.id)||run;run?render():home();}catch(e){error(e.message);}}
   };
