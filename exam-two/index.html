@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Astronomy Exam 2 study guide, original practice, and saved mastery">
+  <meta name="color-scheme" content="dark">
+  <title>Course Study System</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22><rect width=%2264%22 height=%2264%22 rx=%2214%22 fill=%22%230b1713%22/><path d=%22M12 47 27 19l9 15 6-9 10 22z%22 fill=%22%23f0be58%22/></svg>">
+  <link rel="stylesheet" href="assets/styles.css?v=visual-20260828">
+  <link rel="stylesheet" href="assets/exam-simulator.css?v=exam-20260921-final">
+  <link rel="stylesheet" href="assets/emphasis-guide.css?v=20260922">
+  <link rel="stylesheet" href="assets/exam-two.css?v=20261006">
+</head>
+<body><div id="exam-picker-back" style="max-width:1280px;margin:auto;padding:20px 26px;background:#020607"><a href="../index.html" style="color:#64cfff;font:18px Arial,sans-serif;text-decoration:none">← All exams</a></div>
+  <a class="skip-link" href="#main-content">Skip to study content</a>
+
+  <header class="site-header">
+    <div class="shell header-grid">
+      <div>
+        <p id="site-course-label" class="eyebrow">Course · Term</p>
+        <h1 id="site-title">Course Study System</h1>
+        <p class="lede">Study it in the Guide. Prove it in the Lab.</p>
+      </div>
+      <div class="header-badge" aria-label="Browser-based study application">
+        <span>ASTR</span>
+        <small>study anywhere · $0</small>
+      </div>
+    </div>
+  </header>
+
+  <nav style="display:none" class="exam-nav" aria-label="Exam labs">
+    <div id="exam-nav-inner" class="shell exam-nav-inner"></div>
+  </nav>
+
+  <nav id="mode-nav" class="mode-nav" aria-label="Study and test modes">
+    <div class="shell mode-nav-inner">
+      <button class="mode-button active" type="button" data-mode="guide" aria-pressed="true"><span>01</span><strong>Study Guide</strong><small>Read, reference, understand</small></button>
+      <button class="mode-button" type="button" data-mode="lab" aria-pressed="false"><span>02</span><strong>Lab</strong><small>Retrieve, interact, test</small></button>
+      <button class="mastery-button" type="button" data-mode="mastery" aria-pressed="false"><span id="nav-mastery-count">0/0</span><small>Mastery</small></button>
+    </div>
+  </nav>
+
+  <main id="main-content" class="shell">
+    <section id="guide-library-view" aria-labelledby="guide-library-title">
+      <div class="section-heading">
+        <div><p id="guide-library-kicker" class="eyebrow dark">Study Guide half</p><h2 id="guide-library-title">Evidence-backed reference guide</h2><p id="guide-library-copy" class="section-copy">Teaching notes, source receipts, visual evidence, and self-check prompts live here.</p></div>
+        <div class="guide-badge"><strong>1/2</strong><span>Study here first</span></div>
+      </div>
+      <div class="two-half-map" aria-label="Recommended workflow">
+        <div class="active"><span>Half 1</span><strong>Study Guide</strong><small>Build the mental model</small></div>
+        <div><span>Half 2</span><strong>Lab</strong><small>Close the notes and retrieve</small></div>
+      </div>
+      <div class="scope-strip">
+        <div><strong>Verified source path</strong><span id="verified-scope">Awaiting evidence audit</span></div>
+        <div><strong>Continuation boundary</strong><span id="continuation-scope">None recorded yet</span></div>
+        <div><strong>Evidence base</strong><span id="evidence-scope">No source packet hydrated</span></div>
+      </div>
+      <section id="exam-one-emphasis" class="emphasis-guide" aria-labelledby="emphasis-title"></section>
+      <section id="exam-two-evidence" class="hidden" aria-label="Exam 2 source coverage"></section>
+      <div id="guide-module-library" class="guide-module-library"></div>
+    </section>
+
+    <section id="guide-detail-view" class="hidden" aria-live="polite" aria-labelledby="guide-detail-title">
+      <div class="guide-toolbar">
+        <button id="back-to-guide" class="button ghost" type="button">← Study Guide</button>
+        <div class="guide-toolbar-actions"><span id="guide-detail-source"></span><button id="test-guide-module" class="button primary" type="button">Test this section in Lab</button></div>
+      </div>
+      <article class="guide-article">
+        <header class="guide-article-header">
+          <div><p id="guide-detail-kicker" class="eyebrow dark"></p><h2 id="guide-detail-title"></h2><p id="guide-detail-description"></p></div>
+          <span id="guide-continuation" class="scope-badge hidden">Source continuation · emphasis unconfirmed</span>
+        </header>
+        <div id="guide-detail-content"></div>
+        <footer class="guide-article-footer"><p>Ready? Close the notes and retrieve it cold.</p><button id="test-guide-module-bottom" class="button primary" type="button">Launch this topic Lab</button></footer>
+      </article>
+    </section>
+
+    <section id="lab-library-view" class="hidden" aria-labelledby="lab-library-title">
+      <div class="section-heading">
+        <div><p id="lab-library-kicker" class="eyebrow dark">Lab half</p><h2 id="lab-library-title">Closed-notes testing lab</h2><p class="section-copy">Choose a topic Lab or launch a shuffled drill after studying the matching Guide section.</p></div>
+        <div class="lab-heading-actions"><div class="mastery-mini" aria-live="polite"><strong id="lab-mastery-count">0/0</strong><span>concepts mastered</span></div><button id="view-mastery" class="button ghost" type="button">View mastery ledger</button></div>
+      </div>
+      <div class="two-half-map compact" aria-label="Recommended workflow">
+        <button type="button" id="lab-back-to-guide"><span>Half 1</span><strong>Study Guide</strong><small>Need the notes? Go back.</small></button>
+        <div class="active"><span>Half 2</span><strong>Lab</strong><small>Test without notes first</small></div>
+      </div>
+      <div class="lab-section-heading"><div><p class="eyebrow dark">Topic labs</p><h3>Interactive mastery paths</h3></div><span>Confidence drives the review queue</span></div>
+      <div id="lab-module-library" class="module-library"></div>
+      <div class="lab-section-heading drill-heading"><div><p class="eyebrow dark">Comprehensive labs</p><h3>Shuffled retrieval drills</h3></div><button id="clear-progress" class="button ghost danger" type="button">Clear quiz scores</button></div>
+      <div id="quiz-library" class="quiz-library"></div>
+    </section>
+
+    <section id="lesson-view" class="hidden" aria-live="polite" aria-labelledby="lesson-title">
+      <div class="lesson-toolbar"><button id="back-to-lab" class="button ghost" type="button">← Lab library</button><div class="progress-copy"><span id="lesson-progress-label">Activity 1 of 1</span><strong id="lesson-mastery-label">Testing</strong></div></div>
+      <div class="progress-track" aria-hidden="true"><div id="lesson-progress-fill"></div></div>
+      <article class="learning-card">
+        <header class="learning-card-header"><div><p id="lesson-kicker" class="eyebrow dark"></p><h2 id="lesson-title"></h2></div><div class="activity-meta"><span id="activity-type" class="pill"></span><span id="activity-scope" class="scope-badge hidden"></span></div></header>
+        <div id="activity-host"></div>
+        <div id="activity-feedback" class="feedback hidden" role="status"></div>
+        <div id="confidence-panel" class="confidence-panel hidden"><div><strong>How sure were you before the explanation?</strong><span>Your confidence controls the review queue.</span></div><div class="confidence-buttons" role="group" aria-label="Confidence rating"><button type="button" data-confidence="low">Low</button><button type="button" data-confidence="medium">Medium</button><button type="button" data-confidence="high">High</button></div></div>
+        <div class="lesson-actions"><button id="activity-primary" class="button primary" type="button">Check answer</button><button id="activity-next" class="button primary hidden" type="button">Next activity</button></div>
+      </article>
+    </section>
+
+    <section id="quiz-view" class="hidden" aria-live="polite">
+      <div class="quiz-toolbar"><button id="back-to-library" class="button ghost" type="button">← Lab library</button><div class="progress-copy"><span id="progress-label">Question 1 of 1</span><strong id="score-label">0 correct</strong></div></div>
+      <div class="progress-track" aria-hidden="true"><div id="progress-fill"></div></div>
+      <article class="question-card">
+        <div class="question-meta"><span id="question-topic" class="pill"></span><span id="question-source"></span></div><h2 id="question-prompt"></h2>
+        <div id="question-media" class="quiz-question-media hidden"></div>
+        <form id="answer-form"><fieldset id="answer-options"></fieldset><button id="check-answer" class="button primary" type="submit">Check answer</button></form>
+        <div id="feedback" class="feedback hidden" role="status"></div><div class="question-actions"><button id="next-question" class="button primary hidden" type="button">Next question</button></div>
+      </article>
+    </section>
+
+    <section id="exam-simulator-view" class="hidden" aria-label="Exam simulator"></section>
+
+    <section id="results-view" class="hidden" aria-labelledby="results-title">
+      <article class="results-card"><p class="eyebrow dark">Attempt complete</p><h2 id="results-title">Results</h2><div id="result-score" class="result-score"></div><p id="result-message"></p><div class="result-actions"><button id="retry-missed" class="button primary" type="button">Retry missed</button><button id="restart-quiz" class="button ghost" type="button">Restart full quiz</button><button id="print-results" class="button ghost" type="button">Print</button><button id="results-library" class="button ghost" type="button">Lab library</button></div><div id="missed-review" class="missed-review"></div></article>
+    </section>
+
+    <section id="mastery-view" class="hidden" aria-labelledby="mastery-title">
+      <div class="section-heading mastery-heading"><div><p id="mastery-kicker" class="eyebrow dark">Lab record</p><h2 id="mastery-title">Concept mastery</h2><p class="section-copy">Two consecutive correct attempts; the latest must be medium or high confidence.</p></div><div class="mastery-heading-actions"><button id="mastery-back-to-guide" class="button ghost" type="button">Study Guide</button><button id="mastery-back-to-lab" class="button ghost" type="button">Lab</button><button id="reset-guided-progress" class="button ghost danger" type="button">Reset mastery data</button></div></div>
+      <div class="mastery-hero"><div class="mastery-ring" aria-hidden="true"><span id="mastery-percent">0%</span></div><div><h3 id="mastery-summary">Begin with the Study Guide</h3><p id="mastery-detail">No Lab attempts recorded yet.</p><button id="review-priority" class="button primary" type="button">Start highest-priority review</button></div></div>
+      <div id="misconception-callout" class="misconception-callout hidden"></div>
+      <section aria-labelledby="concept-title"><div class="subsection-heading"><h3 id="concept-title">Concept ledger</h3><span>Correctness + confidence + streak</span></div><div id="concept-ledger" class="concept-ledger"></div></section>
+      <section aria-labelledby="module-progress-title"><div class="subsection-heading"><h3 id="module-progress-title">Topic Lab progress</h3><span>Completion does not imply mastery</span></div><div id="module-progress-grid" class="module-progress-grid"></div></section>
+    </section>
+
+    <section id="exam-placeholder-view" class="hidden" aria-labelledby="placeholder-title">
+      <div class="placeholder-hero"><p id="placeholder-kicker" class="eyebrow dark"></p><h2 id="placeholder-title"></h2><p id="placeholder-copy"></p></div>
+      <div class="placeholder-halves"><article><span>Half 1</span><h3>Study Guide</h3><p id="placeholder-guide-copy"></p><strong>Awaiting verified lecture evidence</strong></article><article><span>Half 2</span><h3>Lab</h3><p id="placeholder-lab-copy"></p><strong>Question bank remains evidence-gated</strong></article></div>
+      <aside id="placeholder-inheritance" class="inheritance-note hidden"></aside>
+      <button id="return-primary-exam" class="button primary" type="button">Return to active exam</button>
+    </section>
+  </main>
+
+  <dialog id="visual-dialog" class="visual-dialog" aria-labelledby="visual-dialog-title">
+    <div class="visual-dialog-shell">
+      <button id="visual-dialog-close" class="visual-dialog-close" type="button" aria-label="Close enlarged visual">×</button>
+      <div class="visual-dialog-image-wrap"><img id="visual-dialog-image" alt=""></div>
+      <div class="visual-dialog-copy">
+        <div><p class="eyebrow dark">Source visual</p><h2 id="visual-dialog-title"></h2></div>
+        <p id="visual-dialog-caption"></p>
+        <p id="visual-dialog-source" class="source-strip"></p>
+      </div>
+    </div>
+  </dialog>
+
+  <section id="course-source-pack" class="shell progress-backup" aria-label="Private course source pack"></section>
+  <section id="progress-backup" class="shell progress-backup" aria-label="Progress backups"></section>
+  <footer class="shell site-footer"><span>Astronomy study system · Original practice + private source-pack support</span><span>Separate progress for each exam</span></footer>
+  <script src="course-config.js?v=exam-20260921-final"></script>
+  <script src="quizzes/quiz-bank.js?v=exam-20260921-final"></script>
+  <script src="study-guides/modules.js"></script>
+  <script src="study-guides/visuals.js"></script>
+  <script src="quizzes/exam-two-data.js?v=20261006"></script>
+  <script src="assets/source-pack.js?v=20261006-public1"></script>
+  <script src="assets/start.js?v=20261006-public1"></script>
+</body>
+</html>
