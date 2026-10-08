@@ -1,0 +1,14 @@
+Three ways a cloud affects light
+Lecture 17 pp. 11–18; Lecture 18 pp. 4–7
+AI Voice Generator · Clear
+
+Make emission light
+In an emission nebula, energetic ultraviolet light from hot stars ionizes gas. Recombination and subsequent transitions produce characteristic emission. The glowing gas supplies the visible light.
+
+Redirect starlight
+A reflection nebula redirects light from nearby stars toward us. Dust scattering makes these regions often appear blue. The cloud is reflecting starlight rather than generating the same gas emission spectrum.
+
+Block the background
+A dark nebula blocks background light along our line of sight. The same dusty cloud can look different with illumination and viewing geometry. Infrared suffers less dust extinction than visible light, allowing observations deeper inside; it does not pass through every cloud completely unhindered.
+
+Original teaching animation based on the supplied lectures. Geometry, time and color overlays are schematic.

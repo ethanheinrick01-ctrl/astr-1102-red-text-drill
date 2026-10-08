@@ -1,0 +1,14 @@
+Read both H–R coordinates
+Lecture 16 pp. 13, 22
+AI Voice Generator · Clear
+
+Read the axes
+On this Hertzsprung Russell diagram, luminosity increases upward and surface temperature decreases toward the right. Moving to the right means cooler, not hotter. Use both coordinates to interpret a star.
+
+Hold temperature fixed
+At the same surface temperature, a more luminous star has a larger radius. Watch two stars share a temperature while their emitting areas and positions differ. Giants can be cool and still very luminous.
+
+Hold luminosity fixed
+At the same luminosity, a hotter star must be smaller. Hot but faint white dwarfs occupy the lower left. These comparisons show relationships, not the evolutionary track of one star; the main sequence is not a timeline from left to right.
+
+Original teaching animation based on the supplied lectures. Geometry, time and color overlays are schematic.

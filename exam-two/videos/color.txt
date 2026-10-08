@@ -1,0 +1,14 @@
+Temperature through colored filters
+Lecture 15 pp. 4–5; Lecture 16 p. 12
+AI Voice Generator · Clear
+
+Heat the photosphere
+As surface temperature rises, the peak of a thermal spectrum shifts toward shorter wavelengths. A hotter star emits more blue light relative to visible light. Watch the spectral curve change, not just its label.
+
+Compare the filters
+The lecture compares the visual to blue brightness ratio: about one point eight seven for the Sun and zero point eight one for Bellatrix. The hotter star has the smaller visual to blue ratio.
+
+Remove blue light with dust
+Now keep the star hot but put dust in the line of sight. Dust preferentially removes blue light from the direct beam. A red observed color can mean a cooler star or a reddened hotter star; color alone does not resolve that ambiguity.
+
+Original teaching animation based on the supplied lectures. Geometry, time and color overlays are schematic.

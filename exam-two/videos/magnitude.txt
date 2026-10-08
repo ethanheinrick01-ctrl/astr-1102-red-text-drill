@@ -1,0 +1,14 @@
+Distance, dust, and the magnitude scale
+Lecture 14 pp. 12–16
+AI Voice Generator · Clear
+
+Reverse the scale
+On the magnitude scale, a smaller number means a brighter object. A difference of five magnitudes corresponds to a brightness factor of one hundred. Watch brightness fall as the magnitude number rises.
+
+Use a common distance
+Absolute magnitude means apparent magnitude at ten parsecs, with extinction removed. Moving the same star from ten to one hundred parsecs makes it one hundred times fainter and increases its apparent magnitude by five.
+
+Add the dust
+Dust also makes a star fainter. If you attribute all that dimming to distance, you overestimate the distance. Keep intrinsic luminosity, distance, and extinction separate when interpreting apparent magnitude.
+
+Original teaching animation based on the supplied lectures. Geometry, time and color overlays are schematic.

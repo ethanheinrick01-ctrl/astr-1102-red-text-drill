@@ -1,0 +1,14 @@
+Changing viewpoints
+Lecture 13 pp. 9–13
+AI Voice Generator · Clear
+
+Earth changes viewpoint
+Annual parallax uses Earth's orbit as a change in viewpoint. Six months apart, Earth is on opposite sides of the Sun. A nearby star appears to shift against more distant stars. The star does not jump sideways in space.
+
+Move the star farther away
+Move the same star farther away, and its angular shift becomes smaller. The parallax angle is half the total six-month displacement.
+
+Invert the relationship
+With parallax in arcseconds, distance in parsecs equals one divided by parallax. A parallax of one tenth of an arcsecond means ten parsecs. Twice the distance gives half the parallax.
+
+Original teaching animation based on the supplied lectures. Geometry, time and color overlays are schematic.

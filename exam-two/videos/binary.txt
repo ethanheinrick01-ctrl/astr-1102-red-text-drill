@@ -1,0 +1,14 @@
+Radius and binary-star evidence
+Lecture 16 pp. 18, 22; Lecture 18 p. 21
+AI Voice Generator · Clear
+
+Follow the orbit
+Binary stars orbit their common center of mass. When a star approaches us, its spectral lines shift toward blue; when it recedes, they shift toward red. Watch the orbital motion and line position change together.
+
+Use the dynamical evidence
+Orbital motion provides mass evidence. It is different from measuring a color or an apparent brightness. The example is schematic: a real mass determination needs sufficient orbital information, including the viewing geometry.
+
+Separate radius from mass
+Radius follows a different relation: luminosity is proportional to radius squared times surface temperature to the fourth power. At fixed temperature, doubling radius gives four times the luminosity. Keep the Stefan Boltzmann law separate from binary dynamics.
+
+Original teaching animation based on the supplied lectures. Geometry, time and color overlays are schematic.

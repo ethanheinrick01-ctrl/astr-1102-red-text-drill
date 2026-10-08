@@ -22,6 +22,11 @@
     }
     if(!pack.visuals||Object.keys(pack.visuals).length!==spec.modules.length)throw Error('Incomplete figure catalog.');
     for(const [id,catalog]of Object.entries(pack.visuals))if(!spec.modules.includes(id)||!Array.isArray(catalog.visuals)||!catalog.visuals.every(v=>pack.assets[v.src]&&['id','title','alt','caption','notice','source'].every(k=>plain(v[k]))))throw Error('Invalid figure catalog.');
+    if(pack.media){
+      const films=window.ASTR1102_FILMS||[],m=pack.media;
+      if(m.format!=='astr1102-private-films-v1'||m.revision!=='lectures-13-18-films-2026-10-08'||spec.revision!=='lectures-13-18'||!m.films||Object.keys(m.films).length!==films.length)throw Error('Incomplete or unsupported course-image film pack.');
+      for(const f of films){const v=m.films[f.id];if(!v||typeof v.src!=='string'||v.src.length>20*1024*1024||!/^data:video\/mp4;base64,[A-Za-z0-9+/]+=*$/.test(v.src)||atob(v.src.split(',')[1].slice(0,48)).slice(4,8)!=='ftyp'||typeof v.poster!=='string'||v.poster.length>1024*1024||!/^data:image\/jpeg;base64,\/9j\/[A-Za-z0-9+/]+=*$/.test(v.poster))throw Error('Invalid course-image film.');}
+    }
     return pack;
   }
   function apply(pack){
@@ -31,13 +36,16 @@
     for(const [id,v]of Object.entries(pack.visuals))window.ASTR1102_VISUALS[id]={...window.ASTR1102_VISUALS[id],intro:'Inspect the supplied course figures before retrieval.',visuals:v.visuals.map(p=>({...p,moduleId:id,src:urls[p.src],status:'verified'}))};
     const q=window.ASTR1102_QUIZZES.find(q=>q.kind==='source-review');if(q){q.description=pack.topHat.length+' supplied course-question families. Selected responses, displayed keys and source-supported answers are distinguished; no mastery is awarded.';q.questions=window.ASTR1102_EXAM2.topHat;}
     active=true;loadedPack=pack;
+    if(pack.media){window.ASTRPrivateFilms={};for(const [id,v]of Object.entries(pack.media.films)){const toBlob=(url,type)=>{const raw=atob(url.split(',')[1]);return URL.createObjectURL(new Blob([Uint8Array.from(raw,c=>c.charCodeAt(0))],{type}));};window.ASTRPrivateFilms[id]={src:toBlob(v.src,'video/mp4'),poster:toBlob(v.poster,'image/jpeg')};}}
   }
-  async function install(file){if(file.size>30*1024*1024)throw Error('This file is too large to be a supported Exam 2 source pack.');const pack=validate(JSON.parse(await file.text()));await access('readwrite',s=>s.put(pack,KEY));location.reload();}
+  async function install(file){if(file.size>80*1024*1024)throw Error('This file is too large to be a supported Exam 2 source pack.');const pack=validate(JSON.parse(await file.text()));await access('readwrite',s=>s.put(pack,KEY));location.reload();}
   function render(){
     const host=document.getElementById('course-source-pack');if(!host)return;
-    host.innerHTML='<details id="source-pack-details"><summary>Course figures and supplied question review</summary><p data-source-state></p><label class="button ghost" style="display:inline-flex;cursor:pointer">'+(active?'Replace source pack':'Import private source pack')+'<input data-source-file type="file" accept=".json,application/json" style="position:absolute;width:1px;height:1px;opacity:0"></label><p class="e2-muted">Select a compatible ASTR1102-Exam2-Private-Sources.json on each device. Lecture figures, passages and supplied questions stay in this browser and are never uploaded. Original practice and progress work without this file.</p><p data-source-error role="status"></p></details>';
+    host.innerHTML='<details id="source-pack-details"><summary>Course figures and supplied question review</summary><p data-source-state></p><label class="button ghost" style="display:inline-flex;cursor:pointer">'+(active?'Replace source pack':'Import private source pack')+'<input data-source-file type="file" accept=".json,application/json" style="position:absolute;width:1px;height:1px;opacity:0"></label><p class="e2-muted">Select ASTR1102-Exam2-Private-Sources-and-Films.json to include lecture-image explainers, or use an earlier compatible source pack. Import it once on each device. Lecture figures, passages, supplied questions and private films stay in this browser and are never uploaded. Original practice and progress work without this file.</p><p data-source-error role="status"></p></details>';
     const newest=window.ASTR1102_EXAM2.sourcePackRevisions.at(-1),spec=loadedPack&&window.ASTR1102_EXAM2.sourcePackRevisions.find(s=>s.slides===loadedPack.sourceSlides.length);
     host.querySelector('[data-source-state]').textContent=active?`Source pack ready: ${loadedPack.sourceSlides.length} slide passages, ${Object.keys(loadedPack.assets).length} images, and ${loadedPack.topHat.length} supplied question families. ${spec.revision!==newest.revision?'This older pack remains supported. Import the updated pack to add Lecture 18 source figures and questions.':''}`:'Original study guides and practice are ready. Import the updated pack for Lectures 13–18 course materials.';
+    if(active&&loadedPack.media)host.querySelector('[data-source-state]').textContent+=' Nine course-image films are ready in the study guides.';
+    else host.querySelector('[data-source-state]').textContent+=' Import the sources-and-films pack to include the lecture images inside the animated explainers.';
     const status=host.querySelector('[data-source-error]');status.textContent=problem;host.querySelector('[data-source-file]').onchange=async e=>{const file=e.target.files[0];if(!file)return;status.textContent='Checking and saving in this browser…';try{await install(file)}catch(err){status.textContent='Source pack not imported: '+err.message;}};
   }
   window.ASTRSourcePack={ready:(async()=>{try{const pack=await access('readonly',s=>s.get(KEY));if(pack)apply(validate(pack));}catch(e){problem='Private sources could not be loaded: '+e.message;}render();})(),choose(){const detail=document.getElementById('source-pack-details');if(detail){detail.open=true;detail.scrollIntoView({behavior:'smooth',block:'center'});detail.querySelector('[data-source-file]').click();}},get loaded(){return active;},validate};

@@ -1,0 +1,14 @@
+The same light over more area
+Lecture 13 pp. 16–19
+AI Voice Generator · Clear
+
+Spread the light
+Luminosity is the energy a star emits each second. Apparent brightness is the energy arriving each second per square meter. Watch the same outgoing light spread across larger spheres.
+
+Double the distance
+Double the distance while keeping luminosity fixed. The sphere has four times the area, so a detector receives one quarter as much light. Triple the distance gives one ninth.
+
+Reverse the inference
+Equal apparent brightness does not mean equal luminosity. A star twice as far away needs four times the luminosity to look equally bright. These comparisons assume no intervening extinction.
+
+Original teaching animation based on the supplied lectures. Geometry, time and color overlays are schematic.

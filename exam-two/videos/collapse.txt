@@ -1,0 +1,14 @@
+Why contraction heats, then resumes
+Lecture 18 pp. 12–13, 17–20
+AI Voice Generator · Clear
+
+Start cold and dense
+Cold, dense cloud regions are favorable for collapse: gravity can overcome thermal pressure support. Dense does not automatically mean hot, and a bright ionized region is not the same thing as a cold star forming core.
+
+Contract and heat
+Contraction releases gravitational energy and heats the interior. Rising density and temperature raise gas pressure, slowing contraction. This does not require hydrogen fusion to have started, and interior heating does not mean surface temperature always rises along every track.
+
+Radiate, cool, contract again
+The object keeps radiating energy. Without sustained replacement, cooling reduces pressure support and contraction resumes. Approximate force balance is different from a long term energy balance. Luminosity may rise or fall because both radius and surface temperature matter.
+
+Original teaching animation based on the supplied lectures. Geometry, time and color overlays are schematic.
