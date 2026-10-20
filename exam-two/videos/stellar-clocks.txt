@@ -1,0 +1,14 @@
+Two clocks in the life of a star
+Lecture 19 pages 6–14, 16–19
+Synthetic narration in Ethan’s voice; generated locally.
+
+Compression can trigger collapse
+A passing shock can compress a cold cloud. Dense fragments can then collapse under gravity. The shock is a trigger, not a guarantee that every cloud becomes a star.
+
+Contraction uses gravitational energy
+As a protostar contracts, gravitational energy becomes heat and radiation. The Kelvin Helmholtz time is proportional to mass squared, divided by radius times luminosity. Hold mass and radius fixed: twice the luminosity gives half this characteristic time.
+
+Nuclear lifetime uses fuel over output
+On the main sequence, hydrogen fusion supplies the energy. The approximate lifetime instead scales as mass divided by luminosity. Massive stars have more fuel, but their much greater luminosity uses it faster. Keep these two stellar clocks separate.
+
+Original teaching reconstruction. Schematic geometry, scale, time, color, and nuclear steps; supplied lecture figures remain private. Watching earns no mastery.

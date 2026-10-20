@@ -1,0 +1,14 @@
+A pulsating star becomes a distance marker
+Lecture 21 pages 26–31
+Synthetic narration in Ethan’s voice; generated locally.
+
+Watch the star and its light curve
+A pulsating star changes its own structure and brightness. Watch its radius and light curve vary together. Not every variable works this way: an eclipsing binary dims because another star blocks light. The pulsation shown here is schematic.
+
+Measure a complete period
+Measure from one brightness maximum to the next equivalent maximum. That interval is the period. The height of the variation is its amplitude, a different quantity. Here, the luminous pulsator represents the class used in the next distance calibration step. Its period is measured in days.
+
+Calibrate luminosity, then distance
+Identify the variable’s type and apply its calibrated period luminosity relation. Within a given Cepheid calibration, longer periods indicate greater luminosity. Then compare intrinsic luminosity with received brightness, correcting for extinction. For equal luminosity, four times fainter means twice as far away.
+
+Original teaching reconstruction. Schematic geometry, scale, time, color, and nuclear steps; supplied lecture figures remain private. Watching earns no mastery.

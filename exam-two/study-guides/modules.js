@@ -3333,5 +3333,1935 @@ window.ASTR1102_MODULES = [
         "mockEligible": true
       }
     ]
+  },
+  {
+    "id": "exam-two-module-10",
+    "examId": "exam-two",
+    "number": 10,
+    "kicker": "Lecture 19",
+    "title": "Stellar clocks and triggered birth",
+    "description": "Separate contraction time from nuclear lifetime, and connect cloud compression to new stars.",
+    "source": "Lecture 19 pages 4–19; Lecture 20 pages 4–6",
+    "continuation": false,
+    "concepts": [
+      {
+        "id": "exam-two-concept-kh-clock",
+        "label": "The Kelvin–Helmholtz contraction clock",
+        "masteryEligible": true
+      },
+      {
+        "id": "exam-two-concept-triggered-birth",
+        "label": "Compression, molecular clouds, and enrichment",
+        "masteryEligible": true
+      },
+      {
+        "id": "exam-two-concept-ms-lifetime-ratio",
+        "label": "Fuel supply divided by fuel-use rate",
+        "masteryEligible": true
+      }
+    ],
+    "activities": [
+      {
+        "id": "exam-two-module-10-lesson",
+        "type": "lesson",
+        "title": "Stellar clocks and triggered birth",
+        "body": [
+          "Before sustained core hydrogen fusion, gravitational contraction can power a protostar. The lecture estimates tKH = GM²/(RL): gravitational energy scale GM²/R divided by luminosity, an energy loss rate. Compare ratios with the other variables fixed. This is a characteristic thermal timescale, not an exact integrated age for every protostar. The lecture gives roughly 20 million years for the Sun’s formation, only about 0.2% of its 10-billion-year main-sequence lifetime. Interior heating does not force total luminosity to rise monotonically.",
+          "Worked example: At equal mass and radius, an object radiating twice the luminosity has half the characteristic contraction time.",
+          "Common mistake: The M² dependence belongs to the contraction clock. Main-sequence nuclear lifetime uses M/L, not M²/(RL).",
+          "Spiral-arm density waves, cloud collisions, and supernova shocks can compress interstellar gas. Increased density can let gravity overcome thermal support in cold regions. A shock can trigger collapse in suitable gas; an explosion does not create a star automatically. Giant molecular clouds are reservoirs for many stars and clusters. The lecture quotes masses near 100,000–2,000,000 solar masses and about 5,000 Galactic clouds as classroom estimates. CO microwave emission traces much molecular material hidden in optical images. Massive stars also return newly made heavy elements to interstellar gas, enriching later generations. The suggestion that a nearby supernova triggered the Sun’s birth is presented as a possibility.",
+          "Worked example: A shock sweeps diffuse gas into a denser shell. A cold fragment can then collapse; the shock is the trigger, while gravity drives collapse.",
+          "Common mistake: Do not confuse compression with heating alone, or treat the proposed trigger of the Sun’s birth as an observed certainty.",
+          "The main sequence is sustained core hydrogen fusion. In the lecture approximation, usable fuel scales with stellar mass and consumption rate scales with luminosity, giving tMS/tSun ≈ (M/MSun)/(L/LSun). Use a solar reference of 10 billion years. More massive main-sequence stars usually have much higher luminosities, so fuel use outruns their larger fuel supply. This is a model comparison, not a law that fixes lifetime from mass without knowing luminosity. Lecture 20 repeats it with a 5-solar-mass, 15-solar-luminosity example.",
+          "Worked example: For M = 4 MSun and L = 200 LSun, lifetime is 0.02 times the Sun’s, or 200 million years.",
+          "Common mistake: Mass alone is not lifetime. Do not square M here or confuse million with billion."
+        ],
+        "keyPoints": [
+          "Contraction clock: tKH ∝ M²/(RL).",
+          "Nuclear lifetime: tMS/tSun ≈ (M/MSun)/(L/LSun).",
+          "Compression can create cold dense regions where gravity wins."
+        ],
+        "source": "Lecture 19 pages 4–19; Lecture 20 pages 4–6"
+      },
+      {
+        "id": "exam-two-item-l19-kh-inverse",
+        "rootId": "exam-two-item-l19-kh-inverse",
+        "moduleId": "exam-two-module-10",
+        "conceptId": "exam-two-concept-kh-clock",
+        "concept": "exam-two-concept-kh-clock",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Two protostars have equal mass and radius. A has four times B’s luminosity. What is tKH,A/tKH,B?",
+        "choices": [
+          "1/16",
+          "1/4",
+          "4",
+          "16"
+        ],
+        "answer": 1,
+        "hint": "Luminosity is the energy-loss rate.",
+        "explanation": "With M and R fixed, tKH is inversely proportional to L, so the ratio is 1/4.",
+        "source": "Lecture 19 pages 5–8 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l19",
+            "locator": "pages 5–8",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-kh-clock"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l19-kh-mass-target",
+        "rootId": "exam-two-item-l19-kh-mass-target",
+        "moduleId": "exam-two-module-10",
+        "conceptId": "exam-two-concept-kh-clock",
+        "concept": "exam-two-concept-kh-clock",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "At equal radius and luminosity, A’s contraction time is nine times B’s. What is MA/MB?",
+        "choices": [
+          "1/9",
+          "1/3",
+          "3",
+          "9"
+        ],
+        "answer": 2,
+        "hint": "Undo the square of the mass ratio.",
+        "explanation": "tA/tB = (MA/MB)² = 9, so MA/MB = 3.",
+        "source": "Lecture 19 pages 5–8 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l19",
+            "locator": "pages 5–8",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-kh-clock"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l19-kh-reservoir",
+        "rootId": "exam-two-item-l19-kh-reservoir",
+        "moduleId": "exam-two-module-10",
+        "conceptId": "exam-two-concept-kh-clock",
+        "concept": "exam-two-concept-kh-clock",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Why does greater luminosity shorten tKH when mass and radius stay fixed?",
+        "choices": [
+          "The available gravitational energy is lost faster",
+          "The initial gravitational energy becomes smaller",
+          "The mass of nuclear fuel becomes larger",
+          "The object must have a cooler interior"
+        ],
+        "answer": 0,
+        "hint": "Separate the energy reservoir from its loss rate.",
+        "explanation": "At fixed M and R the energy scale is unchanged. Higher luminosity drains that reservoir faster.",
+        "source": "Lecture 19 pages 5–8 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l19",
+            "locator": "pages 5–8",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-kh-clock"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l19-trigger-cause",
+        "rootId": "exam-two-item-l19-trigger-cause",
+        "moduleId": "exam-two-module-10",
+        "conceptId": "exam-two-concept-triggered-birth",
+        "concept": "exam-two-concept-triggered-birth",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "A supernova shock sweeps cold interstellar gas into a dense layer. What change can favor new star formation?",
+        "choices": [
+          "Reduced self-gravity in the layer",
+          "Greater density available for collapse",
+          "Greater thermal support without compression",
+          "Lower density throughout the swept-up layer"
+        ],
+        "answer": 1,
+        "hint": "Ask how compression changes gravity’s competition with support.",
+        "explanation": "Compression raises gas density and can make self-gravity overcome support in suitable fragments.",
+        "source": "Lecture 19 pages 9–14 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l19",
+            "locator": "pages 9–14",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-triggered-birth"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l19-co-tracer",
+        "rootId": "exam-two-item-l19-co-tracer",
+        "moduleId": "exam-two-module-10",
+        "conceptId": "exam-two-concept-triggered-birth",
+        "concept": "exam-two-concept-triggered-birth",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Which observation in this lecture maps molecular material that is hard to see in optical light?",
+        "choices": [
+          "Visible hydrogen emission from ionized gas",
+          "Microwave line emission from CO molecules",
+          "Optical continuum scattered by dust grains",
+          "X-ray emission from shock-heated plasma"
+        ],
+        "answer": 1,
+        "hint": "Distinguish the reservoir from the molecule used to trace it.",
+        "explanation": "The lecture uses CO microwave emission to trace the giant molecular clouds.",
+        "source": "Lecture 19 pages 9–14 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l19",
+            "locator": "pages 9–14",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-triggered-birth"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l19-enrichment",
+        "rootId": "exam-two-item-l19-enrichment",
+        "moduleId": "exam-two-module-10",
+        "conceptId": "exam-two-concept-triggered-birth",
+        "concept": "exam-two-concept-triggered-birth",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Compared with gas that has never been processed in stars, enriched birth gas is expected to contain what?",
+        "choices": [
+          "A higher heavy-element fraction",
+          "A lower heavy-element fraction",
+          "Exactly the same heavy-element fraction",
+          "Only hydrogen and helium"
+        ],
+        "answer": 0,
+        "hint": "Follow the synthesized material back into interstellar gas.",
+        "explanation": "Stellar nucleosynthesis and returned material can enrich the gas that later stars form from. This is a trend, not identical enrichment everywhere.",
+        "source": "Lecture 19 pages 9–14 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l19",
+            "locator": "pages 9–14",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-triggered-birth"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l19-ms-calculation",
+        "rootId": "exam-two-item-l19-ms-calculation",
+        "moduleId": "exam-two-module-10",
+        "conceptId": "exam-two-concept-ms-lifetime-ratio",
+        "concept": "exam-two-concept-ms-lifetime-ratio",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Use tSun = 10 billion years. A main-sequence star has M = 4 MSun and L = 200 LSun. What is its approximate lifetime?",
+        "choices": [
+          "20 million years",
+          "200 million years",
+          "2 billion years",
+          "50 billion years"
+        ],
+        "answer": 1,
+        "hint": "Multiply 10 billion by 4/200.",
+        "explanation": "4/200 = 0.02; 0.02 × 10 billion years = 200 million years.",
+        "source": "Lecture 19 pages 16–19 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l19",
+            "locator": "pages 16–19",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-ms-lifetime-ratio"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l19-ms-infer-l",
+        "rootId": "exam-two-item-l19-ms-infer-l",
+        "moduleId": "exam-two-module-10",
+        "conceptId": "exam-two-concept-ms-lifetime-ratio",
+        "concept": "exam-two-concept-ms-lifetime-ratio",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "In the fuel-over-luminosity model, A has twice B’s mass but half B’s main-sequence lifetime. What is LA/LB?",
+        "choices": [
+          "1/4",
+          "1",
+          "2",
+          "4"
+        ],
+        "answer": 3,
+        "hint": "Write 1/2 = 2 divided by the luminosity ratio.",
+        "explanation": "tA/tB = (MA/MB)/(LA/LB), so 1/2 = 2/(LA/LB), giving LA/LB = 4.",
+        "source": "Lecture 19 pages 16–19 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l19",
+            "locator": "pages 16–19",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-ms-lifetime-ratio"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l19-ms-fuel",
+        "rootId": "exam-two-item-l19-ms-fuel",
+        "moduleId": "exam-two-module-10",
+        "conceptId": "exam-two-concept-ms-lifetime-ratio",
+        "concept": "exam-two-concept-ms-lifetime-ratio",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Why can a massive main-sequence star die sooner even though it has more fuel?",
+        "choices": [
+          "Its luminosity rises faster than its fuel supply",
+          "Its fuel supply rises faster than its luminosity",
+          "Its luminosity falls while its fuel supply rises",
+          "Its fuel supply and luminosity rise equally"
+        ],
+        "answer": 0,
+        "hint": "Compare the numerator and denominator of M/L.",
+        "explanation": "For the main-sequence trend discussed, the luminosity increase outweighs the larger fuel supply, shortening the lifetime.",
+        "source": "Lecture 19 pages 16–19 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l19",
+            "locator": "pages 16–19",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-ms-lifetime-ratio"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      }
+    ]
+  },
+  {
+    "id": "exam-two-module-11",
+    "examId": "exam-two",
+    "number": 11,
+    "kicker": "Lecture 20",
+    "title": "Nuclear burning and temperature",
+    "description": "Distinguish pp, CNO, and triple-alpha reactions, their fuels, and the limits of energy-producing fusion.",
+    "source": "Lecture 20 pages 10–16; Lecture 21 page 4",
+    "continuation": false,
+    "concepts": [
+      {
+        "id": "exam-two-concept-hydrogen-pathways",
+        "label": "Two routes from hydrogen to helium",
+        "masteryEligible": true
+      },
+      {
+        "id": "exam-two-concept-triple-alpha",
+        "label": "Helium burning, alpha particles, and ash",
+        "masteryEligible": true
+      },
+      {
+        "id": "exam-two-concept-rate-temperature",
+        "label": "Comparing temperature sensitivities",
+        "masteryEligible": true
+      }
+    ],
+    "activities": [
+      {
+        "id": "exam-two-module-11-lesson",
+        "type": "lesson",
+        "title": "Nuclear burning and temperature",
+        "body": [
+          "Both the proton–proton chain and the CNO cycle produce helium from hydrogen. In CNO burning, carbon, nitrogen, and oxygen nuclei participate as catalysts; the net fuel is still hydrogen. The pp chain dominates in the Sun’s present core model, while CNO becomes more important in hotter stellar cores. Read each reaction’s net fuel and ash, not just the names of nuclei encountered during its steps.",
+          "Worked example: Finding carbon in the reaction cycle does not mean that the cycle’s net fuel is carbon.",
+          "Common mistake: Triple-alpha is not a third hydrogen-burning route; it consumes helium.",
+          "An alpha particle is a helium-4 nucleus. At core temperatures around 100 million kelvin, the triple-alpha sequence combines two helium nuclei briefly into beryllium, then adds a third to form carbon. Additional capture of helium by carbon can make oxygen. Thus helium burning leaves carbon and oxygen ash. Core hydrogen exhaustion does not instantly ignite helium: contraction and heating intervene.",
+          "Worked example: Three helium-4 nuclei contain 12 nucleons, matching carbon-12; oxygen requires an additional alpha capture.",
+          "Common mistake: Do not label triple-alpha as hydrogen burning or claim every carbon nucleus must immediately become oxygen.",
+          "The slides use approximate local scalings: pp rate ∝ T⁴, CNO rate ∝ T¹⁶, and triple-alpha rate ∝ T⁴¹. For the same fractional temperature rise, the larger exponent gives the larger fractional rate change if other relevant conditions are fixed. These are approximations over applicable stellar conditions; compare sensitivities rather than claiming one fixed exponent at every possible temperature and density. The lecture also places carbon, neon, oxygen, and silicon burning in sufficiently hot massive stars. Near the iron group, further fusion no longer provides a net energy source; this does not mean heavier elements cannot exist or form by other processes.",
+          "Worked example: For a 10% rise, 1.1⁴ ≈ 1.46 and 1.1¹⁶ ≈ 4.6. These explain the lecture’s rounded 50%-faster and fivefold examples.",
+          "Common mistake: A larger exponent does not alone tell you which reaction dominates when fuels, density, and baseline rates differ."
+        ],
+        "keyPoints": [
+          "pp and CNO: hydrogen → helium.",
+          "Triple-alpha: helium → carbon; further alpha capture can make oxygen.",
+          "The supplied temperature powers are local approximations, not universal constants."
+        ],
+        "source": "Lecture 20 pages 10–16; Lecture 21 page 4"
+      },
+      {
+        "id": "exam-two-item-l20-cno-net",
+        "rootId": "exam-two-item-l20-cno-net",
+        "moduleId": "exam-two-module-11",
+        "conceptId": "exam-two-concept-hydrogen-pathways",
+        "concept": "exam-two-concept-hydrogen-pathways",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Carbon, nitrogen, and oxygen participate in a cycle inside a hot stellar core. What is the net fuel-to-ash conversion?",
+        "choices": [
+          "Hydrogen into helium",
+          "Helium into carbon",
+          "Carbon into iron",
+          "Oxygen into hydrogen"
+        ],
+        "answer": 0,
+        "hint": "A catalyst is different from the net consumed fuel.",
+        "explanation": "The CNO cycle uses C, N, and O in intermediate reactions, but its net conversion is hydrogen into helium.",
+        "source": "Lecture 20 pages 10–12, 16 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l20",
+            "locator": "pages 10–12, 16",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-hydrogen-pathways"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l20-hydrogen-not",
+        "rootId": "exam-two-item-l20-hydrogen-not",
+        "moduleId": "exam-two-module-11",
+        "conceptId": "exam-two-concept-hydrogen-pathways",
+        "concept": "exam-two-concept-hydrogen-pathways",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Which reaction is NOT a hydrogen-to-helium pathway?",
+        "choices": [
+          "Proton–proton chain",
+          "CNO cycle",
+          "Triple-alpha process"
+        ],
+        "answer": 2,
+        "hint": "Identify the fuel, not the presence of a helium product in another pathway.",
+        "explanation": "Triple-alpha consumes helium nuclei to make carbon. Both pp and CNO consume hydrogen to make helium.",
+        "source": "Lecture 20 pages 10–12, 16 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l20",
+            "locator": "pages 10–12, 16",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-hydrogen-pathways"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l20-hotter-core",
+        "rootId": "exam-two-item-l20-hotter-core",
+        "moduleId": "exam-two-module-11",
+        "conceptId": "exam-two-concept-hydrogen-pathways",
+        "concept": "exam-two-concept-hydrogen-pathways",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Compared with the Sun’s core, a sufficiently hotter hydrogen-burning core favors which additional pathway?",
+        "choices": [
+          "CNO cycling",
+          "Proton–proton dominance",
+          "Triple-alpha burning",
+          "Carbon burning"
+        ],
+        "answer": 0,
+        "hint": "Stay within hydrogen burning.",
+        "explanation": "CNO becomes much more important as hydrogen-burning core temperature rises. Triple-alpha burns helium instead.",
+        "source": "Lecture 20 pages 10–12, 16 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l20",
+            "locator": "pages 10–12, 16",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-hydrogen-pathways"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l20-alpha-name",
+        "rootId": "exam-two-item-l20-alpha-name",
+        "moduleId": "exam-two-module-11",
+        "conceptId": "exam-two-concept-triple-alpha",
+        "concept": "exam-two-concept-triple-alpha",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "What is an alpha particle in the triple-alpha reaction?",
+        "choices": [
+          "A hydrogen nucleus",
+          "A helium-4 nucleus",
+          "A carbon-12 nucleus",
+          "A free electron"
+        ],
+        "answer": 1,
+        "hint": "The reaction name counts three copies of its input nucleus.",
+        "explanation": "Alpha particles are helium-4 nuclei; three can combine through the triple-alpha sequence to form carbon.",
+        "source": "Lecture 20 pages 13–14 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l20",
+            "locator": "pages 13–14",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-triple-alpha"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l20-alpha-ash",
+        "rootId": "exam-two-item-l20-alpha-ash",
+        "moduleId": "exam-two-module-11",
+        "conceptId": "exam-two-concept-triple-alpha",
+        "concept": "exam-two-concept-triple-alpha",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Which pair describes the main ash discussed for helium burning?",
+        "choices": [
+          "Hydrogen and helium",
+          "Carbon and oxygen",
+          "Iron and nickel",
+          "Nitrogen and hydrogen"
+        ],
+        "answer": 1,
+        "hint": "Separate the next fuel from the products left by helium burning.",
+        "explanation": "Triple-alpha produces carbon, and some carbon captures helium to form oxygen.",
+        "source": "Lecture 20 pages 13–14 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l20",
+            "locator": "pages 13–14",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-triple-alpha"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l20-nuclear-match",
+        "rootId": "exam-two-item-l20-nuclear-match",
+        "moduleId": "exam-two-module-11",
+        "conceptId": "exam-two-concept-triple-alpha",
+        "concept": "exam-two-concept-triple-alpha",
+        "type": "match",
+        "responseType": "match",
+        "prompt": "Match each reaction pathway to its net fuel or role.",
+        "choices": [
+          "Hydrogen fusion through light-nucleus steps",
+          "Hydrogen fusion using C, N, O catalysts",
+          "Helium fusion producing carbon"
+        ],
+        "answer": [
+          0,
+          1,
+          2
+        ],
+        "hint": "Match net fuel rather than every intermediate nucleus.",
+        "explanation": "pp and CNO both burn hydrogen to helium through different routes; triple-alpha burns helium to carbon.",
+        "source": "Lecture 20 pages 10–16 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l20",
+            "locator": "pages 10–16",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-triple-alpha"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true,
+        "rows": [
+          {
+            "label": "Proton–proton chain",
+            "answer": "Hydrogen fusion through light-nucleus steps"
+          },
+          {
+            "label": "CNO cycle",
+            "answer": "Hydrogen fusion using C, N, O catalysts"
+          },
+          {
+            "label": "Triple-alpha process",
+            "answer": "Helium fusion producing carbon"
+          }
+        ],
+        "options": [
+          "Hydrogen fusion through light-nucleus steps",
+          "Hydrogen fusion using C, N, O catalysts",
+          "Helium fusion producing carbon"
+        ]
+      },
+      {
+        "id": "exam-two-item-l20-rate-rank",
+        "rootId": "exam-two-item-l20-rate-rank",
+        "moduleId": "exam-two-module-11",
+        "conceptId": "exam-two-concept-rate-temperature",
+        "concept": "exam-two-concept-rate-temperature",
+        "type": "order",
+        "responseType": "order",
+        "prompt": "Using the supplied powers, order the reactions from least to most temperature-sensitive.",
+        "choices": [
+          "Proton–proton chain",
+          "CNO cycle",
+          "Triple-alpha process"
+        ],
+        "answer": [
+          0,
+          1,
+          2
+        ],
+        "hint": "Compare 4, 16, and 41.",
+        "explanation": "The lecture’s exponents increase as pp (4), CNO (16), triple-alpha (41). This orders fractional sensitivity within the model.",
+        "source": "Lecture 20 pages 10, 13, 15 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l20",
+            "locator": "pages 10, 13, 15",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-rate-temperature"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l20-rate-fourth",
+        "rootId": "exam-two-item-l20-rate-fourth",
+        "moduleId": "exam-two-module-11",
+        "conceptId": "exam-two-concept-rate-temperature",
+        "concept": "exam-two-concept-rate-temperature",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Using rate ∝ T⁴ at fixed other conditions, what happens when temperature rises by a factor of 2?",
+        "choices": [
+          "The rate doubles",
+          "The rate rises fourfold",
+          "The rate rises eightfold",
+          "The rate rises sixteenfold"
+        ],
+        "answer": 3,
+        "hint": "Apply the exponent to the entire temperature ratio.",
+        "explanation": "2⁴ = 16. This is a calculation within the stated power-law model, not a claim that T⁴ is exact over all physical conditions.",
+        "source": "Lecture 20 pages 10, 13, 15 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l20",
+            "locator": "pages 10, 13, 15",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-rate-temperature"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l20-exponent-limit",
+        "rootId": "exam-two-item-l20-exponent-limit",
+        "moduleId": "exam-two-module-11",
+        "conceptId": "exam-two-concept-rate-temperature",
+        "concept": "exam-two-concept-rate-temperature",
+        "type": "true-false",
+        "responseType": "true-false",
+        "prompt": "True or false: T⁴, T¹⁶, and T⁴¹ alone prove which reaction supplies the most power in any star.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": 1,
+        "hint": "Sensitivity and absolute power are different.",
+        "explanation": "False. Fuel availability, density, temperature regime, and baseline rates also matter. The powers describe relative sensitivity in the lecture model.",
+        "source": "Lecture 20 pages 10, 13, 15 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l20",
+            "locator": "pages 10, 13, 15",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-rate-temperature"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      }
+    ]
+  },
+  {
+    "id": "exam-two-module-12",
+    "examId": "exam-two",
+    "number": 12,
+    "kicker": "Lecture 20",
+    "title": "The changing Sun and red giants",
+    "description": "Follow the core and envelope separately through hydrogen exhaustion, shell burning, and helium ignition.",
+    "source": "Lecture 20 pages 7–9, 18–25; Lecture 21 pages 4–6",
+    "continuation": false,
+    "concepts": [
+      {
+        "id": "exam-two-concept-solar-brightening",
+        "label": "Why the main-sequence Sun brightens slowly",
+        "masteryEligible": true
+      },
+      {
+        "id": "exam-two-concept-red-giant-shell",
+        "label": "Core contraction and envelope expansion",
+        "masteryEligible": true
+      },
+      {
+        "id": "exam-two-concept-helium-hr",
+        "label": "Helium ignition and the H–R track",
+        "masteryEligible": true
+      }
+    ],
+    "activities": [
+      {
+        "id": "exam-two-module-12-lesson",
+        "type": "lesson",
+        "title": "The changing Sun and red giants",
+        "body": [
+          "As core hydrogen becomes helium, the mean mass per free particle rises. At the same mass density and temperature, fewer particles provide less gas pressure. The core slowly contracts and heats, increasing the hydrogen-fusion rate and luminosity. Approximate pressure balance can be maintained during slow structural adjustment. This is not yet sustained helium-core burning or the post-main-sequence hydrogen-shell phase. The lecture’s faint-young-Sun example uses roughly 70% of present luminosity and greenhouse warming to discuss early Earth; its simple temperature estimates are not a complete climate calculation.",
+          "Worked example: Compare two equal-mass-density samples: the helium-rich sample has fewer particles. Maintaining support requires structural and thermal adjustment.",
+          "Common mistake: Do not compare at equal particle density and still claim helium gives lower ideal-gas pressure: P = nkT depends on n, not the nucleus’s name.",
+          "When usable core hydrogen is exhausted, an inert helium core contracts and heats. Hydrogen surrounding that core can fuse in a shell. Core contraction continues while shell burning becomes more intense, and the outer envelope expands and cools. The star can be both more luminous and cooler at its surface because its radiating area becomes much larger. The detailed core–shell–envelope coupling is complex; the source explicitly cautions against a single oversimplified mechanical story. On the H–R diagram, the track moves toward cooler temperatures as the envelope expands, then climbs the giant branch.",
+          "Worked example: A red giant has a hot dense core inside a very large cool envelope. “Cooler star” here refers to the surface, not every interior layer.",
+          "Common mistake: Core and envelope do not have to expand or cool together. Shell burning is not the same as helium burning in the core.",
+          "In the supplied low-mass/Sun-like story, helium ignites rapidly after the core reaches about 100 million kelvin. The helium flash is internal; it is not a visible supernova explosion. After ignition, the core expands and cools somewhat, luminosity drops, and the envelope shrinks and warms. The H–R track moves down and left into the helium-core-burning region. The horizontal branch is especially clear in low-metallicity cluster diagrams. Not every stellar mass ignites helium in a flash, and not every helium-burning star is blue. The source timeline gives approximate teaching durations: 10 billion years on the main sequence, 0.25 billion as a red giant, and 0.1 billion for core helium burning. Later stages are not supplied here.",
+          "Worked example: Down means less luminous and left means hotter surface temperature. The internal flash does not put the star above the diagram as a supernova.",
+          "Common mistake: Do not apply the helium-flash story to every stellar mass or confuse the horizontal branch with hydrogen-core main-sequence burning."
+        ],
+        "keyPoints": [
+          "A hotter contracting core can coexist with a cooler expanding surface.",
+          "Red-giant-branch energy comes mainly from a hydrogen-burning shell.",
+          "After helium ignition in the supplied low-mass track, the star becomes hotter and less luminous."
+        ],
+        "source": "Lecture 20 pages 7–9, 18–25; Lecture 21 pages 4–6"
+      },
+      {
+        "id": "exam-two-item-l20-solar-chain",
+        "rootId": "exam-two-item-l20-solar-chain",
+        "moduleId": "exam-two-module-12",
+        "conceptId": "exam-two-concept-solar-brightening",
+        "concept": "exam-two-concept-solar-brightening",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "What drives the gradual luminosity increase during the Sun’s main-sequence life?",
+        "choices": [
+          "Helium buildup followed by core contraction and heating",
+          "Helium-core fusion beginning at the present solar age",
+          "Hydrogen-shell burning replacing core burning today",
+          "A steady decline in the hydrogen-fusion rate"
+        ],
+        "answer": 0,
+        "hint": "Keep the present phase distinct from the red giant phase.",
+        "explanation": "Composition changes lead to slow contraction and higher core temperature; hydrogen fusion becomes faster and the Sun brighter.",
+        "source": "Lecture 20 pages 7–9 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l20",
+            "locator": "pages 7–9",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-solar-brightening"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l20-pressure-qualifier",
+        "rootId": "exam-two-item-l20-pressure-qualifier",
+        "moduleId": "exam-two-module-12",
+        "conceptId": "exam-two-concept-solar-brightening",
+        "concept": "exam-two-concept-solar-brightening",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "At fixed mass density and temperature, helium enrichment lowers gas pressure by reducing which quantity?",
+        "choices": [
+          "Free-particle number density",
+          "Mean mass per free particle",
+          "Mass density of the gas",
+          "Temperature of the gas"
+        ],
+        "answer": 0,
+        "hint": "Gas pressure counts moving particles, not just mass.",
+        "explanation": "The mean mass per free particle rises, so a fixed mass density contains fewer pressure-bearing particles.",
+        "source": "Lecture 20 pages 7–9 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l20",
+            "locator": "pages 7–9",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-solar-brightening"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l20-faint-sun",
+        "rootId": "exam-two-item-l20-faint-sun",
+        "moduleId": "exam-two-module-12",
+        "conceptId": "exam-two-concept-solar-brightening",
+        "concept": "exam-two-concept-solar-brightening",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Which effect does the lecture invoke to help keep early Earth warm under a fainter young Sun?",
+        "choices": [
+          "Stronger greenhouse warming",
+          "Much weaker greenhouse warming",
+          "A lower solar fusion rate alone",
+          "A higher terrestrial reflectivity"
+        ],
+        "answer": 0,
+        "hint": "Separate the star’s power from Earth’s atmospheric response.",
+        "explanation": "The lecture discusses a CO₂-rich greenhouse atmosphere as a warming contribution under the fainter Sun, rather than a full quantified climate solution.",
+        "source": "Lecture 20 pages 7–9 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l20",
+            "locator": "pages 7–9",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-solar-brightening"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l20-giant-fuel-location",
+        "rootId": "exam-two-item-l20-giant-fuel-location",
+        "moduleId": "exam-two-module-12",
+        "conceptId": "exam-two-concept-red-giant-shell",
+        "concept": "exam-two-concept-red-giant-shell",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Before helium ignition, what powers the Sun’s red-giant branch in the supplied model?",
+        "choices": [
+          "Hydrogen fusion in a shell around a helium core",
+          "Helium fusion throughout the outer envelope",
+          "Iron fusion in a main-sequence core",
+          "Hydrogen fusion only at the photosphere"
+        ],
+        "answer": 0,
+        "hint": "Identify both the fuel and its location.",
+        "explanation": "Hydrogen fuses in a shell around an inert contracting helium core. Helium-core fusion has not yet ignited.",
+        "source": "Lecture 20 pages 18–23 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l20",
+            "locator": "pages 18–23",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-red-giant-shell"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l20-core-envelope",
+        "rootId": "exam-two-item-l20-core-envelope",
+        "moduleId": "exam-two-module-12",
+        "conceptId": "exam-two-concept-red-giant-shell",
+        "concept": "exam-two-concept-red-giant-shell",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "While a Sun-like star ascends the red-giant branch, which paired change is expected?",
+        "choices": [
+          "Core expands; envelope contracts",
+          "Core contracts; envelope expands",
+          "Core cools; envelope heats",
+          "Core and envelope both contract"
+        ],
+        "answer": 1,
+        "hint": "Track inner and outer regions separately.",
+        "explanation": "The helium core contracts and heats while the envelope expands and its surface cools.",
+        "source": "Lecture 20 pages 18–23 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l20",
+            "locator": "pages 18–23",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-red-giant-shell"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l20-giant-order",
+        "rootId": "exam-two-item-l20-giant-order",
+        "moduleId": "exam-two-module-12",
+        "conceptId": "exam-two-concept-red-giant-shell",
+        "concept": "exam-two-concept-red-giant-shell",
+        "type": "order",
+        "responseType": "order",
+        "prompt": "Order the supplied Sun-like sequence before stable helium-core burning.",
+        "choices": [
+          "Core hydrogen becomes exhausted",
+          "Helium core contracts and heats",
+          "Hydrogen-shell burning intensifies",
+          "The expanded envelope has a cooler surface"
+        ],
+        "answer": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "hint": "Fuel exhaustion precedes the core–shell–envelope response.",
+        "explanation": "The ordering follows the lecture’s simplified causal progression. The coupled stages overlap in a real star rather than occurring as instantaneous isolated events.",
+        "source": "Lecture 20 pages 18–23 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l20",
+            "locator": "pages 18–23",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-red-giant-shell"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l20-flash-observed",
+        "rootId": "exam-two-item-l20-flash-observed",
+        "moduleId": "exam-two-module-12",
+        "conceptId": "exam-two-concept-helium-hr",
+        "concept": "exam-two-concept-helium-hr",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Which statement fits the helium flash in the supplied Sun-like model?",
+        "choices": [
+          "Rapid internal helium ignition without a visible supernova",
+          "A visible supernova that ejects the entire star",
+          "Hydrogen ignition at the photosphere",
+          "Fusion of iron beginning in the solar core"
+        ],
+        "answer": 0,
+        "hint": "Separate an internal thermal event from an observable stellar explosion.",
+        "explanation": "The helium flash rapidly ignites core helium; the star absorbs the energy internally rather than producing a visible supernova.",
+        "source": "Lecture 20 pages 23–25 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l20",
+            "locator": "pages 23–25",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-helium-hr"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l20-helium-direction",
+        "rootId": "exam-two-item-l20-helium-direction",
+        "moduleId": "exam-two-module-12",
+        "conceptId": "exam-two-concept-helium-hr",
+        "concept": "exam-two-concept-helium-hr",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "After helium ignition, the supplied track moves down and left on the H–R diagram. What changes?",
+        "choices": [
+          "Luminosity falls; surface temperature rises",
+          "Luminosity rises; surface temperature rises",
+          "Luminosity falls; surface temperature falls",
+          "Luminosity rises; surface temperature falls"
+        ],
+        "answer": 0,
+        "hint": "Read the directions of both axes.",
+        "explanation": "Down is lower luminosity; left is higher surface temperature on this H–R diagram.",
+        "source": "Lecture 20 pages 23–25 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l20",
+            "locator": "pages 23–25",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-helium-hr"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l20-helium-region",
+        "rootId": "exam-two-item-l20-helium-region",
+        "moduleId": "exam-two-module-12",
+        "conceptId": "exam-two-concept-helium-hr",
+        "concept": "exam-two-concept-helium-hr",
+        "type": "target",
+        "responseType": "target",
+        "prompt": "Select the labeled location of the settled helium-burning stage following the giant-branch tip in this schematic.",
+        "choices": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": 3,
+        "hint": "Use the depicted track, not an inferred position from star color alone.",
+        "explanation": "The track runs A → B → C → D. D lies below and left of the giant-branch tip C: less luminous and hotter.",
+        "source": "Lecture 20 pages 23–25 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l20",
+            "locator": "pages 23–25",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-helium-hr"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true,
+        "media": {
+          "src": "assets/visuals/exam-two/evolution-target.svg",
+          "alt": "Schematic H–R track with hotter left and luminosity up. A at (22%,70%), B at (55%,60%), C at (78%,20%), D at (53%,39%).",
+          "caption": "Original teaching model of a Sun-like track; positions are qualitative."
+        },
+        "targets": [
+          {
+            "label": "A",
+            "x": 22,
+            "y": 70
+          },
+          {
+            "label": "B",
+            "x": 55,
+            "y": 60
+          },
+          {
+            "label": "C",
+            "x": 78,
+            "y": 20
+          },
+          {
+            "label": "D",
+            "x": 53,
+            "y": 39
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "exam-two-module-13",
+    "examId": "exam-two",
+    "number": 13,
+    "kicker": "Lecture 21",
+    "title": "Clusters as stellar clocks",
+    "description": "Use shared birth conditions, main-sequence turnoffs, and metallicity to compare stellar populations.",
+    "source": "Lecture 21 pages 7–25, 32",
+    "continuation": false,
+    "concepts": [
+      {
+        "id": "exam-two-concept-cluster-controls",
+        "label": "Open and globular clusters as comparisons",
+        "masteryEligible": true
+      },
+      {
+        "id": "exam-two-concept-cluster-turnoff",
+        "label": "Reading age from the main-sequence turnoff",
+        "masteryEligible": true
+      },
+      {
+        "id": "exam-two-concept-population-metals",
+        "label": "Metallicity and stellar generations",
+        "masteryEligible": true
+      }
+    ],
+    "activities": [
+      {
+        "id": "exam-two-module-13-lesson",
+        "type": "lesson",
+        "title": "Clusters as stellar clocks",
+        "body": [
+          "Cluster stars are approximately coeval, at a common distance, and affected by similar reddening in the lecture model. That makes different stellar masses easier to compare. Open clusters are relatively loose, often young groups: tens to thousands of stars over a few tens of light-years in the supplied examples. Pleiades and the double cluster h/χ Persei are examples. The blue Pleiades nebulosity illustrates reflection of starlight by dust. Globular clusters are dense old systems that can contain up to about a million stars in a region under roughly 100 light-years across. They contain surviving low-mass main-sequence stars, red giants, and horizontal-branch stars. The Galactic distribution figure places globular clusters around the central region and halo rather than only in gas-rich spiral arms.",
+          "Worked example: Within one idealized cluster, compare high- and low-mass stars without first treating their different apparent brightnesses as distance differences.",
+          "Common mistake: Same age and distance do not mean same mass, same evolutionary stage, or perfectly identical extinction for every star.",
+          "The most massive main-sequence stars exhaust core hydrogen first. As a cluster ages, its surviving main sequence ends at progressively lower mass, luminosity, and surface temperature. The main-sequence turnoff is the bend away from the main sequence, not the single brightest red giant. A younger cluster retains a hotter, more luminous upper main sequence and generally appears bluer in the supplied comparison. During the early formation sequence, high-mass stars also reach the main sequence sooner; reaching and leaving it are different events. The sequence spans approximately 0, 5,000, 100,000, 3 million, 30 million, 66 million, 100 million, and 4.25 billion years in the supplied illustrative frames. These are not fixed ages for all clusters.",
+          "Worked example: Cluster A turns off at a hotter, more luminous point than cluster B. Within comparable composition/model assumptions, A is younger.",
+          "Common mistake: A hot horizontal-branch star in an old cluster does not make the cluster young. Use the main-sequence turnoff.",
+          "Astronomical metals are all elements heavier than helium, including carbon and oxygen. The lecture’s rough local-gas composition is 74% hydrogen, 25% helium, 1% heavier elements; use it as an illustrative mixture, not every cloud’s exact composition. Population I means relatively metal-rich stars such as the Sun and typical open-cluster stars. Population II means older metal-poor stars such as typical globular-cluster populations. Population III denotes the first essentially metal-free stellar generation. Their proposed large masses are uncertain; the slide’s observation-status statement is dated and is not used as a scored fact. Stellar processing and recycling generally increase the heavy-element abundance available to later generations.",
+          "Worked example: Oxygen counts as a metal in astronomy even though ordinary chemistry classifies it as a nonmetal.",
+          "Common mistake: Population I is not the first generation. Population numbers are historical labels, and metallicity is a trend rather than a clock for each star."
+        ],
+        "keyPoints": [
+          "Turnoff mass decreases as a cluster ages.",
+          "Open and globular clusters describe populations, not identical individual stars.",
+          "In astronomy, metals means elements heavier than helium."
+        ],
+        "source": "Lecture 21 pages 7–25, 32"
+      },
+      {
+        "id": "exam-two-item-l21-cluster-control",
+        "rootId": "exam-two-item-l21-cluster-control",
+        "moduleId": "exam-two-module-13",
+        "conceptId": "exam-two-concept-cluster-controls",
+        "concept": "exam-two-concept-cluster-controls",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Why is a star cluster useful for studying how stellar mass affects evolution?",
+        "choices": [
+          "Its stars share roughly one age and distance",
+          "Its stars share exactly one mass and radius",
+          "Its stars share exactly one luminosity and color",
+          "Its stars share exactly one burning stage"
+        ],
+        "answer": 0,
+        "hint": "Look for shared conditions, not identical outcomes.",
+        "explanation": "A roughly common age, distance, and reddening help isolate the effects of different masses.",
+        "source": "Lecture 21 pages 7–8, 11–23 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l21",
+            "locator": "pages 7–8, 11–23",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-cluster-controls"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l21-globular-location",
+        "rootId": "exam-two-item-l21-globular-location",
+        "moduleId": "exam-two-module-13",
+        "conceptId": "exam-two-concept-cluster-controls",
+        "concept": "exam-two-concept-cluster-controls",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Which location best matches the supplied Galactic globular-cluster distribution?",
+        "choices": [
+          "A broad halo and central distribution",
+          "Only the thin gas-rich spiral arms",
+          "Only the Galactic disk’s outer rim",
+          "Only nearby active molecular clouds"
+        ],
+        "answer": 0,
+        "hint": "Use the old population’s distribution rather than current star-forming gas.",
+        "explanation": "The source figure shows a broad distribution around the Galactic center and halo, not confinement to spiral-arm star formation.",
+        "source": "Lecture 21 pages 7–8, 11–23 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l21",
+            "locator": "pages 7–8, 11–23",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-cluster-controls"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l21-cluster-type",
+        "rootId": "exam-two-item-l21-cluster-type",
+        "moduleId": "exam-two-module-13",
+        "conceptId": "exam-two-concept-cluster-controls",
+        "concept": "exam-two-concept-cluster-controls",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "An old dense cluster contains low-mass main-sequence stars, red giants, and horizontal-branch stars. Which class best fits?",
+        "choices": [
+          "Open cluster",
+          "Globular cluster",
+          "Giant molecular cloud",
+          "Reflection nebula"
+        ],
+        "answer": 1,
+        "hint": "Match the whole population, not one blue or red star.",
+        "explanation": "This is the lecture’s globular-cluster population. Open clusters are typically looser and often younger.",
+        "source": "Lecture 21 pages 7–8, 11–23 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l21",
+            "locator": "pages 7–8, 11–23",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-cluster-controls"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l21-turnoff-target",
+        "rootId": "exam-two-item-l21-turnoff-target",
+        "moduleId": "exam-two-module-13",
+        "conceptId": "exam-two-concept-cluster-turnoff",
+        "concept": "exam-two-concept-cluster-turnoff",
+        "type": "target",
+        "responseType": "target",
+        "prompt": "Select the turnoff point belonging to the oldest of the three comparable clusters shown.",
+        "choices": [
+          "A",
+          "B",
+          "C"
+        ],
+        "answer": 2,
+        "hint": "Older means the upper surviving main sequence ends lower and cooler.",
+        "explanation": "C has the coolest, least luminous turnoff. Massive hot stars have already left its main sequence.",
+        "source": "Lecture 21 pages 9–19, 32 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l21",
+            "locator": "pages 9–19, 32",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-cluster-turnoff"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true,
+        "media": {
+          "src": "assets/visuals/exam-two/turnoff-target.svg",
+          "alt": "Schematic H–R diagram with three main-sequence turnoffs A (29%,24%), B (48%,45%), C (68%,68%); luminosity increases up and temperature increases left.",
+          "caption": "Original cluster comparison; common composition and schematic axes."
+        },
+        "targets": [
+          {
+            "label": "A",
+            "x": 29,
+            "y": 24
+          },
+          {
+            "label": "B",
+            "x": 48,
+            "y": 45
+          },
+          {
+            "label": "C",
+            "x": 68,
+            "y": 68
+          }
+        ]
+      },
+      {
+        "id": "exam-two-item-l21-turnoff-absence",
+        "rootId": "exam-two-item-l21-turnoff-absence",
+        "moduleId": "exam-two-module-13",
+        "conceptId": "exam-two-concept-cluster-turnoff",
+        "concept": "exam-two-concept-cluster-turnoff",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Why does an old cluster lack hot massive stars on its upper main sequence?",
+        "choices": [
+          "They have already exhausted core hydrogen",
+          "They all migrated to a greater distance",
+          "Every member cooled while staying on the same main-sequence point",
+          "Its low-mass stars used up fuel first"
+        ],
+        "answer": 0,
+        "hint": "Which stars use their core fuel fastest?",
+        "explanation": "Massive stars have short nuclear lifetimes and evolve off the main sequence first. The surviving turnoff is therefore lower and cooler.",
+        "source": "Lecture 21 pages 9–19, 32 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l21",
+            "locator": "pages 9–19, 32",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-cluster-turnoff"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l21-arrive-leave",
+        "rootId": "exam-two-item-l21-arrive-leave",
+        "moduleId": "exam-two-module-13",
+        "conceptId": "exam-two-concept-cluster-turnoff",
+        "concept": "exam-two-concept-cluster-turnoff",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "In the supplied cluster evolution sequence, which stars generally both reach the main sequence sooner and leave it sooner?",
+        "choices": [
+          "Higher-mass members",
+          "Lower-mass members",
+          "All masses at the same time",
+          "Only stars with large apparent brightness"
+        ],
+        "answer": 0,
+        "hint": "Keep contraction time separate from nuclear lifetime while using the sequence.",
+        "explanation": "The high-mass tracks reach the main sequence sooner in the supplied sequence and then consume their core fuel sooner. Their large luminosities matter in both comparisons.",
+        "source": "Lecture 21 pages 9–19, 32 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l21",
+            "locator": "pages 9–19, 32",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-cluster-turnoff"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l21-metal-definition",
+        "rootId": "exam-two-item-l21-metal-definition",
+        "moduleId": "exam-two-module-13",
+        "conceptId": "exam-two-concept-population-metals",
+        "concept": "exam-two-concept-population-metals",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Which substance counts as a metal in the astronomical definition used here?",
+        "choices": [
+          "Hydrogen",
+          "Helium",
+          "Oxygen",
+          "Hydrogen-2"
+        ],
+        "answer": 2,
+        "hint": "The boundary is heavier than helium.",
+        "explanation": "Oxygen is heavier than helium, so astronomers include it among metals. Hydrogen and helium are excluded.",
+        "source": "Lecture 21 pages 24–25 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l21",
+            "locator": "pages 24–25",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-population-metals"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l21-population-match",
+        "rootId": "exam-two-item-l21-population-match",
+        "moduleId": "exam-two-module-13",
+        "conceptId": "exam-two-concept-population-metals",
+        "concept": "exam-two-concept-population-metals",
+        "type": "match",
+        "responseType": "match",
+        "prompt": "Match each population label to the supplied composition description.",
+        "choices": [
+          "Relatively metal-rich",
+          "Old and metal-poor",
+          "First generation, essentially metal-free"
+        ],
+        "answer": [
+          0,
+          1,
+          2
+        ],
+        "hint": "The numeral is not a chronological birth order.",
+        "explanation": "Population I is relatively metal-rich, II is old/metal-poor, and III names the first essentially metal-free generation.",
+        "source": "Lecture 21 pages 24–25 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l21",
+            "locator": "pages 24–25",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-population-metals"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true,
+        "rows": [
+          {
+            "label": "Population I",
+            "answer": "Relatively metal-rich"
+          },
+          {
+            "label": "Population II",
+            "answer": "Old and metal-poor"
+          },
+          {
+            "label": "Population III",
+            "answer": "First generation, essentially metal-free"
+          }
+        ],
+        "options": [
+          "Relatively metal-rich",
+          "Old and metal-poor",
+          "First generation, essentially metal-free"
+        ]
+      },
+      {
+        "id": "exam-two-item-l21-younger-gas",
+        "rootId": "exam-two-item-l21-younger-gas",
+        "moduleId": "exam-two-module-13",
+        "conceptId": "exam-two-concept-population-metals",
+        "concept": "exam-two-concept-population-metals",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Why are typical open-cluster birth compositions more metal-rich than those of old globular clusters?",
+        "choices": [
+          "Their birth gas had more prior stellar enrichment",
+          "All their member stars began with identical masses",
+          "Their metals appeared only after their stars formed",
+          "Their younger age requires less recycled stellar gas"
+        ],
+        "answer": 0,
+        "hint": "Follow the products of stellar processing.",
+        "explanation": "Typical younger open clusters formed from gas that had undergone more earlier stellar enrichment. The metallicity was part of their birth composition, not caused by blue color or equal stellar masses.",
+        "source": "Lecture 21 pages 24–25 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l21",
+            "locator": "pages 24–25",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-population-metals"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      }
+    ]
+  },
+  {
+    "id": "exam-two-module-14",
+    "examId": "exam-two",
+    "number": 14,
+    "kicker": "Lecture 21",
+    "title": "Variable stars and distance",
+    "description": "Distinguish eclipses from pulsation, read a light curve, and connect period to calibrated luminosity and distance.",
+    "source": "Lecture 21 pages 26–31",
+    "continuation": false,
+    "concepts": [
+      {
+        "id": "exam-two-concept-variable-mechanisms",
+        "label": "Several ways stars vary in brightness",
+        "masteryEligible": true
+      },
+      {
+        "id": "exam-two-concept-variable-periods",
+        "label": "Read periods and distinguish pulsator classes",
+        "masteryEligible": true
+      },
+      {
+        "id": "exam-two-concept-standard-candle",
+        "label": "From pulsation period to distance",
+        "masteryEligible": true
+      }
+    ],
+    "activities": [
+      {
+        "id": "exam-two-module-14-lesson",
+        "type": "lesson",
+        "title": "Variable stars and distance",
+        "body": [
+          "A changing brightness need not mean a pulsating stellar surface. An eclipsing binary dims when one star passes in front of the other, while an eruptive variable can brighten through an outburst. Pulsating stars change their structure and intrinsic output. The lecture contrasts Algol (eclipses), Eta Carinae (eruption), and Mira (a pulsating red giant). Its Mira example varies by roughly a factor of 100 over 332 days. Eta Carinae’s historical eruption illustrates eruptive variability; the slide’s tentative statement about its companion is retained as dated source wording rather than a current scored claim.",
+          "Worked example: A repeatable dip caused by one star hiding another is geometric variability. Radial pulsation changes the star itself.",
+          "Common mistake: Do not identify every periodic light curve as an eclipse or every eruption as a regular pulsation.",
+          "A light curve plots apparent brightness or magnitude against time. A period is the interval between equivalent repeated phases, such as one maximum and the next. Magnitude axes often put brighter (smaller) values higher on the plot. The supplied classes are luminous Cepheids (roughly 1–100 days), lower-mass helium-burning RR Lyrae (typically under one day), and pulsating white dwarfs (minutes). These ranges are teaching examples rather than guarantees that every object falls into a hard boundary. The plotted Cepheid example shows a period near 5.4 days. Period, amplitude, and a full stellar classification are different observations.",
+          "Worked example: Three consecutive peaks at days 2, 7, and 12 imply a five-day period, not ten days.",
+          "Common mistake: Amplitude is the vertical brightness change; period is measured along the time axis. A period alone is not a complete classification.",
+          "A calibrated period–luminosity relation lets an identified Cepheid’s period indicate its intrinsic luminosity or absolute magnitude. The lecture credits Henrietta Leavitt’s 1912 work. Longer-period Cepheids are more luminous within the same calibrated type. Compare inferred luminosity with observed apparent brightness, accounting for extinction, to obtain distance. Type I and Type II Cepheids require different calibrations; equal period does not give one universal luminosity for all variable-star classes. RR Lyrae also provide distance indicators, especially within the Galaxy, while luminous Cepheids can be detected in other galaxies. Page 31 gives one V-band relation: MV ≈ −2.43(log10 P − 1) − 4.05, P in days. It is a calibration example, not a requirement to memorize coefficients or a formula for every pulsator.",
+          "Worked example: For equal calibrated luminosity and negligible extinction, a candle appearing four times fainter is twice as far away.",
+          "Common mistake: Period is not apparent brightness. A longer period does not alone determine greater distance, and the correct variable-star type/calibration matters."
+        ],
+        "keyPoints": [
+          "Brightness variability can have several causes.",
+          "Cepheids, RR Lyrae, Mira, and white dwarfs have different characteristic periods.",
+          "Period → calibrated luminosity; luminosity + apparent brightness → distance."
+        ],
+        "source": "Lecture 21 pages 26–31"
+      },
+      {
+        "id": "exam-two-item-l21-eclipse-mechanism",
+        "rootId": "exam-two-item-l21-eclipse-mechanism",
+        "moduleId": "exam-two-module-14",
+        "conceptId": "exam-two-concept-variable-mechanisms",
+        "concept": "exam-two-concept-variable-mechanisms",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "An otherwise steady star dims when its companion moves in front of it. What directly causes the observed dimming?",
+        "choices": [
+          "Blocked light during an eclipse",
+          "Radial pulsation of the visible star",
+          "An eruption from the visible star",
+          "A changing amount of foreground dust"
+        ],
+        "answer": 0,
+        "hint": "Which mechanism is specified in the observation?",
+        "explanation": "The foreground companion blocks some light. This is an eclipse, not evidence of radial pulsation.",
+        "source": "Lecture 21 pages 26–27 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l21",
+            "locator": "pages 26–27",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-variable-mechanisms"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l21-mira-anchor",
+        "rootId": "exam-two-item-l21-mira-anchor",
+        "moduleId": "exam-two-module-14",
+        "conceptId": "exam-two-concept-variable-mechanisms",
+        "concept": "exam-two-concept-variable-mechanisms",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Which lecture example is the red giant with a roughly 332-day pulsation period?",
+        "choices": [
+          "Algol",
+          "Mira",
+          "Delta Cephei",
+          "RR Lyrae"
+        ],
+        "answer": 1,
+        "hint": "Separate the long-period pulsator from the eclipse example.",
+        "explanation": "The lecture identifies Mira as a long-period red-giant variable with an illustrative 332-day period.",
+        "source": "Lecture 21 pages 26–27 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l21",
+            "locator": "pages 26–27",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-variable-mechanisms"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l21-all-variables-tf",
+        "rootId": "exam-two-item-l21-all-variables-tf",
+        "moduleId": "exam-two-module-14",
+        "conceptId": "exam-two-concept-variable-mechanisms",
+        "concept": "exam-two-concept-variable-mechanisms",
+        "type": "true-false",
+        "responseType": "true-false",
+        "prompt": "True or false: Every variable star changes brightness because its own radius pulsates.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": 1,
+        "hint": "The lecture gives geometric and eruptive examples too.",
+        "explanation": "False. Eclipses and eruptions also cause variability. Pulsation is one mechanism.",
+        "source": "Lecture 21 pages 26–27 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l21",
+            "locator": "pages 26–27",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-variable-mechanisms"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l21-lightcurve-period",
+        "rootId": "exam-two-item-l21-lightcurve-period",
+        "moduleId": "exam-two-module-14",
+        "conceptId": "exam-two-concept-variable-periods",
+        "concept": "exam-two-concept-variable-periods",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "A repeated light curve has maxima at days 2, 7, and 12. What is its period?",
+        "choices": [
+          "2 days",
+          "5 days",
+          "10 days",
+          "12 days"
+        ],
+        "answer": 1,
+        "hint": "Measure between consecutive equivalent phases.",
+        "explanation": "7−2 = 5 days and 12−7 = 5 days. The interval across two cycles is ten days, not the period.",
+        "source": "Lecture 21 pages 28–29 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l21",
+            "locator": "pages 28–29",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-variable-periods"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l21-short-pulsator",
+        "rootId": "exam-two-item-l21-short-pulsator",
+        "moduleId": "exam-two-module-14",
+        "conceptId": "exam-two-concept-variable-periods",
+        "concept": "exam-two-concept-variable-periods",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Which class has the shortest characteristic pulsation times in the supplied comparison?",
+        "choices": [
+          "Mira-like long-period variables",
+          "Cepheid variables",
+          "RR Lyrae variables",
+          "Pulsating white dwarfs"
+        ],
+        "answer": 3,
+        "hint": "Compare hundreds of days, days, fractions of a day, and minutes.",
+        "explanation": "The lecture places white-dwarf pulsations on minute timescales, shorter than the other listed classes.",
+        "source": "Lecture 21 pages 28–29 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l21",
+            "locator": "pages 28–29",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-variable-periods"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l21-rr-identity",
+        "rootId": "exam-two-item-l21-rr-identity",
+        "moduleId": "exam-two-module-14",
+        "conceptId": "exam-two-concept-variable-periods",
+        "concept": "exam-two-concept-variable-periods",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Which description best fits the lecture’s RR Lyrae variables?",
+        "choices": [
+          "Lower-mass helium-burning stars with sub-day periods",
+          "Massive Cepheid stars with several-day periods",
+          "Red-giant Mira variables with year-scale periods",
+          "Compact white dwarfs with minute-scale periods"
+        ],
+        "answer": 0,
+        "hint": "Identify both the stellar class and characteristic period.",
+        "explanation": "RR Lyrae are lower-mass helium-burning pulsators with characteristic periods shorter than a day in this lecture.",
+        "source": "Lecture 21 pages 28–29 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l21",
+            "locator": "pages 28–29",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-variable-periods"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l21-candle-order",
+        "rootId": "exam-two-item-l21-candle-order",
+        "moduleId": "exam-two-module-14",
+        "conceptId": "exam-two-concept-standard-candle",
+        "concept": "exam-two-concept-standard-candle",
+        "type": "order",
+        "responseType": "order",
+        "prompt": "Arrange the steps for a Cepheid distance estimate, assuming a known type and corrected extinction.",
+        "choices": [
+          "Measure its repeated pulsation period",
+          "Use the appropriate period–luminosity calibration",
+          "Compare intrinsic luminosity with apparent brightness",
+          "Infer the distance"
+        ],
+        "answer": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "hint": "Obtain intrinsic output before using the inverse-square comparison.",
+        "explanation": "Measure period, infer calibrated luminosity, compare with apparent brightness, then infer distance.",
+        "source": "Lecture 21 pages 29–31 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l21",
+            "locator": "pages 29–31",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-standard-candle"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l21-candle-distance",
+        "rootId": "exam-two-item-l21-candle-distance",
+        "moduleId": "exam-two-module-14",
+        "conceptId": "exam-two-concept-standard-candle",
+        "concept": "exam-two-concept-standard-candle",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Two Cepheids have the same calibrated luminosity and negligible extinction. A appears nine times fainter than B. How far away is A compared with B?",
+        "choices": [
+          "One ninth as far",
+          "One third as far",
+          "Three times as far",
+          "Nine times as far"
+        ],
+        "answer": 2,
+        "hint": "Brightness depends on inverse distance squared.",
+        "explanation": "bA/bB = 1/9 = (dB/dA)², so dA/dB = 3.",
+        "source": "Lecture 21 pages 29–31 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l21",
+            "locator": "pages 29–31",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-standard-candle"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l21-candle-calibration",
+        "rootId": "exam-two-item-l21-candle-calibration",
+        "moduleId": "exam-two-module-14",
+        "conceptId": "exam-two-concept-standard-candle",
+        "concept": "exam-two-concept-standard-candle",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Why must the Cepheid type be identified before applying a period–luminosity calibration?",
+        "choices": [
+          "Different types can have different luminosities at one period",
+          "All types have identical luminosity at every period",
+          "The type fixes its apparent brightness at Earth",
+          "The period directly equals its distance"
+        ],
+        "answer": 0,
+        "hint": "Separate intrinsic calibration from received brightness.",
+        "explanation": "Type I and Type II Cepheids follow different calibrations, so one period cannot be converted using an arbitrary relation.",
+        "source": "Lecture 21 pages 29–31 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l21",
+            "locator": "pages 29–31",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-standard-candle"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      }
+    ]
   }
 ];

@@ -1,0 +1,14 @@
+Read a cluster’s age from its survivors
+Lecture 21 pages 8–24, 32
+Synthetic narration in Ethan’s voice; generated locally.
+
+One birth, different masses
+A cluster gives us stars with approximately the same age and distance, but different masses. Higher mass members in this group are hotter and more luminous. Common birth conditions make their different stages useful evidence for stellar evolution.
+
+The most massive evolve first
+The luminous high mass members use their core hydrogen sooner. They leave the main sequence and change structure. Their points move away from the upper main sequence as their envelopes expand and cool. These are changes in the stars, not stars moving across physical space.
+
+The turnoff is the clock
+With increasing age, the surviving main sequence ends at lower luminosity and cooler temperature. That bend is the turnoff. Use it rather than the brightest red giant. An old globular cluster can still contain hot helium burning stars, so a single blue star does not reset the cluster’s age.
+
+Original teaching reconstruction. Schematic geometry, scale, time, color, and nuclear steps; supplied lecture figures remain private. Watching earns no mastery.

@@ -202,5 +202,100 @@ window.ASTR1102_VISUALS = {
       }
     ],
     "interactions": []
+  },
+  "exam-two-module-10": {
+    "id": "exam-two-module-10-visuals",
+    "label": "Stellar clocks and triggered birth",
+    "intro": "Original teaching diagram; import the updated private pack for the supplied lecture figures.",
+    "visuals": [
+      {
+        "id": "exam-two-module-10-original-figure",
+        "src": "assets/visuals/exam-two/stellar-clocks.svg",
+        "title": "Stellar clocks and triggered birth",
+        "alt": "Separate contraction time from nuclear lifetime, and connect cloud compression to new stars.",
+        "caption": "Separate contraction time from nuclear lifetime, and connect cloud compression to new stars. Schematic scales and positions.",
+        "notice": "Compare the relationships before retrieval.",
+        "source": "Lecture 19 pages 4–19; Lecture 20 pages 4–6 · original teaching model",
+        "status": "verified",
+        "statusLabel": "Original teaching diagram"
+      }
+    ],
+    "interactions": []
+  },
+  "exam-two-module-11": {
+    "id": "exam-two-module-11-visuals",
+    "label": "Nuclear burning and temperature",
+    "intro": "Original teaching diagram; import the updated private pack for the supplied lecture figures.",
+    "visuals": [
+      {
+        "id": "exam-two-module-11-original-figure",
+        "src": "assets/visuals/exam-two/burning-pathways.svg",
+        "title": "Nuclear burning and temperature",
+        "alt": "Distinguish pp, CNO, and triple-alpha reactions, their fuels, and the limits of energy-producing fusion.",
+        "caption": "Distinguish pp, CNO, and triple-alpha reactions, their fuels, and the limits of energy-producing fusion. Schematic scales and positions.",
+        "notice": "Compare the relationships before retrieval.",
+        "source": "Lecture 20 pages 10–16; Lecture 21 page 4 · original teaching model",
+        "status": "verified",
+        "statusLabel": "Original teaching diagram"
+      }
+    ],
+    "interactions": []
+  },
+  "exam-two-module-12": {
+    "id": "exam-two-module-12-visuals",
+    "label": "The changing Sun and red giants",
+    "intro": "Original teaching diagram; import the updated private pack for the supplied lecture figures.",
+    "visuals": [
+      {
+        "id": "exam-two-module-12-original-figure",
+        "src": "assets/visuals/exam-two/evolution-target.svg",
+        "title": "The changing Sun and red giants",
+        "alt": "Follow the core and envelope separately through hydrogen exhaustion, shell burning, and helium ignition.",
+        "caption": "Follow the core and envelope separately through hydrogen exhaustion, shell burning, and helium ignition. Schematic scales and positions.",
+        "notice": "Compare the relationships before retrieval.",
+        "source": "Lecture 20 pages 7–9, 18–25; Lecture 21 pages 4–6 · original teaching model",
+        "status": "verified",
+        "statusLabel": "Original teaching diagram"
+      }
+    ],
+    "interactions": []
+  },
+  "exam-two-module-13": {
+    "id": "exam-two-module-13-visuals",
+    "label": "Clusters as stellar clocks",
+    "intro": "Original teaching diagram; import the updated private pack for the supplied lecture figures.",
+    "visuals": [
+      {
+        "id": "exam-two-module-13-original-figure",
+        "src": "assets/visuals/exam-two/turnoff-target.svg",
+        "title": "Clusters as stellar clocks",
+        "alt": "Use shared birth conditions, main-sequence turnoffs, and metallicity to compare stellar populations.",
+        "caption": "Use shared birth conditions, main-sequence turnoffs, and metallicity to compare stellar populations. Schematic scales and positions.",
+        "notice": "Compare the relationships before retrieval.",
+        "source": "Lecture 21 pages 7–25, 32 · original teaching model",
+        "status": "verified",
+        "statusLabel": "Original teaching diagram"
+      }
+    ],
+    "interactions": []
+  },
+  "exam-two-module-14": {
+    "id": "exam-two-module-14-visuals",
+    "label": "Variable stars and distance",
+    "intro": "Original teaching diagram; import the updated private pack for the supplied lecture figures.",
+    "visuals": [
+      {
+        "id": "exam-two-module-14-original-figure",
+        "src": "assets/visuals/exam-two/variable-distance.svg",
+        "title": "Variable stars and distance",
+        "alt": "Distinguish eclipses from pulsation, read a light curve, and connect period to calibrated luminosity and distance.",
+        "caption": "Distinguish eclipses from pulsation, read a light curve, and connect period to calibrated luminosity and distance. Schematic scales and positions.",
+        "notice": "Compare the relationships before retrieval.",
+        "source": "Lecture 21 pages 26–31 · original teaching model",
+        "status": "verified",
+        "statusLabel": "Original teaching diagram"
+      }
+    ],
+    "interactions": []
   }
 };

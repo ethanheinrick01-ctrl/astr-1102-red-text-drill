@@ -1,0 +1,14 @@
+A shrinking core inside a growing giant
+Lecture 20 pages 7–9, 18–25; Lecture 21 pages 4–6
+Synthetic narration in Ethan’s voice; generated locally.
+
+Main-sequence composition changes
+Hydrogen becomes helium inside the core. At the same mass density and temperature, this means fewer pressure bearing particles. The core slowly contracts and heats. Hydrogen fusion speeds up, so the main sequence Sun gradually becomes more luminous.
+
+Core down, envelope out
+After core hydrogen is exhausted, the helium core contracts while hydrogen burns around it in a shell. The envelope expands and its surface cools. The hot core and cool outer surface are different regions. This is a coupled structural response, not a claim that every layer moves together.
+
+Helium ignition and readjustment
+In the supplied low mass model, helium ignites rapidly inside the core. This helium flash is not a visible supernova. The core then expands somewhat, the envelope shrinks and warms, and total luminosity falls. On the H R diagram, that change moves down and left.
+
+Original teaching reconstruction. Schematic geometry, scale, time, color, and nuclear steps; supplied lecture figures remain private. Watching earns no mastery.

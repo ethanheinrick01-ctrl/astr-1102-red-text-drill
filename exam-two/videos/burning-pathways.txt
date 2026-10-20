@@ -1,0 +1,14 @@
+What is each nuclear reaction burning?
+Lecture 20 pages 10–16; Lecture 21 page 4
+Synthetic narration in Ethan’s voice; generated locally.
+
+Proton–proton: hydrogen to helium
+Start with the net result. The proton proton chain turns hydrogen into helium. The illustration combines four hydrogen nuclei into one helium nucleus, with energy and other products leaving. It summarizes the net reaction rather than every intermediate step.
+
+CNO: catalysts, same net fuel
+The C N O cycle also turns hydrogen into helium. Carbon, nitrogen, and oxygen participate in intermediate steps. The catalyst cycle returns to its starting nucleus while hydrogen has been consumed and helium released. Hotter cores favor this route more strongly.
+
+Triple-alpha: helium to carbon
+Triple alpha has a different fuel. Two helium nuclei briefly form beryllium; adding a third makes carbon. Some carbon captures another helium nucleus to make oxygen. In the lecture’s local approximations, triple alpha is more temperature sensitive than C N O, which is more sensitive than the proton proton chain.
+
+Original teaching reconstruction. Schematic geometry, scale, time, color, and nuclear steps; supplied lecture figures remain private. Watching earns no mastery.

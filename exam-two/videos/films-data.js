@@ -295,5 +295,185 @@ window.ASTR1102_FILMS = [
     "poster": "videos/collapse.jpg",
     "captions": "videos/collapse.vtt",
     "transcriptSrc": "videos/collapse.txt"
+  },
+  {
+    "id": "stellar-clocks",
+    "moduleId": "exam-two-module-10",
+    "title": "Two clocks in the life of a star",
+    "source": "Lecture 19 pages 6–14, 16–19",
+    "voice": "Ethan · synthetic local voice (Qwen3-TTS)",
+    "src": "videos/stellar-clocks.mp4",
+    "poster": "videos/stellar-clocks.jpg",
+    "captions": "videos/stellar-clocks.vtt",
+    "transcriptSrc": "videos/stellar-clocks.txt",
+    "duration": 45.519999999999996,
+    "stages": [
+      {
+        "title": "Compression can trigger collapse",
+        "text": "A passing shock can compress a cold cloud. Dense fragments can then collapse under gravity. The shock is a trigger, not a guarantee that every cloud becomes a star.",
+        "start": 0,
+        "end": 10.02,
+        "caption": "A shock can compress cold gas until self-gravity overcomes support."
+      },
+      {
+        "title": "Contraction uses gravitational energy",
+        "text": "As a protostar contracts, gravitational energy becomes heat and radiation. The Kelvin Helmholtz time is proportional to mass squared, divided by radius times luminosity. Hold mass and radius fixed: twice the luminosity gives half this characteristic time.",
+        "start": 10.02,
+        "end": 27.080000000000002,
+        "caption": "Contraction heats the interior while radiation carries energy away."
+      },
+      {
+        "title": "Nuclear lifetime uses fuel over output",
+        "text": "On the main sequence, hydrogen fusion supplies the energy. The approximate lifetime instead scales as mass divided by luminosity. Massive stars have more fuel, but their much greater luminosity uses it faster. Keep these two stellar clocks separate.",
+        "start": 27.080000000000002,
+        "end": 45.519999999999996,
+        "caption": "More fuel does not mean longer life if luminosity rises faster."
+      }
+    ],
+    "disclosure": "Original teaching reconstruction. Schematic geometry, scale, time, color, and nuclear steps; supplied lecture figures remain private. Watching earns no mastery."
+  },
+  {
+    "id": "burning-pathways",
+    "moduleId": "exam-two-module-11",
+    "title": "What is each nuclear reaction burning?",
+    "source": "Lecture 20 pages 10–16; Lecture 21 page 4",
+    "voice": "Ethan · synthetic local voice (Qwen3-TTS)",
+    "src": "videos/burning-pathways.mp4",
+    "poster": "videos/burning-pathways.jpg",
+    "captions": "videos/burning-pathways.vtt",
+    "transcriptSrc": "videos/burning-pathways.txt",
+    "duration": 54.160000000000004,
+    "stages": [
+      {
+        "title": "Proton–proton: hydrogen to helium",
+        "text": "Start with the net result. The proton proton chain turns hydrogen into helium. The illustration combines four hydrogen nuclei into one helium nucleus, with energy and other products leaving. It summarizes the net reaction rather than every intermediate step.",
+        "start": 0,
+        "end": 16.02,
+        "caption": "Both net fuel and final ash matter: pp turns hydrogen into helium."
+      },
+      {
+        "title": "CNO: catalysts, same net fuel",
+        "text": "The C N O cycle also turns hydrogen into helium. Carbon, nitrogen, and oxygen participate in intermediate steps. The catalyst cycle returns to its starting nucleus while hydrogen has been consumed and helium released. Hotter cores favor this route more strongly.",
+        "start": 16.02,
+        "end": 32.760000000000005,
+        "caption": "CNO consumes hydrogen while restoring its catalyst nucleus."
+      },
+      {
+        "title": "Triple-alpha: helium to carbon",
+        "text": "Triple alpha has a different fuel. Two helium nuclei briefly form beryllium; adding a third makes carbon. Some carbon captures another helium nucleus to make oxygen. In the lecture’s local approximations, triple alpha is more temperature sensitive than C N O, which is more sensitive than the proton proton chain.",
+        "start": 32.760000000000005,
+        "end": 54.160000000000004,
+        "caption": "Triple-alpha burns helium; carbon is the net product."
+      }
+    ],
+    "disclosure": "Original teaching reconstruction. Schematic geometry, scale, time, color, and nuclear steps; supplied lecture figures remain private. Watching earns no mastery."
+  },
+  {
+    "id": "red-giant-evolution",
+    "moduleId": "exam-two-module-12",
+    "title": "A shrinking core inside a growing giant",
+    "source": "Lecture 20 pages 7–9, 18–25; Lecture 21 pages 4–6",
+    "voice": "Ethan · synthetic local voice (Qwen3-TTS)",
+    "src": "videos/red-giant-evolution.mp4",
+    "poster": "videos/red-giant-evolution.jpg",
+    "captions": "videos/red-giant-evolution.vtt",
+    "transcriptSrc": "videos/red-giant-evolution.txt",
+    "duration": 48.8,
+    "stages": [
+      {
+        "title": "Main-sequence composition changes",
+        "text": "Hydrogen becomes helium inside the core. At the same mass density and temperature, this means fewer pressure bearing particles. The core slowly contracts and heats. Hydrogen fusion speeds up, so the main sequence Sun gradually becomes more luminous.",
+        "start": 0,
+        "end": 14.42,
+        "caption": "Composition changes slowly adjust the main-sequence core."
+      },
+      {
+        "title": "Core down, envelope out",
+        "text": "After core hydrogen is exhausted, the helium core contracts while hydrogen burns around it in a shell. The envelope expands and its surface cools. The hot core and cool outer surface are different regions. This is a coupled structural response, not a claim that every layer moves together.",
+        "start": 14.42,
+        "end": 31.64,
+        "caption": "A hotter contracting core can coexist with a cooler expanding surface."
+      },
+      {
+        "title": "Helium ignition and readjustment",
+        "text": "In the supplied low mass model, helium ignites rapidly inside the core. This helium flash is not a visible supernova. The core then expands somewhat, the envelope shrinks and warms, and total luminosity falls. On the H R diagram, that change moves down and left.",
+        "start": 31.64,
+        "end": 48.8,
+        "caption": "Internal helium ignition readjusts the star; it is not a supernova."
+      }
+    ],
+    "disclosure": "Original teaching reconstruction. Schematic geometry, scale, time, color, and nuclear steps; supplied lecture figures remain private. Watching earns no mastery."
+  },
+  {
+    "id": "cluster-clock",
+    "moduleId": "exam-two-module-13",
+    "title": "Read a cluster’s age from its survivors",
+    "source": "Lecture 21 pages 8–24, 32",
+    "voice": "Ethan · synthetic local voice (Qwen3-TTS)",
+    "src": "videos/cluster-clock.mp4",
+    "poster": "videos/cluster-clock.jpg",
+    "captions": "videos/cluster-clock.vtt",
+    "transcriptSrc": "videos/cluster-clock.txt",
+    "duration": 49.839999999999996,
+    "stages": [
+      {
+        "title": "One birth, different masses",
+        "text": "A cluster gives us stars with approximately the same age and distance, but different masses. Higher mass members in this group are hotter and more luminous. Common birth conditions make their different stages useful evidence for stellar evolution.",
+        "start": 0,
+        "end": 14.26,
+        "caption": "A cluster shares birth conditions, but its stars have different masses."
+      },
+      {
+        "title": "The most massive evolve first",
+        "text": "The luminous high mass members use their core hydrogen sooner. They leave the main sequence and change structure. Their points move away from the upper main sequence as their envelopes expand and cool. These are changes in the stars, not stars moving across physical space.",
+        "start": 14.26,
+        "end": 29.72,
+        "caption": "The most massive members exhaust core hydrogen and evolve first."
+      },
+      {
+        "title": "The turnoff is the clock",
+        "text": "With increasing age, the surviving main sequence ends at lower luminosity and cooler temperature. That bend is the turnoff. Use it rather than the brightest red giant. An old globular cluster can still contain hot helium burning stars, so a single blue star does not reset the cluster’s age.",
+        "start": 29.72,
+        "end": 49.839999999999996,
+        "caption": "An older cluster has a lower-mass, cooler main-sequence turnoff."
+      }
+    ],
+    "disclosure": "Original teaching reconstruction. Schematic geometry, scale, time, color, and nuclear steps; supplied lecture figures remain private. Watching earns no mastery."
+  },
+  {
+    "id": "variable-distance",
+    "moduleId": "exam-two-module-14",
+    "title": "A pulsating star becomes a distance marker",
+    "source": "Lecture 21 pages 26–31",
+    "voice": "Ethan · synthetic local voice (Qwen3-TTS)",
+    "src": "videos/variable-distance.mp4",
+    "poster": "videos/variable-distance.jpg",
+    "captions": "videos/variable-distance.vtt",
+    "transcriptSrc": "videos/variable-distance.txt",
+    "duration": 53.03999999999999,
+    "stages": [
+      {
+        "title": "Watch the star and its light curve",
+        "text": "A pulsating star changes its own structure and brightness. Watch its radius and light curve vary together. Not every variable works this way: an eclipsing binary dims because another star blocks light. The pulsation shown here is schematic.",
+        "start": 0,
+        "end": 15.459999999999999,
+        "caption": "Pulsation changes the star; eclipses block received light."
+      },
+      {
+        "title": "Measure a complete period",
+        "text": "Measure from one brightness maximum to the next equivalent maximum. That interval is the period. The height of the variation is its amplitude, a different quantity. Here, the luminous pulsator represents the class used in the next distance calibration step. Its period is measured in days.",
+        "start": 15.459999999999999,
+        "end": 32.68,
+        "caption": "Period measures time between equivalent phases, not amplitude."
+      },
+      {
+        "title": "Calibrate luminosity, then distance",
+        "text": "Identify the variable’s type and apply its calibrated period luminosity relation. Within a given Cepheid calibration, longer periods indicate greater luminosity. Then compare intrinsic luminosity with received brightness, correcting for extinction. For equal luminosity, four times fainter means twice as far away.",
+        "start": 32.68,
+        "end": 53.03999999999999,
+        "caption": "Calibrated luminosity and apparent brightness together give distance."
+      }
+    ],
+    "disclosure": "Original teaching reconstruction. Schematic geometry, scale, time, color, and nuclear steps; supplied lecture figures remain private. Watching earns no mastery."
   }
 ];
