@@ -475,5 +475,185 @@ window.ASTR1102_FILMS = [
       }
     ],
     "disclosure": "Original teaching reconstruction. Schematic geometry, scale, time, color, and nuclear steps; supplied lecture figures remain private. Watching earns no mastery."
+  },
+  {
+    "id": "agb-recycling",
+    "moduleId": "exam-two-module-15",
+    "title": "How an aging star returns carbon",
+    "source": "Lecture 22 pages 11–17, 35",
+    "voice": "Ethan · synthetic voice",
+    "src": "videos/agb-recycling.mp4",
+    "poster": "videos/agb-recycling.jpg",
+    "captions": "videos/agb-recycling.vtt",
+    "transcriptSrc": "videos/agb-recycling.txt",
+    "duration": 58.58,
+    "stages": [
+      {
+        "title": "Two shells around a quiet core",
+        "text": "After core helium runs out, a Sun-like star has a carbon and oxygen core surrounded by burning shells. Helium burns closer to the core, with hydrogen burning farther out. The huge, cool envelope makes this an asymptotic giant branch star. A cool surface does not mean a cool interior.",
+        "start": 0,
+        "end": 17.18,
+        "caption": "Two shells around a quiet core"
+      },
+      {
+        "title": "A shell can pulse",
+        "text": "Hydrogen burning supplies fresh helium. Helium shell burning can become unstable, producing thermal pulses. The shells change their activity while the envelope expands and readjusts. This is different from the earlier helium flash that began helium burning in the core. The location of the burning matters as much as the fuel.",
+        "start": 17.18,
+        "end": 36.14,
+        "caption": "A shell can pulse"
+      },
+      {
+        "title": "Make it, mix it, release it",
+        "text": "Helium fusion makes carbon. Deep convection can carry processed material toward the surface, and strong winds carry it into space. Follow that chain: production, mixing, then loss. The lecture emphasizes these giant stars as a major source of the galaxy’s carbon. Their discarded material can become part of later stars and planets.",
+        "start": 36.14,
+        "end": 58.58,
+        "caption": "Make it, mix it, release it"
+      }
+    ],
+    "disclosure": "Original teaching reconstruction. Geometry, time, color and scale are schematic. Lecture figures remain in the private edition. Watching earns no mastery."
+  },
+  {
+    "id": "planetary-nebula",
+    "moduleId": "exam-two-module-16",
+    "title": "One dying star, two different objects",
+    "source": "Lecture 22 pages 18–34",
+    "voice": "Ethan · synthetic voice",
+    "src": "videos/planetary-nebula.mp4",
+    "poster": "videos/planetary-nebula.jpg",
+    "captions": "videos/planetary-nebula.vtt",
+    "transcriptSrc": "videos/planetary-nebula.txt",
+    "duration": 57.78999999999999,
+    "stages": [
+      {
+        "title": "The envelope leaves; the core remains",
+        "text": "As a Sun-like giant loses its envelope, a small, hot core is exposed. The expanding gas and the central remnant are different objects. The remnant becomes a white dwarf, roughly Earth-sized, which gradually cools and fades. A planetary nebula is the discarded gas, not a planet-forming disk.",
+        "start": 0,
+        "end": 18.46,
+        "caption": "The envelope leaves; the core remains"
+      },
+      {
+        "title": "Ultraviolet light makes the gas glow",
+        "text": "Ultraviolet radiation from the hot central star ionizes the surrounding gas. That gas produces bright emission lines. But a telescope pointed at the central star also collects its stellar spectrum. So the spectrum depends on which region you observe. Move the observing window from the gas to the star and watch the contribution change.",
+        "start": 18.46,
+        "end": 37.51,
+        "caption": "Ultraviolet light makes the gas glow"
+      },
+      {
+        "title": "A temporary, shaped shell",
+        "text": "Planetary nebulae spread out and fade over tens of thousands of years. Rings, lobes, and viewing angle can make their shapes look very different. Companion stars can help shape the outflow; a particular shape alone does not prove a companion. For this course, follow the stated assumption that the Sun forms a planetary nebula.",
+        "start": 37.51,
+        "end": 57.78999999999999,
+        "caption": "A temporary, shaped shell"
+      }
+    ],
+    "disclosure": "Original teaching reconstruction. Geometry, time, color and scale are schematic. Lecture figures remain in the private edition. Watching earns no mastery."
+  },
+  {
+    "id": "massive-winds",
+    "moduleId": "exam-two-module-17",
+    "title": "Massive stars prepare their surroundings",
+    "source": "Lecture 23 pages 6–14, 17",
+    "voice": "Ethan · synthetic voice",
+    "src": "videos/massive-winds.mp4",
+    "poster": "videos/massive-winds.jpg",
+    "captions": "videos/massive-winds.vtt",
+    "transcriptSrc": "videos/massive-winds.txt",
+    "duration": 59.45,
+    "stages": [
+      {
+        "title": "More fuel, much faster use",
+        "text": "The lecture calls stars above about eight solar masses massive. They are uncommon compared with lower-mass stars. Greater core pressure and temperature allow faster nuclear reactions. Although a massive star starts with more fuel, its much greater luminosity uses that fuel faster, giving it a shorter life.",
+        "start": 0,
+        "end": 19.71,
+        "caption": "More fuel, much faster use"
+      },
+      {
+        "title": "Winds build a surrounding environment",
+        "text": "Strong radiation can drive material away from a massive star. Over its lifetime, winds and outbursts leave gas around it. When the star eventually explodes, the explosion can run into that previously expelled material. This explains the lecture’s dirty environment: the surroundings carry a history of the star’s own mass loss.",
+        "start": 19.71,
+        "end": 38.13,
+        "caption": "Winds build a surrounding environment"
+      },
+      {
+        "title": "Mass loss can expose deeper layers",
+        "text": "If enough hydrogen-rich envelope is removed, hotter, helium-rich layers become exposed. This can produce a Wolf Rayet star. The star has changed what we can see at its surface; the lost material remains outside it. Do not identify every glowing shell as a planetary nebula. The progenitor and the physical process matter.",
+        "start": 38.13,
+        "end": 59.45,
+        "caption": "Mass loss can expose deeper layers"
+      }
+    ],
+    "disclosure": "Original teaching reconstruction. Geometry, time, color and scale are schematic. Lecture figures remain in the private edition. Watching earns no mastery."
+  },
+  {
+    "id": "onion-burning",
+    "moduleId": "exam-two-module-18",
+    "title": "Build the layers, then reach the energy limit",
+    "source": "Lecture 23 pages 15–17, 22–28",
+    "voice": "Ethan · synthetic voice",
+    "src": "videos/onion-burning.mp4",
+    "poster": "videos/onion-burning.jpg",
+    "captions": "videos/onion-burning.vtt",
+    "transcriptSrc": "videos/onion-burning.txt",
+    "duration": 60.77999999999999,
+    "stages": [
+      {
+        "title": "Fuel exhaustion starts the next contraction",
+        "text": "When a massive star exhausts one core fuel, the core contracts and heats. If it gets hot enough, a heavier fuel ignites. Earlier fuels can keep burning in surrounding shells. Repeated cycles build a layered interior, and the later burning stages become much shorter. The whole star does not burn one element everywhere.",
+        "start": 0,
+        "end": 19.16,
+        "caption": "Fuel exhaustion starts the next contraction"
+      },
+      {
+        "title": "Read the onion from outside inward",
+        "text": "For the five elements in the class ordering exercise, go inward through hydrogen, helium, carbon, silicon, and iron. This selected list leaves out other layers in a detailed model. The center contains the most processed material. Keep direction straight: reversing the question to center outward reverses the order.",
+        "start": 19.16,
+        "end": 38.739999999999995,
+        "caption": "Read the onion from outside inward"
+      },
+      {
+        "title": "Iron does not power another fusion stage",
+        "text": "Fusion toward the iron group releases energy, but further fusion does not provide the same energy source. Iron therefore marks the end of the normal core fusion sequence. Silicon can still be the heaviest correct answer when iron is absent from the choices. Elements beyond iron require other pathways; supernovae are not their only source.",
+        "start": 38.739999999999995,
+        "end": 60.77999999999999,
+        "caption": "Iron does not power another fusion stage"
+      }
+    ],
+    "disclosure": "Original teaching reconstruction. Geometry, time, color and scale are schematic. Lecture figures remain in the private edition. Watching earns no mastery."
+  },
+  {
+    "id": "core-collapse",
+    "moduleId": "exam-two-module-19",
+    "title": "When support fails in the stellar core",
+    "source": "Lecture 23 pages 18–21, 26",
+    "voice": "Ethan · synthetic voice",
+    "src": "videos/core-collapse.mp4",
+    "poster": "videos/core-collapse.jpg",
+    "captions": "videos/core-collapse.vtt",
+    "transcriptSrc": "videos/core-collapse.txt",
+    "duration": 61.379999999999995,
+    "stages": [
+      {
+        "title": "The core reaches its support limit",
+        "text": "An iron core can grow toward the roughly one-point-four solar-mass limit for electron degeneracy support. That is the core’s mass, not the original mass of the whole star. The core cannot restore support by ordinary iron fusion. Contraction raises its temperature and density, setting up reactions that make support fail faster.",
+        "start": 0,
+        "end": 20.2,
+        "caption": "The core reaches its support limit"
+      },
+      {
+        "title": "Two reactions accelerate the collapse",
+        "text": "Electrons combine with protons to form neutrons and neutrinos. Fewer electrons remain to provide degeneracy pressure. At the same time, energetic photons break apart heavy nuclei and consume energy. Support weakens, contraction speeds up, and an Earth-sized core collapses toward a neutron-star scale in a fraction of a second.",
+        "start": 20.2,
+        "end": 41.099999999999994,
+        "caption": "Two reactions accelerate the collapse"
+      },
+      {
+        "title": "A bounce begins a difficult explosion",
+        "text": "At nuclear density, the stiffening matter can halt the inner collapse and launch a shock. The shock may stall; neutrino heating can help revive it. If the explosion succeeds, the envelope is expelled and a compact remnant remains. A neutron star has a mass limit too, so continued collapse can instead produce a black hole.",
+        "start": 41.099999999999994,
+        "end": 61.379999999999995,
+        "caption": "A bounce begins a difficult explosion"
+      }
+    ],
+    "disclosure": "Original teaching reconstruction. Geometry, time, color and scale are schematic. Lecture figures remain in the private edition. Watching earns no mastery."
   }
 ];

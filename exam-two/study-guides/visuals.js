@@ -297,5 +297,100 @@ window.ASTR1102_VISUALS = {
       }
     ],
     "interactions": []
+  },
+  "exam-two-module-15": {
+    "id": "exam-two-module-15-visuals",
+    "label": "AGB shells and carbon recycling",
+    "intro": "Original teaching model. Import the updated private pack for supplied lecture figures.",
+    "visuals": [
+      {
+        "id": "exam-two-module-15-original-figure",
+        "src": "assets/visuals/exam-two/agb-shells.svg",
+        "title": "AGB shells and carbon recycling",
+        "alt": "Follow burning shells, thermal pulses, convection and winds through the late life of a Sun-like star.",
+        "caption": "Follow burning shells, thermal pulses, convection and winds through the late life of a Sun-like star. Schematic scales.",
+        "notice": "Compare the physical relationships before retrieval.",
+        "source": "Lecture 22 pages 10–17, 35 · original reconstruction",
+        "status": "verified",
+        "statusLabel": "Original teaching diagram"
+      }
+    ],
+    "interactions": []
+  },
+  "exam-two-module-16": {
+    "id": "exam-two-module-16-visuals",
+    "label": "Planetary nebulae and white dwarfs",
+    "intro": "Original teaching model. Import the updated private pack for supplied lecture figures.",
+    "visuals": [
+      {
+        "id": "exam-two-module-16-original-figure",
+        "src": "assets/visuals/exam-two/nebula-target.svg",
+        "title": "Planetary nebulae and white dwarfs",
+        "alt": "Separate the exposed remnant from its expanding gas, then connect illumination, spectra and shapes.",
+        "caption": "Separate the exposed remnant from its expanding gas, then connect illumination, spectra and shapes. Schematic scales.",
+        "notice": "Compare the physical relationships before retrieval.",
+        "source": "Lecture 22 pages 18–34 · original reconstruction",
+        "status": "verified",
+        "statusLabel": "Original teaching diagram"
+      }
+    ],
+    "interactions": []
+  },
+  "exam-two-module-17": {
+    "id": "exam-two-module-17-visuals",
+    "label": "Massive stars and winds",
+    "intro": "Original teaching model. Import the updated private pack for supplied lecture figures.",
+    "visuals": [
+      {
+        "id": "exam-two-module-17-original-figure",
+        "src": "assets/visuals/exam-two/massive-winds.svg",
+        "title": "Massive stars and winds",
+        "alt": "Explain short lifetimes, surrounding ejecta and the exposure of deeper layers.",
+        "caption": "Explain short lifetimes, surrounding ejecta and the exposure of deeper layers. Schematic scales.",
+        "notice": "Compare the physical relationships before retrieval.",
+        "source": "Lecture 23 pages 6–14, 17 · original reconstruction",
+        "status": "verified",
+        "statusLabel": "Original teaching diagram"
+      }
+    ],
+    "interactions": []
+  },
+  "exam-two-module-18": {
+    "id": "exam-two-module-18-visuals",
+    "label": "Layered nuclear burning",
+    "intro": "Original teaching model. Import the updated private pack for supplied lecture figures.",
+    "visuals": [
+      {
+        "id": "exam-two-module-18-original-figure",
+        "src": "assets/visuals/exam-two/onion-target.svg",
+        "title": "Layered nuclear burning",
+        "alt": "Build an onion-like interior and distinguish the fusion endpoint from a choice-set comparison.",
+        "caption": "Build an onion-like interior and distinguish the fusion endpoint from a choice-set comparison. Schematic scales.",
+        "notice": "Compare the physical relationships before retrieval.",
+        "source": "Lecture 23 pages 15–17, 22–28 · original reconstruction",
+        "status": "verified",
+        "statusLabel": "Original teaching diagram"
+      }
+    ],
+    "interactions": []
+  },
+  "exam-two-module-19": {
+    "id": "exam-two-module-19-visuals",
+    "label": "Core collapse and supernovae",
+    "intro": "Original teaching model. Import the updated private pack for supplied lecture figures.",
+    "visuals": [
+      {
+        "id": "exam-two-module-19-original-figure",
+        "src": "assets/visuals/exam-two/core-collapse.svg",
+        "title": "Core collapse and supernovae",
+        "alt": "Trace loss of electron support, rapid collapse, shock formation and possible compact remnants.",
+        "caption": "Trace loss of electron support, rapid collapse, shock formation and possible compact remnants. Schematic scales.",
+        "notice": "Compare the physical relationships before retrieval.",
+        "source": "Lecture 23 pages 18–21, 26 · original reconstruction",
+        "status": "verified",
+        "statusLabel": "Original teaching diagram"
+      }
+    ],
+    "interactions": []
   }
 };

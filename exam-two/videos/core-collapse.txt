@@ -1,0 +1,14 @@
+When support fails in the stellar core
+Lecture 23 pages 18–21, 26
+Synthetic narration in Ethan’s voice, generated locally.
+
+The core reaches its support limit
+An iron core can grow toward the roughly one-point-four solar-mass limit for electron degeneracy support. That is the core’s mass, not the original mass of the whole star. The core cannot restore support by ordinary iron fusion. Contraction raises its temperature and density, setting up reactions that make support fail faster.
+
+Two reactions accelerate the collapse
+Electrons combine with protons to form neutrons and neutrinos. Fewer electrons remain to provide degeneracy pressure. At the same time, energetic photons break apart heavy nuclei and consume energy. Support weakens, contraction speeds up, and an Earth-sized core collapses toward a neutron-star scale in a fraction of a second.
+
+A bounce begins a difficult explosion
+At nuclear density, the stiffening matter can halt the inner collapse and launch a shock. The shock may stall; neutrino heating can help revive it. If the explosion succeeds, the envelope is expelled and a compact remnant remains. A neutron star has a mass limit too, so continued collapse can instead produce a black hole.
+
+Original teaching reconstruction. Geometry, time, color and scale are schematic. Lecture figures remain in the private edition. Watching earns no mastery.

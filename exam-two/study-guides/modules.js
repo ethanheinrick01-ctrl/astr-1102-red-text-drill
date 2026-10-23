@@ -5263,5 +5263,1942 @@ window.ASTR1102_MODULES = [
         "mockEligible": true
       }
     ]
+  },
+  {
+    "id": "exam-two-module-15",
+    "examId": "exam-two",
+    "number": 15,
+    "kicker": "Lectures 22–23",
+    "title": "AGB shells and carbon recycling",
+    "description": "Follow burning shells, thermal pulses, convection and winds through the late life of a Sun-like star.",
+    "source": "Lecture 22 pages 10–17, 35",
+    "continuation": false,
+    "concepts": [
+      {
+        "id": "exam-two-concept-agb-shells",
+        "label": "Locate the burning regions",
+        "masteryEligible": true
+      },
+      {
+        "id": "exam-two-concept-thermal-pulses",
+        "label": "Thermal pulses and envelope response",
+        "masteryEligible": true
+      },
+      {
+        "id": "exam-two-concept-carbon-recycling",
+        "label": "Make carbon, dredge it up, then lose it",
+        "masteryEligible": true
+      }
+    ],
+    "activities": [
+      {
+        "id": "exam-two-module-15-lesson",
+        "type": "lesson",
+        "title": "AGB shells and carbon recycling",
+        "body": [
+          "After main-sequence core hydrogen burning, the red giant branch has hydrogen-shell burning around a helium core. The settled helium-burning stage has core helium fusion and a surrounding hydrogen shell. Once core helium is exhausted, the asymptotic giant branch (AGB) has a carbon–oxygen core with helium burning closer to it and hydrogen burning farther out. The extended envelope can be cool even while the shells are extremely hot. The lecture gives luminosities up to roughly 1,000 solar luminosities on the first giant branch and 10,000 on the AGB as illustrative scales, not a unique phase classifier.",
+          "Worked example: An inert carbon–oxygen center with two burning shells is an AGB structure; a helium-burning center belongs to the earlier settled helium-burning stage.",
+          "Common mistake: Do not identify the fuel from the red surface color or put hydrogen fusion inside the inert carbon–oxygen core.",
+          "Hydrogen-shell burning deposits helium that can fuel a surrounding helium-burning shell. The helium shell can become thermally unstable, producing pulses and structural readjustments that contribute to mass loss. These recurrent shell events differ from the earlier core helium flash. The supplied class vote credits pressure overcoming gravity for an expanding star: read this as the course’s force-imbalance model for initiating outward acceleration. Expansion velocity alone does not prove an instantaneous outward force imbalance, because an already moving layer can coast or decelerate.",
+          "Worked example: Follow fuel supply: hydrogen fusion produces helium; helium accumulates; unstable helium-shell burning pulses; the envelope responds.",
+          "Common mistake: A pulse is not a core-collapse supernova, and an outward-moving surface does not by itself measure the current net force.",
+          "Triple-alpha helium fusion produces carbon in processed interior regions. Deep convective mixing can dredge processed material into the envelope and toward the surface; do not picture convection stirring through the entire inert carbon–oxygen core. Strong AGB winds then return enriched gas to interstellar space. The very large radius gives low surface gravity, helping mass loss. The lecture quotes rates up to about 10⁻⁴ solar masses per year and identifies AGB stars as the expected answer for most Galactic carbon in its comparison. Treat that as the course emphasis, not a universal fraction for every epoch and chemical population.",
+          "Worked example: If a hypothetical wind stayed at 10⁻⁴ solar masses per year for 2,000 years, it would remove 0.2 solar masses. Real rates change with time.",
+          "Common mistake: Fusion makes carbon; convection transports it; winds eject it. None of these three verbs can replace the others."
+        ],
+        "keyPoints": [
+          "An AGB star has an inert carbon–oxygen core and hydrogen/helium burning shells.",
+          "Thermal pulses involve helium-shell burning, not the earlier core helium flash.",
+          "Carbon production, dredge-up and wind loss are different steps."
+        ],
+        "source": "Lecture 22 pages 10–17, 35"
+      },
+      {
+        "id": "exam-two-item-l22-shell-location",
+        "rootId": "exam-two-item-l22-shell-location",
+        "moduleId": "exam-two-module-15",
+        "conceptId": "exam-two-concept-agb-shells",
+        "concept": "exam-two-concept-agb-shells",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "In the lecture’s AGB model, where is helium fusion located relative to hydrogen fusion?",
+        "choices": [
+          "Farther from the center",
+          "Inside the carbon–oxygen core",
+          "At the same outer surface",
+          "Closer to the center"
+        ],
+        "answer": 3,
+        "hint": "Read the shells from the core outward.",
+        "explanation": "The helium-burning shell lies just outside the carbon–oxygen core; the hydrogen-burning shell lies farther out. The core itself is inert in this model.",
+        "source": "Lecture 22 pages 11–14, 17 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l22",
+            "locator": "pages 11–14, 17",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-agb-shells"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l22-phase-match",
+        "rootId": "exam-two-item-l22-phase-match",
+        "moduleId": "exam-two-module-15",
+        "conceptId": "exam-two-concept-agb-shells",
+        "concept": "exam-two-concept-agb-shells",
+        "type": "match",
+        "responseType": "match",
+        "prompt": "Match each stage to its characteristic central structure in the supplied Sun-like sequence.",
+        "choices": [
+          "Inert carbon–oxygen core",
+          "Inert helium core",
+          "Helium-burning core"
+        ],
+        "answer": [
+          1,
+          2,
+          0
+        ],
+        "hint": "Separate core burning from shell burning.",
+        "explanation": "The red giant branch has an inert helium core; settled helium burning consumes helium in the core; the AGB has an inert carbon–oxygen core.",
+        "source": "Lecture 22 pages 11–14, 17 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l22",
+            "locator": "pages 11–14, 17",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-agb-shells"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true,
+        "rows": [
+          {
+            "label": "First red giant branch",
+            "answer": "Inert helium core"
+          },
+          {
+            "label": "Settled helium-burning stage",
+            "answer": "Helium-burning core"
+          },
+          {
+            "label": "Asymptotic giant branch",
+            "answer": "Inert carbon–oxygen core"
+          }
+        ],
+        "options": [
+          "Inert carbon–oxygen core",
+          "Inert helium core",
+          "Helium-burning core"
+        ]
+      },
+      {
+        "id": "exam-two-item-l22-cool-hot",
+        "rootId": "exam-two-item-l22-cool-hot",
+        "moduleId": "exam-two-module-15",
+        "conceptId": "exam-two-concept-agb-shells",
+        "concept": "exam-two-concept-agb-shells",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "An AGB star has a cool red photosphere. Which conclusion about its interior is supported?",
+        "choices": [
+          "Its interior has no remaining nuclear reactions",
+          "Its burning shells must have the surface temperature",
+          "Its burning shells can still be very hot",
+          "Its central carbon must already be burning"
+        ],
+        "answer": 2,
+        "hint": "Surface and interior are different regions.",
+        "explanation": "The extended envelope produces a cool surface while hot interior shells continue fusion. Surface color does not set every interior temperature.",
+        "source": "Lecture 22 pages 11–14, 17 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l22",
+            "locator": "pages 11–14, 17",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-agb-shells"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l22-pulse-fuel",
+        "rootId": "exam-two-item-l22-pulse-fuel",
+        "moduleId": "exam-two-module-15",
+        "conceptId": "exam-two-concept-thermal-pulses",
+        "concept": "exam-two-concept-thermal-pulses",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "What directly replenishes the helium available for shell burning in the AGB model?",
+        "choices": [
+          "Iron fusion in an outer atmosphere",
+          "Hydrogen fusion in a surrounding shell",
+          "Helium escaping through a surface wind",
+          "Carbon fusion inside the central core"
+        ],
+        "answer": 1,
+        "hint": "Identify the product of hydrogen fusion.",
+        "explanation": "Hydrogen fusion makes helium, supplying material for subsequent helium-shell burning.",
+        "source": "Lecture 22 pages 10, 13–14, 17 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l22",
+            "locator": "pages 10, 13–14, 17",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-thermal-pulses"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l22-flash-pulse",
+        "rootId": "exam-two-item-l22-flash-pulse",
+        "moduleId": "exam-two-module-15",
+        "conceptId": "exam-two-concept-thermal-pulses",
+        "concept": "exam-two-concept-thermal-pulses",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Which feature distinguishes an AGB thermal pulse from the earlier helium flash?",
+        "choices": [
+          "Helium first ignites in the degenerate core",
+          "Hydrogen becomes helium in the main-sequence core",
+          "Iron loses its supporting electrons",
+          "Helium ignites unstably in a shell"
+        ],
+        "answer": 3,
+        "hint": "Use the location and evolutionary stage.",
+        "explanation": "The AGB pulse concerns helium-shell instability. The earlier helium flash starts core helium burning in the low-mass sequence.",
+        "source": "Lecture 22 pages 10, 13–14, 17 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l22",
+            "locator": "pages 10, 13–14, 17",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-thermal-pulses"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l22-force-outward",
+        "rootId": "exam-two-item-l22-force-outward",
+        "moduleId": "exam-two-module-15",
+        "conceptId": "exam-two-concept-thermal-pulses",
+        "concept": "exam-two-concept-thermal-pulses",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "A stellar layer begins accelerating outward from rest in the lecture’s pressure-versus-gravity model. What must be true at that moment?",
+        "choices": [
+          "Both forces fall to zero",
+          "The two forces cancel exactly",
+          "Gravity exceeds the outward pressure force",
+          "The outward pressure force exceeds gravity"
+        ],
+        "answer": 3,
+        "hint": "Acceleration follows the direction of the net force.",
+        "explanation": "Outward acceleration requires a net outward force in this model, so the outward pressure force exceeds inward gravity. The stem specifies acceleration rather than expansion velocity alone.",
+        "source": "Lecture 22 pages 10, 13–14, 17 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l22",
+            "locator": "pages 10, 13–14, 17",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-thermal-pulses"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l22-carbon-order",
+        "rootId": "exam-two-item-l22-carbon-order",
+        "moduleId": "exam-two-module-15",
+        "conceptId": "exam-two-concept-carbon-recycling",
+        "concept": "exam-two-concept-carbon-recycling",
+        "type": "order",
+        "responseType": "order",
+        "prompt": "Order the steps that return newly made carbon from an AGB star to surrounding gas.",
+        "choices": [
+          "Helium fusion produces carbon",
+          "Convection mixes processed material outward",
+          "A wind carries enriched envelope gas away"
+        ],
+        "answer": [
+          0,
+          1,
+          2
+        ],
+        "hint": "Separate production, transport and escape.",
+        "explanation": "Carbon must be made before it can be mixed outward and then removed in the wind.",
+        "source": "Lecture 22 pages 14–17, 35 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l22",
+            "locator": "pages 14–17, 35",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-carbon-recycling"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l22-wind-rate",
+        "rootId": "exam-two-item-l22-wind-rate",
+        "moduleId": "exam-two-module-15",
+        "conceptId": "exam-two-concept-carbon-recycling",
+        "concept": "exam-two-concept-carbon-recycling",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "A hypothetical AGB wind stays at 10⁻⁴ solar masses per year for 3,000 years. How much mass leaves?",
+        "choices": [
+          "30 solar masses",
+          "0.3 solar masses",
+          "3 solar masses",
+          "0.03 solar masses"
+        ],
+        "answer": 1,
+        "hint": "Multiply a rate by elapsed time.",
+        "explanation": "10⁻⁴ × 3,000 = 0.3 solar masses. The constant rate is an explicit assumption, not a lifetime average inferred from the slide.",
+        "source": "Lecture 22 pages 14–17, 35 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l22",
+            "locator": "pages 14–17, 35",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-carbon-recycling"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l22-dredge-mechanism",
+        "rootId": "exam-two-item-l22-dredge-mechanism",
+        "moduleId": "exam-two-module-15",
+        "conceptId": "exam-two-concept-carbon-recycling",
+        "concept": "exam-two-concept-carbon-recycling",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "A giant’s surface becomes enriched in carbon made deeper inside. Which process transports that material outward in this model?",
+        "choices": [
+          "Electron capture",
+          "Convective mixing",
+          "Photon escape alone",
+          "Core photodisintegration"
+        ],
+        "answer": 1,
+        "hint": "Which process moves matter through the envelope?",
+        "explanation": "Convection moves processed matter toward the surface. Radiation carries energy; electron capture and photodisintegration are different nuclear processes.",
+        "source": "Lecture 22 pages 14–17, 35 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l22",
+            "locator": "pages 14–17, 35",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-carbon-recycling"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      }
+    ]
+  },
+  {
+    "id": "exam-two-module-16",
+    "examId": "exam-two",
+    "number": 16,
+    "kicker": "Lectures 22–23",
+    "title": "Planetary nebulae and white dwarfs",
+    "description": "Separate the exposed remnant from its expanding gas, then connect illumination, spectra and shapes.",
+    "source": "Lecture 22 pages 18–34",
+    "continuation": false,
+    "concepts": [
+      {
+        "id": "exam-two-concept-white-dwarf-remnant",
+        "label": "A compact remnant that cools",
+        "masteryEligible": true
+      },
+      {
+        "id": "exam-two-concept-nebula-spectrum",
+        "label": "Illumination and the region you sample",
+        "masteryEligible": true
+      },
+      {
+        "id": "exam-two-concept-nebula-shapes",
+        "label": "Expanding shells, finite lifetimes and shapes",
+        "masteryEligible": true
+      }
+    ],
+    "activities": [
+      {
+        "id": "exam-two-module-16-lesson",
+        "type": "lesson",
+        "title": "Planetary nebulae and white dwarfs",
+        "body": [
+          "A Sun-like AGB star loses its envelope, exposing a hot compact remnant that becomes a carbon–oxygen white dwarf, roughly Earth-sized. The remnant cannot sustain the next carbon-fusion stage in the course model and gradually radiates stored heat, cooling and fading. A white dwarf is distinct from a red dwarf (a low-mass hydrogen-burning star) and a brown dwarf (an object that never sustains ordinary core hydrogen fusion). On the H–R diagram, the exposed core can become hotter before the later cooling track; do not treat all post-AGB evolution as one monotonic temperature decline.",
+          "Worked example: If a system contains a hot compact central star and a large expanding gas shell, the compact star is the remnant and the shell is the planetary nebula.",
+          "Common mistake: The Sun-like path is envelope loss and a white dwarf, not iron-core collapse. A small physical radius does not imply a low initial temperature.",
+          "The exposed central star can be near 100,000 K in the illustrative late-stage sequence. Its ultraviolet radiation ionizes surrounding gas, which emits bright spectral lines. A spectrum centered on nebular gas can therefore differ from one dominated by the central star, which supplies a stellar continuum and atmospheric features. Classify the observed component before predicting the spectrum. A view of shell gas and a view centered on the star need not produce the same mixture.",
+          "Worked example: Place an observing aperture away from the central star but on glowing gas: emission lines should dominate that component. Moving onto the central star adds its stellar spectrum.",
+          "Common mistake: “Planetary nebula” names the system’s gas, not one universal spectrum independent of aperture, contamination or component.",
+          "Planetary nebulae are expanding envelopes from late giant evolution. The lecture gives expansion speeds about 10–30 km/s, sizes near a light-year and visible lifetimes of tens of thousands of years as order-of-magnitude examples. As the material spreads and the central source evolves, the nebula fades. Rings, bipolar lobes and viewing angle produce varied appearances; equatorial density concentrations and binary interaction can help shape the gas. A slide presents a binary-only formation proposal but explicitly directs the course to assume the Sun forms a planetary nebula. The proposal is not a settled universal rule. PDF pages labeled animations preserve only static or blank frames, not a recoverable movie.",
+          "Worked example: Two views of the same bipolar structure can appear ringlike or elongated. Shape alone is not a unique measurement of the companion or the ejection history.",
+          "Common mistake: A planetary nebula is not a planet-forming disk, and a bipolar image alone does not prove a binary central system."
+        ],
+        "keyPoints": [
+          "The white dwarf is the remnant; the planetary nebula is ejected gas.",
+          "Hot central-star ultraviolet radiation powers nebular emission.",
+          "The spectrum depends on the sampled region."
+        ],
+        "source": "Lecture 22 pages 18–34"
+      },
+      {
+        "id": "exam-two-item-l22-remnant-target",
+        "rootId": "exam-two-item-l22-remnant-target",
+        "moduleId": "exam-two-module-16",
+        "conceptId": "exam-two-concept-white-dwarf-remnant",
+        "concept": "exam-two-concept-white-dwarf-remnant",
+        "type": "target",
+        "responseType": "target",
+        "prompt": "Select the compact remnant in this schematic planetary-nebula system.",
+        "choices": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": 1,
+        "hint": "Separate the central object from the extended gas.",
+        "explanation": "B marks the compact central remnant. A and C sample expelled gas, while D lies outside the shell.",
+        "source": "Lecture 22 pages 18–22 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l22",
+            "locator": "pages 18–22",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-white-dwarf-remnant"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true,
+        "media": {
+          "src": "assets/visuals/exam-two/nebula-target.svg",
+          "alt": "Expanding gas shell centered at 50 percent width and 50 percent height. A at 22,50 and C at 78,50 mark shell gas; B at 50,50 marks central remnant; D at 88,20 is outside.",
+          "caption": "Original schematic. Sizes and distances are not to scale."
+        },
+        "targets": [
+          {
+            "label": "A",
+            "x": 22,
+            "y": 50
+          },
+          {
+            "label": "B",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "label": "C",
+            "x": 78,
+            "y": 50
+          },
+          {
+            "label": "D",
+            "x": 88,
+            "y": 20
+          }
+        ]
+      },
+      {
+        "id": "exam-two-item-l22-dwarf-power",
+        "rootId": "exam-two-item-l22-dwarf-power",
+        "moduleId": "exam-two-module-16",
+        "conceptId": "exam-two-concept-white-dwarf-remnant",
+        "concept": "exam-two-concept-white-dwarf-remnant",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "What mainly supplies the light of an isolated, cooling white dwarf in this course model?",
+        "choices": [
+          "Sustained core carbon fusion",
+          "Accretion from a companion",
+          "Stored thermal energy",
+          "Sustained core hydrogen fusion"
+        ],
+        "answer": 2,
+        "hint": "The stem specifies an isolated remnant.",
+        "explanation": "A cooling white dwarf radiates stored heat. It is not a main-sequence hydrogen-burning star and is not supplied by a companion in this isolated case.",
+        "source": "Lecture 22 pages 18–22 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l22",
+            "locator": "pages 18–22",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-white-dwarf-remnant"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l22-dwarf-match",
+        "rootId": "exam-two-item-l22-dwarf-match",
+        "moduleId": "exam-two-module-16",
+        "conceptId": "exam-two-concept-white-dwarf-remnant",
+        "concept": "exam-two-concept-white-dwarf-remnant",
+        "type": "match",
+        "responseType": "match",
+        "prompt": "Match each object to its defining distinction.",
+        "choices": [
+          "Never sustains ordinary core hydrogen fusion",
+          "Compact evolved remnant",
+          "Low-mass hydrogen-burning star"
+        ],
+        "answer": [
+          2,
+          0,
+          1
+        ],
+        "hint": "A similar name does not imply the same history.",
+        "explanation": "Red dwarfs sustain core hydrogen fusion; brown dwarfs never sustain ordinary core hydrogen fusion; white dwarfs are compact evolved remnants.",
+        "source": "Lecture 22 pages 18–22 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l22",
+            "locator": "pages 18–22",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-white-dwarf-remnant"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true,
+        "rows": [
+          {
+            "label": "Red dwarf",
+            "answer": "Low-mass hydrogen-burning star"
+          },
+          {
+            "label": "Brown dwarf",
+            "answer": "Never sustains ordinary core hydrogen fusion"
+          },
+          {
+            "label": "White dwarf",
+            "answer": "Compact evolved remnant"
+          }
+        ],
+        "options": [
+          "Never sustains ordinary core hydrogen fusion",
+          "Compact evolved remnant",
+          "Low-mass hydrogen-burning star"
+        ]
+      },
+      {
+        "id": "exam-two-item-l22-gas-spectrum",
+        "rootId": "exam-two-item-l22-gas-spectrum",
+        "moduleId": "exam-two-module-16",
+        "conceptId": "exam-two-concept-nebula-spectrum",
+        "concept": "exam-two-concept-nebula-spectrum",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "A narrow aperture samples bright planetary-nebula gas while excluding the central star. Which spectral feature is expected from that gas?",
+        "choices": [
+          "Bright emission lines",
+          "No light because the gas is not a star",
+          "Only a smooth thermal continuum",
+          "Only dark stellar absorption lines"
+        ],
+        "answer": 0,
+        "hint": "Low-density ionized gas emits at particular wavelengths.",
+        "explanation": "The ionized nebular gas contributes bright emission lines. The aperture condition separates it from the central star’s spectrum.",
+        "source": "Lecture 22 pages 22, 30, 34 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l22",
+            "locator": "pages 22, 30, 34",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-nebula-spectrum"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l22-spectrum-change",
+        "rootId": "exam-two-item-l22-spectrum-change",
+        "moduleId": "exam-two-module-16",
+        "conceptId": "exam-two-concept-nebula-spectrum",
+        "concept": "exam-two-concept-nebula-spectrum",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Two apertures view one planetary nebula: one samples shell gas, the other includes the central star. Why can the spectra differ?",
+        "choices": [
+          "The gas changes into a new element instantly",
+          "They must measure different cosmic ages",
+          "They collect different physical components",
+          "The star’s distance changes between apertures"
+        ],
+        "answer": 2,
+        "hint": "Same system, different regions.",
+        "explanation": "The relative contributions from ionized gas and the stellar source differ with the aperture. Different components have different emission processes.",
+        "source": "Lecture 22 pages 22, 30, 34 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l22",
+            "locator": "pages 22, 30, 34",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-nebula-spectrum"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l22-uv-source",
+        "rootId": "exam-two-item-l22-uv-source",
+        "moduleId": "exam-two-module-16",
+        "conceptId": "exam-two-concept-nebula-spectrum",
+        "concept": "exam-two-concept-nebula-spectrum",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "What powers the glow of the ejected gas in the lecture’s planetary-nebula model?",
+        "choices": [
+          "Reflected visible light from nearby planets",
+          "Hydrogen fusion throughout the nebular shell",
+          "Iron fusion inside the central remnant",
+          "Ultraviolet radiation from the hot remnant"
+        ],
+        "answer": 3,
+        "hint": "Separate illumination from nuclear burning in the gas.",
+        "explanation": "The hot central source supplies ionizing ultraviolet radiation; the gas then emits line radiation.",
+        "source": "Lecture 22 pages 22, 30, 34 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l22",
+            "locator": "pages 22, 30, 34",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-nebula-spectrum"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l22-nebula-lifetime",
+        "rootId": "exam-two-item-l22-nebula-lifetime",
+        "moduleId": "exam-two-module-16",
+        "conceptId": "exam-two-concept-nebula-shapes",
+        "concept": "exam-two-concept-nebula-shapes",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "A nebular shell expands while keeping approximately the same gas mass. What trend helps explain why it eventually becomes difficult to see?",
+        "choices": [
+          "Its gas becomes more dilute",
+          "Its shell must move back toward the core",
+          "Its gas becomes more tightly compressed",
+          "Its central source must become more luminous"
+        ],
+        "answer": 0,
+        "hint": "Spread the same mass through a larger volume.",
+        "explanation": "Expansion lowers the gas density; changing illumination and dilution contribute to fading.",
+        "source": "Lecture 22 pages 22–33 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l22",
+            "locator": "pages 22–33",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-nebula-shapes"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l22-pn-identity-tf",
+        "rootId": "exam-two-item-l22-pn-identity-tf",
+        "moduleId": "exam-two-module-16",
+        "conceptId": "exam-two-concept-nebula-shapes",
+        "concept": "exam-two-concept-nebula-shapes",
+        "type": "true-false",
+        "responseType": "true-false",
+        "prompt": "True or false: A planetary nebula is the disk from which a young star’s planets are forming.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": 1,
+        "hint": "Compare the young-star and dying-star stages.",
+        "explanation": "False. Here it is an aging star’s ejected envelope, illuminated by the exposed hot remnant.",
+        "source": "Lecture 22 pages 22–33 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l22",
+            "locator": "pages 22–33",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-nebula-shapes"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l22-shape-inference",
+        "rootId": "exam-two-item-l22-shape-inference",
+        "moduleId": "exam-two-module-16",
+        "conceptId": "exam-two-concept-nebula-shapes",
+        "concept": "exam-two-concept-nebula-shapes",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "A nebula looks bipolar in an image. Which inference is justified from that shape alone?",
+        "choices": [
+          "The image fixes the remnant’s core composition",
+          "The image establishes exactly one companion",
+          "The image alone does not establish a companion",
+          "The image fixes the ejection speed uniquely"
+        ],
+        "answer": 2,
+        "hint": "Different structures and viewing angles can overlap in appearance.",
+        "explanation": "Bipolar shape can motivate a shaping hypothesis, but it does not uniquely establish a companion or the system’s full history.",
+        "source": "Lecture 22 pages 22–33 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l22",
+            "locator": "pages 22–33",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-nebula-shapes"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      }
+    ]
+  },
+  {
+    "id": "exam-two-module-17",
+    "examId": "exam-two",
+    "number": 17,
+    "kicker": "Lectures 22–23",
+    "title": "Massive stars and winds",
+    "description": "Explain short lifetimes, surrounding ejecta and the exposure of deeper layers.",
+    "source": "Lecture 23 pages 6–14, 17",
+    "continuation": false,
+    "concepts": [
+      {
+        "id": "exam-two-concept-massive-demographics",
+        "label": "Rare stars with fast nuclear clocks",
+        "masteryEligible": true
+      },
+      {
+        "id": "exam-two-concept-wind-environment",
+        "label": "Winds prepare the surrounding gas",
+        "masteryEligible": true
+      },
+      {
+        "id": "exam-two-concept-envelope-stripping",
+        "label": "Strip the envelope and expose helium",
+        "masteryEligible": true
+      }
+    ],
+    "activities": [
+      {
+        "id": "exam-two-module-17-lesson",
+        "type": "lesson",
+        "title": "Massive stars and winds",
+        "body": [
+          "The lecture uses initial mass above about 8 solar masses to define massive stars. This is an approximate evolutionary division, not the mass of a collapsing iron core. Most stars have lower masses; the initial mass distribution has far fewer high-mass members. Massive stars have greater core pressure and temperature, faster reactions, greater luminosity and shorter lifetimes despite more fuel. Their interiors can reach later burning stages unavailable to a Sun-like star.",
+          "Worked example: At 12 solar masses and 24,000 solar luminosities, the approximate main-sequence lifetime relative to the Sun is 12/24,000 = 1/2,000.",
+          "Common mistake: Do not replace the initial-mass division near 8 with the electron-supported core limit near 1.4, or count luminous stars as if they were the most common.",
+          "A massive star’s high luminosity can transfer momentum to its outer gas and drive a wind. Winds and episodes of stronger mass loss accumulate circumstellar material before the terminal event. Expanding supernova ejecta may then interact with that material. The graded screenshot credits the lifetime-wind explanation for a “dirty” explosion environment; the PDF omits that credited D option and the question permits more than one answer. Preserve that evidence without declaring every other possible mass-loss mechanism impossible. Eta Carinae and its Homunculus are examples of dramatic mass loss; the deck’s precise age, extent, companion speculation and future-outcome statements are dated context.",
+          "Worked example: A shell already present before the explosion records earlier mass loss. It need not have been produced by the explosion that later overtakes it.",
+          "Common mistake: The wind shell and later fast ejecta are different populations of material; not every surrounding nebula is simply leftover birth-cloud gas.",
+          "Strong mass loss can remove hydrogen-rich outer material and expose hotter helium-rich layers. The lecture associates this stripped state with Wolf–Rayet stars. This changes the observable surface without requiring the outer envelope to be converted wholesale into helium by fusion at that surface. Lost material remains outside as part of the circumstellar environment. Massive-star mass-loss nebulae can resemble planetary nebulae, but the progenitor and physical history distinguish them.",
+          "Worked example: Removing a hydrogen-rich cover reveals a helium-rich layer that was already deeper inside; the visible composition changes through exposure.",
+          "Common mistake: A hot helium-rich surface is not evidence that all surface hydrogen fused in place, and the label planetary nebula should not be assigned from a ringlike shape alone."
+        ],
+        "keyPoints": [
+          "About 8 solar masses is the lecture’s initial-mass division.",
+          "High luminosity can drive strong winds and create surrounding gas.",
+          "Stripping an envelope can expose helium-rich layers."
+        ],
+        "source": "Lecture 23 pages 6–14, 17"
+      },
+      {
+        "id": "exam-two-item-l23-massive-clock",
+        "rootId": "exam-two-item-l23-massive-clock",
+        "moduleId": "exam-two-module-17",
+        "conceptId": "exam-two-concept-massive-demographics",
+        "concept": "exam-two-concept-massive-demographics",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Use t/tSun ≈ (M/MSun)/(L/LSun). A hypothetical star has 12 solar masses and 24,000 solar luminosities. What is its lifetime relative to the Sun?",
+        "choices": [
+          "2,000",
+          "1/2,000",
+          "1/200",
+          "200"
+        ],
+        "answer": 1,
+        "hint": "Divide the fuel scale by the output scale.",
+        "explanation": "12/24,000 = 1/2,000. This approximate main-sequence relation is not a duration for every later burning stage.",
+        "source": "Lecture 23 pages 6–9 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l23",
+            "locator": "pages 6–9",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-massive-demographics"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l23-population",
+        "rootId": "exam-two-item-l23-population",
+        "moduleId": "exam-two-module-17",
+        "conceptId": "exam-two-concept-massive-demographics",
+        "concept": "exam-two-concept-massive-demographics",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Which population statement matches the lecture’s initial stellar mass distribution?",
+        "choices": [
+          "The brightest group must be the most numerous",
+          "Massive stars outnumber lower-mass stars",
+          "The two groups always have equal numbers",
+          "Lower-mass stars outnumber massive stars"
+        ],
+        "answer": 3,
+        "hint": "Do not confuse luminosity with abundance.",
+        "explanation": "The mass distribution favors lower-mass stars; massive stars are a small fraction even though they can dominate light.",
+        "source": "Lecture 23 pages 6–9 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l23",
+            "locator": "pages 6–9",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-massive-demographics"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l23-eight-meaning",
+        "rootId": "exam-two-item-l23-eight-meaning",
+        "moduleId": "exam-two-module-17",
+        "conceptId": "exam-two-concept-massive-demographics",
+        "concept": "exam-two-concept-massive-demographics",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "In the lecture’s approximate “above 8 solar masses” criterion, which mass is meant?",
+        "choices": [
+          "The star’s initial mass",
+          "Only its central neutron-star mass",
+          "Only its final iron-core mass",
+          "Only its ejected gas mass"
+        ],
+        "answer": 0,
+        "hint": "Identify what the evolutionary classification describes.",
+        "explanation": "The criterion refers to the initial stellar mass. The final core and ejecta have different masses after burning and mass loss.",
+        "source": "Lecture 23 pages 6–9 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l23",
+            "locator": "pages 6–9",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-massive-demographics"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l23-wind-history",
+        "rootId": "exam-two-item-l23-wind-history",
+        "moduleId": "exam-two-module-17",
+        "conceptId": "exam-two-concept-wind-environment",
+        "concept": "exam-two-concept-wind-environment",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "A dense shell surrounds a massive star before its final explosion. Which process can build that shell?",
+        "choices": [
+          "Only material leaving after core bounce",
+          "Mass loss during the star’s earlier life",
+          "Only material ejected by the later explosion",
+          "Only gas newly made in the later shock"
+        ],
+        "answer": 1,
+        "hint": "The shell already exists before the terminal event.",
+        "explanation": "Earlier winds or outbursts can supply circumstellar gas before the explosion.",
+        "source": "Lecture 23 pages 9–14 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l23",
+            "locator": "pages 9–14",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-wind-environment"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l23-radiation-wind",
+        "rootId": "exam-two-item-l23-radiation-wind",
+        "moduleId": "exam-two-module-17",
+        "conceptId": "exam-two-concept-wind-environment",
+        "concept": "exam-two-concept-wind-environment",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "How can large luminosity help drive a massive star’s wind?",
+        "choices": [
+          "Radiation stops all nuclear reactions at once",
+          "Radiation transfers outward momentum to gas",
+          "Radiation increases the gas’s inward attraction",
+          "Radiation makes the outer gas completely inert"
+        ],
+        "answer": 1,
+        "hint": "Photons can transfer momentum when interacting with matter.",
+        "explanation": "Radiative momentum transfer can accelerate outer material outward and contribute to mass loss.",
+        "source": "Lecture 23 pages 9–14 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l23",
+            "locator": "pages 9–14",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-wind-environment"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l23-ejecta-order",
+        "rootId": "exam-two-item-l23-ejecta-order",
+        "moduleId": "exam-two-module-17",
+        "conceptId": "exam-two-concept-wind-environment",
+        "concept": "exam-two-concept-wind-environment",
+        "type": "order",
+        "responseType": "order",
+        "prompt": "Order these events in a model where supernova ejecta encounter an older wind shell.",
+        "choices": [
+          "The living star expels wind material",
+          "The wind material forms a surrounding environment",
+          "The star produces fast explosion ejecta",
+          "The ejecta reach the older surrounding gas"
+        ],
+        "answer": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "hint": "The material encountered must already be outside the star.",
+        "explanation": "Earlier mass loss builds the environment; later explosion ejecta travel into it.",
+        "source": "Lecture 23 pages 9–14 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l23",
+            "locator": "pages 9–14",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-wind-environment"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l23-wr-surface",
+        "rootId": "exam-two-item-l23-wr-surface",
+        "moduleId": "exam-two-module-17",
+        "conceptId": "exam-two-concept-envelope-stripping",
+        "concept": "exam-two-concept-envelope-stripping",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "A strong wind removes a massive star’s hydrogen-rich envelope. What can become visible underneath?",
+        "choices": [
+          "Hotter helium-rich layers",
+          "An exposed iron core in every case",
+          "A carbon–oxygen white dwarf in every case",
+          "Cooler hydrogen-rich layers"
+        ],
+        "answer": 0,
+        "hint": "Follow which material is removed and which remains.",
+        "explanation": "Stripping the hydrogen-rich envelope can expose deeper hotter helium-rich layers, associated with Wolf–Rayet stars in the lecture.",
+        "source": "Lecture 23 pages 9–13, 17 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l23",
+            "locator": "pages 9–13, 17",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-envelope-stripping"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l23-stripping-tf",
+        "rootId": "exam-two-item-l23-stripping-tf",
+        "moduleId": "exam-two-module-17",
+        "conceptId": "exam-two-concept-envelope-stripping",
+        "concept": "exam-two-concept-envelope-stripping",
+        "type": "true-false",
+        "responseType": "true-false",
+        "prompt": "True or false: Exposing a helium-rich surface requires all the removed surface hydrogen to fuse into helium at that surface.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": 1,
+        "hint": "Removal and nuclear conversion are different mechanisms.",
+        "explanation": "False. A wind can remove hydrogen-rich material and expose helium-rich material that was deeper inside.",
+        "source": "Lecture 23 pages 9–13, 17 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l23",
+            "locator": "pages 9–13, 17",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-envelope-stripping"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l23-nebula-origin",
+        "rootId": "exam-two-item-l23-nebula-origin",
+        "moduleId": "exam-two-module-17",
+        "conceptId": "exam-two-concept-envelope-stripping",
+        "concept": "exam-two-concept-envelope-stripping",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Two stars have glowing surrounding shells. One is an AGB remnant; the other is a massive star losing its envelope. What best distinguishes the shells’ origins?",
+        "choices": [
+          "The fact that both shells have curved edges",
+          "The progenitors and their mass-loss histories",
+          "The fact that both shells emit visible light",
+          "The fact that both shells surround central stars"
+        ],
+        "answer": 1,
+        "hint": "Appearance alone can be shared by different histories.",
+        "explanation": "The stellar evolutionary context and mass-loss history distinguish a planetary nebula from a massive-star wind environment.",
+        "source": "Lecture 23 pages 9–13, 17 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l23",
+            "locator": "pages 9–13, 17",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-envelope-stripping"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      }
+    ]
+  },
+  {
+    "id": "exam-two-module-18",
+    "examId": "exam-two",
+    "number": 18,
+    "kicker": "Lectures 22–23",
+    "title": "Layered nuclear burning",
+    "description": "Build an onion-like interior and distinguish the fusion endpoint from a choice-set comparison.",
+    "source": "Lecture 23 pages 15–17, 22–28",
+    "continuation": false,
+    "concepts": [
+      {
+        "id": "exam-two-concept-successive-fuels",
+        "label": "New fuels need hotter, denser conditions",
+        "masteryEligible": true
+      },
+      {
+        "id": "exam-two-concept-onion-order",
+        "label": "Read selected layers in the right direction",
+        "masteryEligible": true
+      },
+      {
+        "id": "exam-two-concept-iron-endpoint",
+        "label": "The energy endpoint and the answer choices",
+        "masteryEligible": true
+      }
+    ],
+    "activities": [
+      {
+        "id": "exam-two-module-18-lesson",
+        "type": "lesson",
+        "title": "Layered nuclear burning",
+        "body": [
+          "When a core fuel is exhausted, the core contracts and heats. If temperature and density become high enough, the next fuel ignites while earlier fuels may remain active in surrounding shells. The envelope can expand as the core contracts, and the track can move back and forth across the H–R diagram. Late in evolution the envelope may lag behind rapid core changes, so there is no universal one-to-one surface color for every reaction. Later fuel stages shorten sharply: the lecture’s 25-solar-mass example ranges from millions of years of hydrogen burning to days of silicon burning. These are model values, not clocks for every mass. MESA is a stellar-modeling code cited as context, not a required installation.",
+          "Worked example: A core can contract while its outer envelope expands. The two regions have coupled but different responses.",
+          "Common mistake: Do not treat a blue-to-red track as a physical sideways trip across space, or apply one fuel-stage table to every star.",
+          "A massive evolved star contains several burning shells and processed layers around an iron-rich core. In the supplied five-element ordering, the order from outermost to innermost is hydrogen → helium → carbon → silicon → iron. A detailed model includes additional products and layers; this five-element task is a selected sequence, not a complete universal radial composition profile. The supplied teaching figure uses simplified shell labels whose detailed arrangement should not be overinterpreted. New practice uses only the unambiguous selected order.",
+          "Worked example: If asked from the center outward, reverse the selected sequence: iron, silicon, carbon, helium, hydrogen.",
+          "Common mistake: The arrows’ direction matters. “Heaviest of these choices” and “outermost of these layers” are different operations.",
+          "The iron group lies near the maximum nuclear binding energy per nucleon. Further fusion does not provide the energy release needed to sustain another normal core-burning stage; the statement is about an energy source, not an inability ever to make heavier nuclei. In the supplied comparison among silicon, carbon, uranium and helium, silicon is the heaviest element normally synthesized during the described hydrostatic sequence among those choices. If iron is offered in a different comparison, the answer can change. The slide’s “everything heavier than iron” from supernovae is an oversimplification: neutron-capture processes in other settings, including AGB stars and neutron-star mergers, also contribute. These qualifications do not change the credited silicon answer to the supplied choice set.",
+          "Worked example: Among helium, carbon and silicon, choose silicon; among helium, silicon and iron, choose iron for the heaviest product reached in the modeled sequence.",
+          "Common mistake: Do not memorize “silicon” as a universal endpoint, or interpret the iron fusion limit as a ban on all heavier-element production."
+        ],
+        "keyPoints": [
+          "Fuel exhaustion → contraction/heating → a new burning stage if conditions permit.",
+          "Selected layers run H, He, C, Si, Fe from outside inward.",
+          "The iron group ends the normal energy-producing fusion sequence."
+        ],
+        "source": "Lecture 23 pages 15–17, 22–28"
+      },
+      {
+        "id": "exam-two-item-l23-next-fuel",
+        "rootId": "exam-two-item-l23-next-fuel",
+        "moduleId": "exam-two-module-18",
+        "conceptId": "exam-two-concept-successive-fuels",
+        "concept": "exam-two-concept-successive-fuels",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "After one core fuel is exhausted, what normally enables the next heavier fuel to ignite in a massive star?",
+        "choices": [
+          "The previous fuel becomes unlimited again",
+          "Envelope expansion cools every region equally",
+          "A decrease in core temperature starts fusion",
+          "Contraction raises core temperature and density"
+        ],
+        "answer": 3,
+        "hint": "Follow the core rather than the photosphere.",
+        "explanation": "Contraction heats and compresses the core until a new reaction can operate, if the star reaches the needed conditions.",
+        "source": "Lecture 23 pages 16–17, 22, 24–25 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l23",
+            "locator": "pages 16–17, 22, 24–25",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-successive-fuels"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l23-stage-times",
+        "rootId": "exam-two-item-l23-stage-times",
+        "moduleId": "exam-two-module-18",
+        "conceptId": "exam-two-concept-successive-fuels",
+        "concept": "exam-two-concept-successive-fuels",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Which trend fits the supplied massive-star burning-stage example?",
+        "choices": [
+          "Later core burning stages are much shorter",
+          "Every stage lasts the same number of years",
+          "All burning stages finish in one core-bounce time",
+          "Silicon burning lasts longer than hydrogen burning"
+        ],
+        "answer": 0,
+        "hint": "Compare the first long-lived fuel with the final stages.",
+        "explanation": "The example progresses from long hydrogen burning to rapidly shortening late stages. Core bounce is a separate millisecond process.",
+        "source": "Lecture 23 pages 16–17, 22, 24–25 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l23",
+            "locator": "pages 16–17, 22, 24–25",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-successive-fuels"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l23-core-envelope",
+        "rootId": "exam-two-item-l23-core-envelope",
+        "moduleId": "exam-two-module-18",
+        "conceptId": "exam-two-concept-successive-fuels",
+        "concept": "exam-two-concept-successive-fuels",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "During a fuel-exhaustion adjustment, which pair of motions is consistent with the lecture’s model?",
+        "choices": [
+          "Core and envelope must always contract together",
+          "Core contracts while envelope expands",
+          "Neither region can change while a shell burns",
+          "Core and envelope must always expand together"
+        ],
+        "answer": 1,
+        "hint": "Different regions can respond in opposite directions.",
+        "explanation": "The lecture describes core contraction and envelope expansion during these adjustments, while noting late-stage departures from a simple surface response.",
+        "source": "Lecture 23 pages 16–17, 22, 24–25 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l23",
+            "locator": "pages 16–17, 22, 24–25",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-successive-fuels"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l23-layers-reverse",
+        "rootId": "exam-two-item-l23-layers-reverse",
+        "moduleId": "exam-two-module-18",
+        "conceptId": "exam-two-concept-onion-order",
+        "concept": "exam-two-concept-onion-order",
+        "type": "order",
+        "responseType": "order",
+        "prompt": "Order these selected layers from the center outward in the lecture’s simplified massive-star model.",
+        "choices": [
+          "Carbon",
+          "Hydrogen",
+          "Iron",
+          "Helium",
+          "Silicon"
+        ],
+        "answer": [
+          2,
+          4,
+          0,
+          3,
+          1
+        ],
+        "hint": "Reverse the supplied outside-to-center relationship.",
+        "explanation": "Center outward gives iron → silicon → carbon → helium → hydrogen. Other detailed layers are omitted from this selected list.",
+        "source": "Lecture 23 pages 16–17, 23, 28 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l23",
+            "locator": "pages 16–17, 23, 28",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-onion-order"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l23-iron-target",
+        "rootId": "exam-two-item-l23-iron-target",
+        "moduleId": "exam-two-module-18",
+        "conceptId": "exam-two-concept-onion-order",
+        "concept": "exam-two-concept-onion-order",
+        "type": "target",
+        "responseType": "target",
+        "prompt": "Select the inert iron-rich center in this selected-layer schematic.",
+        "choices": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": 3,
+        "hint": "The most processed material is at the center.",
+        "explanation": "D points to the iron-rich center. The other targets lie in progressively more external selected layers.",
+        "source": "Lecture 23 pages 16–17, 23, 28 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l23",
+            "locator": "pages 16–17, 23, 28",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-onion-order"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true,
+        "media": {
+          "src": "assets/visuals/exam-two/onion-target.svg",
+          "alt": "Concentric selected layers centered at 50,50. Targets A at 21,50; B at 31,50; C at 41,50; D at 50,50. Outer to inner highlighted zones are H, He, C, Si, Fe.",
+          "caption": "Original selected-layer schematic; intermediate layers and physical scales simplified."
+        },
+        "targets": [
+          {
+            "label": "A",
+            "x": 21,
+            "y": 50
+          },
+          {
+            "label": "B",
+            "x": 31,
+            "y": 50
+          },
+          {
+            "label": "C",
+            "x": 41,
+            "y": 50
+          },
+          {
+            "label": "D",
+            "x": 50,
+            "y": 50
+          }
+        ]
+      },
+      {
+        "id": "exam-two-item-l23-layer-between",
+        "rootId": "exam-two-item-l23-layer-between",
+        "moduleId": "exam-two-module-18",
+        "conceptId": "exam-two-concept-onion-order",
+        "concept": "exam-two-concept-onion-order",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "In the selected H–He–C–Si–Fe sequence, which listed element lies inward of helium but outward of silicon?",
+        "choices": [
+          "Helium",
+          "Iron",
+          "Carbon",
+          "Hydrogen"
+        ],
+        "answer": 2,
+        "hint": "Use both positional constraints.",
+        "explanation": "Carbon is between helium and silicon in the selected sequence.",
+        "source": "Lecture 23 pages 16–17, 23, 28 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l23",
+            "locator": "pages 16–17, 23, 28",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-onion-order"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l23-choice-iron",
+        "rootId": "exam-two-item-l23-choice-iron",
+        "moduleId": "exam-two-module-18",
+        "conceptId": "exam-two-concept-iron-endpoint",
+        "concept": "exam-two-concept-iron-endpoint",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Which is the heaviest of these listed products reached in the lecture’s normal massive-star fusion sequence?",
+        "choices": [
+          "Iron",
+          "Carbon",
+          "Silicon",
+          "Helium"
+        ],
+        "answer": 0,
+        "hint": "Check the actual alternatives before recalling a prior answer.",
+        "explanation": "Iron is heaviest among this set and marks the iron-group endpoint. The supplied silicon answer used a different set that did not include iron.",
+        "source": "Lecture 23 pages 15, 20, 27 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l23",
+            "locator": "pages 15, 20, 27",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-iron-endpoint"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l23-iron-energy",
+        "rootId": "exam-two-item-l23-iron-energy",
+        "moduleId": "exam-two-module-18",
+        "conceptId": "exam-two-concept-iron-endpoint",
+        "concept": "exam-two-concept-iron-endpoint",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Why does ordinary fusion beyond the iron group fail to sustain another normal core-burning stage?",
+        "choices": [
+          "It supplies more energy per reaction than hydrogen",
+          "It prevents any further core contraction",
+          "It does not provide the needed net energy release",
+          "It restores the original core hydrogen reservoir"
+        ],
+        "answer": 2,
+        "hint": "Focus on the energy balance rather than whether a nucleus can exist.",
+        "explanation": "The iron group is near peak binding energy per nucleon; further fusion does not supply a continuing net energy source for support.",
+        "source": "Lecture 23 pages 15, 20, 27 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l23",
+            "locator": "pages 15, 20, 27",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-iron-endpoint"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l23-heavy-tf",
+        "rootId": "exam-two-item-l23-heavy-tf",
+        "moduleId": "exam-two-module-18",
+        "conceptId": "exam-two-concept-iron-endpoint",
+        "concept": "exam-two-concept-iron-endpoint",
+        "type": "true-false",
+        "responseType": "true-false",
+        "prompt": "True or false: The iron-group fusion limit means elements heavier than iron can never be produced anywhere.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": 1,
+        "hint": "A limit on one energy-producing route is not a limit on all synthesis.",
+        "explanation": "False. Other pathways can produce heavier nuclei. The course’s fusion endpoint concerns the support-producing core sequence.",
+        "source": "Lecture 23 pages 15, 20, 27 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l23",
+            "locator": "pages 15, 20, 27",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-iron-endpoint"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      }
+    ]
+  },
+  {
+    "id": "exam-two-module-19",
+    "examId": "exam-two",
+    "number": 19,
+    "kicker": "Lectures 22–23",
+    "title": "Core collapse and supernovae",
+    "description": "Trace loss of electron support, rapid collapse, shock formation and possible compact remnants.",
+    "source": "Lecture 23 pages 18–21, 26",
+    "continuation": false,
+    "concepts": [
+      {
+        "id": "exam-two-concept-core-support-limit",
+        "label": "A core mass is not an initial stellar mass",
+        "masteryEligible": true
+      },
+      {
+        "id": "exam-two-concept-collapse-feedback",
+        "label": "Electron capture and photodisintegration",
+        "masteryEligible": true
+      },
+      {
+        "id": "exam-two-concept-bounce-remnants",
+        "label": "Bounce, shock and conditional outcomes",
+        "masteryEligible": true
+      }
+    ],
+    "activities": [
+      {
+        "id": "exam-two-module-19-lesson",
+        "type": "lesson",
+        "title": "Core collapse and supernovae",
+        "body": [
+          "As the iron core grows toward the roughly 1.4-solar-mass Chandrasekhar scale for electron degeneracy support, that support cannot indefinitely balance gravity. This is a different quantity from the initial stellar mass above about 8 solar masses used to identify massive progenitors. The collapsing core does not regain support through ordinary iron fusion. The precise structure and collapse threshold depend on physical conditions; the lecture values are teaching approximations.",
+          "Worked example: A 15-solar-mass progenitor can contain a much smaller iron core approaching its support limit after losing and redistributing material.",
+          "Common mistake: Never compare the 8 and 1.4 numbers as if they were two contradictory measurements of the same whole star.",
+          "During collapse, electrons and protons combine to form neutrons and neutrinos: p + e⁻ → n + ν. This reduces the electron population available for degeneracy support. Neutrino escape can remove energy, though dense matter later becomes less transparent. Energetic photons also break heavy nuclei apart, consuming energy through photodisintegration. Loss of support and energy accelerates contraction, raising density and temperature further. The lecture describes an Earth-sized core reaching a tens-of-kilometers scale in roughly a fraction of a second; exact radius and duration are model-dependent.",
+          "Worked example: Electron capture changes the pressure-bearing electron population; photodisintegration spends energy breaking nuclei. They reinforce collapse by different routes.",
+          "Common mistake: Do not call photodisintegration an energy-releasing fusion reaction, or treat all neutrinos as permanently free to escape any density.",
+          "At nuclear density, neutron-rich matter becomes very resistant to compression; neutron degeneracy and nuclear forces contribute to a compact remnant’s support. Inner-core bounce can launch a shock on millisecond scales, while shock travel through the star takes much longer. A realistic shock can stall and require energy deposition, including neutrino heating, to revive. The lecture’s bounce-and-explosion picture is therefore a simplified pathway, not a guarantee that every massive core ejects the envelope. Successful explosions can leave neutron stars; continued collapse can produce black holes. The neutron-star maximum mass is distinct from the electron-supported limit, and the lecture’s roughly 2–3 solar masses is an approximate scale rather than an exact universal measured threshold. Real explosions are turbulent and asymmetric, as the simulation slide emphasizes.",
+          "Worked example: A shock forms shortly after bounce but reaches the surface much later. Observing the surface event does not time the inner bounce directly.",
+          "Common mistake: Do not equate a millisecond bounce with the full event, or conclude that any neutron core is indefinitely stable at any mass."
+        ],
+        "keyPoints": [
+          "The roughly 1.4-solar-mass scale belongs to an electron-supported core.",
+          "Electron capture reduces electron support; photodisintegration consumes energy.",
+          "A bounce does not guarantee a successful explosion."
+        ],
+        "source": "Lecture 23 pages 18–21, 26"
+      },
+      {
+        "id": "exam-two-item-l23-limit-object",
+        "rootId": "exam-two-item-l23-limit-object",
+        "moduleId": "exam-two-module-19",
+        "conceptId": "exam-two-concept-core-support-limit",
+        "concept": "exam-two-concept-core-support-limit",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "A 15-solar-mass progenitor contains an iron core near 1.4 solar masses. Which component is approaching the lecture’s electron-support limit?",
+        "choices": [
+          "Only the outer hydrogen shell",
+          "The iron core",
+          "The whole initial star",
+          "Only gas already lost in winds"
+        ],
+        "answer": 1,
+        "hint": "The support criterion applies to the degenerate central object.",
+        "explanation": "The approximately 1.4-solar-mass limit concerns the electron-supported core, not the entire initial progenitor or its expelled gas.",
+        "source": "Lecture 23 pages 18–19 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l23",
+            "locator": "pages 18–19",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-core-support-limit"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l23-support-kind",
+        "rootId": "exam-two-item-l23-support-kind",
+        "moduleId": "exam-two-module-19",
+        "conceptId": "exam-two-concept-core-support-limit",
+        "concept": "exam-two-concept-core-support-limit",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Which support is becoming insufficient at the start of the lecture’s iron-core collapse?",
+        "choices": [
+          "Electron degeneracy pressure",
+          "Hydrogen-shell fusion alone",
+          "Rotation of the entire Galactic disk",
+          "Neutron degeneracy pressure alone"
+        ],
+        "answer": 0,
+        "hint": "Identify the pressure source specified for the dense core.",
+        "explanation": "Electron degeneracy pressure cannot indefinitely support the growing iron core near its limiting scale.",
+        "source": "Lecture 23 pages 18–19 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l23",
+            "locator": "pages 18–19",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-core-support-limit"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l23-no-fusion-rescue",
+        "rootId": "exam-two-item-l23-no-fusion-rescue",
+        "moduleId": "exam-two-module-19",
+        "conceptId": "exam-two-concept-core-support-limit",
+        "concept": "exam-two-concept-core-support-limit",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Why can the contracting iron core not simply ignite an ordinary iron-fusion stage to restore support?",
+        "choices": [
+          "The iron core has returned to main-sequence conditions",
+          "A cool photosphere prevents every interior reaction",
+          "Iron fusion restores the original hydrogen supply",
+          "Further fusion fails to supply net supporting energy"
+        ],
+        "answer": 3,
+        "hint": "Connect the energy endpoint with the structural failure.",
+        "explanation": "Further iron-group fusion is not a net energy source for a new normal core-burning stage, so the usual contraction-to-new-fuel rescue ends.",
+        "source": "Lecture 23 pages 18–19 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l23",
+            "locator": "pages 18–19",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-core-support-limit"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l23-capture-products",
+        "rootId": "exam-two-item-l23-capture-products",
+        "moduleId": "exam-two-module-19",
+        "conceptId": "exam-two-concept-collapse-feedback",
+        "concept": "exam-two-concept-collapse-feedback",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Which products complete the electron-capture reaction p + e⁻ → ?",
+        "choices": [
+          "A proton and two electrons",
+          "A proton and a photon",
+          "A neutron and a neutrino",
+          "A neutron and an electron"
+        ],
+        "answer": 2,
+        "hint": "Conserve the reaction’s basic particle identity.",
+        "explanation": "A proton and electron combine to form a neutron and neutrino in the supplied reaction.",
+        "source": "Lecture 23 pages 18 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l23",
+            "locator": "pages 18",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-collapse-feedback"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l23-photo-energy",
+        "rootId": "exam-two-item-l23-photo-energy",
+        "moduleId": "exam-two-module-19",
+        "conceptId": "exam-two-concept-collapse-feedback",
+        "concept": "exam-two-concept-collapse-feedback",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "What does photodisintegration of heavy nuclei do to the collapsing core’s energy budget?",
+        "choices": [
+          "It restores electron support without using energy",
+          "It releases energy by building heavier nuclei",
+          "It replenishes the iron-fusion fuel supply",
+          "It consumes energy to break nuclei apart"
+        ],
+        "answer": 3,
+        "hint": "Breaking a bound nucleus costs energy.",
+        "explanation": "High-energy photons can break heavy nuclei apart; this absorbs energy and helps weaken support.",
+        "source": "Lecture 23 pages 18 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l23",
+            "locator": "pages 18",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-collapse-feedback"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l23-capture-pressure",
+        "rootId": "exam-two-item-l23-capture-pressure",
+        "moduleId": "exam-two-module-19",
+        "conceptId": "exam-two-concept-collapse-feedback",
+        "concept": "exam-two-concept-collapse-feedback",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Why does electron capture contribute to the loss of core support?",
+        "choices": [
+          "More electrons remain to supply degeneracy pressure",
+          "The same electrons supply greater pressure at fixed density",
+          "Fewer electrons remain to supply degeneracy pressure",
+          "All electron pressure is replaced by core hydrogen fusion"
+        ],
+        "answer": 2,
+        "hint": "Track the number of electrons consumed.",
+        "explanation": "Each capture consumes an electron, reducing the electron population contributing to degeneracy pressure.",
+        "source": "Lecture 23 pages 18 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l23",
+            "locator": "pages 18",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-collapse-feedback"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l23-bounce-clock",
+        "rootId": "exam-two-item-l23-bounce-clock",
+        "moduleId": "exam-two-module-19",
+        "conceptId": "exam-two-concept-bounce-remnants",
+        "concept": "exam-two-concept-bounce-remnants",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Why can the inner core bounce before a shock is seen reaching the stellar surface?",
+        "choices": [
+          "The shock needs time to cross the surrounding layers",
+          "The shock and surface are always at the same radius",
+          "The shock arrives before the central bounce occurs",
+          "The shock cannot move through any stellar material"
+        ],
+        "answer": 0,
+        "hint": "Separate the central event from outward propagation.",
+        "explanation": "A central bounce launches a shock that must propagate through surrounding material; its surface arrival happens later.",
+        "source": "Lecture 23 pages 19–21, 26 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l23",
+            "locator": "pages 19–21, 26",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-bounce-remnants"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l23-bounce-guarantee",
+        "rootId": "exam-two-item-l23-bounce-guarantee",
+        "moduleId": "exam-two-module-19",
+        "conceptId": "exam-two-concept-bounce-remnants",
+        "concept": "exam-two-concept-bounce-remnants",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Which statement best respects the limits of the lecture’s simplified core-bounce picture?",
+        "choices": [
+          "Every bounce instantly ejects every stellar layer",
+          "A neutron star is stable at any possible mass",
+          "Shock formation alone does not guarantee an explosion",
+          "Every massive progenitor leaves the same remnant mass"
+        ],
+        "answer": 2,
+        "hint": "Separate a possible pathway from a universal outcome.",
+        "explanation": "A shock may stall and need additional heating; the final explosion and compact remnant depend on the evolving system.",
+        "source": "Lecture 23 pages 19–21, 26 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l23",
+            "locator": "pages 19–21, 26",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-bounce-remnants"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l23-neutron-limit",
+        "rootId": "exam-two-item-l23-neutron-limit",
+        "moduleId": "exam-two-module-19",
+        "conceptId": "exam-two-concept-bounce-remnants",
+        "concept": "exam-two-concept-bounce-remnants",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "A compact remnant exceeds the mass that neutron-rich matter can support. Which outcome is consistent with the lecture?",
+        "choices": [
+          "Continued collapse toward a black hole",
+          "Permanent neutron-star support at any greater mass",
+          "A return to electron-supported white-dwarf equilibrium",
+          "A new stable phase of ordinary iron fusion"
+        ],
+        "answer": 0,
+        "hint": "A second kind of support still has a limit.",
+        "explanation": "If compact-remnant support is insufficient, continued collapse can form a black hole. The neutron-star limit is separate from the earlier electron-core limit.",
+        "source": "Lecture 23 pages 19–21, 26 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l23",
+            "locator": "pages 19–21, 26",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-bounce-remnants"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      }
+    ]
   }
 ];

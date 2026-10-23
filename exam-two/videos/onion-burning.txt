@@ -1,0 +1,14 @@
+Build the layers, then reach the energy limit
+Lecture 23 pages 15–17, 22–28
+Synthetic narration in Ethan’s voice, generated locally.
+
+Fuel exhaustion starts the next contraction
+When a massive star exhausts one core fuel, the core contracts and heats. If it gets hot enough, a heavier fuel ignites. Earlier fuels can keep burning in surrounding shells. Repeated cycles build a layered interior, and the later burning stages become much shorter. The whole star does not burn one element everywhere.
+
+Read the onion from outside inward
+For the five elements in the class ordering exercise, go inward through hydrogen, helium, carbon, silicon, and iron. This selected list leaves out other layers in a detailed model. The center contains the most processed material. Keep direction straight: reversing the question to center outward reverses the order.
+
+Iron does not power another fusion stage
+Fusion toward the iron group releases energy, but further fusion does not provide the same energy source. Iron therefore marks the end of the normal core fusion sequence. Silicon can still be the heaviest correct answer when iron is absent from the choices. Elements beyond iron require other pathways; supernovae are not their only source.
+
+Original teaching reconstruction. Geometry, time, color and scale are schematic. Lecture figures remain in the private edition. Watching earns no mastery.
