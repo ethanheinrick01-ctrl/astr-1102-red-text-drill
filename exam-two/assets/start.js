@@ -1,6 +1,6 @@
 (async()=>{
   await window.ASTRSourcePack.ready;
   for(const src of ['assets/exam-two.js','assets/progress-backup.js','assets/study-app.js']){
-    await new Promise((resolve,reject)=>{const script=document.createElement('script');script.src=src+'?v=20261023-lectures23';script.onload=resolve;script.onerror=()=>reject(Error('Could not load '+src));document.body.append(script);});
+    await new Promise((resolve,reject)=>{const script=document.createElement('script');script.src=src+'?v=20261025-storage1';script.onload=resolve;script.onerror=()=>reject(Error('Could not load '+src));document.body.append(script);});
   }
 })().catch(error=>{const p=document.createElement('p');p.setAttribute('role','alert');p.textContent='The study lab could not finish loading. Reload this page. '+error.message;document.getElementById('page').prepend(p);});

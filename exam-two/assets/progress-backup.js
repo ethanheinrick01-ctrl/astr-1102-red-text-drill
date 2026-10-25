@@ -11,7 +11,7 @@
   const copy = value => JSON.parse(JSON.stringify(value));
   const object = value => value && typeof value === 'object' && !Array.isArray(value);
   function exportData() {
-    const result = {format, course:'ASTR 1102', exportedAt:new Date().toISOString(), storage:Object.fromEntries(keys.map(k => [k,localStorage.getItem(k)]))};
+    const result = {format, course:'ASTR 1102', exportedAt:new Date().toISOString(), storage:Object.fromEntries(keys.map(k => [k,(window.StudyStorage || localStorage).getItem(k)]))};
     const pending = window.ASTRExamTwo.exportPending();
     if (pending) {result.recoveryStorage = {[pending.key]:result.storage[pending.key]};result.storage[pending.key]=pending.raw;result.includesUnsavedActivity=true;}
     return result;
@@ -65,7 +65,7 @@
       if (raw === null) continue;
       if (typeof raw !== 'string') throw Error('Storage values must be saved JSON strings.');
       const incoming = safeParse(raw); validate(key,incoming);
-      before[key] = localStorage.getItem(key);
+      before[key] = (window.StudyStorage || localStorage).getItem(key);
       const existing = before[key] ? safeParse(before[key]) : null;
       if (existing) validate(key,existing);
       let merged = copy(incoming);
@@ -124,10 +124,10 @@
   function restore(backup) {
     const plan = planImport(backup), done = [];
     try {
-      for (const [key,raw] of Object.entries(plan.writes)) {localStorage.setItem(key,raw);done.push(key);}
+      for (const [key,raw] of Object.entries(plan.writes)) {(window.StudyStorage || localStorage).setItem(key,raw);done.push(key);}
     } catch(e) {
       for (const key of done) {
-        if (plan.before[key] === null) localStorage.removeItem(key); else localStorage.setItem(key,plan.before[key]);
+        if (plan.before[key] === null) (window.StudyStorage || localStorage).removeItem(key); else (window.StudyStorage || localStorage).setItem(key,plan.before[key]);
       }
       throw Error(`Import failed; previous data restored: ${e.message}`);
     }

@@ -158,7 +158,7 @@
   let correction = null;
   let unsaved = false;
   function read(keyName) {
-    const raw = localStorage.getItem(keyName);
+    const raw = (window.StudyStorage || localStorage).getItem(keyName);
     if (!raw) return {schemaVersion:1, runs:[]};
     const parsed = JSON.parse(raw);
     if (parsed.schemaVersion !== 1 || !Array.isArray(parsed.runs)) throw Error(`Saved ${keyName} data has an unsupported format. Export a backup before repairing it.`);
@@ -175,7 +175,7 @@
       if (run) run.updatedAt = now();
       db.runs = mergeRuns(current.runs, db.runs);
       if (run) run = db.runs.find(r => r.id === run.id) || run;
-      localStorage.setItem(key, JSON.stringify(db)); problem = ''; unsaved = false;
+      (window.StudyStorage || localStorage).setItem(key, JSON.stringify(db)); problem = ''; unsaved = false;
       host?.querySelector('[data-e2-status]')?.replaceChildren();
       return true;
     } catch (e) {unsaved = true; error(`Progress could not be saved: ${e.message} Keep this tab open and export your data before leaving this activity.`); return false;}
@@ -190,7 +190,7 @@
           events.push({id:`${r.id}/${q.instanceId}`, rootId:q.rootId || q.id, conceptId:q.conceptId, correct:correct(q, a.value), confidence:a.confidence, checkedAt:a.checkedAt, runId:r.id});
         }
       }));
-      const raw = localStorage.getItem(KEYS.guided);
+      const raw = (window.StudyStorage || localStorage).getItem(KEYS.guided);
       const progress = raw ? JSON.parse(raw) : {concepts:{}, modules:{}};
       if (!progress || typeof progress !== 'object' || Array.isArray(progress)) throw Error('Existing mastery data is invalid.');
       progress.concepts ||= {}; progress.modules ||= {};
@@ -199,7 +199,7 @@
       all.filter(r => r.mode === 'topic' && r.finishedAt && r.initialIds.every(id => r.answers[id])).forEach(r => {
         progress.modules[r.moduleId] = {...progress.modules[r.moduleId], completed:true, startedAt:progress.modules[r.moduleId]?.startedAt || r.startedAt, completedAt:r.finishedAt};
       });
-      localStorage.setItem(KEYS.guided, JSON.stringify(progress));
+      (window.StudyStorage || localStorage).setItem(KEYS.guided, JSON.stringify(progress));
       window.dispatchEvent(new Event('astr-progress-changed'));
     } catch (e) {error(`The attempt is saved, but mastery could not be updated: ${e.message}`);}
   }
@@ -441,9 +441,9 @@
     body.innerHTML = `<div class="e2-result">${score}<span>/${initial.length}</span></div><p>${run.mode === 'simulator' ? `${score*4}/100 practice points${run.expired ? ' · practice clock expired' : ''}` : `${scored.length}/${initial.length} initial tasks checked${full ? '' : ' · partial activity; no best score awarded'}`}. Your first checked answers stay locked.</p><p class="e2-muted">Corrections remain separate. New closed-notes attempts on different original roots can supply mastery evidence; correcting after feedback cannot.</p><div data-e2-review></div><div class="e2-controls" data-e2-result-controls></div>`;
     if (full && run.mode !== 'simulator' && ['boss','pool'].includes(run.mode)) {
       try {
-        const scores = JSON.parse(localStorage.getItem(KEYS.scores) || '{}');
+        const scores = JSON.parse((window.StudyStorage || localStorage).getItem(KEYS.scores) || '{}');
         const id = run.mode === 'boss' ? 'exam-two-boss-drill' : 'exam-two-everything-pool';
-        if (!scores[id] || score/initial.length > scores[id].score/scores[id].total) {scores[id] = {score,total:initial.length,completedAt:run.finishedAt}; localStorage.setItem(KEYS.scores,JSON.stringify(scores));}
+        if (!scores[id] || score/initial.length > scores[id].score/scores[id].total) {scores[id] = {score,total:initial.length,completedAt:run.finishedAt}; (window.StudyStorage || localStorage).setItem(KEYS.scores,JSON.stringify(scores));}
       } catch(e) {error(`Best score was not saved: ${e.message}`);}
     }
     const list = body.querySelector('[data-e2-review]');

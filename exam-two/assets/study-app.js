@@ -10,14 +10,14 @@
   const nav=[['home','Home'],['guide','Guide'],['practice','Practice'],['review','Review'],['cases','Cases'],['test','Mocks'],['progress','Progress'],['sources','Sources'],['backup','Backup']];
   const link=(route,label,cls='btn')=>`<a class="${cls}" href="#/topic/${route}">${esc(label)}</a>`;
   let route='', chapter=null, skipHash=false;
-  function read(key,fallback){const raw=localStorage.getItem(key);if(!raw)return copy(fallback);const value=JSON.parse(raw);if(value.schemaVersion!==1)throw Error('This browser has a newer saved format. Export it before changing versions.');return value;}
+  function read(key,fallback){const raw=(window.StudyStorage || localStorage).getItem(key);if(!raw)return copy(fallback);const value=JSON.parse(raw);if(value.schemaVersion!==1)throw Error('This browser has a newer saved format. Export it before changing versions.');return value;}
   function ui(){return read(UI,{schemaVersion:1,theme:'dark',notes:{},builder:{conceptIds:[],count:15,mcOnly:false,updatedAt:''}});}
   function listings(){return read(LIST,{schemaVersion:1,entries:{}});}
   function toast(text){const el=document.getElementById('toast');el.textContent=text;el.classList.add('show');clearTimeout(toast.timer);toast.timer=setTimeout(()=>el.classList.remove('show'),3500);}
-  function save(key,value){try{localStorage.setItem(key,JSON.stringify(value));return true;}catch(e){toast('Could not save: '+e.message+'. Download a backup before leaving.');return false;}}
+  function save(key,value){try{(window.StudyStorage || localStorage).setItem(key,JSON.stringify(value));return true;}catch(e){toast('Could not save: '+e.message+'. Download a backup before leaving.');return false;}}
   function updateUI(edit){try{const value=ui();edit(value);return save(UI,value);}catch(e){toast(e.message);return false;}}
-  function ledger(){try{return JSON.parse(localStorage.getItem(engine.keys.guided)||'{"concepts":{},"modules":{}}').concepts||{};}catch{return {};}}
-  function records(){return [engine.keys.practice,engine.keys.simulator].flatMap(key=>{try{return JSON.parse(localStorage.getItem(key)||'{"runs":[]}').runs.map(run=>({...run,storageKey:key}));}catch{return [];}}).sort((a,b)=>String(b.startedAt).localeCompare(String(a.startedAt)));}
+  function ledger(){try{return JSON.parse((window.StudyStorage || localStorage).getItem(engine.keys.guided)||'{"concepts":{},"modules":{}}').concepts||{};}catch{return {};}}
+  function records(){return [engine.keys.practice,engine.keys.simulator].flatMap(key=>{try{return JSON.parse((window.StudyStorage || localStorage).getItem(key)||'{"runs":[]}').runs.map(run=>({...run,storageKey:key}));}catch{return [];}}).sort((a,b)=>String(b.startedAt).localeCompare(String(a.startedAt)));}
   const badge=s=>s?.mastered?'Mastered':s?.misconception?'Review due · high-confidence miss':s?.needsReview?'Review due':s?.attempts?`Learning ${s.correct||0}/${s.attempts}`:'Not started';
   const badgeClass=s=>s?.mastered?'mastered':s?.needsReview?'due':'';
   const conceptName=id=>data.concepts.find(c=>c.id===id)?.label||modules.flatMap(m=>m.concepts).find(c=>c.id===id)?.label||id;

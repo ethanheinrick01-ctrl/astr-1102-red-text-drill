@@ -55,7 +55,7 @@
 
   const safeRead = (key, fallback) => {
     try {
-      const parsed = JSON.parse(localStorage.getItem(key));
+      const parsed = JSON.parse((window.StudyStorage || localStorage).getItem(key));
       return parsed && typeof parsed === "object" ? parsed : fallback;
     } catch {
       return fallback;
@@ -73,7 +73,7 @@
   let guidedProgress = getGuidedProgress();
 
   const saveGuidedProgress = () => {
-    localStorage.setItem(guidedStorageKey, JSON.stringify(guidedProgress));
+    (window.StudyStorage || localStorage).setItem(guidedStorageKey, JSON.stringify(guidedProgress));
   };
 
   const primaryExamId = config.primaryExamId || config.exams?.[0]?.id || "exam-one";
@@ -1186,7 +1186,7 @@
     const previous = progress[quizId];
     if (!previous || score / total >= previous.score / previous.total) {
       progress[quizId] = { score, total, completedAt: new Date().toISOString() };
-      localStorage.setItem(quizStorageKey, JSON.stringify(progress));
+      (window.StudyStorage || localStorage).setItem(quizStorageKey, JSON.stringify(progress));
     }
   };
 
@@ -1386,7 +1386,7 @@
   $("clear-progress").addEventListener("click", () => {
     const scores = readQuizProgress();
     quizzes.filter(q => q.examId === activeExam || (!q.examId && q.lane === activeExamLabel())).forEach(q => delete scores[q.id]);
-    localStorage.setItem(quizStorageKey, JSON.stringify(scores));
+    (window.StudyStorage || localStorage).setItem(quizStorageKey, JSON.stringify(scores));
     renderQuizLibrary();
   });
   $("reset-guided-progress").addEventListener("click", () => {
@@ -1397,10 +1397,10 @@
       (m.concepts || []).forEach(c => delete saved.concepts[c.id]);
     });
     if (activeExam === "exam-two") {
-      localStorage.removeItem(window.ASTRExamTwo.keys.practice);
-      localStorage.removeItem(window.ASTRExamTwo.keys.simulator);
+      (window.StudyStorage || localStorage).removeItem(window.ASTRExamTwo.keys.practice);
+      (window.StudyStorage || localStorage).removeItem(window.ASTRExamTwo.keys.simulator);
     }
-    localStorage.setItem(guidedStorageKey, JSON.stringify(saved));
+    (window.StudyStorage || localStorage).setItem(guidedStorageKey, JSON.stringify(saved));
     guidedProgress = getGuidedProgress();
     renderGuideLibrary();
     renderLabLibrary();
