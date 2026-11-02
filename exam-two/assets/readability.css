@@ -17,3 +17,52 @@
   #app .guide-concept h2 { font-size: 24px; }
   #app .guide-grid aside { font-size: 18px; }
 }
+/* Chapter 10 reading colors and structure; existing page backgrounds stay intact. */
+:root, [data-theme="dark"] {
+  --acc: #7cc4ff; --ink: #e4e9f1; --mute: #b4c0d1;
+  --panel: #1b2029; --panel2: #232b36; --line: #354253;
+  --study-term: #ff4fd8; --study-checkpoint: #ffb78a;
+}
+[data-theme="light"] {
+  --acc: #235f96; --ink: #182435; --mute: #54687d;
+  --panel: #fff; --panel2: #e8eef6; --line: #cdd7e2;
+  --study-term: #a00083; --study-checkpoint: #934514;
+}
+#app .eyebrow { color: var(--mute); }
+#app .page-title h1 { color: var(--acc); font-size: 34px; line-height: 1.3; }
+#app :is(.chapter-card h2, .guide-grid h2, .guide-grid h3, .diagram h3) { color: var(--acc); }
+#app .guide-grid { display: block; max-width: 976px; margin-inline: auto; }
+#app .guide-concept { margin: 24px 0; }
+#app .guide-concept h2 { margin: 0 0 18px; }
+#app .guide-concept h3 { font-size: 22px; line-height: 1.4; margin: 0 0 14px; }
+#app .study-points { padding-left: 22px; margin: 0 0 18px; }
+#app .study-points > li { margin-bottom: 18px; }
+#app .study-subpoints { padding-left: 24px; margin-top: 10px; }
+#app .study-subpoints > li { margin-bottom: 10px; }
+#app :is(.study-points, .study-subpoints) li::marker { color: var(--mute); }
+#app mark.study-term { color: var(--study-term); background: transparent; font-weight: 700; }
+#app mark.study-emphasis { color: #000; background: #ffff00; font-weight: 400; padding: 0 .08em; }
+#app .study-legend { display: flex; flex-wrap: wrap; gap: 10px 24px; margin: 24px 0; color: var(--mute); font-size: 18px; line-height: 1.6; }
+#app .study-legend p { flex-basis: 100%; margin: 0; }
+#app .checkpoint-label { display: block; color: var(--study-checkpoint); font-size: 18px; line-height: 1.6; margin-bottom: 10px; }
+#app .study-legend .checkpoint-label { display: inline; }
+#app .guide-concept .worked { padding: 0; border: 0; background: transparent; }
+#app .guide-concept .mistake { padding: 16px 18px; border: 1px solid var(--line); border-radius: 8px; background: var(--panel2); }
+#app .guide-concept .mistake .study-points { margin-bottom: 0; }
+#app .guide-concept .e2-source { margin-top: 22px; }
+#app .guide-concept .e2-source summary { font-size: 18px; line-height: 1.6; }
+#app .study-practice-footer { border-top: 1px solid var(--line); margin-top: 16px; padding-top: 16px; }
+#app .study-practice-footer .btn { background: #21629a; border-color: #4189c5; color: #fff; }
+@media (max-width: 767px) {
+  #app .page-title h1 { font-size: 28px; }
+  #app .guide-concept h3 { font-size: 20px; }
+  #app .guide-concept .mistake { padding: 14px 16px; }
+  #app .study-practice-footer .btn { width: 100%; }
+}
+@media print {
+  #app .study-practice-footer { display: none; }
+  #app :is(mark.study-term, .checkpoint-label) { color: #111; }
+}
+
+#app .study-media { margin: 20px 0; }
+#app .study-media > summary { font-size: 18px; line-height: 1.6; }

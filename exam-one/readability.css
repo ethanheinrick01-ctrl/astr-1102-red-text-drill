@@ -10,3 +10,23 @@
   body { font-size: 18px; }
   .prompt { font-size: 24px; }
 }
+/* Match the shared reading palette while preserving the original page backdrop. */
+:root { --panel:#1b2029; --panel2:#232b36; --line:#354253; --text:#e4e9f1; --muted:#b4c0d1; }
+h1, h2, h3 { font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; color:#7cc4ff; line-height:1.4; }
+h1 { font-size:34px; letter-spacing:normal; }
+h2 { font-size:26px; }
+.eyebrow, .topic, .count, .source, .smallnote { color:var(--muted); }
+.hero { border-bottom:1px solid var(--line); }
+.set, .set.core, .card { background:var(--panel); border-color:var(--line); border-radius:14px; box-shadow:none; padding:30px 32px; }
+.notice { background:var(--panel2); border:1px solid #47515e; border-radius:8px; color:var(--text); }
+.notice strong { color:#ffb78a; }
+.btn.primary { color:#fff; background:#21629a; border-color:#4189c5; }
+.btn.primary:hover { background:#21629a; }
+.choice:not(.correct):not(.wrong) { color:var(--text); background:var(--panel2); border-color:var(--line); }
+@media screen { .choice, .feedback { font-size:22px; } }
+@media (max-width:767px) {
+  h1 { font-size:28px; }
+  h2 { font-size:24px; }
+  .set, .set.core, .card { padding:24px 18px; }
+  .choice, .feedback { font-size:20px; }
+}

@@ -277,7 +277,7 @@
     });
     const concept = data.concepts.find(c => c.id === q.conceptId);
     const issues = data.qualifications.filter(x => found.some(s => x.source.includes(`L${s.lecture} p${s.page}`)));
-    return `<details class="e2-source"><summary>Direct source material</summary><p>${esc(q.source)}</p>${concept ? `<p class="e2-source-note">Study explanation: ${esc(concept.teaching)}</p>` : ''}${issues.map(x => `<aside class="e2-boundary"><strong>${esc(x.title)}</strong><p>${esc(x.text)}</p>${x.url ? `<a href="${esc(x.url)}" target="_blank" rel="noopener">Primary-source qualification</a>` : ''}</aside>`).join('')}${!found.length ? '<p class="e2-muted">Matching lecture passages and figures require a compatible private source pack. Import the updated pack for Lectures 13–21 sources.</p>' : ''}${found.map(s => `<section><h4>Lecture ${s.lecture} · page ${s.page}</h4><pre>${esc(s.text)}</pre>${s.image ? `<a href="${esc(s.image)}" target="_blank" rel="noopener" aria-label="Enlarge Lecture ${s.lecture} page ${s.page}"><img loading="lazy" src="${esc(s.image)}" alt="Original course slide, Lecture ${s.lecture} page ${s.page}. Open to enlarge."></a>` : ''}</section>`).join('')}</details>`;
+    return `<details class="e2-source"><summary>Direct source material</summary><p>${esc(q.source)}</p>${concept ? `<p class="e2-source-note">Study explanation: ${esc(concept.teaching)}</p>` : ''}${issues.map(x => `<aside class="e2-boundary"><strong>${esc(x.title)}</strong><p>${esc(x.text)}</p>${x.url ? `<a href="${esc(x.url)}" target="_blank" rel="noopener">Primary-source qualification</a>` : ''}</aside>`).join('')}${!found.length ? '<p class="e2-muted">Matching lecture passages and figures require a compatible private source pack. Import a compatible pack for the matching lecture pages.</p>' : ''}${found.map(s => `<section><h4>Lecture ${s.lecture} · page ${s.page}</h4><pre>${esc(s.text)}</pre>${s.image ? `<a href="${esc(s.image)}" target="_blank" rel="noopener" aria-label="Enlarge Lecture ${s.lecture} page ${s.page}"><img loading="lazy" src="${esc(s.image)}" alt="Original course slide, Lecture ${s.lecture} page ${s.page}. Open to enlarge."></a>` : ''}</section>`).join('')}</details>`;
   }
   function response(q, value, locked = false, scored = false, edit = null) {
     const wrap = document.createElement('div'); wrap.className = 'e2-response';
@@ -490,7 +490,7 @@
   window.ASTRExamTwo={
     keys:KEYS, form, ready, correct, answerText, mastery, schedule, mergeRuns, snapshot, poolFor, selectItems, rebuildMastery:updateMastery,
     exportPending(){return unsaved && run ? {key,raw:JSON.stringify(db)} : null;},
-    renderEvidence,
+    renderEvidence, sourceHTML,
     open(element,onLeave,options={}) {
       host=element;leave=onLeave;mode={kind:options.kind||'pool',title:options.title||'Exam 2 practice',...options};run=null;problem='';correction=null;unsaved=false;
       if(mode.kind==='source-review'){sourceReview();return;}
