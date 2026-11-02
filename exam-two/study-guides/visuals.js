@@ -392,5 +392,119 @@ window.ASTR1102_VISUALS = {
       }
     ],
     "interactions": []
+  },
+  "exam-two-module-20": {
+    "id": "exam-two-module-20-visuals",
+    "label": "Supernova energy and fading light",
+    "intro": "Original teaching model. Import the latest private pack for supplied lecture figures.",
+    "visuals": [
+      {
+        "id": "exam-two-module-20-original-figure",
+        "src": "assets/visuals/exam-two/sn-energy.svg",
+        "title": "Supernova energy and fading light",
+        "alt": "Separate the collapse energy budget, the source of the late light, and what a scientific simulation can establish.",
+        "caption": "Separate the collapse energy budget, the source of the late light, and what a scientific simulation can establish. Schematic scales.",
+        "notice": "Read the labeled physical relationships before retrieval.",
+        "source": "Lecture 24 pages 5–15 · original reconstruction",
+        "status": "verified",
+        "statusLabel": "Original teaching diagram"
+      }
+    ],
+    "interactions": []
+  },
+  "exam-two-module-21": {
+    "id": "exam-two-module-21-visuals",
+    "label": "Remnants, spectra and nearby effects",
+    "intro": "Original teaching model. Import the latest private pack for supplied lecture figures.",
+    "visuals": [
+      {
+        "id": "exam-two-module-21-original-figure",
+        "src": "assets/visuals/exam-two/sn-remnant-target.svg",
+        "title": "Remnants, spectra and nearby effects",
+        "alt": "Connect expanding ejecta to shock heating, spectral classifications and atmospheric consequences.",
+        "caption": "Connect expanding ejecta to shock heating, spectral classifications and atmospheric consequences. Schematic scales.",
+        "notice": "Read the labeled physical relationships before retrieval.",
+        "source": "Lecture 24 pages 17–30, 37 · original reconstruction",
+        "status": "verified",
+        "statusLabel": "Original teaching diagram"
+      }
+    ],
+    "interactions": []
+  },
+  "exam-two-module-22": {
+    "id": "exam-two-module-22-visuals",
+    "label": "SN 1987A and stellar endpoints",
+    "intro": "Original teaching model. Import the latest private pack for supplied lecture figures.",
+    "visuals": [
+      {
+        "id": "exam-two-module-22-original-figure",
+        "src": "assets/visuals/exam-two/sn1987a-target.svg",
+        "title": "SN 1987A and stellar endpoints",
+        "alt": "Use the neutrino burst, brightening ring and compact remnants to distinguish evidence from a diagram label.",
+        "caption": "Use the neutrino burst, brightening ring and compact remnants to distinguish evidence from a diagram label. Schematic scales.",
+        "notice": "Read the labeled physical relationships before retrieval.",
+        "source": "Lecture 24 pages 16, 31–38; Lecture 25 pages 4, 6 · original reconstruction",
+        "status": "verified",
+        "statusLabel": "Original teaching diagram"
+      }
+    ],
+    "interactions": []
+  },
+  "exam-two-module-23": {
+    "id": "exam-two-module-23-visuals",
+    "label": "White dwarfs and degeneracy",
+    "intro": "Original teaching model. Import the latest private pack for supplied lecture figures.",
+    "visuals": [
+      {
+        "id": "exam-two-module-23-original-figure",
+        "src": "assets/visuals/exam-two/wd-hr-target.svg",
+        "title": "White dwarfs and degeneracy",
+        "alt": "Explain why a cooling, Earth-sized remnant can resist gravity without continuing ordinary core fusion.",
+        "caption": "Explain why a cooling, Earth-sized remnant can resist gravity without continuing ordinary core fusion. Schematic scales.",
+        "notice": "Read the labeled physical relationships before retrieval.",
+        "source": "Lecture 25 pages 8–11 · original reconstruction",
+        "status": "verified",
+        "statusLabel": "Original teaching diagram"
+      }
+    ],
+    "interactions": []
+  },
+  "exam-two-module-24": {
+    "id": "exam-two-module-24-visuals",
+    "label": "Pulsars and compact-star evidence",
+    "intro": "Original teaching model. Import the latest private pack for supplied lecture figures.",
+    "visuals": [
+      {
+        "id": "exam-two-module-24-original-figure",
+        "src": "assets/visuals/exam-two/pulse-periods.svg",
+        "title": "Pulsars and compact-star evidence",
+        "alt": "Read pulse periods, connect the Crab source to its remnant, and test alternatives using physical scale.",
+        "caption": "Read pulse periods, connect the Crab source to its remnant, and test alternatives using physical scale. Schematic scales.",
+        "notice": "Read the labeled physical relationships before retrieval.",
+        "source": "Lecture 25 pages 12–20, 23–25 · original reconstruction",
+        "status": "verified",
+        "statusLabel": "Original teaching diagram"
+      }
+    ],
+    "interactions": []
+  },
+  "exam-two-module-25": {
+    "id": "exam-two-module-25-visuals",
+    "label": "Spin, beams and magnetars",
+    "intro": "Original teaching model. Import the latest private pack for supplied lecture figures.",
+    "visuals": [
+      {
+        "id": "exam-two-module-25-original-figure",
+        "src": "assets/visuals/exam-two/pulsar-axes-target.svg",
+        "title": "Spin, beams and magnetars",
+        "alt": "Connect contraction to rotation, rotating magnetic geometry to pulses, and intense fields to magnetar activity.",
+        "caption": "Connect contraction to rotation, rotating magnetic geometry to pulses, and intense fields to magnetar activity. Schematic scales.",
+        "notice": "Read the labeled physical relationships before retrieval.",
+        "source": "Lecture 25 pages 19, 21–26 · original reconstruction",
+        "status": "verified",
+        "statusLabel": "Original teaching diagram"
+      }
+    ],
+    "interactions": []
   }
 };

@@ -655,5 +655,221 @@ window.ASTR1102_FILMS = [
       }
     ],
     "disclosure": "Original teaching reconstruction. Geometry, time, color and scale are schematic. Lecture figures remain in the private edition. Watching earns no mastery."
+  },
+  {
+    "id": "supernova-energy",
+    "moduleId": "exam-two-module-20",
+    "title": "Supernova energy and fading light",
+    "source": "Lecture24 pp7,10–15",
+    "voice": "Ethan · synthetic voice",
+    "src": "videos/supernova-energy.mp4",
+    "poster": "videos/supernova-energy.jpg",
+    "captions": "videos/supernova-energy.vtt",
+    "transcriptSrc": "videos/supernova-energy.txt",
+    "duration": 54.29,
+    "stages": [
+      {
+        "title": "Where the energy goes",
+        "text": "In the lecture’s simplified collapse budget, about ninety nine percent of the energy escapes in neutrinos. About one percent remains for other channels. That remainder is not the same as visible light. Follow the escaping particles separately from the expanding, energized gas.",
+        "start": 0,
+        "end": 15.63,
+        "caption": "Where the energy goes"
+      },
+      {
+        "title": "Why light persists",
+        "text": "The first hot fireball follows shock heating. Later, radioactive nuclei deposit more energy as they decay. Nickel fifty six changes into cobalt fifty six, then iron fifty six. This decay chain can sustain the fading light; calling this process fission confuses two different nuclear mechanisms.",
+        "start": 15.63,
+        "end": 34.61,
+        "caption": "Why light persists"
+      },
+      {
+        "title": "Illustration or simulation",
+        "text": "This moving reconstruction illustrates selected physical relationships. A numerical simulation instead evolves a stated model from equations and initial conditions. Neither realistic artwork nor a powerful computer guarantees the right explanation. Compare the computed predictions with observations, and keep the model’s assumptions visible.",
+        "start": 34.61,
+        "end": 54.29,
+        "caption": "Illustration or simulation"
+      }
+    ],
+    "disclosure": "Original schematic reconstruction. Sizes, times and particle counts are illustrative. Local synthetic Ethan narration."
+  },
+  {
+    "id": "supernova-remnants",
+    "moduleId": "exam-two-module-21",
+    "title": "Remnants, spectra and nearby effects",
+    "source": "Lecture24 pp17–30,37",
+    "voice": "Ethan · synthetic voice",
+    "src": "videos/supernova-remnants.mp4",
+    "poster": "videos/supernova-remnants.jpg",
+    "captions": "videos/supernova-remnants.vtt",
+    "transcriptSrc": "videos/supernova-remnants.txt",
+    "duration": 58.230000000000004,
+    "stages": [
+      {
+        "title": "The shock heats gas",
+        "text": "Fast ejecta catch slower material around the star. At the shock, some organized bulk motion becomes random thermal motion. The heated plasma can emit X rays, while other regions produce optical emission lines. The extended remnant is gas on a much larger scale than its central compact star.",
+        "start": 0,
+        "end": 18.0,
+        "caption": "The shock heats gas"
+      },
+      {
+        "title": "Hydrogen changes the label",
+        "text": "A Type Two supernova spectrum contains hydrogen lines. Type One lacks those lines. That spectral distinction does not uniquely identify the explosion mechanism. A massive star can lose its hydrogen envelope before collapse, producing a hydrogen poor event in the Type One b or One c grouping.",
+        "start": 18.0,
+        "end": 36.230000000000004,
+        "caption": "Hydrogen changes the label"
+      },
+      {
+        "title": "Atmosphere rather than direct heat",
+        "text": "For the same luminosity, moving ten times farther away reduces received flux to a hundredth. That comparison alone does not calculate biological damage. In the lecture’s atmospheric pathway, energetic radiation reduces ozone, allowing more solar ultraviolet to reach the surface. Example distances are not sharp universal danger boundaries.",
+        "start": 36.230000000000004,
+        "end": 58.230000000000004,
+        "caption": "Atmosphere rather than direct heat"
+      }
+    ],
+    "disclosure": "Original schematic reconstruction. Sizes, times and particle counts are illustrative. Local synthetic Ethan narration."
+  },
+  {
+    "id": "sn1987a",
+    "moduleId": "exam-two-module-22",
+    "title": "SN1987A and stellar endpoints",
+    "source": "Lecture24 pp16,31–36; L25 p4",
+    "voice": "Ethan · synthetic voice",
+    "src": "videos/sn1987a.mp4",
+    "poster": "videos/sn1987a.jpg",
+    "captions": "videos/sn1987a.vtt",
+    "transcriptSrc": "videos/sn1987a.txt",
+    "duration": 57.97,
+    "stages": [
+      {
+        "title": "Neutrino evidence",
+        "text": "Supernova nineteen eighty seven A occurred in the Large Magellanic Cloud. Its short neutrino burst directly supported the collapse energy channel. Only a tiny sample was detected: most particles missed Earth, and most crossing a detector passed through without interacting. Detected counts do not equal the total emitted.",
+        "start": 0,
+        "end": 19.13,
+        "caption": "Neutrino evidence"
+      },
+      {
+        "title": "An older ring lights up",
+        "text": "The circumstellar ring was already present before the explosion. Ejecta and the outward shock traveled toward it. When the shock encountered dense knots, energy deposited in the gas caused brightening. The changing ring therefore records an interaction with the progenitor’s earlier surroundings, rather than newly formed ring material.",
+        "start": 19.13,
+        "end": 38.05,
+        "caption": "An older ring lights up"
+      },
+      {
+        "title": "State the pathway",
+        "text": "A Sun like star sheds a planetary nebula and leaves a white dwarf. Successful massive core collapse can leave a neutron star; continued collapse can lead to a black hole. Specify the pathway before choosing a remnant. A missing central detection, by itself, does not uniquely establish a black hole.",
+        "start": 38.05,
+        "end": 57.97,
+        "caption": "State the pathway"
+      }
+    ],
+    "disclosure": "Original schematic reconstruction. Sizes, times and particle counts are illustrative. Local synthetic Ethan narration."
+  },
+  {
+    "id": "white-dwarfs",
+    "moduleId": "exam-two-module-23",
+    "title": "White dwarfs and degeneracy",
+    "source": "Lecture25 pp8–11",
+    "voice": "Ethan · synthetic voice",
+    "src": "videos/white-dwarfs.mp4",
+    "poster": "videos/white-dwarfs.jpg",
+    "captions": "videos/white-dwarfs.vtt",
+    "transcriptSrc": "videos/white-dwarfs.txt",
+    "duration": 60.41,
+    "stages": [
+      {
+        "title": "Pressure without fusion",
+        "text": "A white dwarf is a small, hot carbon and oxygen remnant that cools after ordinary core fusion ends. Electron degeneracy supplies pressure: crowding forces electrons into higher momentum states because identical electrons cannot all share the same quantum state. This is not a claim that matter becomes literally incompressible.",
+        "start": 0,
+        "end": 20.58,
+        "caption": "Pressure without fusion"
+      },
+      {
+        "title": "Which mass is limited",
+        "text": "The limiting white dwarf mass is about one point four times the Sun’s mass. This limit applies to a remnant supported by electron degeneracy. It does not describe the original star’s birth mass. A progenitor can lose substantial material before leaving its core. Neutron stars have a separate support problem with a different mass limit.",
+        "start": 20.58,
+        "end": 40.089999999999996,
+        "caption": "Which mass is limited"
+      },
+      {
+        "title": "Hot but dim",
+        "text": "On a conventional H R diagram, white dwarfs lie in the hot, low luminosity region. A small surface area can outweigh a high surface temperature. At equal temperature, reducing radius to one tenth reduces luminosity to one hundredth. A hot surface therefore does not guarantee a large total light output.",
+        "start": 40.089999999999996,
+        "end": 60.41,
+        "caption": "Hot but dim"
+      }
+    ],
+    "disclosure": "Original schematic reconstruction. Sizes, times and particle counts are illustrative. Local synthetic Ethan narration."
+  },
+  {
+    "id": "pulsar-evidence",
+    "moduleId": "exam-two-module-24",
+    "title": "Pulsars and compact-star evidence",
+    "source": "Lecture25 pp12–18,20,23–25",
+    "voice": "Ethan · synthetic voice",
+    "src": "videos/pulsar-evidence.mp4",
+    "poster": "videos/pulsar-evidence.jpg",
+    "captions": "videos/pulsar-evidence.vtt",
+    "transcriptSrc": "videos/pulsar-evidence.txt",
+    "duration": 62.03000000000001,
+    "stages": [
+      {
+        "title": "Regular signals need explanation",
+        "text": "Jocelyn Bell recognized a regular radio pulse signal in nineteen sixty seven. The provisional Little Green Men nickname captured an early question, not a demonstrated origin. Discovering similar sources supported a natural astrophysical population. Regularity is evidence to explain; it does not by itself prove intelligent transmission.",
+        "start": 0,
+        "end": 19.43,
+        "caption": "Regular signals need explanation"
+      },
+      {
+        "title": "A compact clock",
+        "text": "The Crab pulsar repeats in about thirty three milliseconds. A rotating white dwarf could not remain bound at such a short period, but a much smaller neutron star can support rapid rotation. Period is time per cycle. Its reciprocal is frequency: a period of two hundredths of a second means fifty cycles each second.",
+        "start": 19.43,
+        "end": 37.550000000000004,
+        "caption": "A compact clock"
+      },
+      {
+        "title": "Density and location",
+        "text": "A neutron star packs roughly stellar mass into a city scale radius. At fixed mass, reducing radius by half makes the volume one eighth of its original value. The density therefore increases by a factor of eight. The Crab’s central pulsar and surrounding remnant support a connection between core collapse and a compact neutron star. This evidence does not make every explosion identical.",
+        "start": 37.550000000000004,
+        "end": 62.03000000000001,
+        "caption": "Density and location"
+      }
+    ],
+    "disclosure": "Original schematic reconstruction. Sizes, times and particle counts are illustrative. Local synthetic Ethan narration."
+  },
+  {
+    "id": "spin-beams-magnetars",
+    "moduleId": "exam-two-module-25",
+    "title": "Spin, beams and magnetars",
+    "source": "Lecture25 pp19,21–22,26",
+    "voice": "Ethan · synthetic voice",
+    "src": "videos/spin-beams-magnetars.mp4",
+    "poster": "videos/spin-beams-magnetars.jpg",
+    "captions": "videos/spin-beams-magnetars.vtt",
+    "transcriptSrc": "videos/spin-beams-magnetars.txt",
+    "duration": 60.31,
+    "stages": [
+      {
+        "title": "Contraction speeds rotation",
+        "text": "With negligible external torque, contraction preserves angular momentum while reducing moment of inertia. An idealized object with unchanged mass and shape that halves its radius spins four times faster. Its period becomes one quarter as long. The familiar contracting skater analogy explains the trend; it does not make the actual Sun a neutron star.",
+        "start": 0,
+        "end": 20.86,
+        "caption": "Contraction speeds rotation"
+      },
+      {
+        "title": "A beam crosses the observer",
+        "text": "The magnetic axis can tilt away from the rotation axis. As the neutron star rotates, its directed emission sweeps around like a lighthouse beam. An observer receives pulses when that beam crosses the line of sight. If the beam misses Earth throughout the rotation, the star can keep spinning without visible beam pulses here.",
+        "start": 20.86,
+        "end": 38.39,
+        "caption": "A beam crosses the observer"
+      },
+      {
+        "title": "Strong fields, varied periods",
+        "text": "A magnetar is a neutron star with an exceptionally strong magnetic field and related activity. Observed magnetars need not spin in milliseconds; some have second long periods. A rapidly rotating newborn magnetar can be modeled as an energy source for some luminous supernovae. Keep that conditional birth model separate from every magnetar’s present rotation.",
+        "start": 38.39,
+        "end": 60.31,
+        "caption": "Strong fields, varied periods"
+      }
+    ],
+    "disclosure": "Original schematic reconstruction. Sizes, times and particle counts are illustrative. Local synthetic Ethan narration."
   }
 ];

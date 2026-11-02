@@ -1,0 +1,14 @@
+Supernova energy and fading light
+Lecture24 pp7,10–15
+Synthetic narration in Ethan’s voice, generated locally.
+
+Where the energy goes
+In the lecture’s simplified collapse budget, about ninety nine percent of the energy escapes in neutrinos. About one percent remains for other channels. That remainder is not the same as visible light. Follow the escaping particles separately from the expanding, energized gas.
+
+Why light persists
+The first hot fireball follows shock heating. Later, radioactive nuclei deposit more energy as they decay. Nickel fifty six changes into cobalt fifty six, then iron fifty six. This decay chain can sustain the fading light; calling this process fission confuses two different nuclear mechanisms.
+
+Illustration or simulation
+This moving reconstruction illustrates selected physical relationships. A numerical simulation instead evolves a stated model from equations and initial conditions. Neither realistic artwork nor a powerful computer guarantees the right explanation. Compare the computed predictions with observations, and keep the model’s assumptions visible.
+
+Original schematic reconstruction. Sizes, times and particle counts are illustrative. Local synthetic Ethan narration.

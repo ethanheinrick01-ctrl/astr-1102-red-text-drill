@@ -1,6 +1,6 @@
 window.ASTR1102_EXAM2 = {
   "version": "exam-two-2026-10-06-v1",
-  "coverage": "Lectures 13–23 · Exam 2: material available so far",
+  "coverage": "Lectures 13–25 · Exam 2: material available so far",
   "concepts": [
     {
       "id": "exam-two-concept-parallax-geometry",
@@ -1591,6 +1591,474 @@ window.ASTR1102_EXAM2 = {
         }
       ],
       "source": "Lecture 23 pages 19–21, 26",
+      "status": "verified"
+    },
+    {
+      "id": "exam-two-concept-sn-energy-budget",
+      "moduleId": "exam-two-module-20",
+      "label": "Follow the collapse energy",
+      "teaching": "The lecture’s approximate core-collapse budget puts about 99% of the released energy into escaping neutrinos, leaving about 1% available for other channels, including explosion energy. Neutrinos carry energy while interacting weakly with matter; a small absorbed fraction can help heat material behind a stalled shock. Do not equate that remainder with all visible light or assume every collapse successfully ejects the envelope. Near the densest core, neutrinos can temporarily be trapped; “weakly interacting” does not mean zero interaction at every density.",
+      "body": [
+        "The lecture’s approximate core-collapse budget puts about 99% of the released energy into escaping neutrinos, leaving about 1% available for other channels, including explosion energy. Neutrinos carry energy while interacting weakly with matter; a small absorbed fraction can help heat material behind a stalled shock. Do not equate that remainder with all visible light or assume every collapse successfully ejects the envelope. Near the densest core, neutrinos can temporarily be trapped; “weakly interacting” does not mean zero interaction at every density.",
+        "Worked example: On a schematic budget of 100 units, 99 leave in neutrinos and one remains. Only part of the non-neutrino energy emerges as optical radiation.",
+        "Common mistake: A small percentage of an enormous energy reservoir can drive a major event; it is not evidence that neutrinos are photons."
+      ],
+      "workedExample": "On a schematic budget of 100 units, 99 leave in neutrinos and one remains. Only part of the non-neutrino energy emerges as optical radiation.",
+      "commonMistake": "A small percentage of an enormous energy reservoir can drive a major event; it is not evidence that neutrinos are photons.",
+      "masteryEligible": true,
+      "claimIds": [
+        "exam-two-claim-sn-energy-budget"
+      ],
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l24",
+          "locator": "pages 5–7, 10–11",
+          "boundary": "verified"
+        }
+      ],
+      "source": "Lecture 24 pages 5–7, 10–11",
+      "status": "verified"
+    },
+    {
+      "id": "exam-two-concept-sn-radioactive-tail",
+      "moduleId": "exam-two-module-20",
+      "label": "Why the light lasts",
+      "teaching": "An expanding supernova initially shines through shock-heated ejecta. Later, energy deposited by radioactive decay can sustain its light rather than letting it fade only by expansion and cooling. The familiar chain is nickel-56 to cobalt-56 to stable iron-56. These are radioactive transformations, not the “nuclear fission” wording on the slide. The deposited energy and escape of radiation depend on ejecta structure and time, so the chain does not prescribe a universal year-long brightness curve.",
+      "body": [
+        "An expanding supernova initially shines through shock-heated ejecta. Later, energy deposited by radioactive decay can sustain its light rather than letting it fade only by expansion and cooling. The familiar chain is nickel-56 to cobalt-56 to stable iron-56. These are radioactive transformations, not the “nuclear fission” wording on the slide. The deposited energy and escape of radiation depend on ejecta structure and time, so the chain does not prescribe a universal year-long brightness curve.",
+        "Worked example: If the hot expanding gas should cool quickly but luminosity persists, radioactive energy deposition supplies a continuing source. This differs from the shock that launched the ejecta.",
+        "Common mistake: Do not confuse making unstable nuclei during the explosion with their later decay, or call every nuclear transformation fission."
+      ],
+      "workedExample": "If the hot expanding gas should cool quickly but luminosity persists, radioactive energy deposition supplies a continuing source. This differs from the shock that launched the ejecta.",
+      "commonMistake": "Do not confuse making unstable nuclei during the explosion with their later decay, or call every nuclear transformation fission.",
+      "masteryEligible": true,
+      "claimIds": [
+        "exam-two-claim-sn-radioactive-tail"
+      ],
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l24",
+          "locator": "pages 7, 33",
+          "boundary": "verified"
+        }
+      ],
+      "source": "Lecture 24 pages 7, 33",
+      "status": "verified"
+    },
+    {
+      "id": "exam-two-concept-animation-simulation",
+      "moduleId": "exam-two-module-20",
+      "label": "Illustration versus numerical evidence",
+      "teaching": "A teaching animation is an authored visual explanation of a selected physical story. A scientific simulation numerically evolves a model using specified equations, initial conditions, approximations and resolution. Both can be useful and both can mislead if their assumptions are hidden. A visually convincing movie does not itself validate a mechanism. Compare simulated predictions with observations and check numerical/model limitations. The supplied PDF provides static frames of embedded movies; their full motion was not supplied in the PDF.",
+      "body": [
+        "A teaching animation is an authored visual explanation of a selected physical story. A scientific simulation numerically evolves a model using specified equations, initial conditions, approximations and resolution. Both can be useful and both can mislead if their assumptions are hidden. A visually convincing movie does not itself validate a mechanism. Compare simulated predictions with observations and check numerical/model limitations. The supplied PDF provides static frames of embedded movies; their full motion was not supplied in the PDF.",
+        "Worked example: A smooth shock-and-bounce film can teach event order. A computed shock radius from a stated hydrodynamic model can test model consequences, but it still needs validation.",
+        "Common mistake: Our original films are teaching reconstructions, not supercomputer predictions or new evidence for an explosion."
+      ],
+      "workedExample": "A smooth shock-and-bounce film can teach event order. A computed shock radius from a stated hydrodynamic model can test model consequences, but it still needs validation.",
+      "commonMistake": "Our original films are teaching reconstructions, not supercomputer predictions or new evidence for an explosion.",
+      "masteryEligible": true,
+      "claimIds": [
+        "exam-two-claim-animation-simulation"
+      ],
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l24",
+          "locator": "pages 12–15",
+          "boundary": "verified"
+        }
+      ],
+      "source": "Lecture 24 pages 12–15",
+      "status": "verified"
+    },
+    {
+      "id": "exam-two-concept-remnant-shock-heating",
+      "moduleId": "exam-two-module-21",
+      "label": "An expanding shell can heat new gas",
+      "teaching": "Fast ejecta collide with older circumstellar material or the interstellar medium. Shocks convert bulk motion into thermal energy, producing very hot plasma and X-rays; cooler ionized regions can also emit optical lines. A supernova remnant is the extended affected material, whereas a neutron star or black hole is a possible central compact remnant. Different wavelength images sample different components, so a bright ring is not the compact core. Historical identifications and non-detections in the example gallery are not universal remnant diagnostics.",
+      "body": [
+        "Fast ejecta collide with older circumstellar material or the interstellar medium. Shocks convert bulk motion into thermal energy, producing very hot plasma and X-rays; cooler ionized regions can also emit optical lines. A supernova remnant is the extended affected material, whereas a neutron star or black hole is a possible central compact remnant. Different wavelength images sample different components, so a bright ring is not the compact core. Historical identifications and non-detections in the example gallery are not universal remnant diagnostics.",
+        "Worked example: The Crab’s extended nebula and central pulsar belong to the same aftermath but are not the same object. A hot collision front can brighten while expanding.",
+        "Common mistake: Expansion does not mean every parcel must cool monotonically: a moving shock can heat material it newly encounters."
+      ],
+      "workedExample": "The Crab’s extended nebula and central pulsar belong to the same aftermath but are not the same object. A hot collision front can brighten while expanding.",
+      "commonMistake": "Expansion does not mean every parcel must cool monotonically: a moving shock can heat material it newly encounters.",
+      "masteryEligible": true,
+      "claimIds": [
+        "exam-two-claim-remnant-shock-heating"
+      ],
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l24",
+          "locator": "pages 17–25",
+          "boundary": "verified"
+        }
+      ],
+      "source": "Lecture 24 pages 17–25",
+      "status": "verified"
+    },
+    {
+      "id": "exam-two-concept-supernova-spectral-types",
+      "moduleId": "exam-two-module-21",
+      "label": "Classify the spectrum before inferring the engine",
+      "teaching": "The Type I/Type II division asks whether hydrogen lines appear in the supernova spectrum: Type I lacks them; Type II shows them. Type I contains subclasses, so “Type I” alone does not mean every event has the same physical cause. In the course’s core-collapse grouping, Ib, Ic and II arise from massive-star core collapse; stripped progenitors can lack surface hydrogen. Type Ia belongs to a different thermonuclear pathway. Massive stars are short-lived, so core-collapse events tend to trace young stellar populations rather than old isolated populations alone.",
+      "body": [
+        "The Type I/Type II division asks whether hydrogen lines appear in the supernova spectrum: Type I lacks them; Type II shows them. Type I contains subclasses, so “Type I” alone does not mean every event has the same physical cause. In the course’s core-collapse grouping, Ib, Ic and II arise from massive-star core collapse; stripped progenitors can lack surface hydrogen. Type Ia belongs to a different thermonuclear pathway. Massive stars are short-lived, so core-collapse events tend to trace young stellar populations rather than old isolated populations alone.",
+        "Worked example: A hydrogen-poor supernova can still be a core-collapse event if its progenitor lost its hydrogen envelope; absence of hydrogen does not alone prove Type Ia.",
+        "Common mistake: A spectral label describes an observed feature. Do not replace that observation with a universal engine or exact progenitor mass."
+      ],
+      "workedExample": "A hydrogen-poor supernova can still be a core-collapse event if its progenitor lost its hydrogen envelope; absence of hydrogen does not alone prove Type Ia.",
+      "commonMistake": "A spectral label describes an observed feature. Do not replace that observation with a universal engine or exact progenitor mass.",
+      "masteryEligible": true,
+      "claimIds": [
+        "exam-two-claim-supernova-spectral-types"
+      ],
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l24",
+          "locator": "pages 29–30",
+          "boundary": "verified"
+        }
+      ],
+      "source": "Lecture 24 pages 29–30",
+      "status": "verified"
+    },
+    {
+      "id": "exam-two-concept-supernova-atmosphere",
+      "moduleId": "exam-two-module-21",
+      "label": "Brightness is not the whole hazard",
+      "teaching": "The lecture separates direct heating, ejecta impact and atmospheric chemistry. High-energy radiation from a sufficiently nearby event can damage ozone, increasing exposure to solar ultraviolet radiation. This mechanism differs from the supernova simply heating Earth or ejecta mechanically striking it. Direct radiative flux obeys inverse-square dilution for a stated luminosity and geometry. The slide’s danger distances and Betelgeuse/Gum timing are rough or dated examples, not exact current safety boundaries or predictions.",
+      "body": [
+        "The lecture separates direct heating, ejecta impact and atmospheric chemistry. High-energy radiation from a sufficiently nearby event can damage ozone, increasing exposure to solar ultraviolet radiation. This mechanism differs from the supernova simply heating Earth or ejecta mechanically striking it. Direct radiative flux obeys inverse-square dilution for a stated luminosity and geometry. The slide’s danger distances and Betelgeuse/Gum timing are rough or dated examples, not exact current safety boundaries or predictions.",
+        "Worked example: With luminosity fixed, moving ten times farther away reduces received flux to one hundredth. That calculation alone does not predict atmospheric damage, which depends on spectrum and other conditions.",
+        "Common mistake: A visually bright event need not deliver the Sun’s heating, and an approximate distance scale is not a sharp universal survival boundary."
+      ],
+      "workedExample": "With luminosity fixed, moving ten times farther away reduces received flux to one hundredth. That calculation alone does not predict atmospheric damage, which depends on spectrum and other conditions.",
+      "commonMistake": "A visually bright event need not deliver the Sun’s heating, and an approximate distance scale is not a sharp universal survival boundary.",
+      "masteryEligible": true,
+      "claimIds": [
+        "exam-two-claim-supernova-atmosphere"
+      ],
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l24",
+          "locator": "pages 26–28, 37",
+          "boundary": "verified"
+        }
+      ],
+      "source": "Lecture 24 pages 26–28, 37",
+      "status": "verified"
+    },
+    {
+      "id": "exam-two-concept-sn1987a-neutrinos",
+      "moduleId": "exam-two-module-22",
+      "label": "A different messenger from the collapse",
+      "teaching": "SN 1987A was a nearby, well-observed core-collapse event in the Large Magellanic Cloud, from a compact blue-supergiant progenitor. The neutrino burst was decisive evidence linking the event to core-collapse physics, rather than merely showing that a star became bright. The lecture gives about 19 detected events in roughly 10 seconds as its teaching scale; detector selection and counting conventions matter, so do not turn that number into a universal total. Its “closest ever” wording is too broad: many historical Galactic supernovae were closer. A dated slide saying the central neutron star cannot be seen also does not summarize all later evidence; Webb reported evidence for neutron-star-powered emission in 2024.",
+      "body": [
+        "SN 1987A was a nearby, well-observed core-collapse event in the Large Magellanic Cloud, from a compact blue-supergiant progenitor. The neutrino burst was decisive evidence linking the event to core-collapse physics, rather than merely showing that a star became bright. The lecture gives about 19 detected events in roughly 10 seconds as its teaching scale; detector selection and counting conventions matter, so do not turn that number into a universal total. Its “closest ever” wording is too broad: many historical Galactic supernovae were closer. A dated slide saying the central neutron star cannot be seen also does not summarize all later evidence; Webb reported evidence for neutron-star-powered emission in 2024.",
+        "Worked example: Optical light shows ejecta radiation; neutrinos directly probe the collapse energy channel. Their scientific roles differ even when they come from the same event.",
+        "Common mistake: A handful of detections samples an enormous emitted population. Do not identify the emitted count with the detected count or demand a visible stellar point source to support a compact remnant."
+      ],
+      "workedExample": "Optical light shows ejecta radiation; neutrinos directly probe the collapse energy channel. Their scientific roles differ even when they come from the same event.",
+      "commonMistake": "A handful of detections samples an enormous emitted population. Do not identify the emitted count with the detected count or demand a visible stellar point source to support a compact remnant.",
+      "masteryEligible": true,
+      "claimIds": [
+        "exam-two-claim-sn1987a-neutrinos"
+      ],
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l24",
+          "locator": "pages 31–33, 38",
+          "boundary": "verified"
+        }
+      ],
+      "source": "Lecture 24 pages 31–33, 38",
+      "status": "verified"
+    },
+    {
+      "id": "exam-two-concept-sn1987a-ring",
+      "moduleId": "exam-two-module-22",
+      "label": "An older ring meets a later shock",
+      "teaching": "The ring around SN 1987A contains circumstellar material lost before the supernova. Expanding ejecta and the outward shock later reach dense structures in that material. Collision heats gas and can make ring knots brighten. The ring is not a light-speed expanding neutron-star surface, and a bright knot need not be a newly formed star. The supplied movie page is a static PDF frame; the explanation is supported by the surrounding lecture and observed shock interaction, not a claim to have watched an unavailable embedded film.",
+      "body": [
+        "The ring around SN 1987A contains circumstellar material lost before the supernova. Expanding ejecta and the outward shock later reach dense structures in that material. Collision heats gas and can make ring knots brighten. The ring is not a light-speed expanding neutron-star surface, and a bright knot need not be a newly formed star. The supplied movie page is a static PDF frame; the explanation is supported by the surrounding lecture and observed shock interaction, not a claim to have watched an unavailable embedded film.",
+        "Worked example: A dense knot stays relatively faint until the shock reaches it, then brightens as mechanical energy is deposited. Different knots can brighten at different times because geometry and density differ.",
+        "Common mistake: Do not create the pre-existing ring at the instant of core collapse or confuse its apparent size with the compact remnant’s radius."
+      ],
+      "workedExample": "A dense knot stays relatively faint until the shock reaches it, then brightens as mechanical energy is deposited. Different knots can brighten at different times because geometry and density differ.",
+      "commonMistake": "Do not create the pre-existing ring at the instant of core collapse or confuse its apparent size with the compact remnant’s radius.",
+      "masteryEligible": true,
+      "claimIds": [
+        "exam-two-claim-sn1987a-ring"
+      ],
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l24",
+          "locator": "pages 17, 31–35",
+          "boundary": "verified"
+        }
+      ],
+      "source": "Lecture 24 pages 17, 31–35",
+      "status": "verified"
+    },
+    {
+      "id": "exam-two-concept-stellar-endpoint-paths",
+      "moduleId": "exam-two-module-22",
+      "label": "Trace the pathway before naming the remnant",
+      "teaching": "For the course’s Sun-like pathway, an AGB star loses envelope gas as a planetary nebula and leaves a white dwarf. A successful massive-star core-collapse supernova can leave a neutron star, while continued collapse can lead to a black hole. A thermonuclear supernova is a different route and need not leave either of those compact objects. Thus the supplied broad question a question about an unspecified supernova remnant does not have one universal answer without specifying the pathway. The blank endpoint diagram is a teaching prompt, not a displayed graded key.",
+      "body": [
+        "For the course’s Sun-like pathway, an AGB star loses envelope gas as a planetary nebula and leaves a white dwarf. A successful massive-star core-collapse supernova can leave a neutron star, while continued collapse can lead to a black hole. A thermonuclear supernova is a different route and need not leave either of those compact objects. Thus the supplied broad question “what is left after a supernova?” does not have one universal answer without specifying the pathway. The blank endpoint diagram is a teaching prompt, not a displayed graded key.",
+        "Worked example: An expanded gas cloud identifies expelled material; it does not alone tell you whether the compact center is a white dwarf, neutron star or black hole. Follow progenitor and mechanism.",
+        "Common mistake: A planetary nebula and a supernova remnant are not interchangeable names for the same stellar end stage."
+      ],
+      "workedExample": "An expanded gas cloud identifies expelled material; it does not alone tell you whether the compact center is a white dwarf, neutron star or black hole. Follow progenitor and mechanism.",
+      "commonMistake": "A planetary nebula and a supernova remnant are not interchangeable names for the same stellar end stage.",
+      "masteryEligible": true,
+      "claimIds": [
+        "exam-two-claim-stellar-endpoint-paths"
+      ],
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l24",
+          "locator": "pages 16, 30–36",
+          "boundary": "verified"
+        }
+      ],
+      "source": "Lecture 24 pages 16, 30–36",
+      "status": "verified"
+    },
+    {
+      "id": "exam-two-concept-wd-electron-support",
+      "moduleId": "exam-two-module-23",
+      "label": "Quantum support is not ordinary thermal support",
+      "teaching": "After a Sun-like star loses its envelope, its carbon–oxygen remnant cannot sustain the next normal core-burning stage. As ordinary thermal support declines, contraction brings electrons into a degenerate state. The Pauli exclusion principle restricts identical electrons from occupying the same quantum state; increased crowding requires occupation of higher-momentum states and supplies pressure. This support does not require ongoing hydrogen fusion. The slide’s “all levels full” and “incompressible” are teaching shorthand: degenerate matter can be compressed, and not every possible quantum state is occupied.",
+      "body": [
+        "After a Sun-like star loses its envelope, its carbon–oxygen remnant cannot sustain the next normal core-burning stage. As ordinary thermal support declines, contraction brings electrons into a degenerate state. The Pauli exclusion principle restricts identical electrons from occupying the same quantum state; increased crowding requires occupation of higher-momentum states and supplies pressure. This support does not require ongoing hydrogen fusion. The slide’s “all levels full” and “incompressible” are teaching shorthand: degenerate matter can be compressed, and not every possible quantum state is occupied.",
+        "Worked example: A white dwarf can cool while retaining substantial electron-degeneracy support. Its resistance to compression is not evidence that it still burns hydrogen like a main-sequence star.",
+        "Common mistake: Do not transfer atomic orbital pictures literally to a compact star or claim zero possible compression at all masses."
+      ],
+      "workedExample": "A white dwarf can cool while retaining substantial electron-degeneracy support. Its resistance to compression is not evidence that it still burns hydrogen like a main-sequence star.",
+      "commonMistake": "Do not transfer atomic orbital pictures literally to a compact star or claim zero possible compression at all masses.",
+      "masteryEligible": true,
+      "claimIds": [
+        "exam-two-claim-wd-electron-support"
+      ],
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l25",
+          "locator": "pages 8–10",
+          "boundary": "verified"
+        }
+      ],
+      "source": "Lecture 25 pages 8–10",
+      "status": "verified"
+    },
+    {
+      "id": "exam-two-concept-wd-mass-limit",
+      "moduleId": "exam-two-module-23",
+      "label": "The Chandrasekhar scale belongs to the white dwarf",
+      "teaching": "The maximum mass for a cold, nonrotating electron-supported white dwarf is approximately 1.4 solar masses in the course model. It is the white dwarf’s mass, not the total mass its progenitor once had. Increasing white-dwarf mass generally reduces radius; degeneracy support is not a fixed Earth-size container that can hold unlimited added mass. Reaching the support limit does not mean every system follows one identical fate: composition and nuclear reactions matter, including thermonuclear disruption in relevant white-dwarf systems. Do not substitute this electron-support limit for the separate maximum mass of a neutron star.",
+      "body": [
+        "The maximum mass for a cold, nonrotating electron-supported white dwarf is approximately 1.4 solar masses in the course model. It is the white dwarf’s mass, not the total mass its progenitor once had. Increasing white-dwarf mass generally reduces radius; degeneracy support is not a fixed Earth-size container that can hold unlimited added mass. Reaching the support limit does not mean every system follows one identical fate: composition and nuclear reactions matter, including thermonuclear disruption in relevant white-dwarf systems. Do not substitute this electron-support limit for the separate maximum mass of a neutron star.",
+        "Worked example: A progenitor can lose much of its mass before leaving a white dwarf below the limit. A several-solar-mass birth mass alone therefore does not rule out a white-dwarf endpoint.",
+        "Common mistake: The 1.4-solar-mass number is an approximate support scale, not a universal limit on all stars or all stellar remnants."
+      ],
+      "workedExample": "A progenitor can lose much of its mass before leaving a white dwarf below the limit. A several-solar-mass birth mass alone therefore does not rule out a white-dwarf endpoint.",
+      "commonMistake": "The 1.4-solar-mass number is an approximate support scale, not a universal limit on all stars or all stellar remnants.",
+      "masteryEligible": true,
+      "claimIds": [
+        "exam-two-claim-wd-mass-limit"
+      ],
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l25",
+          "locator": "pages 10–11",
+          "boundary": "verified"
+        }
+      ],
+      "source": "Lecture 25 pages 10–11",
+      "status": "verified"
+    },
+    {
+      "id": "exam-two-concept-wd-hot-small",
+      "moduleId": "exam-two-module-23",
+      "label": "High temperature, small area",
+      "teaching": "A white dwarf can be hotter than an ordinary star yet have much lower luminosity because its radiating area is small. For a blackbody comparison, L = 4πR²σT⁴: temperature and radius jointly matter. The course’s Sirius example contrasts a hotter, much smaller Sirius B with Sirius A. On an H–R diagram, white dwarfs occupy the hot but dim region, with temperature conventionally decreasing to the right. They cool and fade over time; “white dwarf,” “red dwarf” and “brown dwarf” name different physical histories, not simply three positions along a universal color-changing sequence.",
+      "body": [
+        "A white dwarf can be hotter than an ordinary star yet have much lower luminosity because its radiating area is small. For a blackbody comparison, L = 4πR²σT⁴: temperature and radius jointly matter. The course’s Sirius example contrasts a hotter, much smaller Sirius B with Sirius A. On an H–R diagram, white dwarfs occupy the hot but dim region, with temperature conventionally decreasing to the right. They cool and fade over time; “white dwarf,” “red dwarf” and “brown dwarf” name different physical histories, not simply three positions along a universal color-changing sequence.",
+        "Worked example: At equal temperature, a star with one tenth the radius has one hundredth the luminosity. That is an area comparison, not a prediction that every white dwarf has that radius ratio.",
+        "Common mistake: Temperature alone does not rank total luminosity, and an H–R diagram’s temperature axis runs opposite to a standard increasing-right temperature graph."
+      ],
+      "workedExample": "At equal temperature, a star with one tenth the radius has one hundredth the luminosity. That is an area comparison, not a prediction that every white dwarf has that radius ratio.",
+      "commonMistake": "Temperature alone does not rank total luminosity, and an H–R diagram’s temperature axis runs opposite to a standard increasing-right temperature graph.",
+      "masteryEligible": true,
+      "claimIds": [
+        "exam-two-claim-wd-hot-small"
+      ],
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l25",
+          "locator": "pages 8, 11",
+          "boundary": "verified"
+        }
+      ],
+      "source": "Lecture 25 pages 8, 11",
+      "status": "verified"
+    },
+    {
+      "id": "exam-two-concept-pulsar-discovery-evidence",
+      "moduleId": "exam-two-module-24",
+      "label": "A regular signal needs a physical explanation",
+      "teaching": "Jocelyn Bell identified a repeating radio signal in 1967 while working in Antony Hewish’s group. LGM-1 was the informal “Little Green Men” label, not evidence for extraterrestrial communication. Discovering additional similar sources supported a new astrophysical population. Explanations had to account for both the short periods and the source properties: ordinary stellar pulsation and tightly orbiting ordinary stars could not explain the fastest observed signals in the supplied examples. Theory and observation constrained the neutron-star interpretation together.",
+      "body": [
+        "Jocelyn Bell identified a repeating radio signal in 1967 while working in Antony Hewish’s group. LGM-1 was the informal “Little Green Men” label, not evidence for extraterrestrial communication. Discovering additional similar sources supported a new astrophysical population. Explanations had to account for both the short periods and the source properties: ordinary stellar pulsation and tightly orbiting ordinary stars could not explain the fastest observed signals in the supplied examples. Theory and observation constrained the neutron-star interpretation together.",
+        "Worked example: One regular pulse train invites hypotheses; multiple similar natural sources and incompatible ordinary-star timescales change which explanations remain viable.",
+        "Common mistake: A nickname is a historical response to an unexplained signal, not the final scientific cause or a claim that periodicity alone proves technology."
+      ],
+      "workedExample": "One regular pulse train invites hypotheses; multiple similar natural sources and incompatible ordinary-star timescales change which explanations remain viable.",
+      "commonMistake": "A nickname is a historical response to an unexplained signal, not the final scientific cause or a claim that periodicity alone proves technology.",
+      "masteryEligible": true,
+      "claimIds": [
+        "exam-two-claim-pulsar-discovery-evidence"
+      ],
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l25",
+          "locator": "pages 14–17, 20",
+          "boundary": "verified"
+        }
+      ],
+      "source": "Lecture 25 pages 14–17, 20",
+      "status": "verified"
+    },
+    {
+      "id": "exam-two-concept-pulse-period-compactness",
+      "moduleId": "exam-two-module-24",
+      "label": "Short periods constrain the object",
+      "teaching": "A rotating object’s material must remain gravitationally bound. Very short rotation periods are incompatible with an ordinary large star and, for the Crab’s approximately 33-millisecond period, with a white-dwarf-sized star in this interpretation. A neutron star’s much smaller size makes such rapid rotation possible. The pulse period is a time per cycle; frequency is cycles per second, f = 1/P. Keep seconds and milliseconds distinct. The supplied periodic sources span different rates, not one universal pulsar clock.",
+      "body": [
+        "A rotating object’s material must remain gravitationally bound. Very short rotation periods are incompatible with an ordinary large star and, for the Crab’s approximately 33-millisecond period, with a white-dwarf-sized star in this interpretation. A neutron star’s much smaller size makes such rapid rotation possible. The pulse period is a time per cycle; frequency is cycles per second, f = 1/P. Keep seconds and milliseconds distinct. The supplied periodic sources span different rates, not one universal pulsar clock.",
+        "Worked example: A 0.033-second period corresponds to about 30 cycles each second. A 0.0058-second period is shorter and therefore gives a higher frequency.",
+        "Common mistake: A shorter period means faster repetition, not a smaller frequency; a rapid signal constrains a model but is not a photograph of the star’s surface."
+      ],
+      "workedExample": "A 0.033-second period corresponds to about 30 cycles each second. A 0.0058-second period is shorter and therefore gives a higher frequency.",
+      "commonMistake": "A shorter period means faster repetition, not a smaller frequency; a rapid signal constrains a model but is not a photograph of the star’s surface.",
+      "masteryEligible": true,
+      "claimIds": [
+        "exam-two-claim-pulse-period-compactness"
+      ],
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l25",
+          "locator": "pages 12, 16–19",
+          "boundary": "verified"
+        }
+      ],
+      "source": "Lecture 25 pages 12, 16–19",
+      "status": "verified"
+    },
+    {
+      "id": "exam-two-concept-neutron-density-evidence",
+      "moduleId": "exam-two-module-24",
+      "label": "City-sized, stellar mass",
+      "teaching": "A neutron star packs a mass comparable to the Sun into a roughly city-sized object. Small radius does not imply low mass: mean density depends on mass divided by volume. The lecture’s teaspoon/Empire State Building comparison conveys extreme density; it is an approximate analogy, not a literal container of isolated stable neutron-star material. The Crab’s central pulsar links the compact source to a supernova remnant, supporting the connection between massive-star death and neutron-star formation. The entire extended nebula is not the neutron star.",
+      "body": [
+        "A neutron star packs a mass comparable to the Sun into a roughly city-sized object. Small radius does not imply low mass: mean density depends on mass divided by volume. The lecture’s teaspoon/Empire State Building comparison conveys extreme density; it is an approximate analogy, not a literal container of isolated stable neutron-star material. The Crab’s central pulsar links the compact source to a supernova remnant, supporting the connection between massive-star death and neutron-star formation. The entire extended nebula is not the neutron star.",
+        "Worked example: For the same mass, halving radius makes volume one eighth as large and mean density eight times greater. This illustrates why collapse changes density so strongly.",
+        "Common mistake: A nearby city drawn behind a compact-star model supplies scale, not a claim that the full stellar mass has disappeared or that the nebula fits in that city."
+      ],
+      "workedExample": "For the same mass, halving radius makes volume one eighth as large and mean density eight times greater. This illustrates why collapse changes density so strongly.",
+      "commonMistake": "A nearby city drawn behind a compact-star model supplies scale, not a claim that the full stellar mass has disappeared or that the nebula fits in that city.",
+      "masteryEligible": true,
+      "claimIds": [
+        "exam-two-claim-neutron-density-evidence"
+      ],
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l25",
+          "locator": "pages 17–19, 23–25",
+          "boundary": "verified"
+        }
+      ],
+      "source": "Lecture 25 pages 17–19, 23–25",
+      "status": "verified"
+    },
+    {
+      "id": "exam-two-concept-compact-spin-up",
+      "moduleId": "exam-two-module-25",
+      "label": "Contraction changes the rotation rate",
+      "teaching": "An isolated contracting object approximately conserves angular momentum when external torque and mass loss are negligible. For the same mass distribution shape, moment of inertia scales as MR². Smaller radius then means faster angular rotation and a shorter period, like the lecture’s ice-skater analogy. Real stellar collapse can lose mass and angular momentum, so a literal Sun-to-neutron-star extrapolation is only an idealized illustration. It does not mean the Sun will form a neutron star or that contraction is the only way to change spin.",
+      "body": [
+        "An isolated contracting object approximately conserves angular momentum when external torque and mass loss are negligible. For the same mass distribution shape, moment of inertia scales as MR². Smaller radius then means faster angular rotation and a shorter period, like the lecture’s ice-skater analogy. Real stellar collapse can lose mass and angular momentum, so a literal Sun-to-neutron-star extrapolation is only an idealized illustration. It does not mean the Sun will form a neutron star or that contraction is the only way to change spin.",
+        "Worked example: In an idealized constant-mass, constant-shape model with no external torque, reducing radius by two reduces moment of inertia by four, increases spin frequency by four, and reduces period to one quarter.",
+        "Common mistake: Do not assert angular momentum conservation while silently adding a torque or losing a substantial amount of spinning material."
+      ],
+      "workedExample": "In an idealized constant-mass, constant-shape model with no external torque, reducing radius by two reduces moment of inertia by four, increases spin frequency by four, and reduces period to one quarter.",
+      "commonMistake": "Do not assert angular momentum conservation while silently adding a torque or losing a substantial amount of spinning material.",
+      "masteryEligible": true,
+      "claimIds": [
+        "exam-two-claim-compact-spin-up"
+      ],
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l25",
+          "locator": "pages 21",
+          "boundary": "verified"
+        }
+      ],
+      "source": "Lecture 25 pages 21",
+      "status": "verified"
+    },
+    {
+      "id": "exam-two-concept-pulsar-beam-geometry",
+      "moduleId": "exam-two-module-25",
+      "label": "A rotating lighthouse, not a breathing star",
+      "teaching": "In the lecture’s lighthouse model, emission is associated with the magnetic-pole regions and directed into beams. The magnetic axis is tilted relative to the rotation axis. As the star rotates, a beam can sweep across our line of sight and produce repeated pulses even though the star itself is not expanding and contracting once per pulse. Not every neutron star appears as a pulsar to us: orientation, beam geometry and emission activity matter. Aligned axes do not guarantee a sweep past an arbitrary observer.",
+      "body": [
+        "In the lecture’s lighthouse model, emission is associated with the magnetic-pole regions and directed into beams. The magnetic axis is tilted relative to the rotation axis. As the star rotates, a beam can sweep across our line of sight and produce repeated pulses even though the star itself is not expanding and contracting once per pulse. Not every neutron star appears as a pulsar to us: orientation, beam geometry and emission activity matter. Aligned axes do not guarantee a sweep past an arbitrary observer.",
+        "Worked example: Two observers at different directions can see different pulse visibility from the same rotating object. Moving the observer outside the swept beam can remove pulses without changing the star’s rotation.",
+        "Common mistake: Do not animate the entire star flashing on and off as the only cause, or label a spin pole as the magnetic pole when the axes are misaligned."
+      ],
+      "workedExample": "Two observers at different directions can see different pulse visibility from the same rotating object. Moving the observer outside the swept beam can remove pulses without changing the star’s rotation.",
+      "commonMistake": "Do not animate the entire star flashing on and off as the only cause, or label a spin pole as the magnetic pole when the axes are misaligned.",
+      "masteryEligible": true,
+      "claimIds": [
+        "exam-two-claim-pulsar-beam-geometry"
+      ],
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l25",
+          "locator": "pages 17–19, 22",
+          "boundary": "verified"
+        }
+      ],
+      "source": "Lecture 25 pages 17–19, 22",
+      "status": "verified"
+    },
+    {
+      "id": "exam-two-concept-magnetar-fields",
+      "moduleId": "exam-two-module-25",
+      "label": "A powerful magnetic field is the defining distinction",
+      "teaching": "Magnetars are neutron stars with exceptionally strong magnetic fields and energetic magnetic activity, including high-energy bursts associated with soft gamma repeaters and anomalous X-ray pulsars. Rapid rotation of a newly born magnetar is one proposed energy source for some very luminous supernovae. The slide’s millisecond rotation describes that rapid-birth model, not a universal present-day magnetar period: observed magnetars can rotate on second-long periods. A strong field does not make the object a black hole. Distinguish a proposed powering mechanism from a guarantee that every magnetar makes the same explosion.",
+      "body": [
+        "Magnetars are neutron stars with exceptionally strong magnetic fields and energetic magnetic activity, including high-energy bursts associated with soft gamma repeaters and anomalous X-ray pulsars. Rapid rotation of a newly born magnetar is one proposed energy source for some very luminous supernovae. The slide’s millisecond rotation describes that rapid-birth model, not a universal present-day magnetar period: observed magnetars can rotate on second-long periods. A strong field does not make the object a black hole. Distinguish a proposed powering mechanism from a guarantee that every magnetar makes the same explosion.",
+        "Worked example: A second-period neutron star with an extremely strong field and magnetic outbursts can fit the magnetar category. A millisecond period alone does not establish that category.",
+        "Common mistake: Do not rank every magnetar as faster than every ordinary pulsar or treat a large magnetic field as proof of an event horizon."
+      ],
+      "workedExample": "A second-period neutron star with an extremely strong field and magnetic outbursts can fit the magnetar category. A millisecond period alone does not establish that category.",
+      "commonMistake": "Do not rank every magnetar as faster than every ordinary pulsar or treat a large magnetic field as proof of an event horizon.",
+      "masteryEligible": true,
+      "claimIds": [
+        "exam-two-claim-magnetar-fields"
+      ],
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l25",
+          "locator": "pages 21, 26",
+          "boundary": "verified"
+        }
+      ],
+      "source": "Lecture 25 pages 21, 26",
       "status": "verified"
     }
   ],
@@ -7786,6 +8254,2109 @@ window.ASTR1102_EXAM2 = {
       "status": "verified",
       "topic": "Original Exam 2 practice",
       "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l24-energy-complement",
+      "rootId": "exam-two-item-l24-energy-complement",
+      "moduleId": "exam-two-module-20",
+      "conceptId": "exam-two-concept-sn-energy-budget",
+      "concept": "exam-two-concept-sn-energy-budget",
+      "type": "single",
+      "responseType": "single",
+      "prompt": "In a simplified collapse budget, 99 of 100 energy units escape as neutrinos. How many units remain for other channels?",
+      "choices": [
+        "100 units",
+        "1 unit",
+        "10 units",
+        "99 units"
+      ],
+      "answer": 1,
+      "hint": "Subtract the escaping share from the complete budget.",
+      "explanation": "100 − 99 = 1 unit. The result concerns the non-neutrino remainder, not a measured visible-light fraction.",
+      "source": "Lecture 24 pages 5–7, 10–11 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l24",
+          "locator": "pages 5–7, 10–11",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-sn-energy-budget"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true,
+      "media": {
+        "src": "assets/visuals/exam-two/sn-energy.svg",
+        "alt": "Original labeled teaching diagram; all relevant physical relationships are also described in the question."
+      }
+    },
+    {
+      "id": "exam-two-item-l24-neutrino-detection-paradox",
+      "rootId": "exam-two-item-l24-neutrino-detection-paradox",
+      "moduleId": "exam-two-module-20",
+      "conceptId": "exam-two-concept-sn-energy-budget",
+      "concept": "exam-two-concept-sn-energy-budget",
+      "type": "single",
+      "responseType": "single",
+      "prompt": "A supernova emits an enormous number of neutrinos, but a terrestrial detector records very few. What best explains this?",
+      "choices": [
+        "A neutrino must first become a visible photon",
+        "Most cross the detector without interacting",
+        "Most are absorbed in the star’s outermost gas",
+        "The emitted count is the detected count"
+      ],
+      "answer": 1,
+      "hint": "Distinguish emission from detection probability.",
+      "explanation": "Weak interaction with matter lets most neutrinos traverse Earth and the detector without a detectable interaction. A tiny detected sample need not imply a weak source.",
+      "source": "Lecture 24 pages 5–7, 10–11 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l24",
+          "locator": "pages 5–7, 10–11",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-sn-energy-budget"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l24-one-percent-tf",
+      "rootId": "exam-two-item-l24-one-percent-tf",
+      "moduleId": "exam-two-module-20",
+      "conceptId": "exam-two-concept-sn-energy-budget",
+      "concept": "exam-two-concept-sn-energy-budget",
+      "type": "true-false",
+      "responseType": "true-false",
+      "prompt": "True or false: The lecture’s roughly 1% non-neutrino remainder means exactly 1% of the collapse energy is observed as visible light.",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "answer": 1,
+      "hint": "An available energy budget is broader than one radiation band.",
+      "explanation": "False. The remainder includes other energy channels, especially kinetic explosion energy; it is not identical to optical radiation.",
+      "source": "Lecture 24 pages 5–7, 10–11 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l24",
+          "locator": "pages 5–7, 10–11",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-sn-energy-budget"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l24-tail-source",
+      "rootId": "exam-two-item-l24-tail-source",
+      "moduleId": "exam-two-module-20",
+      "conceptId": "exam-two-concept-sn-radioactive-tail",
+      "concept": "exam-two-concept-sn-radioactive-tail",
+      "type": "single",
+      "responseType": "single",
+      "prompt": "Weeks after the initial shock heating, a supernova remains luminous longer than simple expansion cooling predicts. Which source explains the lecture’s late light?",
+      "choices": [
+        "Energy deposited by radioactive decay",
+        "Steady core hydrogen burning in the remnant",
+        "Reflection of unchanged progenitor light",
+        "Expansion cooling as the only energy source"
+      ],
+      "answer": 0,
+      "hint": "Look for a continuing energy supply inside the ejecta.",
+      "explanation": "Radioactive nuclei made in the event decay and deposit energy. This is distinct from initial shock heating and from steady main-sequence fusion.",
+      "source": "Lecture 24 pages 7, 33 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l24",
+          "locator": "pages 7, 33",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-sn-radioactive-tail"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l24-decay-chain",
+      "rootId": "exam-two-item-l24-decay-chain",
+      "moduleId": "exam-two-module-20",
+      "conceptId": "exam-two-concept-sn-radioactive-tail",
+      "concept": "exam-two-concept-sn-radioactive-tail",
+      "type": "order",
+      "responseType": "order",
+      "prompt": "Order the nuclei in the standard radioactive chain discussed for a supernova’s fading light.",
+      "choices": [
+        "Nickel-56",
+        "Cobalt-56",
+        "Iron-56"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "hint": "Follow the parent, intermediate and stable endpoint.",
+      "explanation": "Nickel-56 decays to cobalt-56, which decays to stable iron-56. These decays are not a claim that a nucleus splits into two comparable fragments.",
+      "source": "Lecture 24 pages 7, 33 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l24",
+          "locator": "pages 7, 33",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-sn-radioactive-tail"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l24-fission-boundary",
+      "rootId": "exam-two-item-l24-fission-boundary",
+      "moduleId": "exam-two-module-20",
+      "conceptId": "exam-two-concept-sn-radioactive-tail",
+      "concept": "exam-two-concept-sn-radioactive-tail",
+      "type": "single",
+      "responseType": "single",
+      "prompt": "Nickel-56 changes into cobalt-56 and then iron-56 in a supernova. How is this sequence classified?",
+      "choices": [
+        "Fusion of light nuclei into heavier nuclei",
+        "Radioactive decay of unstable nuclei",
+        "Fission of heavy nuclei into smaller fragments",
+        "Cooling without any nuclear transformation"
+      ],
+      "answer": 1,
+      "hint": "Follow how the unstable nuclei change, rather than treating every nuclear process as fusion or fission.",
+      "explanation": "This is a radioactive decay chain. Fusion joins nuclei; fission splits a heavy nucleus into substantial fragments. The slide’s loose fission wording does not change the intended nickel–cobalt–iron decay mechanism.",
+      "source": "Lecture 24 pages 7, 33 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l24",
+          "locator": "pages 7, 33",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-sn-radioactive-tail"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l24-model-evidence",
+      "rootId": "exam-two-item-l24-model-evidence",
+      "moduleId": "exam-two-module-20",
+      "conceptId": "exam-two-concept-animation-simulation",
+      "concept": "exam-two-concept-animation-simulation",
+      "type": "single",
+      "responseType": "single",
+      "prompt": "Two supernova movies look equally realistic. Only one solves stated physical equations from initial conditions. Which comparison is justified?",
+      "choices": [
+        "Its equations must reproduce every real explosion",
+        "Its realism proves its initial conditions are exact",
+        "Its rendering replaces comparison with observations",
+        "Its computed states test the stated physical model"
+      ],
+      "answer": 3,
+      "hint": "Separate visual polish from how the states were obtained.",
+      "explanation": "Numerical evolution can test consequences of its stated physical model. Appearance alone establishes neither equations nor observational accuracy.",
+      "source": "Lecture 24 pages 12–15 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l24",
+          "locator": "pages 12–15",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-animation-simulation"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l24-simulation-limits",
+      "rootId": "exam-two-item-l24-simulation-limits",
+      "moduleId": "exam-two-module-20",
+      "conceptId": "exam-two-concept-animation-simulation",
+      "concept": "exam-two-concept-animation-simulation",
+      "type": "single",
+      "responseType": "single",
+      "prompt": "What additional check best supports a numerical supernova model’s scientific use?",
+      "choices": [
+        "Replace uncertain outputs with a smoother hand-drawn sequence",
+        "Compare predictions with observations and model limitations",
+        "Judge the result only by the number of rendered frames",
+        "Assume a supercomputer eliminates all approximations"
+      ],
+      "answer": 1,
+      "hint": "A computed result still needs empirical and numerical scrutiny.",
+      "explanation": "Observational comparison and checks of assumptions/resolution help assess what the model can support. More computing power alone is not validation.",
+      "source": "Lecture 24 pages 12–15 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l24",
+          "locator": "pages 12–15",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-animation-simulation"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l24-method-match",
+      "rootId": "exam-two-item-l24-method-match",
+      "moduleId": "exam-two-module-20",
+      "conceptId": "exam-two-concept-animation-simulation",
+      "concept": "exam-two-concept-animation-simulation",
+      "type": "match",
+      "responseType": "match",
+      "prompt": "Match each product or claim to the appropriate evidential role.",
+      "choices": [
+        "Observed evidence",
+        "Teaching reconstruction",
+        "Numerical model result"
+      ],
+      "answer": [
+        1,
+        2,
+        0
+      ],
+      "hint": "Match each observation to the mechanism it actually constrains.",
+      "explanation": "Illustration explains a chosen story; simulation computes a model; observation measures a signal. One does not silently become another.",
+      "source": "Lecture 24 pages 12–15 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l24",
+          "locator": "pages 12–15",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-animation-simulation"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true,
+      "rows": [
+        {
+          "label": "An authored movie illustrating shock travel",
+          "answer": "Teaching reconstruction"
+        },
+        {
+          "label": "Computed evolution from equations and initial conditions",
+          "answer": "Numerical model result"
+        },
+        {
+          "label": "A measured neutrino burst from the sky",
+          "answer": "Observed evidence"
+        }
+      ],
+      "options": [
+        "Observed evidence",
+        "Teaching reconstruction",
+        "Numerical model result"
+      ]
+    },
+    {
+      "id": "exam-two-item-l24-shock-energy-conversion",
+      "rootId": "exam-two-item-l24-shock-energy-conversion",
+      "moduleId": "exam-two-module-21",
+      "conceptId": "exam-two-concept-remnant-shock-heating",
+      "concept": "exam-two-concept-remnant-shock-heating",
+      "type": "single",
+      "responseType": "single",
+      "prompt": "Fast ejecta strike slower gas around a supernova. Which energy conversion helps create X-ray-emitting plasma?",
+      "choices": [
+        "Optical reflection supplies the shocked gas’s heat",
+        "Bulk kinetic energy becomes thermal energy",
+        "Electron pressure becomes ordinary hydrogen fusion",
+        "Thermal energy becomes faster bulk expansion only"
+      ],
+      "answer": 1,
+      "hint": "Collisions and shocks can thermalize organized motion.",
+      "explanation": "The shock converts part of the ejecta’s bulk motion into heat. Very hot plasma can emit X-rays.",
+      "source": "Lecture 24 pages 17–25 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l24",
+          "locator": "pages 17–25",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-remnant-shock-heating"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l24-remnant-region",
+      "rootId": "exam-two-item-l24-remnant-region",
+      "moduleId": "exam-two-module-21",
+      "conceptId": "exam-two-concept-remnant-shock-heating",
+      "concept": "exam-two-concept-remnant-shock-heating",
+      "type": "target",
+      "responseType": "target",
+      "prompt": "Select the extended shock-heated shell rather than the central compact remnant.",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 1,
+      "hint": "Use the diagram’s physical regions and axis labels.",
+      "explanation": "B lies on the expanding shell. A is the compact center; C and D are away from the marked shock-heated region.",
+      "source": "Lecture 24 pages 17–25 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l24",
+          "locator": "pages 17–25",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-remnant-shock-heating"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true,
+      "media": {
+        "src": "assets/visuals/exam-two/sn-remnant-target.svg",
+        "alt": "Original schematic; A at 50 percent width, 50 percent height; B at 76 percent width, 50 percent height; C at 50 percent width, 12 percent height; D at 12 percent width, 80 percent height",
+        "caption": "Original teaching diagram. Schematic scales; labeled axes and regions define the comparison."
+      },
+      "targets": [
+        {
+          "label": "A",
+          "x": 50,
+          "y": 50
+        },
+        {
+          "label": "B",
+          "x": 76,
+          "y": 50
+        },
+        {
+          "label": "C",
+          "x": 50,
+          "y": 12
+        },
+        {
+          "label": "D",
+          "x": 12,
+          "y": 80
+        }
+      ]
+    },
+    {
+      "id": "exam-two-item-l24-remnant-components",
+      "rootId": "exam-two-item-l24-remnant-components",
+      "moduleId": "exam-two-module-21",
+      "conceptId": "exam-two-concept-remnant-shock-heating",
+      "concept": "exam-two-concept-remnant-shock-heating",
+      "type": "single",
+      "responseType": "single",
+      "prompt": "An X-ray ring surrounds a tiny central pulsar. Which description correctly distinguishes them?",
+      "choices": [
+        "The ring is the neutron-star surface; the center is interstellar gas",
+        "The ring is an unburned main-sequence core; the pulsar is its envelope",
+        "The ring is extended remnant gas; the pulsar is a compact star",
+        "The two are alternate photographs of the same-sized object"
+      ],
+      "answer": 2,
+      "hint": "Keep the central object separate from the much larger ejecta environment.",
+      "explanation": "The compact neutron star can power a pulsar, while the surrounding remnant occupies a far greater scale.",
+      "source": "Lecture 24 pages 17–25 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l24",
+          "locator": "pages 17–25",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-remnant-shock-heating"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true,
+      "media": {
+        "src": "assets/visuals/exam-two/sn-remnant-target.svg",
+        "alt": "Original labeled teaching diagram; all relevant physical relationships are also described in the question."
+      }
+    },
+    {
+      "id": "exam-two-item-l24-hydrogen-class",
+      "rootId": "exam-two-item-l24-hydrogen-class",
+      "moduleId": "exam-two-module-21",
+      "conceptId": "exam-two-concept-supernova-spectral-types",
+      "concept": "exam-two-concept-supernova-spectral-types",
+      "type": "single",
+      "responseType": "single",
+      "prompt": "A supernova spectrum contains clear hydrogen lines. Which broad spectral class fits the lecture’s definition?",
+      "choices": [
+        "Type Ic",
+        "Type II",
+        "Type Ib",
+        "Type Ia"
+      ],
+      "answer": 1,
+      "hint": "Apply the feature defining the broad I/II split.",
+      "explanation": "Hydrogen lines define Type II in this classification. Type I lacks them.",
+      "source": "Lecture 24 pages 29–30 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l24",
+          "locator": "pages 29–30",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-supernova-spectral-types"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l24-stripped-core-collapse",
+      "rootId": "exam-two-item-l24-stripped-core-collapse",
+      "moduleId": "exam-two-module-21",
+      "conceptId": "exam-two-concept-supernova-spectral-types",
+      "concept": "exam-two-concept-supernova-spectral-types",
+      "type": "single",
+      "responseType": "single",
+      "prompt": "A massive progenitor loses its hydrogen envelope before core collapse. Why need its supernova not be Type II?",
+      "choices": [
+        "Every core collapse must retain hydrogen lines",
+        "Envelope stripping can remove its hydrogen lines",
+        "Removing surface hydrogen forces a white-dwarf remnant",
+        "Every hydrogen-free event must be Type Ia"
+      ],
+      "answer": 1,
+      "hint": "Envelope composition can change while the collapse mechanism remains.",
+      "explanation": "Stripping can remove the hydrogen signature. Core-collapse Types Ib/Ic need not have Type II hydrogen lines.",
+      "source": "Lecture 24 pages 29–30 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l24",
+          "locator": "pages 29–30",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-supernova-spectral-types"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l24-spectral-group-match",
+      "rootId": "exam-two-item-l24-spectral-group-match",
+      "moduleId": "exam-two-module-21",
+      "conceptId": "exam-two-concept-supernova-spectral-types",
+      "concept": "exam-two-concept-supernova-spectral-types",
+      "type": "match",
+      "responseType": "match",
+      "prompt": "Match each label to the statement supported by the lecture grouping.",
+      "choices": [
+        "No hydrogen lines in the spectrum",
+        "Massive-star core-collapse classes",
+        "Hydrogen lines in the spectrum"
+      ],
+      "answer": [
+        2,
+        0,
+        1
+      ],
+      "hint": "Match each observation to the mechanism it actually constrains.",
+      "explanation": "II is hydrogen-bearing; I lacks hydrogen; Ib/Ic/II share the course’s massive-star collapse grouping. Type I is broader than one physical pathway.",
+      "source": "Lecture 24 pages 29–30 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l24",
+          "locator": "pages 29–30",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-supernova-spectral-types"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true,
+      "rows": [
+        {
+          "label": "Type II",
+          "answer": "Hydrogen lines in the spectrum"
+        },
+        {
+          "label": "Type I as a broad class",
+          "answer": "No hydrogen lines in the spectrum"
+        },
+        {
+          "label": "Ib, Ic and II together",
+          "answer": "Massive-star core-collapse classes"
+        }
+      ],
+      "options": [
+        "No hydrogen lines in the spectrum",
+        "Massive-star core-collapse classes",
+        "Hydrogen lines in the spectrum"
+      ]
+    },
+    {
+      "id": "exam-two-item-l24-ozone-consequence",
+      "rootId": "exam-two-item-l24-ozone-consequence",
+      "moduleId": "exam-two-module-21",
+      "conceptId": "exam-two-concept-supernova-atmosphere",
+      "concept": "exam-two-concept-supernova-atmosphere",
+      "type": "single",
+      "responseType": "single",
+      "prompt": "In the lecture’s atmospheric pathway, high-energy radiation reduces ozone. Which consequence follows most directly?",
+      "choices": [
+        "Earth’s magnetic shielding becomes stronger",
+        "Less solar ultraviolet reaches the surface",
+        "The supernova’s visible flux stops at the ozone layer",
+        "More solar ultraviolet reaches the surface"
+      ],
+      "answer": 3,
+      "hint": "What protection does ozone provide?",
+      "explanation": "Reduced ozone weakens shielding against solar ultraviolet radiation. This is an indirect atmospheric consequence, not direct ejecta impact.",
+      "source": "Lecture 24 pages 26–28, 37 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l24",
+          "locator": "pages 26–28, 37",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-supernova-atmosphere"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l24-flux-distance",
+      "rootId": "exam-two-item-l24-flux-distance",
+      "moduleId": "exam-two-module-21",
+      "conceptId": "exam-two-concept-supernova-atmosphere",
+      "concept": "exam-two-concept-supernova-atmosphere",
+      "type": "single",
+      "responseType": "single",
+      "prompt": "For the same supernova luminosity, compare received radiative flux at 5 light-years with that at 0.5 light-year, ignoring absorption.",
+      "choices": [
+        "One hundredth as much",
+        "Ten times as much",
+        "One tenth as much",
+        "One hundred times as much"
+      ],
+      "answer": 0,
+      "hint": "The distance grows by ten; square that factor.",
+      "explanation": "F ∝ 1/d². At ten times the distance the flux is 1/100 of the nearer value. This is flux comparison, not an atmospheric lethality calculation.",
+      "source": "Lecture 24 pages 26–28, 37 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l24",
+          "locator": "pages 26–28, 37",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-supernova-atmosphere"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l24-hazard-not",
+      "rootId": "exam-two-item-l24-hazard-not",
+      "moduleId": "exam-two-module-21",
+      "conceptId": "exam-two-concept-supernova-atmosphere",
+      "concept": "exam-two-concept-supernova-atmosphere",
+      "type": "single",
+      "responseType": "single",
+      "prompt": "Which observation is LEAST informative about the proposed pathway from high-energy radiation to ozone loss and increased solar ultraviolet exposure?",
+      "choices": [
+        "Atmospheric chemistry changes after irradiation",
+        "Solar ultraviolet shielding decreases",
+        "The received spectrum includes energetic radiation",
+        "The event looks bright in visible light"
+      ],
+      "answer": 3,
+      "hint": "Identify the observation that does not directly describe a step in that pathway.",
+      "explanation": "Visible brightness alone does not identify the received high-energy dose or the atmospheric response. The other observations bear on steps in the proposed pathway, although no single one establishes the complete causal chain.",
+      "source": "Lecture 24 pages 26–28, 37 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l24",
+          "locator": "pages 26–28, 37",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-supernova-atmosphere"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l24-1987a-significance",
+      "rootId": "exam-two-item-l24-1987a-significance",
+      "moduleId": "exam-two-module-22",
+      "conceptId": "exam-two-concept-sn1987a-neutrinos",
+      "concept": "exam-two-concept-sn1987a-neutrinos",
+      "type": "single",
+      "responseType": "single",
+      "prompt": "Which observation of SN 1987A most directly connected it to the core-collapse energy channel emphasized in this lecture?",
+      "choices": [
+        "A nearly spherical pattern of ejecta expansion",
+        "A hydrogen-bearing optical spectrum",
+        "A high apparent brightness in one optical photograph",
+        "A short burst of neutrino detections"
+      ],
+      "answer": 3,
+      "hint": "Choose the messenger associated with the collapsing core.",
+      "explanation": "The neutrino burst supplied evidence for the collapse channel; optical brightness alone does not provide the same test.",
+      "source": "Lecture 24 pages 31–33, 38 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l24",
+          "locator": "pages 31–33, 38",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-sn1987a-neutrinos"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l24-1987a-count-tf",
+      "rootId": "exam-two-item-l24-1987a-count-tf",
+      "moduleId": "exam-two-module-22",
+      "conceptId": "exam-two-concept-sn1987a-neutrinos",
+      "concept": "exam-two-concept-sn1987a-neutrinos",
+      "type": "true-false",
+      "responseType": "true-false",
+      "prompt": "True or false: The lecture’s detected neutrino count represents the total number emitted by SN 1987A.",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "answer": 1,
+      "hint": "Emission and a tiny terrestrial sample are different counts.",
+      "explanation": "False. Most neutrinos missed Earth, and most that crossed a detector did not interact. The detected sample is vastly smaller than the emitted population.",
+      "source": "Lecture 24 pages 31–33, 38 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l24",
+          "locator": "pages 31–33, 38",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-sn1987a-neutrinos"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l24-1987a-progenitor",
+      "rootId": "exam-two-item-l24-1987a-progenitor",
+      "moduleId": "exam-two-module-22",
+      "conceptId": "exam-two-concept-sn1987a-neutrinos",
+      "concept": "exam-two-concept-sn1987a-neutrinos",
+      "type": "single",
+      "responseType": "single",
+      "prompt": "Which progenitor description is supported for SN 1987A in the supplied lecture?",
+      "choices": [
+        "A brown dwarf below sustained hydrogen burning",
+        "A compact blue supergiant",
+        "An isolated carbon–oxygen white dwarf",
+        "A small red dwarf still on the main sequence"
+      ],
+      "answer": 1,
+      "hint": "Use this event’s evidence rather than assuming every massive star has the same surface state.",
+      "explanation": "The lecture identifies SN 1987A’s progenitor as a compact blue supergiant, an important reminder that massive-star endpoints are not all visibly red.",
+      "source": "Lecture 24 pages 31–33, 38 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l24",
+          "locator": "pages 31–33, 38",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-sn1987a-neutrinos"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l24-ring-brightening",
+      "rootId": "exam-two-item-l24-ring-brightening",
+      "moduleId": "exam-two-module-22",
+      "conceptId": "exam-two-concept-sn1987a-ring",
+      "concept": "exam-two-concept-sn1987a-ring",
+      "type": "single",
+      "responseType": "single",
+      "prompt": "A pre-existing knot in SN 1987A’s ring brightens when the outward shock arrives. What is the supported explanation?",
+      "choices": [
+        "The older knot reflects the original optical flash only",
+        "Shock interaction deposits energy in the knot",
+        "The shock removes thermal energy from the knot",
+        "The knot begins ordinary core hydrogen fusion"
+      ],
+      "answer": 1,
+      "hint": "Connect collision, heating and radiation.",
+      "explanation": "The outward shock heats circumstellar material. The resulting interaction can increase its emission.",
+      "source": "Lecture 24 pages 17, 31–35 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l24",
+          "locator": "pages 17, 31–35",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-sn1987a-ring"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l24-ring-order",
+      "rootId": "exam-two-item-l24-ring-order",
+      "moduleId": "exam-two-module-22",
+      "conceptId": "exam-two-concept-sn1987a-ring",
+      "concept": "exam-two-concept-sn1987a-ring",
+      "type": "order",
+      "responseType": "order",
+      "prompt": "Order the events for the lecture’s circumstellar-ring interaction.",
+      "choices": [
+        "The progenitor loses ring material",
+        "The core-collapse explosion launches ejecta",
+        "The outward shock encounters ring knots",
+        "Heated knots brighten"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "hint": "Separate material already present from the later energy delivery.",
+      "explanation": "The material precedes the explosion; ejecta then propagate outward and heat the encountered knots. The brightening follows that interaction.",
+      "source": "Lecture 24 pages 17, 31–35 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l24",
+          "locator": "pages 17, 31–35",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-sn1987a-ring"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l24-ring-target",
+      "rootId": "exam-two-item-l24-ring-target",
+      "moduleId": "exam-two-module-22",
+      "conceptId": "exam-two-concept-sn1987a-ring",
+      "concept": "exam-two-concept-sn1987a-ring",
+      "type": "target",
+      "responseType": "target",
+      "prompt": "Select a dense circumstellar knot where a traveling shock can produce localized brightening.",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 2,
+      "hint": "Use the diagram’s physical regions and axis labels.",
+      "explanation": "C marks a dense knot on the pre-existing ring. A marks the central source; B and D are not the marked ring interaction.",
+      "source": "Lecture 24 pages 17, 31–35 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l24",
+          "locator": "pages 17, 31–35",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-sn1987a-ring"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true,
+      "media": {
+        "src": "assets/visuals/exam-two/sn1987a-target.svg",
+        "alt": "Original schematic; A at 50 percent width, 50 percent height; B at 50 percent width, 17 percent height; C at 78 percent width, 50 percent height; D at 15 percent width, 82 percent height",
+        "caption": "Original teaching diagram. Schematic scales; labeled axes and regions define the comparison."
+      },
+      "targets": [
+        {
+          "label": "A",
+          "x": 50,
+          "y": 50
+        },
+        {
+          "label": "B",
+          "x": 50,
+          "y": 17
+        },
+        {
+          "label": "C",
+          "x": 78,
+          "y": 50
+        },
+        {
+          "label": "D",
+          "x": 15,
+          "y": 82
+        }
+      ]
+    },
+    {
+      "id": "exam-two-item-l24-endpoint-match",
+      "rootId": "exam-two-item-l24-endpoint-match",
+      "moduleId": "exam-two-module-22",
+      "conceptId": "exam-two-concept-stellar-endpoint-paths",
+      "concept": "exam-two-concept-stellar-endpoint-paths",
+      "type": "match",
+      "responseType": "match",
+      "prompt": "Match each explicitly stated evolutionary pathway to its outcome.",
+      "choices": [
+        "Black-hole outcome",
+        "Planetary nebula plus white dwarf",
+        "Supernova ejecta plus neutron star"
+      ],
+      "answer": [
+        1,
+        2,
+        0
+      ],
+      "hint": "Match each observation to the mechanism it actually constrains.",
+      "explanation": "The Sun-like path leaves an electron-supported remnant; the stated massive-star cases distinguish supported neutron-rich matter from continued collapse.",
+      "source": "Lecture 24 pages 16, 30–36 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l24",
+          "locator": "pages 16, 30–36",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-stellar-endpoint-paths"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true,
+      "rows": [
+        {
+          "label": "Sun-like AGB envelope loss",
+          "answer": "Planetary nebula plus white dwarf"
+        },
+        {
+          "label": "Successful massive-star collapse with supported compact core",
+          "answer": "Supernova ejecta plus neutron star"
+        },
+        {
+          "label": "Continued collapse beyond compact-core support",
+          "answer": "Black-hole outcome"
+        }
+      ],
+      "options": [
+        "Black-hole outcome",
+        "Planetary nebula plus white dwarf",
+        "Supernova ejecta plus neutron star"
+      ]
+    },
+    {
+      "id": "exam-two-item-l24-remnant-nondetection",
+      "rootId": "exam-two-item-l24-remnant-nondetection",
+      "moduleId": "exam-two-module-22",
+      "conceptId": "exam-two-concept-stellar-endpoint-paths",
+      "concept": "exam-two-concept-stellar-endpoint-paths",
+      "type": "single",
+      "responseType": "single",
+      "prompt": "An old remnant image shows no detected central neutron star. Which inference is justified from that non-detection alone?",
+      "choices": [
+        "It proves a black hole is the compact object",
+        "It proves every compact object is absent",
+        "It does not uniquely identify the compact object",
+        "It proves a white dwarf is the compact object"
+      ],
+      "answer": 2,
+      "hint": "Failure to detect one source is not a unique identification of another.",
+      "explanation": "A non-detection depends on sensitivity, obscuration and source properties. It cannot alone establish a black hole or eliminate every compact remnant.",
+      "source": "Lecture 24 pages 16, 30–36 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l24",
+          "locator": "pages 16, 30–36",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-stellar-endpoint-paths"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l24-remnant-conditional",
+      "rootId": "exam-two-item-l24-remnant-conditional",
+      "moduleId": "exam-two-module-22",
+      "conceptId": "exam-two-concept-stellar-endpoint-paths",
+      "concept": "exam-two-concept-stellar-endpoint-paths",
+      "type": "single",
+      "responseType": "single",
+      "prompt": "A core-collapse event leaves stable neutron-rich matter at its center. What is that central object in the course model?",
+      "choices": [
+        "The extended ejecta shell",
+        "A neutron star",
+        "A black hole",
+        "A white dwarf"
+      ],
+      "answer": 1,
+      "hint": "The stem specifies the compact material and its support.",
+      "explanation": "Supported neutron-rich compact matter is a neutron star. The expanding shell is a separate, much larger component.",
+      "source": "Lecture 24 pages 16, 30–36 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l24",
+          "locator": "pages 16, 30–36",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-stellar-endpoint-paths"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l25-support-source",
+      "rootId": "exam-two-item-l25-support-source",
+      "moduleId": "exam-two-module-23",
+      "conceptId": "exam-two-concept-wd-electron-support",
+      "concept": "exam-two-concept-wd-electron-support",
+      "type": "single",
+      "responseType": "single",
+      "prompt": "A carbon–oxygen remnant cools after ordinary core fusion has ended. What supports the resulting white dwarf in the lecture model?",
+      "choices": [
+        "Electron degeneracy pressure",
+        "Neutron degeneracy pressure alone",
+        "Radiation pressure from an active main-sequence core",
+        "Thermal pressure from steady core hydrogen burning"
+      ],
+      "answer": 0,
+      "hint": "Identify the pressure-bearing particles in this remnant.",
+      "explanation": "Electron degeneracy pressure supports the white dwarf without requiring ongoing ordinary core fusion.",
+      "source": "Lecture 25 pages 8–10 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l25",
+          "locator": "pages 8–10",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-wd-electron-support"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l25-degeneracy-cause",
+      "rootId": "exam-two-item-l25-degeneracy-cause",
+      "moduleId": "exam-two-module-23",
+      "conceptId": "exam-two-concept-wd-electron-support",
+      "concept": "exam-two-concept-wd-electron-support",
+      "type": "single",
+      "responseType": "single",
+      "prompt": "In a simplified degenerate electron gas, what makes further crowding resist compression?",
+      "choices": [
+        "Every possible quantum state becomes occupied",
+        "Electrons all share one lowest-momentum state",
+        "Electrons must occupy higher-momentum states",
+        "Pressure requires a continuing rise in temperature"
+      ],
+      "answer": 2,
+      "hint": "The restriction concerns identical-particle state occupancy.",
+      "explanation": "Pauli exclusion requires additional occupied momentum states as density rises. That pressure is not literal occupation of every possible state.",
+      "source": "Lecture 25 pages 8–10 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l25",
+          "locator": "pages 8–10",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-wd-electron-support"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l25-incompressible-tf",
+      "rootId": "exam-two-item-l25-incompressible-tf",
+      "moduleId": "exam-two-module-23",
+      "conceptId": "exam-two-concept-wd-electron-support",
+      "concept": "exam-two-concept-wd-electron-support",
+      "type": "true-false",
+      "responseType": "true-false",
+      "prompt": "True or false: Electron degeneracy makes a white dwarf literally incompressible under every possible added mass.",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "answer": 1,
+      "hint": "A support mechanism can resist compression without preventing it absolutely.",
+      "explanation": "False. White-dwarf structure changes with mass, and electron-degeneracy support has a limiting mass scale. “Incompressible” is a simplified slide description.",
+      "source": "Lecture 25 pages 8–10 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l25",
+          "locator": "pages 8–10",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-wd-electron-support"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l25-progenitor-limit",
+      "rootId": "exam-two-item-l25-progenitor-limit",
+      "moduleId": "exam-two-module-23",
+      "conceptId": "exam-two-concept-wd-mass-limit",
+      "concept": "exam-two-concept-wd-mass-limit",
+      "type": "single",
+      "responseType": "single",
+      "prompt": "A star begins with several solar masses, loses its envelope, and leaves a 0.7-solar-mass white dwarf. Which mass should be compared with the Chandrasekhar limit?",
+      "choices": [
+        "The 0.7-solar-mass remnant",
+        "The total expelled-envelope mass",
+        "The remnant plus all expelled material",
+        "The initial whole-star mass"
+      ],
+      "answer": 0,
+      "hint": "The limit applies to the electron-supported compact object.",
+      "explanation": "The relevant mass is the white dwarf’s own mass. The initial progenitor and expelled gas are different physical objects.",
+      "source": "Lecture 25 pages 10–11 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l25",
+          "locator": "pages 10–11",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-wd-mass-limit"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l25-limit-identification",
+      "rootId": "exam-two-item-l25-limit-identification",
+      "moduleId": "exam-two-module-23",
+      "conceptId": "exam-two-concept-wd-mass-limit",
+      "concept": "exam-two-concept-wd-mass-limit",
+      "type": "single",
+      "responseType": "single",
+      "prompt": "Which object is directly associated with the lecture’s roughly 1.4-solar-mass maximum for electron-degeneracy support?",
+      "choices": [
+        "A red giant’s diffuse outer envelope",
+        "A neutron star at the same maximum mass",
+        "A white dwarf supported by electrons",
+        "An ordinary main-sequence star"
+      ],
+      "answer": 2,
+      "hint": "Match the support mechanism to the object.",
+      "explanation": "The Chandrasekhar scale refers to the electron-supported white dwarf. Neutron stars have a separate support problem and limiting mass.",
+      "source": "Lecture 25 pages 10–11 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l25",
+          "locator": "pages 10–11",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-wd-mass-limit"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l25-wd-mass-radius",
+      "rootId": "exam-two-item-l25-wd-mass-radius",
+      "moduleId": "exam-two-module-23",
+      "conceptId": "exam-two-concept-wd-mass-limit",
+      "concept": "exam-two-concept-wd-mass-limit",
+      "type": "single",
+      "responseType": "single",
+      "prompt": "A white dwarf has a substantial fraction of the Sun’s mass packed into roughly Earth’s radius. What follows about its mean density compared with the Sun?",
+      "choices": [
+        "It is lower because the total mass is lower",
+        "It is similar because their masses have the same order of magnitude",
+        "It is fixed by surface temperature alone",
+        "It is much higher because its volume is so much smaller"
+      ],
+      "answer": 3,
+      "hint": "Mean density compares mass with volume, not mass alone.",
+      "explanation": "An Earth-scale volume containing a substantial fraction of a solar mass has a much greater mean density than the Sun. The radius is an illustrative scale; white dwarfs do not all have one exact radius.",
+      "source": "Lecture 25 pages 10–11 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l25",
+          "locator": "pages 10–11",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-wd-mass-limit"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l25-hot-dim-cause",
+      "rootId": "exam-two-item-l25-hot-dim-cause",
+      "moduleId": "exam-two-module-23",
+      "conceptId": "exam-two-concept-wd-hot-small",
+      "concept": "exam-two-concept-wd-hot-small",
+      "type": "single",
+      "responseType": "single",
+      "prompt": "The white-dwarf group lies below the main sequence at the same temperature on this H–R diagram. What explains its lower luminosity?",
+      "choices": [
+        "Its greater distance reduces intrinsic luminosity",
+        "Its emitting surface area is much smaller",
+        "Its small mass requires a much larger photosphere",
+        "Its higher surface temperature reduces surface flux"
+      ],
+      "answer": 1,
+      "hint": "Use both radius and temperature in the luminosity relation.",
+      "explanation": "At the same surface temperature, luminosity scales with emitting surface area. A smaller radius gives a smaller total luminosity.",
+      "source": "Lecture 25 pages 8, 11 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l25",
+          "locator": "pages 8, 11",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-wd-hot-small"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true,
+      "media": {
+        "src": "assets/visuals/exam-two/wd-hr-target.svg",
+        "alt": "Original labeled teaching diagram; all relevant physical relationships are also described in the question."
+      }
+    },
+    {
+      "id": "exam-two-item-l25-wd-hr-target",
+      "rootId": "exam-two-item-l25-wd-hr-target",
+      "moduleId": "exam-two-module-23",
+      "conceptId": "exam-two-concept-wd-hot-small",
+      "concept": "exam-two-concept-wd-hot-small",
+      "type": "target",
+      "responseType": "target",
+      "prompt": "Select the hot, low-luminosity region where white dwarfs belong on this H–R diagram.",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 2,
+      "hint": "Use the diagram’s physical regions and axis labels.",
+      "explanation": "C is hot and dim: the lower-left region on the conventional H–R axes. A is hot/bright; B is cool/bright; D is cool/dim.",
+      "source": "Lecture 25 pages 8, 11 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l25",
+          "locator": "pages 8, 11",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-wd-hot-small"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true,
+      "media": {
+        "src": "assets/visuals/exam-two/wd-hr-target.svg",
+        "alt": "Original schematic; A at 23 percent width, 24 percent height; B at 76 percent width, 24 percent height; C at 23 percent width, 76 percent height; D at 76 percent width, 76 percent height",
+        "caption": "Original teaching diagram. Schematic scales; labeled axes and regions define the comparison."
+      },
+      "targets": [
+        {
+          "label": "A",
+          "x": 23,
+          "y": 24
+        },
+        {
+          "label": "B",
+          "x": 76,
+          "y": 24
+        },
+        {
+          "label": "C",
+          "x": 23,
+          "y": 76
+        },
+        {
+          "label": "D",
+          "x": 76,
+          "y": 76
+        }
+      ]
+    },
+    {
+      "id": "exam-two-item-l25-equal-temperature-area",
+      "rootId": "exam-two-item-l25-equal-temperature-area",
+      "moduleId": "exam-two-module-23",
+      "conceptId": "exam-two-concept-wd-hot-small",
+      "concept": "exam-two-concept-wd-hot-small",
+      "type": "single",
+      "responseType": "single",
+      "prompt": "Two idealized stars have the same surface temperature. One has one tenth the other’s radius. Its luminosity is what fraction of the larger star’s?",
+      "choices": [
+        "10",
+        "1/10",
+        "1/100",
+        "100"
+      ],
+      "answer": 2,
+      "hint": "At fixed temperature, luminosity follows radius squared.",
+      "explanation": "Lsmall/Llarge = (Rsmall/Rlarge)² = (1/10)² = 1/100. The equal-temperature assumption fixes the T⁴ factor.",
+      "source": "Lecture 25 pages 8, 11 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l25",
+          "locator": "pages 8, 11",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-wd-hot-small"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l25-periodic-not-aliens",
+      "rootId": "exam-two-item-l25-periodic-not-aliens",
+      "moduleId": "exam-two-module-24",
+      "conceptId": "exam-two-concept-pulsar-discovery-evidence",
+      "concept": "exam-two-concept-pulsar-discovery-evidence",
+      "type": "single",
+      "responseType": "single",
+      "prompt": "Why did finding several similar pulsating sources weaken the initial LGM interpretation?",
+      "choices": [
+        "It uniquely established a white-dwarf interpretation",
+        "It removed the need to explain the pulse periods",
+        "It supported a natural astrophysical population",
+        "It proved that every pulse was an instrument error"
+      ],
+      "answer": 2,
+      "hint": "Use repeated observations to compare explanations.",
+      "explanation": "A population of similar sources with astrophysical properties supported a natural explanation; the nickname did not establish intelligence.",
+      "source": "Lecture 25 pages 14–17, 20 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l25",
+          "locator": "pages 14–17, 20",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-pulsar-discovery-evidence"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l25-discovery-person",
+      "rootId": "exam-two-item-l25-discovery-person",
+      "moduleId": "exam-two-module-24",
+      "conceptId": "exam-two-concept-pulsar-discovery-evidence",
+      "concept": "exam-two-concept-pulsar-discovery-evidence",
+      "type": "single",
+      "responseType": "single",
+      "prompt": "Which observation is associated with Jocelyn Bell in the supplied pulsar-discovery account?",
+      "choices": [
+        "Identifying the radioactive tail of SN 1987A",
+        "Recognizing a regular radio pulse signal",
+        "Discovering hydrogen-line supernova classification",
+        "Deriving the limiting mass of white dwarfs"
+      ],
+      "answer": 1,
+      "hint": "Identify the observation, not merely a familiar scientist’s name.",
+      "explanation": "Bell recognized the repeating radio signal in the 1967 account. Its regularity helped launch the investigation of pulsars.",
+      "source": "Lecture 25 pages 14–17, 20 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l25",
+          "locator": "pages 14–17, 20",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-pulsar-discovery-evidence"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l25-lgm-label",
+      "rootId": "exam-two-item-l25-lgm-label",
+      "moduleId": "exam-two-module-24",
+      "conceptId": "exam-two-concept-pulsar-discovery-evidence",
+      "concept": "exam-two-concept-pulsar-discovery-evidence",
+      "type": "single",
+      "responseType": "single",
+      "prompt": "In the lecture’s discovery story, what did the provisional label LGM refer to?",
+      "choices": [
+        "Little Green Men",
+        "Large Galactic Magnet",
+        "Low Gravity Motion",
+        "Luminous Giant Matter"
+      ],
+      "answer": 0,
+      "hint": "This is historical naming, not the accepted mechanism.",
+      "explanation": "LGM stood for Little Green Men. The later astrophysical explanation concerns rotating neutron stars, not alien transmitters.",
+      "source": "Lecture 25 pages 14–17, 20 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l25",
+          "locator": "pages 14–17, 20",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-pulsar-discovery-evidence"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l25-crab-model",
+      "rootId": "exam-two-item-l25-crab-model",
+      "moduleId": "exam-two-module-24",
+      "conceptId": "exam-two-concept-pulse-period-compactness",
+      "concept": "exam-two-concept-pulse-period-compactness",
+      "type": "single",
+      "responseType": "single",
+      "prompt": "Why was the Crab’s approximately 33-millisecond period a strong objection to the rotating-white-dwarf explanation?",
+      "choices": [
+        "A white-dwarf-sized object could not stay bound at that spin",
+        "The measured pulse period is longer than solar rotation",
+        "Any repeated signal must arise from a binary orbit",
+        "White dwarfs must emit only optical light at every time"
+      ],
+      "answer": 0,
+      "hint": "Compare the necessary rotation speed with the object’s size and binding.",
+      "explanation": "At that period a white dwarf would need an unsustainable rotation. A much smaller neutron star can support the rapid-rotation interpretation.",
+      "source": "Lecture 25 pages 12, 16–19 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l25",
+          "locator": "pages 12, 16–19",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-pulse-period-compactness"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l25-period-frequency",
+      "rootId": "exam-two-item-l25-period-frequency",
+      "moduleId": "exam-two-module-24",
+      "conceptId": "exam-two-concept-pulse-period-compactness",
+      "concept": "exam-two-concept-pulse-period-compactness",
+      "type": "single",
+      "responseType": "single",
+      "prompt": "A pulsar repeats every 0.02 seconds. What is its repetition frequency?",
+      "choices": [
+        "200 cycles per second",
+        "50 cycles per second",
+        "2 cycles per second",
+        "0.02 cycles per second"
+      ],
+      "answer": 1,
+      "hint": "Frequency is the reciprocal of period.",
+      "explanation": "f = 1/0.02 s = 50 s⁻¹. This is a direct conversion between time per pulse and pulses per second.",
+      "source": "Lecture 25 pages 12, 16–19 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l25",
+          "locator": "pages 12, 16–19",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-pulse-period-compactness"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l25-period-order",
+      "rootId": "exam-two-item-l25-period-order",
+      "moduleId": "exam-two-module-24",
+      "conceptId": "exam-two-concept-pulse-period-compactness",
+      "concept": "exam-two-concept-pulse-period-compactness",
+      "type": "order",
+      "responseType": "order",
+      "prompt": "Order the pulse periods from slowest repetition to fastest repetition.",
+      "choices": [
+        "0.714 seconds",
+        "0.35 seconds",
+        "0.033 seconds",
+        "0.0058 seconds"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "hint": "Slowest repetition has the longest time between pulses.",
+      "explanation": "Decreasing period means increasing frequency: 0.714, 0.35, 0.033, then 0.0058 seconds. All four entries are included.",
+      "source": "Lecture 25 pages 12, 16–19 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l25",
+          "locator": "pages 12, 16–19",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-pulse-period-compactness"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l25-density-radius",
+      "rootId": "exam-two-item-l25-density-radius",
+      "moduleId": "exam-two-module-24",
+      "conceptId": "exam-two-concept-neutron-density-evidence",
+      "concept": "exam-two-concept-neutron-density-evidence",
+      "type": "single",
+      "responseType": "single",
+      "prompt": "Two idealized spherical objects have the same mass. One has half the radius of the other. Using density = mass/volume and volume ∝ radius³, how do their mean densities compare?",
+      "choices": [
+        "The smaller one is twice as dense",
+        "Their densities must be equal",
+        "The smaller one is half as dense",
+        "The smaller one is eight times denser"
+      ],
+      "answer": 3,
+      "hint": "Volume is proportional to radius cubed.",
+      "explanation": "At fixed mass, density scales as 1/R³. Halving radius reduces volume to 1/8 and raises density by a factor of eight.",
+      "source": "Lecture 25 pages 17–19, 23–25 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l25",
+          "locator": "pages 17–19, 23–25",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-neutron-density-evidence"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l25-crab-location-evidence",
+      "rootId": "exam-two-item-l25-crab-location-evidence",
+      "moduleId": "exam-two-module-24",
+      "conceptId": "exam-two-concept-neutron-density-evidence",
+      "concept": "exam-two-concept-neutron-density-evidence",
+      "type": "single",
+      "responseType": "single",
+      "prompt": "A rapid pulsar lies at the center of the Crab supernova remnant. What connection does this support?",
+      "choices": [
+        "Every hydrogen-poor supernova leaves the same remnant",
+        "The pulsar and nebula must have the same radius",
+        "Core collapse can leave a neutron star",
+        "Optical brightness alone proves neutron degeneracy"
+      ],
+      "answer": 2,
+      "hint": "Use position together with the compact-source interpretation.",
+      "explanation": "The central compact pulsar and surrounding supernova remnant support the neutron-star/core-collapse connection. This does not make every explosion identical.",
+      "source": "Lecture 25 pages 17–19, 23–25 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l25",
+          "locator": "pages 17–19, 23–25",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-neutron-density-evidence"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l25-object-scale-match",
+      "rootId": "exam-two-item-l25-object-scale-match",
+      "moduleId": "exam-two-module-24",
+      "conceptId": "exam-two-concept-neutron-density-evidence",
+      "concept": "exam-two-concept-neutron-density-evidence",
+      "type": "match",
+      "responseType": "match",
+      "prompt": "Match each object or component to the appropriate description.",
+      "choices": [
+        "Earth-scale electron-supported remnant",
+        "Expanding shocked gas on a far larger scale",
+        "City-scale stellar-mass compact remnant"
+      ],
+      "answer": [
+        2,
+        0,
+        1
+      ],
+      "hint": "Match each observation to the mechanism it actually constrains.",
+      "explanation": "The compact objects differ in scale and support; the supernova remnant is the extended affected gas, not a compact-star surface.",
+      "source": "Lecture 25 pages 17–19, 23–25 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l25",
+          "locator": "pages 17–19, 23–25",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-neutron-density-evidence"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true,
+      "rows": [
+        {
+          "label": "Neutron star",
+          "answer": "City-scale stellar-mass compact remnant"
+        },
+        {
+          "label": "White dwarf",
+          "answer": "Earth-scale electron-supported remnant"
+        },
+        {
+          "label": "Extended supernova remnant",
+          "answer": "Expanding shocked gas on a far larger scale"
+        }
+      ],
+      "options": [
+        "Earth-scale electron-supported remnant",
+        "Expanding shocked gas on a far larger scale",
+        "City-scale stellar-mass compact remnant"
+      ]
+    },
+    {
+      "id": "exam-two-item-l25-spin-quarter-period",
+      "rootId": "exam-two-item-l25-spin-quarter-period",
+      "moduleId": "exam-two-module-25",
+      "conceptId": "exam-two-concept-compact-spin-up",
+      "concept": "exam-two-concept-compact-spin-up",
+      "type": "single",
+      "responseType": "single",
+      "prompt": "An isolated object keeps its mass and shape factor while its radius halves. Use I ∝ radius² and conserved angular momentum Iω. Its rotation period becomes what fraction of the original?",
+      "choices": [
+        "Twice",
+        "One half",
+        "Four times",
+        "One quarter"
+      ],
+      "answer": 3,
+      "hint": "Moment of inertia scales as radius squared under the stated assumptions.",
+      "explanation": "I becomes 1/4 as large. Conserved Iω makes ω four times greater, so period becomes 1/4 as long.",
+      "source": "Lecture 25 pages 21 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l25",
+          "locator": "pages 21",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-compact-spin-up"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l25-spin-assumption",
+      "rootId": "exam-two-item-l25-spin-assumption",
+      "moduleId": "exam-two-module-25",
+      "conceptId": "exam-two-concept-compact-spin-up",
+      "concept": "exam-two-concept-compact-spin-up",
+      "type": "single",
+      "responseType": "single",
+      "prompt": "Which condition is needed for the simple contraction-to-spin-up argument used here?",
+      "choices": [
+        "External torque and angular-momentum loss are negligible",
+        "All magnetic fields have exactly equal strength",
+        "A large braking torque acts throughout contraction",
+        "Contraction leaves the moment of inertia unchanged"
+      ],
+      "answer": 0,
+      "hint": "Identify what lets the angular momentum remain approximately fixed.",
+      "explanation": "The simple argument assumes angular momentum is retained. Large torques or mass/angular-momentum loss change the prediction.",
+      "source": "Lecture 25 pages 21 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l25",
+          "locator": "pages 21",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-compact-spin-up"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l25-sun-analogy-tf",
+      "rootId": "exam-two-item-l25-sun-analogy-tf",
+      "moduleId": "exam-two-module-25",
+      "conceptId": "exam-two-concept-compact-spin-up",
+      "concept": "exam-two-concept-compact-spin-up",
+      "type": "true-false",
+      "responseType": "true-false",
+      "prompt": "True or false: The Sun-to-neutron-star spin analogy proves the actual Sun will become a neutron star.",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "answer": 1,
+      "hint": "A hypothetical comparison does not establish the star’s evolutionary endpoint.",
+      "explanation": "False. The analogy illustrates angular momentum in contraction. The Sun-like evolutionary pathway leaves a white dwarf in the course model.",
+      "source": "Lecture 25 pages 21 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l25",
+          "locator": "pages 21",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-compact-spin-up"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l25-lighthouse-mechanism",
+      "rootId": "exam-two-item-l25-lighthouse-mechanism",
+      "moduleId": "exam-two-module-25",
+      "conceptId": "exam-two-concept-pulsar-beam-geometry",
+      "concept": "exam-two-concept-pulsar-beam-geometry",
+      "type": "single",
+      "responseType": "single",
+      "prompt": "A neutron star’s beam repeatedly crosses our line of sight. What causes the observed pulse train in the lecture model?",
+      "choices": [
+        "Rotation sweeps a directed beam across the observer",
+        "Repeated fusion ignition switches the whole core on and off",
+        "A fixed beam points at every observer during every rotation",
+        "Bulk expansion and contraction pulses the entire star"
+      ],
+      "answer": 0,
+      "hint": "The emitter’s geometry can change what we receive without the whole star pulsating.",
+      "explanation": "The tilted magnetic-beam pattern rotates with the neutron star. We receive a pulse when the beam crosses our direction.",
+      "source": "Lecture 25 pages 17–19, 22 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l25",
+          "locator": "pages 17–19, 22",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-pulsar-beam-geometry"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l25-viewing-direction",
+      "rootId": "exam-two-item-l25-viewing-direction",
+      "moduleId": "exam-two-module-25",
+      "conceptId": "exam-two-concept-pulsar-beam-geometry",
+      "concept": "exam-two-concept-pulsar-beam-geometry",
+      "type": "single",
+      "responseType": "single",
+      "prompt": "The same active neutron star beams away from Earth throughout its rotation. What observation is consistent with this geometry?",
+      "choices": [
+        "The absence of pulses proves no beam is emitted",
+        "The absence of pulses proves the star is not neutron-rich",
+        "The absence of pulses proves the rotation has stopped",
+        "No beam pulses reach us while rotation continues"
+      ],
+      "answer": 3,
+      "hint": "Emission and our intersection with the swept beam are separate conditions.",
+      "explanation": "A rotating neutron star can be invisible as a pulsar to a particular observer if the beam never crosses that sightline.",
+      "source": "Lecture 25 pages 17–19, 22 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l25",
+          "locator": "pages 17–19, 22",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-pulsar-beam-geometry"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l25-magnetic-pole-target",
+      "rootId": "exam-two-item-l25-magnetic-pole-target",
+      "moduleId": "exam-two-module-25",
+      "conceptId": "exam-two-concept-pulsar-beam-geometry",
+      "concept": "exam-two-concept-pulsar-beam-geometry",
+      "type": "target",
+      "responseType": "target",
+      "prompt": "Select the magnetic-pole emission region in the tilted-axis diagram, rather than the rotation pole.",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 1,
+      "hint": "Use the diagram’s physical regions and axis labels.",
+      "explanation": "B marks the tilted magnetic-pole/beam region. A is on the rotation axis; C is the center; D is outside the marked emission region.",
+      "source": "Lecture 25 pages 17–19, 22 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l25",
+          "locator": "pages 17–19, 22",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-pulsar-beam-geometry"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true,
+      "media": {
+        "src": "assets/visuals/exam-two/pulsar-axes-target.svg",
+        "alt": "Original schematic; A at 50 percent width, 18 percent height; B at 69 percent width, 34 percent height; C at 50 percent width, 50 percent height; D at 88 percent width, 74 percent height",
+        "caption": "Original teaching diagram. Schematic scales; labeled axes and regions define the comparison."
+      },
+      "targets": [
+        {
+          "label": "A",
+          "x": 50,
+          "y": 18
+        },
+        {
+          "label": "B",
+          "x": 69,
+          "y": 34
+        },
+        {
+          "label": "C",
+          "x": 50,
+          "y": 50
+        },
+        {
+          "label": "D",
+          "x": 88,
+          "y": 74
+        }
+      ]
+    },
+    {
+      "id": "exam-two-item-l25-magnetar-defining",
+      "rootId": "exam-two-item-l25-magnetar-defining",
+      "moduleId": "exam-two-module-25",
+      "conceptId": "exam-two-concept-magnetar-fields",
+      "concept": "exam-two-concept-magnetar-fields",
+      "type": "single",
+      "responseType": "single",
+      "prompt": "Which property most directly distinguishes a magnetar in this lesson?",
+      "choices": [
+        "An event horizon surrounding every stellar surface",
+        "An exceptionally strong neutron-star magnetic field",
+        "A compulsory millisecond period in every observed case",
+        "An electron-supported carbon–oxygen white-dwarf core"
+      ],
+      "answer": 1,
+      "hint": "Separate the field-based category from one proposed birth-spin model.",
+      "explanation": "The exceptionally strong magnetic field and related activity define the magnetar distinction. Its current period need not be milliseconds.",
+      "source": "Lecture 25 pages 21, 26 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l25",
+          "locator": "pages 21, 26",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-magnetar-fields"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l25-magnetar-second-period",
+      "rootId": "exam-two-item-l25-magnetar-second-period",
+      "moduleId": "exam-two-module-25",
+      "conceptId": "exam-two-concept-magnetar-fields",
+      "concept": "exam-two-concept-magnetar-fields",
+      "type": "single",
+      "responseType": "single",
+      "prompt": "A neutron star rotates once every seven seconds and exhibits strong magnetic outbursts. Does the period alone rule out a magnetar?",
+      "choices": [
+        "Yes; a seconds-long period implies a weak magnetic field",
+        "Yes; every magnetar must rotate faster than one millisecond",
+        "No; observed magnetars need not have millisecond periods",
+        "No; every object with a seven-second period is a magnetar"
+      ],
+      "answer": 2,
+      "hint": "Current observed spin and possible rapid birth spin are different quantities.",
+      "explanation": "A second-long period is compatible with observed magnetars. Classification also requires magnetic/activity evidence; period alone is insufficient either way.",
+      "source": "Lecture 25 pages 21, 26 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l25",
+          "locator": "pages 21, 26",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-magnetar-fields"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
+    },
+    {
+      "id": "exam-two-item-l25-magnetar-power-conditional",
+      "rootId": "exam-two-item-l25-magnetar-power-conditional",
+      "moduleId": "exam-two-module-25",
+      "conceptId": "exam-two-concept-magnetar-fields",
+      "concept": "exam-two-concept-magnetar-fields",
+      "type": "single",
+      "responseType": "single",
+      "prompt": "A model proposes that a newborn, rapidly rotating magnetar transfers rotational energy into supernova ejecta. Which statement preserves the model’s proper scope?",
+      "choices": [
+        "It uniquely identifies every bright supernova as a magnetar",
+        "It is a possible energy source for some luminous events",
+        "It requires all radioactive heating to stop completely",
+        "It requires energy transfer without any rotational-energy loss"
+      ],
+      "answer": 1,
+      "hint": "A proposed mechanism for some events is not a universal identification.",
+      "explanation": "Rapidly rotating magnetars can be modeled as energy sources for some luminous explosions. The premise does not establish that explanation for every supernova.",
+      "source": "Lecture 25 pages 21, 26 · original practice",
+      "sourceRefs": [
+        {
+          "id": "exam-two-source-l25",
+          "locator": "pages 21, 26",
+          "boundary": "verified"
+        }
+      ],
+      "claimIds": [
+        "exam-two-claim-magnetar-fields"
+      ],
+      "provenance": "original",
+      "original": true,
+      "status": "verified",
+      "topic": "Original Exam 2 practice",
+      "mockEligible": true
     }
   ],
   "topHat": [],
@@ -11349,6 +13920,874 @@ window.ASTR1102_EXAM2 = {
       "reason": "Full rendered page visually inspected. Mapped to teaching; precise dated/reference figures are qualified rather than new memorization targets.",
       "textInspected": true,
       "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l24",
+      "lecture": 24,
+      "page": 1,
+      "title": "Astronomy 1102",
+      "disposition": "context",
+      "moduleIds": [],
+      "reason": "Text and rendered page visually inspected. No exam quotas, displayed grade or final briefing inferred.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l24",
+      "lecture": 24,
+      "page": 2,
+      "title": "Announcements",
+      "disposition": "administrative",
+      "moduleIds": [],
+      "reason": "Text and rendered page visually inspected. No exam quotas, displayed grade or final briefing inferred.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l24",
+      "lecture": 24,
+      "page": 3,
+      "title": "Astronomy Picture of the Day",
+      "disposition": "context",
+      "moduleIds": [],
+      "reason": "Text and rendered page visually inspected. No exam quotas, displayed grade or final briefing inferred.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l24",
+      "lecture": 24,
+      "page": 4,
+      "title": "Revision: The Core of a Massive Star",
+      "disposition": "review",
+      "moduleIds": [
+        "exam-two-module-19"
+      ],
+      "reason": "Text and rendered page visually inspected. No exam quotas, displayed grade or final briefing inferred.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l24",
+      "lecture": 24,
+      "page": 5,
+      "title": "Revision: Core Collapse - The Last Showdown",
+      "disposition": "review",
+      "moduleIds": [
+        "exam-two-module-19"
+      ],
+      "reason": "Text and rendered page visually inspected. No exam quotas, displayed grade or final briefing inferred.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l24",
+      "lecture": 24,
+      "page": 6,
+      "title": "Revision: Core Bounce",
+      "disposition": "review",
+      "moduleIds": [
+        "exam-two-module-19"
+      ],
+      "reason": "Text and rendered page visually inspected. No exam quotas, displayed grade or final briefing inferred.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l24",
+      "lecture": 24,
+      "page": 7,
+      "title": "A Supernova",
+      "disposition": "teaching",
+      "moduleIds": [
+        "exam-two-module-20"
+      ],
+      "reason": "Text and rendered page visually inspected. No exam quotas, displayed grade or final briefing inferred.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l24",
+      "lecture": 24,
+      "page": 8,
+      "title": "Impending Doom of the Day?: The Gum Nebula",
+      "disposition": "teaching",
+      "moduleIds": [
+        "exam-two-module-21"
+      ],
+      "reason": "Text and rendered page visually inspected. No exam quotas, displayed grade or final briefing inferred.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l24",
+      "lecture": 24,
+      "page": 9,
+      "title": "Carl Sagan: “We are all made of star stuff”",
+      "disposition": "teaching",
+      "moduleIds": [
+        "exam-two-module-20",
+        "exam-two-module-22"
+      ],
+      "reason": "Text and rendered page visually inspected. No exam quotas, displayed grade or final briefing inferred.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l24",
+      "lecture": 24,
+      "page": 10,
+      "title": "Supernova neutrinos",
+      "disposition": "teaching",
+      "moduleIds": [
+        "exam-two-module-20"
+      ],
+      "reason": "Text and rendered page visually inspected. No exam quotas, displayed grade or final briefing inferred.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l24",
+      "lecture": 24,
+      "page": 11,
+      "title": "Class Vote Question",
+      "disposition": "source-review",
+      "moduleIds": [
+        "exam-two-module-20"
+      ],
+      "reason": "Text and rendered page visually inspected. No exam quotas, displayed grade or final briefing inferred.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l24",
+      "lecture": 24,
+      "page": 12,
+      "title": "Animation of a Core-Collapse Supernova",
+      "disposition": "static-animation-frame",
+      "moduleIds": [
+        "exam-two-module-20"
+      ],
+      "reason": "Text and rendered page visually inspected. The supplied PDF establishes a static frame, not its embedded movie playback.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l24",
+      "lecture": 24,
+      "page": 13,
+      "title": "Simulation of a Core-Collapse Supernova",
+      "disposition": "static-animation-frame",
+      "moduleIds": [
+        "exam-two-module-20"
+      ],
+      "reason": "Text and rendered page visually inspected. The supplied PDF establishes a static frame, not its embedded movie playback.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l24",
+      "lecture": 24,
+      "page": 14,
+      "title": "In-class discussion: “Animations” vs “Simulations”",
+      "disposition": "source-review",
+      "moduleIds": [
+        "exam-two-module-20"
+      ],
+      "reason": "Text and rendered page visually inspected. No exam quotas, displayed grade or final briefing inferred.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l24",
+      "lecture": 24,
+      "page": 15,
+      "title": "Supercomputing: Key to understanding supernova physics",
+      "disposition": "teaching",
+      "moduleIds": [
+        "exam-two-module-20"
+      ],
+      "reason": "Text and rendered page visually inspected. No exam quotas, displayed grade or final briefing inferred.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l24",
+      "lecture": 24,
+      "page": 16,
+      "title": "The Ends of Stellar Evolution",
+      "disposition": "teaching",
+      "moduleIds": [
+        "exam-two-module-22"
+      ],
+      "reason": "Text and rendered page visually inspected. No exam quotas, displayed grade or final briefing inferred.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l24",
+      "lecture": 24,
+      "page": 17,
+      "title": "Supernova Remnants",
+      "disposition": "teaching",
+      "moduleIds": [
+        "exam-two-module-21"
+      ],
+      "reason": "Text and rendered page visually inspected. No exam quotas, displayed grade or final briefing inferred.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l24",
+      "lecture": 24,
+      "page": 18,
+      "title": "The Crab Nebula",
+      "disposition": "historical-reference",
+      "moduleIds": [
+        "exam-two-module-21"
+      ],
+      "reason": "Text and rendered page visually inspected. Original dated identifiers, distance estimates and simplifications remain qualified in teaching.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l24",
+      "lecture": 24,
+      "page": 19,
+      "title": "Supernova Remnants",
+      "disposition": "historical-reference",
+      "moduleIds": [
+        "exam-two-module-21"
+      ],
+      "reason": "Text and rendered page visually inspected. Original dated identifiers, distance estimates and simplifications remain qualified in teaching.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l24",
+      "lecture": 24,
+      "page": 20,
+      "title": "SN 185",
+      "disposition": "historical-reference",
+      "moduleIds": [
+        "exam-two-module-21"
+      ],
+      "reason": "Text and rendered page visually inspected. Original dated identifiers, distance estimates and simplifications remain qualified in teaching.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l24",
+      "lecture": 24,
+      "page": 21,
+      "title": "SN 386",
+      "disposition": "historical-reference",
+      "moduleIds": [
+        "exam-two-module-21"
+      ],
+      "reason": "Text and rendered page visually inspected. Original dated identifiers, distance estimates and simplifications remain qualified in teaching.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l24",
+      "lecture": 24,
+      "page": 22,
+      "title": "SN 1006",
+      "disposition": "historical-reference",
+      "moduleIds": [
+        "exam-two-module-21"
+      ],
+      "reason": "Text and rendered page visually inspected. Original dated identifiers, distance estimates and simplifications remain qualified in teaching.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l24",
+      "lecture": 24,
+      "page": 23,
+      "title": "SN 1181",
+      "disposition": "historical-reference",
+      "moduleIds": [
+        "exam-two-module-21"
+      ],
+      "reason": "Text and rendered page visually inspected. Original dated identifiers, distance estimates and simplifications remain qualified in teaching.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l24",
+      "lecture": 24,
+      "page": 24,
+      "title": "SN 1054 - Crab nebula",
+      "disposition": "historical-reference",
+      "moduleIds": [
+        "exam-two-module-21"
+      ],
+      "reason": "Text and rendered page visually inspected. Original dated identifiers, distance estimates and simplifications remain qualified in teaching.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l24",
+      "lecture": 24,
+      "page": 25,
+      "title": "Cassiopeia A",
+      "disposition": "historical-reference",
+      "moduleIds": [
+        "exam-two-module-21"
+      ],
+      "reason": "Text and rendered page visually inspected. Original dated identifiers, distance estimates and simplifications remain qualified in teaching.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l24",
+      "lecture": 24,
+      "page": 26,
+      "title": "Will we be Wiped out by a Supernova?",
+      "disposition": "historical-reference",
+      "moduleIds": [
+        "exam-two-module-21"
+      ],
+      "reason": "Text and rendered page visually inspected. Original dated identifiers, distance estimates and simplifications remain qualified in teaching.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l24",
+      "lecture": 24,
+      "page": 27,
+      "title": "How Lethal is a Supernova?",
+      "disposition": "teaching",
+      "moduleIds": [
+        "exam-two-module-21"
+      ],
+      "reason": "Text and rendered page visually inspected. No exam quotas, displayed grade or final briefing inferred.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l24",
+      "lecture": 24,
+      "page": 28,
+      "title": "How Lethal is a Supernova?",
+      "disposition": "teaching",
+      "moduleIds": [
+        "exam-two-module-21"
+      ],
+      "reason": "Text and rendered page visually inspected. No exam quotas, displayed grade or final briefing inferred.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l24",
+      "lecture": 24,
+      "page": 29,
+      "title": "Supernova Types",
+      "disposition": "teaching",
+      "moduleIds": [
+        "exam-two-module-21"
+      ],
+      "reason": "Text and rendered page visually inspected. No exam quotas, displayed grade or final briefing inferred.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l24",
+      "lecture": 24,
+      "page": 30,
+      "title": "Core Collapse Supernovae",
+      "disposition": "teaching",
+      "moduleIds": [
+        "exam-two-module-21"
+      ],
+      "reason": "Text and rendered page visually inspected. No exam quotas, displayed grade or final briefing inferred.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l24",
+      "lecture": 24,
+      "page": 31,
+      "title": "A Breakthrough Discovery: SN 1987A",
+      "disposition": "teaching",
+      "moduleIds": [
+        "exam-two-module-22"
+      ],
+      "reason": "Text and rendered page visually inspected. No exam quotas, displayed grade or final briefing inferred.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l24",
+      "lecture": 24,
+      "page": 32,
+      "title": "SN 1987A",
+      "disposition": "teaching",
+      "moduleIds": [
+        "exam-two-module-22"
+      ],
+      "reason": "Text and rendered page visually inspected. No exam quotas, displayed grade or final briefing inferred.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l24",
+      "lecture": 24,
+      "page": 33,
+      "title": "SN 1987A",
+      "disposition": "teaching",
+      "moduleIds": [
+        "exam-two-module-22"
+      ],
+      "reason": "Text and rendered page visually inspected. No exam quotas, displayed grade or final briefing inferred.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l24",
+      "lecture": 24,
+      "page": 34,
+      "title": "Movie: SN 1987A over the years",
+      "disposition": "static-animation-frame",
+      "moduleIds": [
+        "exam-two-module-22"
+      ],
+      "reason": "Text and rendered page visually inspected. The supplied PDF establishes a static frame, not its embedded movie playback.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l24",
+      "lecture": 24,
+      "page": 35,
+      "title": "In-Class Discussion: SN1987A and its environment",
+      "disposition": "source-review",
+      "moduleIds": [
+        "exam-two-module-22"
+      ],
+      "reason": "Text and rendered page visually inspected. No exam quotas, displayed grade or final briefing inferred.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l24",
+      "lecture": 24,
+      "page": 36,
+      "title": "Class Vote Question",
+      "disposition": "source-review",
+      "moduleIds": [
+        "exam-two-module-22"
+      ],
+      "reason": "Text and rendered page visually inspected. No exam quotas, displayed grade or final briefing inferred.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l24",
+      "lecture": 24,
+      "page": 37,
+      "title": "Class Vote Question",
+      "disposition": "source-review",
+      "moduleIds": [
+        "exam-two-module-21"
+      ],
+      "reason": "Text and rendered page visually inspected. No exam quotas, displayed grade or final briefing inferred.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l24",
+      "lecture": 24,
+      "page": 38,
+      "title": "Weekly Classwork Assignment",
+      "disposition": "source-review",
+      "moduleIds": [
+        "exam-two-module-22"
+      ],
+      "reason": "Text and rendered page visually inspected. No exam quotas, displayed grade or final briefing inferred.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l25",
+      "lecture": 25,
+      "page": 1,
+      "title": "Astronomy 1102",
+      "disposition": "context",
+      "moduleIds": [],
+      "reason": "Text and rendered page visually inspected. No exam quotas, displayed grade or final briefing inferred.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l25",
+      "lecture": 25,
+      "page": 2,
+      "title": "Announcements",
+      "disposition": "administrative",
+      "moduleIds": [],
+      "reason": "Text and rendered page visually inspected. No exam quotas, displayed grade or final briefing inferred.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l25",
+      "lecture": 25,
+      "page": 3,
+      "title": "Astronomy Picture of the Day",
+      "disposition": "context",
+      "moduleIds": [],
+      "reason": "Text and rendered page visually inspected. No exam quotas, displayed grade or final briefing inferred.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l25",
+      "lecture": 25,
+      "page": 4,
+      "title": "REVISIO N: A REVIEW OF STELLAR EVOLUTIO N",
+      "disposition": "review",
+      "moduleIds": [
+        "exam-two-module-22"
+      ],
+      "reason": "Text and rendered page visually inspected. No exam quotas, displayed grade or final briefing inferred.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l25",
+      "lecture": 25,
+      "page": 5,
+      "title": "Revision: Supernovae",
+      "disposition": "review",
+      "moduleIds": [
+        "exam-two-module-20"
+      ],
+      "reason": "Text and rendered page visually inspected. No exam quotas, displayed grade or final briefing inferred.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l25",
+      "lecture": 25,
+      "page": 6,
+      "title": "Revision: SN 1987A",
+      "disposition": "review",
+      "moduleIds": [
+        "exam-two-module-22"
+      ],
+      "reason": "Text and rendered page visually inspected. No exam quotas, displayed grade or final briefing inferred.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l25",
+      "lecture": 25,
+      "page": 7,
+      "title": "Stellar Corpses: White Dwarfs, Neutron Stars & Black Holes",
+      "disposition": "teaching",
+      "moduleIds": [
+        "exam-two-module-23",
+        "exam-two-module-24",
+        "exam-two-module-25"
+      ],
+      "reason": "Text and rendered page visually inspected. No exam quotas, displayed grade or final briefing inferred.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l25",
+      "lecture": 25,
+      "page": 8,
+      "title": "White Dwarfs - Gravity’s Victory?",
+      "disposition": "teaching",
+      "moduleIds": [
+        "exam-two-module-23"
+      ],
+      "reason": "Text and rendered page visually inspected. No exam quotas, displayed grade or final briefing inferred.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l25",
+      "lecture": 25,
+      "page": 9,
+      "title": "Degeneracy Pressure",
+      "disposition": "teaching",
+      "moduleIds": [
+        "exam-two-module-23"
+      ],
+      "reason": "Text and rendered page visually inspected. No exam quotas, displayed grade or final briefing inferred.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l25",
+      "lecture": 25,
+      "page": 10,
+      "title": "The Chandrasekhar Limit",
+      "disposition": "teaching",
+      "moduleIds": [
+        "exam-two-module-23"
+      ],
+      "reason": "Text and rendered page visually inspected. No exam quotas, displayed grade or final briefing inferred.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l25",
+      "lecture": 25,
+      "page": 11,
+      "title": "White Dwarfs are Spared on Death Row",
+      "disposition": "teaching",
+      "moduleIds": [
+        "exam-two-module-23"
+      ],
+      "reason": "Text and rendered page visually inspected. No exam quotas, displayed grade or final briefing inferred.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l25",
+      "lecture": 25,
+      "page": 12,
+      "title": "Class Vote Question",
+      "disposition": "source-review",
+      "moduleIds": [
+        "exam-two-module-24"
+      ],
+      "reason": "Text and rendered page visually inspected. No exam quotas, displayed grade or final briefing inferred.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l25",
+      "lecture": 25,
+      "page": 13,
+      "title": "Neutron Stars",
+      "disposition": "teaching",
+      "moduleIds": [
+        "exam-two-module-24"
+      ],
+      "reason": "Text and rendered page visually inspected. No exam quotas, displayed grade or final briefing inferred.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l25",
+      "lecture": 25,
+      "page": 14,
+      "title": "The Discovery of Pulsars",
+      "disposition": "teaching",
+      "moduleIds": [
+        "exam-two-module-24"
+      ],
+      "reason": "Text and rendered page visually inspected. No exam quotas, displayed grade or final briefing inferred.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l25",
+      "lecture": 25,
+      "page": 15,
+      "title": "Class Vote Question",
+      "disposition": "source-review",
+      "moduleIds": [
+        "exam-two-module-24"
+      ],
+      "reason": "Text and rendered page visually inspected. No exam quotas, displayed grade or final briefing inferred.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l25",
+      "lecture": 25,
+      "page": 16,
+      "title": "What Are Pulsars Not?",
+      "disposition": "teaching",
+      "moduleIds": [
+        "exam-two-module-24"
+      ],
+      "reason": "Text and rendered page visually inspected. No exam quotas, displayed grade or final briefing inferred.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l25",
+      "lecture": 25,
+      "page": 17,
+      "title": "Are Pulsars White Dwarfs?",
+      "disposition": "teaching",
+      "moduleIds": [
+        "exam-two-module-24"
+      ],
+      "reason": "Text and rendered page visually inspected. No exam quotas, displayed grade or final briefing inferred.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l25",
+      "lecture": 25,
+      "page": 18,
+      "title": "How Fast do Pulsars Pulse?",
+      "disposition": "static-animation-frame",
+      "moduleIds": [
+        "exam-two-module-24"
+      ],
+      "reason": "Text and rendered page visually inspected. The supplied PDF establishes a static frame, not its embedded movie playback.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l25",
+      "lecture": 25,
+      "page": 19,
+      "title": "Pulsars are Neutron Stars",
+      "disposition": "teaching",
+      "moduleIds": [
+        "exam-two-module-24",
+        "exam-two-module-25"
+      ],
+      "reason": "Text and rendered page visually inspected. No exam quotas, displayed grade or final briefing inferred.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l25",
+      "lecture": 25,
+      "page": 20,
+      "title": "Two Inspired Astronomers!",
+      "disposition": "teaching",
+      "moduleIds": [
+        "exam-two-module-24"
+      ],
+      "reason": "Text and rendered page visually inspected. No exam quotas, displayed grade or final briefing inferred.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l25",
+      "lecture": 25,
+      "page": 21,
+      "title": "Why Are (Some) Neutron Stars Pulsars?",
+      "disposition": "teaching",
+      "moduleIds": [
+        "exam-two-module-25"
+      ],
+      "reason": "Text and rendered page visually inspected. No exam quotas, displayed grade or final briefing inferred.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l25",
+      "lecture": 25,
+      "page": 22,
+      "title": "Why Are (Some) Neutron Stars Pulsars?",
+      "disposition": "teaching",
+      "moduleIds": [
+        "exam-two-module-25"
+      ],
+      "reason": "Text and rendered page visually inspected. No exam quotas, displayed grade or final briefing inferred.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l25",
+      "lecture": 25,
+      "page": 23,
+      "title": "The Size of a Neutron Star",
+      "disposition": "teaching",
+      "moduleIds": [
+        "exam-two-module-24"
+      ],
+      "reason": "Text and rendered page visually inspected. No exam quotas, displayed grade or final briefing inferred.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l25",
+      "lecture": 25,
+      "page": 24,
+      "title": "The Density of A Neutron Star",
+      "disposition": "teaching",
+      "moduleIds": [
+        "exam-two-module-24"
+      ],
+      "reason": "Text and rendered page visually inspected. No exam quotas, displayed grade or final briefing inferred.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l25",
+      "lecture": 25,
+      "page": 25,
+      "title": "One Billion Tons!",
+      "disposition": "teaching",
+      "moduleIds": [
+        "exam-two-module-24"
+      ],
+      "reason": "Text and rendered page visually inspected. No exam quotas, displayed grade or final briefing inferred.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l25",
+      "lecture": 25,
+      "page": 26,
+      "title": "Magnetars: Pulsars on steroids",
+      "disposition": "teaching",
+      "moduleIds": [
+        "exam-two-module-25"
+      ],
+      "reason": "Text and rendered page visually inspected. No exam quotas, displayed grade or final briefing inferred.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l25",
+      "lecture": 25,
+      "page": 27,
+      "title": "Black Holes",
+      "disposition": "continuation",
+      "moduleIds": [],
+      "reason": "Text and rendered page visually inspected. Guiding questions/biography do not supply the following relativity/black-hole lesson; retain as continuation.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l25",
+      "lecture": 25,
+      "page": 28,
+      "title": "See also…",
+      "disposition": "continuation",
+      "moduleIds": [],
+      "reason": "Text and rendered page visually inspected. Guiding questions/biography do not supply the following relativity/black-hole lesson; retain as continuation.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l25",
+      "lecture": 25,
+      "page": 29,
+      "title": "Scientist of the Day",
+      "disposition": "continuation",
+      "moduleIds": [],
+      "reason": "Text and rendered page visually inspected. Guiding questions/biography do not supply the following relativity/black-hole lesson; retain as continuation.",
+      "textInspected": true,
+      "rendered": true
+    },
+    {
+      "sourceId": "exam-two-source-l25",
+      "lecture": 25,
+      "page": 30,
+      "title": "Albert Einstein (1879-1955)",
+      "disposition": "continuation",
+      "moduleIds": [],
+      "reason": "Text and rendered page visually inspected. Guiding questions/biography do not supply the following relativity/black-hole lesson; retain as continuation.",
+      "textInspected": true,
+      "rendered": true
     }
   ],
   "blueprint": {
@@ -11416,10 +14855,28 @@ window.ASTR1102_EXAM2 = {
     "exam-two-item-l23-choice-iron",
     "exam-two-item-l23-limit-object",
     "exam-two-item-l23-capture-products",
-    "exam-two-item-l23-bounce-clock"
+    "exam-two-item-l23-bounce-clock",
+    "exam-two-item-l24-energy-complement",
+    "exam-two-item-l24-tail-source",
+    "exam-two-item-l24-model-evidence",
+    "exam-two-item-l24-shock-energy-conversion",
+    "exam-two-item-l24-hydrogen-class",
+    "exam-two-item-l24-ozone-consequence",
+    "exam-two-item-l24-1987a-significance",
+    "exam-two-item-l24-ring-brightening",
+    "exam-two-item-l24-endpoint-match",
+    "exam-two-item-l25-support-source",
+    "exam-two-item-l25-progenitor-limit",
+    "exam-two-item-l25-hot-dim-cause",
+    "exam-two-item-l25-periodic-not-aliens",
+    "exam-two-item-l25-crab-model",
+    "exam-two-item-l25-density-radius",
+    "exam-two-item-l25-spin-quarter-period",
+    "exam-two-item-l25-lighthouse-mechanism",
+    "exam-two-item-l25-magnetar-defining"
   ],
   "pending": [
-    "Lectures after 23 and final Exam 2 scope, format, clock and tools briefing"
+    "Lecture25 black-hole/relativity guiding questions need their source continuation; later lectures and final Exam2 scope/format/clock/tools briefing remain pending."
   ],
   "qualifications": [
     {
@@ -11530,10 +14987,60 @@ window.ASTR1102_EXAM2 = {
       "title": "Choice set and heavier elements",
       "source": "L23 pp15,20,27–28",
       "text": "Silicon is the credited choice among silicon, carbon, uranium and helium. Iron is the fusion endpoint in the course model. Heavier-element production also has other sites; the selected five-layer order is not a complete radial inventory."
+    },
+    {
+      "title": "Collapse energy is not optical energy",
+      "source": "L24 pp10–11",
+      "text": "The lecture’s approximate99% neutrino/1% remainder is an energy-budget model. The remainder is not identical to visible-light radiation, and neutrinos are not wholly non-interacting at every core density."
+    },
+    {
+      "title": "Radioactive decay, not fission",
+      "source": "L24 p7; L25 p5",
+      "text": "The late-light explanation is radioactive decay, including nickel56→cobalt56→iron56, rather than the slides’ fission wording. Energy sources and deposition vary with time.",
+      "referenceUrl": "https://science.nasa.gov/missions/hubble/shock-wave-sheds-new-light-on-fading-supernova/"
+    },
+    {
+      "title": "Heavy-element sites",
+      "source": "L24 p6",
+      "text": "The absolute claim that every element heavier than iron comes from supernovae is too broad. Other neutron-capture sites, including stellar processes and neutron-star mergers, contribute; retain the original slide privately.",
+      "referenceUrl": "https://science.nasa.gov/missions/webb/nasas-webb-makes-first-detection-of-heavy-element-from-star-merger/"
+    },
+    {
+      "title": "Source question without a unique remnant key",
+      "source": "L24 p36",
+      "text": "No graded key is shown. A generic supernova can have different compact-remnant outcomes depending on its pathway. The source review retains this as unresolved; original scored practice supplies explicit conditions."
+    },
+    {
+      "title": "SN1987A evidence and dated illustrations",
+      "source": "L24 pp31–33; L25 p6",
+      "text": "SN1987A was a nearby well-observed LMC event; “closest ever” is too broad. The dated no-visible-remnant caption does not incorporate Webb’s2024 evidence for neutron-star-powered emission. The lecture’s detected-neutrino count is an approximate selected-detector teaching value.",
+      "referenceUrl": "https://science.nasa.gov/missions/webb/webb-finds-evidence-for-neutron-star-at-heart-of-young-supernova-remnant/"
+    },
+    {
+      "title": "Historical galleries and hazard estimates",
+      "source": "L24 pp18–28",
+      "text": "Gallery associations, non-detections, Betelgeuse/Gum distances and future timing remain dated/reference examples, not unique compact-object diagnostics, current forecasts or sharp universal danger boundaries. The main hazard lesson distinguishes atmospheric radiation effects from direct heat and ejecta impact."
+    },
+    {
+      "title": "Degenerate matter is not literally incompressible",
+      "source": "L25 pp9–11",
+      "text": "Pauli exclusion and occupied momentum states supply electron pressure. Not every possible state is full; white-dwarf structure can change with mass. The approximate1.4-solar-mass white-dwarf scale is distinct from progenitor mass and neutron-star limits.",
+      "referenceUrl": "https://openstax.org/books/astronomy-2e/pages/23-1-the-death-of-low-mass-stars"
+    },
+    {
+      "title": "Magnetar birth models and observed periods",
+      "source": "L25 p26",
+      "text": "Rapid newborn rotation can power proposed luminous-supernova models. It is not a universal present-day millisecond period: magnetars with second-long periods are observed. Strong magnetic fields and activity are the relevant distinction.",
+      "referenceUrl": "https://www.nasa.gov/universe/nasas-swift-reveals-new-phenomenon-in-a-neutron-star/"
+    },
+    {
+      "title": "Black-hole continuation",
+      "source": "L25 pp27–30",
+      "text": "The packet ends with guiding questions, a book reference and Einstein biography. Detailed relativity, event horizons and black-hole detection lessons await their actual source continuation; they are not newly scored here."
     }
   ],
-  "revision": "lectures-22-23-2026-10-23",
-  "lectureRange": "13–23",
+  "revision": "lectures-24-25-2026-10-28",
+  "lectureRange": "13–25",
   "sourcePackRevisions": [
     {
       "revision": "lectures-13-17",
@@ -11659,6 +15166,55 @@ window.ASTR1102_EXAM2 = {
         "exam-two-module-18",
         "exam-two-module-19"
       ]
+    },
+    {
+      "revision": "lectures-13-25",
+      "version": "exam-two-2026-10-06-v1",
+      "slides": 345,
+      "families": 43,
+      "assets": 267,
+      "lectures": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "modules": [
+        "exam-two-module-01",
+        "exam-two-module-02",
+        "exam-two-module-03",
+        "exam-two-module-04",
+        "exam-two-module-05",
+        "exam-two-module-06",
+        "exam-two-module-07",
+        "exam-two-module-08",
+        "exam-two-module-09",
+        "exam-two-module-10",
+        "exam-two-module-11",
+        "exam-two-module-12",
+        "exam-two-module-13",
+        "exam-two-module-14",
+        "exam-two-module-15",
+        "exam-two-module-16",
+        "exam-two-module-17",
+        "exam-two-module-18",
+        "exam-two-module-19",
+        "exam-two-module-20",
+        "exam-two-module-21",
+        "exam-two-module-22",
+        "exam-two-module-23",
+        "exam-two-module-24",
+        "exam-two-module-25"
+      ]
     }
   ],
   "sourceFilmRevisions": [
@@ -11727,6 +15283,39 @@ window.ASTR1102_EXAM2 = {
         "massive-winds",
         "onion-burning",
         "core-collapse"
+      ]
+    },
+    {
+      "revision": "lectures-13-25-films-2026-11-01",
+      "sourceRevisions": [
+        "lectures-13-25"
+      ],
+      "filmIds": [
+        "parallax",
+        "brightness",
+        "magnitude",
+        "color",
+        "binary",
+        "hr",
+        "nebula",
+        "formation",
+        "collapse",
+        "stellar-clocks",
+        "burning-pathways",
+        "red-giant-evolution",
+        "cluster-clock",
+        "variable-distance",
+        "agb-recycling",
+        "planetary-nebula",
+        "massive-winds",
+        "onion-burning",
+        "core-collapse",
+        "supernova-energy",
+        "supernova-remnants",
+        "sn1987a",
+        "white-dwarfs",
+        "pulsar-evidence",
+        "spin-beams-magnetars"
       ]
     }
   ]

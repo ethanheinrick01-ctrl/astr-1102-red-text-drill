@@ -14,27 +14,27 @@ window.STUDY_SYSTEM_CONFIG = {
     "guided": "astr1102-guided-progress-v1"
   },
   "sourceScope": {
-    "verified": "Lectures 13–23: 277 audited pages, 19 study sections, 61 concepts, and 165 original tasks. Material available so far; final Exam 2 scope is unconfirmed.",
-    "continuation": "Later lectures and the final Exam 2 scope, format, clock, and tools briefing remain pending.",
-    "evidence": "Original teaching and practice with privately retained course figures and graded evidence."
+    "verified": "Lectures 13–25: 345 audited pages, 25 study sections, 79 concepts, and 219 original tasks. Material available so far; final Exam2 scope remains unconfirmed.",
+    "continuation": "Black-hole/relativity continuation and final Exam2 scope/format/clock/tools briefing remain pending.",
+    "evidence": "Original teaching/practice with private source figures and carefully separated supplied-answer evidence."
   },
   "exams": [
     {
       "id": "exam-two",
       "label": "Exam 2",
-      "coverage": "Lectures 13–23 · Exam 2: material available so far",
+      "coverage": "Lectures 13–25 · Exam 2: material available so far",
       "live": true,
       "kind": "exam",
       "inherits": [],
       "title": "Exam 2 · material available so far",
-      "copy": "Nineteen teaching sections from Lectures 13–23. Later uploads extend this lane.",
-      "guide": "Nineteen sections with worked examples, diagrams, private sources and narrated films.",
+      "copy": "Twenty-five teaching sections from Lectures 13–25. Later uploads extend this lane.",
+      "guide": "Twenty-five sections with worked examples, original diagrams, private source access and narrated films.",
       "lab": "Lab: original topic practice, Boss Drill, 25-question rehearsal, and labeled Top Hat review.",
       "inheritance": "",
       "sourceScope": {
-        "verified": "Lectures 13–23: 277 audited pages, 19 study sections, 61 concepts, and 165 original tasks. Material available so far; final Exam 2 scope is unconfirmed.",
-        "continuation": "Later lectures and the final Exam 2 scope, format, clock, and tools briefing remain pending.",
-        "evidence": "Original teaching and practice with privately retained course figures and graded evidence."
+        "verified": "Lectures 13–25: 345 audited pages, 25 study sections, 79 concepts, and 219 original tasks. Material available so far; final Exam2 scope remains unconfirmed.",
+        "continuation": "Black-hole/relativity continuation and final Exam2 scope/format/clock/tools briefing remain pending.",
+        "evidence": "Original teaching/practice with private source figures and carefully separated supplied-answer evidence."
       }
     }
   ]

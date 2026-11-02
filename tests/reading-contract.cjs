@@ -33,7 +33,7 @@ assert.equal(reader.html('unknown', 'body', null), '<p></p>');
 assert.ok(layouts['exam-two-concept-absolute-magnitude'].body.html.includes('d = 10 ×'));
 assert.ok(layouts['exam-two-concept-collapse-feedback'].body.html.includes('p + e⁻'));
 assert.ok(layouts['exam-two-concept-rate-temperature'].body.html.includes('pp rate'));
-assert.equal(count, 183);
+assert.equal(count, modules.reduce((total, module) => total + module.concepts.length * 3, 0));
 assert.equal(highlighted, 14);
 // Render the actual source disclosure with every cited slide available in a test-only pack.
 vm.runInNewContext(fs.readFileSync(path.join(root, 'exam-two/quizzes/exam-two-data.js'), 'utf8'), context);

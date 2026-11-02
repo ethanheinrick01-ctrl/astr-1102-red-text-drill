@@ -1,0 +1,14 @@
+White dwarfs and degeneracy
+Lecture25 pp8–11
+Synthetic narration in Ethan’s voice, generated locally.
+
+Pressure without fusion
+A white dwarf is a small, hot carbon and oxygen remnant that cools after ordinary core fusion ends. Electron degeneracy supplies pressure: crowding forces electrons into higher momentum states because identical electrons cannot all share the same quantum state. This is not a claim that matter becomes literally incompressible.
+
+Which mass is limited
+The limiting white dwarf mass is about one point four times the Sun’s mass. This limit applies to a remnant supported by electron degeneracy. It does not describe the original star’s birth mass. A progenitor can lose substantial material before leaving its core. Neutron stars have a separate support problem with a different mass limit.
+
+Hot but dim
+On a conventional H R diagram, white dwarfs lie in the hot, low luminosity region. A small surface area can outweigh a high surface temperature. At equal temperature, reducing radius to one tenth reduces luminosity to one hundredth. A hot surface therefore does not guarantee a large total light output.
+
+Original schematic reconstruction. Sizes, times and particle counts are illustrative. Local synthetic Ethan narration.

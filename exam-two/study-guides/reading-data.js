@@ -956,5 +956,257 @@ window.ASTR1102_READING = {
       "source": "Common mistake: Do not equate a millisecond bounce with the full event, or conclude that any neutron core is indefinitely stable at any mass.",
       "html": "<ul class=\"study-points\"><li>Do not equate a millisecond bounce with the full event, or conclude that any neutron core is indefinitely stable at any mass.</li></ul>"
     }
+  },
+  "exam-two-concept-sn-energy-budget": {
+    "body": {
+      "source": "The lecture’s approximate core-collapse budget puts about 99% of the released energy into escaping neutrinos, leaving about 1% available for other channels, including explosion energy. Neutrinos carry energy while interacting weakly with matter; a small absorbed fraction can help heat material behind a stalled shock. Do not equate that remainder with all visible light or assume every collapse successfully ejects the envelope. Near the densest core, neutrinos can temporarily be trapped; “weakly interacting” does not mean zero interaction at every density.",
+      "html": "<ul class=\"study-points\"><li>The lecture’s approximate core-collapse budget puts about 99% of the released energy into escaping <mark class=\"study-term\">neutrinos</mark>, leaving about 1% available for other channels, including explosion energy.<ul class=\"study-subpoints\"><li><mark class=\"study-term\">Neutrinos</mark> carry energy while interacting weakly with matter.</li><li>A small absorbed fraction can help heat material behind a stalled <mark class=\"study-term\">shock</mark>.</li></ul></li><li>Do not equate that remainder with all visible light or assume every collapse successfully ejects the envelope.</li><li>Near the densest core, <mark class=\"study-term\">neutrinos</mark> can temporarily be trapped.<ul class=\"study-subpoints\"><li>“weakly interacting” does not mean zero interaction at every density.</li></ul></li></ul>"
+    },
+    "worked": {
+      "source": "Worked example: On a schematic budget of 100 units, 99 leave in neutrinos and one remains. Only part of the non-neutrino energy emerges as optical radiation.",
+      "html": "<ul class=\"study-points\"><li>On a schematic budget of 100 units, 99 leave in <mark class=\"study-term\">neutrinos</mark> and one remains.</li><li>Only part of the non-neutrino energy emerges as optical radiation.</li></ul>"
+    },
+    "checkpoint": {
+      "source": "Common mistake: A small percentage of an enormous energy reservoir can drive a major event; it is not evidence that neutrinos are photons.",
+      "html": "<ul class=\"study-points\"><li>A small percentage of an enormous energy reservoir can drive a major event.<ul class=\"study-subpoints\"><li>It is not evidence that <mark class=\"study-term\">neutrinos</mark> are photons.</li></ul></li></ul>"
+    }
+  },
+  "exam-two-concept-sn-radioactive-tail": {
+    "body": {
+      "source": "An expanding supernova initially shines through shock-heated ejecta. Later, energy deposited by radioactive decay can sustain its light rather than letting it fade only by expansion and cooling. The familiar chain is nickel-56 to cobalt-56 to stable iron-56. These are radioactive transformations, not the “nuclear fission” wording on the slide. The deposited energy and escape of radiation depend on ejecta structure and time, so the chain does not prescribe a universal year-long brightness curve.",
+      "html": "<ul class=\"study-points\"><li>An expanding supernova initially shines through shock-heated ejecta.<ul class=\"study-subpoints\"><li>Later, energy deposited by <mark class=\"study-term\">radioactive decay</mark> can sustain its light rather than letting it fade only by expansion and cooling.</li></ul></li><li>The familiar chain is <mark class=\"study-term\">nickel-56</mark> to <mark class=\"study-term\">cobalt-56</mark> to stable <mark class=\"study-term\">iron-56</mark>.<ul class=\"study-subpoints\"><li>These are radioactive transformations, not the “nuclear fission” wording on the slide.</li></ul></li><li>The deposited energy and escape of radiation depend on ejecta structure and time, so the chain does not prescribe a universal year-long brightness curve.</li></ul>"
+    },
+    "worked": {
+      "source": "Worked example: If the hot expanding gas should cool quickly but luminosity persists, radioactive energy deposition supplies a continuing source. This differs from the shock that launched the ejecta.",
+      "html": "<ul class=\"study-points\"><li>If the hot expanding gas should cool quickly but luminosity persists, radioactive energy deposition supplies a continuing source.</li><li>This differs from the shock that launched the ejecta.</li></ul>"
+    },
+    "checkpoint": {
+      "source": "Common mistake: Do not confuse making unstable nuclei during the explosion with their later decay, or call every nuclear transformation fission.",
+      "html": "<ul class=\"study-points\"><li>Do not confuse making unstable nuclei during the explosion with their later decay, or call every nuclear transformation fission.</li></ul>"
+    }
+  },
+  "exam-two-concept-animation-simulation": {
+    "body": {
+      "source": "A teaching animation is an authored visual explanation of a selected physical story. A scientific simulation numerically evolves a model using specified equations, initial conditions, approximations and resolution. Both can be useful and both can mislead if their assumptions are hidden. A visually convincing movie does not itself validate a mechanism. Compare simulated predictions with observations and check numerical/model limitations. The supplied PDF provides static frames of embedded movies; their full motion was not supplied in the PDF.",
+      "html": "<ul class=\"study-points\"><li>A <mark class=\"study-term\">teaching animation</mark> is an authored visual explanation of a selected physical story.</li><li>A <mark class=\"study-term\">scientific simulation</mark> numerically evolves a model using specified equations, initial conditions, approximations and resolution.</li><li>Both can be useful and both can mislead if their assumptions are hidden.<ul class=\"study-subpoints\"><li>A visually convincing movie does not itself validate a mechanism.</li><li>Compare simulated predictions with observations and check numerical/model limitations.</li></ul></li><li>The supplied PDF provides static frames of embedded movies.<ul class=\"study-subpoints\"><li>Their full motion was not supplied in the PDF.</li></ul></li></ul>"
+    },
+    "worked": {
+      "source": "Worked example: A smooth shock-and-bounce film can teach event order. A computed shock radius from a stated hydrodynamic model can test model consequences, but it still needs validation.",
+      "html": "<ul class=\"study-points\"><li>A smooth shock-and-bounce film can teach event order.</li><li>A computed shock radius from a stated hydrodynamic model can test model consequences, but it still needs validation.</li></ul>"
+    },
+    "checkpoint": {
+      "source": "Common mistake: Our original films are teaching reconstructions, not supercomputer predictions or new evidence for an explosion.",
+      "html": "<ul class=\"study-points\"><li>Our original films are teaching reconstructions, not supercomputer predictions or new evidence for an explosion.</li></ul>"
+    }
+  },
+  "exam-two-concept-remnant-shock-heating": {
+    "body": {
+      "source": "Fast ejecta collide with older circumstellar material or the interstellar medium. Shocks convert bulk motion into thermal energy, producing very hot plasma and X-rays; cooler ionized regions can also emit optical lines. A supernova remnant is the extended affected material, whereas a neutron star or black hole is a possible central compact remnant. Different wavelength images sample different components, so a bright ring is not the compact core. Historical identifications and non-detections in the example gallery are not universal remnant diagnostics.",
+      "html": "<ul class=\"study-points\"><li>Fast ejecta collide with older <mark class=\"study-term\">circumstellar material</mark> or the interstellar medium.<ul class=\"study-subpoints\"><li><mark class=\"study-term\">Shocks</mark> convert bulk motion into thermal energy, producing very hot plasma and X-rays.</li><li>Cooler ionized regions can also emit optical lines.</li></ul></li><li>A <mark class=\"study-term\">supernova remnant</mark> is the extended affected material, whereas a neutron star or black hole is a possible central <mark class=\"study-term\">compact remnant</mark>.<ul class=\"study-subpoints\"><li>Different wavelength images sample different components, so a bright ring is not the compact core.</li></ul></li><li>Historical identifications and non-detections in the example gallery are not universal remnant diagnostics.</li></ul>"
+    },
+    "worked": {
+      "source": "Worked example: The Crab’s extended nebula and central pulsar belong to the same aftermath but are not the same object. A hot collision front can brighten while expanding.",
+      "html": "<ul class=\"study-points\"><li>The Crab’s extended nebula and central pulsar belong to the same aftermath but are not the same object.</li><li>A hot collision front can brighten while expanding.</li></ul>"
+    },
+    "checkpoint": {
+      "source": "Common mistake: Expansion does not mean every parcel must cool monotonically: a moving shock can heat material it newly encounters.",
+      "html": "<ul class=\"study-points\"><li>Expansion does not mean every parcel must cool monotonically.<ul class=\"study-subpoints\"><li>A moving shock can heat material it newly encounters.</li></ul></li></ul>"
+    }
+  },
+  "exam-two-concept-supernova-spectral-types": {
+    "body": {
+      "source": "The Type I/Type II division asks whether hydrogen lines appear in the supernova spectrum: Type I lacks them; Type II shows them. Type I contains subclasses, so “Type I” alone does not mean every event has the same physical cause. In the course’s core-collapse grouping, Ib, Ic and II arise from massive-star core collapse; stripped progenitors can lack surface hydrogen. Type Ia belongs to a different thermonuclear pathway. Massive stars are short-lived, so core-collapse events tend to trace young stellar populations rather than old isolated populations alone.",
+      "html": "<ul class=\"study-points\"><li>The <mark class=\"study-term\">Type I</mark>/<mark class=\"study-term\">Type II</mark> division asks whether hydrogen lines appear in the supernova spectrum.<ul class=\"study-subpoints\"><li><mark class=\"study-term\">Type I</mark> lacks them.</li><li><mark class=\"study-term\">Type II</mark> shows them.</li><li><mark class=\"study-term\">Type I</mark> contains subclasses, so “<mark class=\"study-term\">Type I</mark>” alone does not mean every event has the same physical cause.</li></ul></li><li>In the course’s core-collapse grouping, Ib, Ic and II arise from massive-star <mark class=\"study-term\">core collapse</mark>.<ul class=\"study-subpoints\"><li>Stripped progenitors can lack surface hydrogen.</li><li><mark class=\"study-term\">Type Ia</mark> belongs to a different thermonuclear pathway.</li></ul></li><li>Massive stars are short-lived, so core-collapse events tend to trace young stellar populations rather than old isolated populations alone.</li></ul>"
+    },
+    "worked": {
+      "source": "Worked example: A hydrogen-poor supernova can still be a core-collapse event if its progenitor lost its hydrogen envelope; absence of hydrogen does not alone prove Type Ia.",
+      "html": "<ul class=\"study-points\"><li>A hydrogen-poor supernova can still be a core-collapse event if its progenitor lost its hydrogen envelope.<ul class=\"study-subpoints\"><li>Absence of hydrogen does not alone prove <mark class=\"study-term\">Type Ia</mark>.</li></ul></li></ul>"
+    },
+    "checkpoint": {
+      "source": "Common mistake: A spectral label describes an observed feature. Do not replace that observation with a universal engine or exact progenitor mass.",
+      "html": "<ul class=\"study-points\"><li>A spectral label describes an observed feature.</li><li>Do not replace that observation with a universal engine or exact progenitor mass.</li></ul>"
+    }
+  },
+  "exam-two-concept-supernova-atmosphere": {
+    "body": {
+      "source": "The lecture separates direct heating, ejecta impact and atmospheric chemistry. High-energy radiation from a sufficiently nearby event can damage ozone, increasing exposure to solar ultraviolet radiation. This mechanism differs from the supernova simply heating Earth or ejecta mechanically striking it. Direct radiative flux obeys inverse-square dilution for a stated luminosity and geometry. The slide’s danger distances and Betelgeuse/Gum timing are rough or dated examples, not exact current safety boundaries or predictions.",
+      "html": "<ul class=\"study-points\"><li>The lecture separates direct heating, ejecta impact and atmospheric chemistry.</li><li>High-energy radiation from a sufficiently nearby event can damage <mark class=\"study-term\">ozone</mark>, increasing exposure to solar <mark class=\"study-term\">ultraviolet radiation</mark>.<ul class=\"study-subpoints\"><li>This mechanism differs from the supernova simply heating Earth or ejecta mechanically striking it.</li></ul></li><li>Direct radiative flux obeys <mark class=\"study-term\">inverse-square</mark> dilution for a stated luminosity and geometry.</li><li>The slide’s danger distances and Betelgeuse/Gum timing are rough or dated examples, not exact current safety boundaries or predictions.</li></ul>"
+    },
+    "worked": {
+      "source": "Worked example: With luminosity fixed, moving ten times farther away reduces received flux to one hundredth. That calculation alone does not predict atmospheric damage, which depends on spectrum and other conditions.",
+      "html": "<ul class=\"study-points\"><li>With luminosity fixed, moving ten times farther away reduces received flux to one hundredth.</li><li>That calculation alone does not predict atmospheric damage, which depends on spectrum and other conditions.</li></ul>"
+    },
+    "checkpoint": {
+      "source": "Common mistake: A visually bright event need not deliver the Sun’s heating, and an approximate distance scale is not a sharp universal survival boundary.",
+      "html": "<ul class=\"study-points\"><li>A visually bright event need not deliver the Sun’s heating, and an approximate distance scale is not a sharp universal survival boundary.</li></ul>"
+    }
+  },
+  "exam-two-concept-sn1987a-neutrinos": {
+    "body": {
+      "source": "SN 1987A was a nearby, well-observed core-collapse event in the Large Magellanic Cloud, from a compact blue-supergiant progenitor. The neutrino burst was decisive evidence linking the event to core-collapse physics, rather than merely showing that a star became bright. The lecture gives about 19 detected events in roughly 10 seconds as its teaching scale; detector selection and counting conventions matter, so do not turn that number into a universal total. Its “closest ever” wording is too broad: many historical Galactic supernovae were closer. A dated slide saying the central neutron star cannot be seen also does not summarize all later evidence; Webb reported evidence for neutron-star-powered emission in 2024.",
+      "html": "<ul class=\"study-points\"><li><mark class=\"study-term\">SN 1987A</mark> was a nearby, well-observed core-collapse event in the <mark class=\"study-term\">Large Magellanic Cloud</mark>, from a compact blue-supergiant progenitor.<ul class=\"study-subpoints\"><li>The <mark class=\"study-term\">neutrino burst</mark> was decisive evidence linking the event to core-collapse physics, rather than merely showing that a star became bright.</li></ul></li><li>The lecture gives about 19 detected events in roughly 10 seconds as its teaching scale.<ul class=\"study-subpoints\"><li>Detector selection and counting conventions matter, so do not turn that number into a universal total.</li></ul></li><li>Its “closest ever” wording is too broad.<ul class=\"study-subpoints\"><li>Many historical Galactic supernovae were closer.</li></ul></li><li>A dated slide saying the central neutron star cannot be seen also does not summarize all later evidence.<ul class=\"study-subpoints\"><li>Webb reported evidence for neutron-star-powered emission in 2024.</li></ul></li></ul>"
+    },
+    "worked": {
+      "source": "Worked example: Optical light shows ejecta radiation; neutrinos directly probe the collapse energy channel. Their scientific roles differ even when they come from the same event.",
+      "html": "<ul class=\"study-points\"><li>Optical light shows ejecta radiation.<ul class=\"study-subpoints\"><li>Neutrinos directly probe the collapse energy channel.</li></ul></li><li>Their scientific roles differ even when they come from the same event.</li></ul>"
+    },
+    "checkpoint": {
+      "source": "Common mistake: A handful of detections samples an enormous emitted population. Do not identify the emitted count with the detected count or demand a visible stellar point source to support a compact remnant.",
+      "html": "<ul class=\"study-points\"><li>A handful of detections samples an enormous emitted population.</li><li>Do not identify the emitted count with the detected count or demand a visible stellar point source to support a compact remnant.</li></ul>"
+    }
+  },
+  "exam-two-concept-sn1987a-ring": {
+    "body": {
+      "source": "The ring around SN 1987A contains circumstellar material lost before the supernova. Expanding ejecta and the outward shock later reach dense structures in that material. Collision heats gas and can make ring knots brighten. The ring is not a light-speed expanding neutron-star surface, and a bright knot need not be a newly formed star. The supplied movie page is a static PDF frame; the explanation is supported by the surrounding lecture and observed shock interaction, not a claim to have watched an unavailable embedded film.",
+      "html": "<ul class=\"study-points\"><li>The ring around SN 1987A contains <mark class=\"study-term\">circumstellar material</mark> lost before the supernova.<ul class=\"study-subpoints\"><li>Expanding <mark class=\"study-term\">ejecta</mark> and the outward <mark class=\"study-term\">shock</mark> later reach dense structures in that material.</li><li>Collision heats gas and can make ring knots brighten.</li></ul></li><li>The ring is not a light-speed expanding neutron-star surface, and a bright knot need not be a newly formed star.</li><li>The supplied movie page is a static PDF frame.<ul class=\"study-subpoints\"><li>The explanation is supported by the surrounding lecture and observed <mark class=\"study-term\">shock</mark> interaction, not a claim to have watched an unavailable embedded film.</li></ul></li></ul>"
+    },
+    "worked": {
+      "source": "Worked example: A dense knot stays relatively faint until the shock reaches it, then brightens as mechanical energy is deposited. Different knots can brighten at different times because geometry and density differ.",
+      "html": "<ul class=\"study-points\"><li>A dense knot stays relatively faint until the <mark class=\"study-term\">shock</mark> reaches it, then brightens as mechanical energy is deposited.</li><li>Different knots can brighten at different times because geometry and density differ.</li></ul>"
+    },
+    "checkpoint": {
+      "source": "Common mistake: Do not create the pre-existing ring at the instant of core collapse or confuse its apparent size with the compact remnant’s radius.",
+      "html": "<ul class=\"study-points\"><li>Do not create the pre-existing ring at the instant of core collapse or confuse its apparent size with the compact remnant’s radius.</li></ul>"
+    }
+  },
+  "exam-two-concept-stellar-endpoint-paths": {
+    "body": {
+      "source": "For the course’s Sun-like pathway, an AGB star loses envelope gas as a planetary nebula and leaves a white dwarf. A successful massive-star core-collapse supernova can leave a neutron star, while continued collapse can lead to a black hole. A thermonuclear supernova is a different route and need not leave either of those compact objects. Thus the supplied broad question “what is left after a supernova?” does not have one universal answer without specifying the pathway. The blank endpoint diagram is a teaching prompt, not a displayed graded key.",
+      "html": "<ul class=\"study-points\"><li>For the course’s Sun-like pathway, an AGB star loses envelope gas as a planetary nebula and leaves a <mark class=\"study-term\">white dwarf</mark>.</li><li>A successful massive-star core-collapse supernova can leave a <mark class=\"study-term\">neutron star</mark>, while continued collapse can lead to a <mark class=\"study-term\">black hole</mark>.</li><li>A <mark class=\"study-term\">thermonuclear supernova</mark> is a different route and need not leave either of those compact objects.<ul class=\"study-subpoints\"><li>Thus the supplied broad question “what is left after a supernova?” does not have one universal answer without specifying the pathway.</li></ul></li><li>The blank endpoint diagram is a teaching prompt, not a displayed graded key.</li></ul>"
+    },
+    "worked": {
+      "source": "Worked example: An expanded gas cloud identifies expelled material; it does not alone tell you whether the compact center is a white dwarf, neutron star or black hole. Follow progenitor and mechanism.",
+      "html": "<ul class=\"study-points\"><li>An expanded gas cloud identifies expelled material.<ul class=\"study-subpoints\"><li>It does not alone tell you whether the compact center is a <mark class=\"study-term\">white dwarf</mark>, <mark class=\"study-term\">neutron star</mark> or <mark class=\"study-term\">black hole</mark>.</li></ul></li><li>Follow progenitor and mechanism.</li></ul>"
+    },
+    "checkpoint": {
+      "source": "Common mistake: A planetary nebula and a supernova remnant are not interchangeable names for the same stellar end stage.",
+      "html": "<ul class=\"study-points\"><li>A planetary nebula and a supernova remnant are not interchangeable names for the same stellar end stage.</li></ul>"
+    }
+  },
+  "exam-two-concept-wd-electron-support": {
+    "body": {
+      "source": "After a Sun-like star loses its envelope, its carbon–oxygen remnant cannot sustain the next normal core-burning stage. As ordinary thermal support declines, contraction brings electrons into a degenerate state. The Pauli exclusion principle restricts identical electrons from occupying the same quantum state; increased crowding requires occupation of higher-momentum states and supplies pressure. This support does not require ongoing hydrogen fusion. The slide’s “all levels full” and “incompressible” are teaching shorthand: degenerate matter can be compressed, and not every possible quantum state is occupied.",
+      "html": "<ul class=\"study-points\"><li>After a Sun-like star loses its envelope, its carbon–oxygen remnant cannot sustain the next normal core-burning stage.<ul class=\"study-subpoints\"><li>As ordinary thermal support declines, contraction brings electrons into a <mark class=\"study-term\">degenerate state</mark>.</li></ul></li><li>The <mark class=\"study-term\">Pauli exclusion principle</mark> restricts identical electrons from occupying the same quantum state.<ul class=\"study-subpoints\"><li>Increased crowding requires occupation of higher-momentum states and supplies <mark class=\"study-term\">pressure</mark>.</li><li>This support does not require ongoing hydrogen fusion.</li></ul></li><li>The slide’s “all levels full” and “incompressible” are teaching shorthand.<ul class=\"study-subpoints\"><li>Degenerate matter can be compressed, and not every possible quantum state is occupied.</li></ul></li></ul>"
+    },
+    "worked": {
+      "source": "Worked example: A white dwarf can cool while retaining substantial electron-degeneracy support. Its resistance to compression is not evidence that it still burns hydrogen like a main-sequence star.",
+      "html": "<ul class=\"study-points\"><li>A white dwarf can cool while retaining substantial electron-degeneracy support.</li><li>Its resistance to compression is not evidence that it still burns hydrogen like a main-sequence star.</li></ul>"
+    },
+    "checkpoint": {
+      "source": "Common mistake: Do not transfer atomic orbital pictures literally to a compact star or claim zero possible compression at all masses.",
+      "html": "<ul class=\"study-points\"><li>Do not transfer atomic orbital pictures literally to a compact star or claim zero possible compression at all masses.</li></ul>"
+    }
+  },
+  "exam-two-concept-wd-mass-limit": {
+    "body": {
+      "source": "The maximum mass for a cold, nonrotating electron-supported white dwarf is approximately 1.4 solar masses in the course model. It is the white dwarf’s mass, not the total mass its progenitor once had. Increasing white-dwarf mass generally reduces radius; degeneracy support is not a fixed Earth-size container that can hold unlimited added mass. Reaching the support limit does not mean every system follows one identical fate: composition and nuclear reactions matter, including thermonuclear disruption in relevant white-dwarf systems. Do not substitute this electron-support limit for the separate maximum mass of a neutron star.",
+      "html": "<ul class=\"study-points\"><li>The maximum mass for a cold, nonrotating electron-supported <mark class=\"study-term\">white dwarf</mark> is approximately 1.4 solar masses in the course model.<ul class=\"study-subpoints\"><li>It is the <mark class=\"study-term\">white dwarf</mark>’s mass, not the total mass its progenitor once had.</li></ul></li><li>Increasing white-dwarf mass generally reduces radius.<ul class=\"study-subpoints\"><li><mark class=\"study-term\">Degeneracy support</mark> is not a fixed Earth-size container that can hold unlimited added mass.</li></ul></li><li>Reaching the support limit does not mean every system follows one identical fate.<ul class=\"study-subpoints\"><li>Composition and nuclear reactions matter, including thermonuclear disruption in relevant white-dwarf systems.</li></ul></li><li>Do not substitute this electron-support limit for the separate maximum mass of a <mark class=\"study-term\">neutron star</mark>.</li></ul>"
+    },
+    "worked": {
+      "source": "Worked example: A progenitor can lose much of its mass before leaving a white dwarf below the limit. A several-solar-mass birth mass alone therefore does not rule out a white-dwarf endpoint.",
+      "html": "<ul class=\"study-points\"><li>A progenitor can lose much of its mass before leaving a <mark class=\"study-term\">white dwarf</mark> below the limit.</li><li>A several-solar-mass birth mass alone therefore does not rule out a white-dwarf endpoint.</li></ul>"
+    },
+    "checkpoint": {
+      "source": "Common mistake: The 1.4-solar-mass number is an approximate support scale, not a universal limit on all stars or all stellar remnants.",
+      "html": "<ul class=\"study-points\"><li>The 1.4-solar-mass number is an approximate support scale, not a universal limit on all stars or all stellar remnants.</li></ul>"
+    }
+  },
+  "exam-two-concept-wd-hot-small": {
+    "body": {
+      "source": "A white dwarf can be hotter than an ordinary star yet have much lower luminosity because its radiating area is small. For a blackbody comparison, L = 4πR²σT⁴: temperature and radius jointly matter. The course’s Sirius example contrasts a hotter, much smaller Sirius B with Sirius A. On an H–R diagram, white dwarfs occupy the hot but dim region, with temperature conventionally decreasing to the right. They cool and fade over time; “white dwarf,” “red dwarf” and “brown dwarf” name different physical histories, not simply three positions along a universal color-changing sequence.",
+      "html": "<ul class=\"study-points\"><li>A <mark class=\"study-term\">white dwarf</mark> can be hotter than an ordinary star yet have much lower <mark class=\"study-term\">luminosity</mark> because its radiating area is small.<ul class=\"study-subpoints\"><li>For a blackbody comparison, L = 4πR²σT⁴.</li><li>Temperature and <mark class=\"study-term\">radius</mark> jointly matter.</li><li>The course’s Sirius example contrasts a hotter, much smaller <mark class=\"study-term\">Sirius B</mark> with Sirius A.</li></ul></li><li>On an H–R diagram, white dwarfs occupy the hot but dim region, with temperature conventionally decreasing to the right.</li><li>They cool and fade over time.<ul class=\"study-subpoints\"><li>“<mark class=\"study-term\">white dwarf</mark>,” “red dwarf” and “brown dwarf” name different physical histories, not simply three positions along a universal color-changing sequence.</li></ul></li></ul>"
+    },
+    "worked": {
+      "source": "Worked example: At equal temperature, a star with one tenth the radius has one hundredth the luminosity. That is an area comparison, not a prediction that every white dwarf has that radius ratio.",
+      "html": "<ul class=\"study-points\"><li>At equal temperature, a star with one tenth the <mark class=\"study-term\">radius</mark> has one hundredth the <mark class=\"study-term\">luminosity</mark>.</li><li>That is an area comparison, not a prediction that every <mark class=\"study-term\">white dwarf</mark> has that <mark class=\"study-term\">radius</mark> ratio.</li></ul>"
+    },
+    "checkpoint": {
+      "source": "Common mistake: Temperature alone does not rank total luminosity, and an H–R diagram’s temperature axis runs opposite to a standard increasing-right temperature graph.",
+      "html": "<ul class=\"study-points\"><li>Temperature alone does not rank total <mark class=\"study-term\">luminosity</mark>, and an H–R diagram’s temperature axis runs opposite to a standard increasing-right temperature graph.</li></ul>"
+    }
+  },
+  "exam-two-concept-pulsar-discovery-evidence": {
+    "body": {
+      "source": "Jocelyn Bell identified a repeating radio signal in 1967 while working in Antony Hewish’s group. LGM-1 was the informal “Little Green Men” label, not evidence for extraterrestrial communication. Discovering additional similar sources supported a new astrophysical population. Explanations had to account for both the short periods and the source properties: ordinary stellar pulsation and tightly orbiting ordinary stars could not explain the fastest observed signals in the supplied examples. Theory and observation constrained the neutron-star interpretation together.",
+      "html": "<ul class=\"study-points\"><li><mark class=\"study-term\">Jocelyn Bell</mark> identified a repeating radio signal in 1967 while working in <mark class=\"study-term\">Antony Hewish</mark>’s group.<ul class=\"study-subpoints\"><li><mark class=\"study-term\">LGM-1</mark> was the informal “Little Green Men” label, not evidence for extraterrestrial communication.</li><li>Discovering additional similar sources supported a new astrophysical population.</li></ul></li><li>Explanations had to account for both the short periods and the source properties.<ul class=\"study-subpoints\"><li>Ordinary stellar pulsation and tightly orbiting ordinary stars could not explain the fastest observed signals in the supplied examples.</li><li>Theory and observation constrained the <mark class=\"study-term\">neutron-star</mark> interpretation together.</li></ul></li></ul>"
+    },
+    "worked": {
+      "source": "Worked example: One regular pulse train invites hypotheses; multiple similar natural sources and incompatible ordinary-star timescales change which explanations remain viable.",
+      "html": "<ul class=\"study-points\"><li>One regular pulse train invites hypotheses.<ul class=\"study-subpoints\"><li>Multiple similar natural sources and incompatible ordinary-star timescales change which explanations remain viable.</li></ul></li></ul>"
+    },
+    "checkpoint": {
+      "source": "Common mistake: A nickname is a historical response to an unexplained signal, not the final scientific cause or a claim that periodicity alone proves technology.",
+      "html": "<ul class=\"study-points\"><li>A nickname is a historical response to an unexplained signal, not the final scientific cause or a claim that periodicity alone proves technology.</li></ul>"
+    }
+  },
+  "exam-two-concept-pulse-period-compactness": {
+    "body": {
+      "source": "A rotating object’s material must remain gravitationally bound. Very short rotation periods are incompatible with an ordinary large star and, for the Crab’s approximately 33-millisecond period, with a white-dwarf-sized star in this interpretation. A neutron star’s much smaller size makes such rapid rotation possible. The pulse period is a time per cycle; frequency is cycles per second, f = 1/P. Keep seconds and milliseconds distinct. The supplied periodic sources span different rates, not one universal pulsar clock.",
+      "html": "<ul class=\"study-points\"><li>A rotating object’s material must remain gravitationally bound.<ul class=\"study-subpoints\"><li>Very short <mark class=\"study-term\">rotation periods</mark> are incompatible with an ordinary large star and, for the Crab’s approximately 33-millisecond period, with a white-dwarf-sized star in this interpretation.</li><li>A neutron star’s much smaller size makes such rapid rotation possible.</li></ul></li><li>The <mark class=\"study-term\">pulse period</mark> is a time per cycle.<ul class=\"study-subpoints\"><li><mark class=\"study-term\">Frequency</mark> is cycles per second, f = 1/P.</li><li>Keep seconds and milliseconds distinct.</li></ul></li><li>The supplied periodic sources span different rates, not one universal pulsar clock.</li></ul>"
+    },
+    "worked": {
+      "source": "Worked example: A 0.033-second period corresponds to about 30 cycles each second. A 0.0058-second period is shorter and therefore gives a higher frequency.",
+      "html": "<ul class=\"study-points\"><li>A 0.033-second period corresponds to about 30 cycles each second.</li><li>A 0.0058-second period is shorter and therefore gives a higher <mark class=\"study-term\">frequency</mark>.</li></ul>"
+    },
+    "checkpoint": {
+      "source": "Common mistake: A shorter period means faster repetition, not a smaller frequency; a rapid signal constrains a model but is not a photograph of the star’s surface.",
+      "html": "<ul class=\"study-points\"><li>A shorter period means faster repetition, not a smaller <mark class=\"study-term\">frequency</mark>.<ul class=\"study-subpoints\"><li>A rapid signal constrains a model but is not a photograph of the star’s surface.</li></ul></li></ul>"
+    }
+  },
+  "exam-two-concept-neutron-density-evidence": {
+    "body": {
+      "source": "A neutron star packs a mass comparable to the Sun into a roughly city-sized object. Small radius does not imply low mass: mean density depends on mass divided by volume. The lecture’s teaspoon/Empire State Building comparison conveys extreme density; it is an approximate analogy, not a literal container of isolated stable neutron-star material. The Crab’s central pulsar links the compact source to a supernova remnant, supporting the connection between massive-star death and neutron-star formation. The entire extended nebula is not the neutron star.",
+      "html": "<ul class=\"study-points\"><li>A <mark class=\"study-term\">neutron star</mark> packs a mass comparable to the Sun into a roughly city-sized object.<ul class=\"study-subpoints\"><li>Small radius does not imply low mass.</li><li>Mean <mark class=\"study-term\">density</mark> depends on mass divided by volume.</li><li>The lecture’s teaspoon/Empire State Building comparison conveys extreme <mark class=\"study-term\">density</mark>.</li><li>It is an approximate analogy, not a literal container of isolated stable neutron-star material.</li></ul></li><li>The Crab’s central pulsar links the compact source to a <mark class=\"study-term\">supernova remnant</mark>, supporting the connection between massive-star death and neutron-star formation.<ul class=\"study-subpoints\"><li>The entire extended nebula is not the <mark class=\"study-term\">neutron star</mark>.</li></ul></li></ul>"
+    },
+    "worked": {
+      "source": "Worked example: For the same mass, halving radius makes volume one eighth as large and mean density eight times greater. This illustrates why collapse changes density so strongly.",
+      "html": "<ul class=\"study-points\"><li>For the same mass, halving radius makes volume one eighth as large and mean <mark class=\"study-term\">density</mark> eight times greater.</li><li>This illustrates why collapse changes <mark class=\"study-term\">density</mark> so strongly.</li></ul>"
+    },
+    "checkpoint": {
+      "source": "Common mistake: A nearby city drawn behind a compact-star model supplies scale, not a claim that the full stellar mass has disappeared or that the nebula fits in that city.",
+      "html": "<ul class=\"study-points\"><li>A nearby city drawn behind a compact-star model supplies scale, not a claim that the full stellar mass has disappeared or that the nebula fits in that city.</li></ul>"
+    }
+  },
+  "exam-two-concept-compact-spin-up": {
+    "body": {
+      "source": "An isolated contracting object approximately conserves angular momentum when external torque and mass loss are negligible. For the same mass distribution shape, moment of inertia scales as MR². Smaller radius then means faster angular rotation and a shorter period, like the lecture’s ice-skater analogy. Real stellar collapse can lose mass and angular momentum, so a literal Sun-to-neutron-star extrapolation is only an idealized illustration. It does not mean the Sun will form a neutron star or that contraction is the only way to change spin.",
+      "html": "<ul class=\"study-points\"><li>An isolated contracting object approximately conserves <mark class=\"study-term\">angular momentum</mark> when external torque and mass loss are negligible.<ul class=\"study-subpoints\"><li>For the same mass distribution shape, <mark class=\"study-term\">moment of inertia</mark> scales as MR².</li><li>Smaller radius then means faster angular rotation and a shorter <mark class=\"study-term\">period</mark>, like the lecture’s ice-skater analogy.</li></ul></li><li>Real stellar collapse can lose mass and <mark class=\"study-term\">angular momentum</mark>, so a literal Sun-to-neutron-star extrapolation is only an idealized illustration.<ul class=\"study-subpoints\"><li>It does not mean the Sun will form a neutron star or that contraction is the only way to change spin.</li></ul></li></ul>"
+    },
+    "worked": {
+      "source": "Worked example: In an idealized constant-mass, constant-shape model with no external torque, reducing radius by two reduces moment of inertia by four, increases spin frequency by four, and reduces period to one quarter.",
+      "html": "<ul class=\"study-points\"><li>In an idealized constant-mass, constant-shape model with no external torque, reducing radius by two reduces <mark class=\"study-term\">moment of inertia</mark> by four, increases spin frequency by four, and reduces <mark class=\"study-term\">period</mark> to one quarter.</li></ul>"
+    },
+    "checkpoint": {
+      "source": "Common mistake: Do not assert angular momentum conservation while silently adding a torque or losing a substantial amount of spinning material.",
+      "html": "<ul class=\"study-points\"><li>Do not assert <mark class=\"study-term\">angular momentum</mark> conservation while silently adding a torque or losing a substantial amount of spinning material.</li></ul>"
+    }
+  },
+  "exam-two-concept-pulsar-beam-geometry": {
+    "body": {
+      "source": "In the lecture’s lighthouse model, emission is associated with the magnetic-pole regions and directed into beams. The magnetic axis is tilted relative to the rotation axis. As the star rotates, a beam can sweep across our line of sight and produce repeated pulses even though the star itself is not expanding and contracting once per pulse. Not every neutron star appears as a pulsar to us: orientation, beam geometry and emission activity matter. Aligned axes do not guarantee a sweep past an arbitrary observer.",
+      "html": "<ul class=\"study-points\"><li>In the lecture’s lighthouse model, emission is associated with the magnetic-pole regions and directed into beams.<ul class=\"study-subpoints\"><li>The <mark class=\"study-term\">magnetic axis</mark> is tilted relative to the <mark class=\"study-term\">rotation axis</mark>.</li><li>As the star rotates, a beam can sweep across our line of sight and produce repeated pulses even though the star itself is not expanding and contracting once per pulse.</li></ul></li><li>Not every neutron star appears as a <mark class=\"study-term\">pulsar</mark> to us.<ul class=\"study-subpoints\"><li>Orientation, beam geometry and emission activity matter.</li><li>Aligned axes do not guarantee a sweep past an arbitrary observer.</li></ul></li></ul>"
+    },
+    "worked": {
+      "source": "Worked example: Two observers at different directions can see different pulse visibility from the same rotating object. Moving the observer outside the swept beam can remove pulses without changing the star’s rotation.",
+      "html": "<ul class=\"study-points\"><li>Two observers at different directions can see different pulse visibility from the same rotating object.</li><li>Moving the observer outside the swept beam can remove pulses without changing the star’s rotation.</li></ul>"
+    },
+    "checkpoint": {
+      "source": "Common mistake: Do not animate the entire star flashing on and off as the only cause, or label a spin pole as the magnetic pole when the axes are misaligned.",
+      "html": "<ul class=\"study-points\"><li>Do not animate the entire star flashing on and off as the only cause, or label a spin pole as the magnetic pole when the axes are misaligned.</li></ul>"
+    }
+  },
+  "exam-two-concept-magnetar-fields": {
+    "body": {
+      "source": "Magnetars are neutron stars with exceptionally strong magnetic fields and energetic magnetic activity, including high-energy bursts associated with soft gamma repeaters and anomalous X-ray pulsars. Rapid rotation of a newly born magnetar is one proposed energy source for some very luminous supernovae. The slide’s millisecond rotation describes that rapid-birth model, not a universal present-day magnetar period: observed magnetars can rotate on second-long periods. A strong field does not make the object a black hole. Distinguish a proposed powering mechanism from a guarantee that every magnetar makes the same explosion.",
+      "html": "<ul class=\"study-points\"><li><mark class=\"study-term\">Magnetars</mark> are <mark class=\"study-term\">neutron stars</mark> with exceptionally strong <mark class=\"study-term\">magnetic fields</mark> and energetic magnetic activity, including high-energy bursts associated with soft gamma repeaters and anomalous X-ray pulsars.</li><li>Rapid rotation of a newly born magnetar is one proposed energy source for some very luminous supernovae.<ul class=\"study-subpoints\"><li>The slide’s millisecond rotation describes that rapid-birth model, not a universal present-day magnetar period.</li><li>Observed <mark class=\"study-term\">magnetars</mark> can rotate on second-long periods.</li></ul></li><li>A strong field does not make the object a black hole.<ul class=\"study-subpoints\"><li>Distinguish a proposed powering mechanism from a guarantee that every magnetar makes the same explosion.</li></ul></li></ul>"
+    },
+    "worked": {
+      "source": "Worked example: A second-period neutron star with an extremely strong field and magnetic outbursts can fit the magnetar category. A millisecond period alone does not establish that category.",
+      "html": "<ul class=\"study-points\"><li>A second-period neutron star with an extremely strong field and magnetic outbursts can fit the magnetar category.</li><li>A millisecond period alone does not establish that category.</li></ul>"
+    },
+    "checkpoint": {
+      "source": "Common mistake: Do not rank every magnetar as faster than every ordinary pulsar or treat a large magnetic field as proof of an event horizon.",
+      "html": "<ul class=\"study-points\"><li>Do not rank every magnetar as faster than every ordinary pulsar or treat a large magnetic field as proof of an event horizon.</li></ul>"
+    }
   }
 };

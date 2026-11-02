@@ -1,0 +1,14 @@
+Spin, beams and magnetars
+Lecture25 pp19,21–22,26
+Synthetic narration in Ethan’s voice, generated locally.
+
+Contraction speeds rotation
+With negligible external torque, contraction preserves angular momentum while reducing moment of inertia. An idealized object with unchanged mass and shape that halves its radius spins four times faster. Its period becomes one quarter as long. The familiar contracting skater analogy explains the trend; it does not make the actual Sun a neutron star.
+
+A beam crosses the observer
+The magnetic axis can tilt away from the rotation axis. As the neutron star rotates, its directed emission sweeps around like a lighthouse beam. An observer receives pulses when that beam crosses the line of sight. If the beam misses Earth throughout the rotation, the star can keep spinning without visible beam pulses here.
+
+Strong fields, varied periods
+A magnetar is a neutron star with an exceptionally strong magnetic field and related activity. Observed magnetars need not spin in milliseconds; some have second long periods. A rapidly rotating newborn magnetar can be modeled as an energy source for some luminous supernovae. Keep that conditional birth model separate from every magnetar’s present rotation.
+
+Original schematic reconstruction. Sizes, times and particle counts are illustrative. Local synthetic Ethan narration.

@@ -1,0 +1,14 @@
+Remnants, spectra and nearby effects
+Lecture24 pp17–30,37
+Synthetic narration in Ethan’s voice, generated locally.
+
+The shock heats gas
+Fast ejecta catch slower material around the star. At the shock, some organized bulk motion becomes random thermal motion. The heated plasma can emit X rays, while other regions produce optical emission lines. The extended remnant is gas on a much larger scale than its central compact star.
+
+Hydrogen changes the label
+A Type Two supernova spectrum contains hydrogen lines. Type One lacks those lines. That spectral distinction does not uniquely identify the explosion mechanism. A massive star can lose its hydrogen envelope before collapse, producing a hydrogen poor event in the Type One b or One c grouping.
+
+Atmosphere rather than direct heat
+For the same luminosity, moving ten times farther away reduces received flux to a hundredth. That comparison alone does not calculate biological damage. In the lecture’s atmospheric pathway, energetic radiation reduces ozone, allowing more solar ultraviolet to reach the surface. Example distances are not sharp universal danger boundaries.
+
+Original schematic reconstruction. Sizes, times and particle counts are illustrative. Local synthetic Ethan narration.
