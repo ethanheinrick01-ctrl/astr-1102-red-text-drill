@@ -1,0 +1,19 @@
+/* The same reading scale applies to every concept card and saved activity. */
+@media screen {
+  #app { font-size: 20px; line-height: 1.75; }
+  #app :is(.guide-concept, .e2-card, .e2-evidence) { font-size: 22px; line-height: 1.75; min-width: 0; overflow-wrap: anywhere; }
+  #app .guide-concept { padding: 30px 32px; }
+  #app .guide-concept h2 { color: var(--acc); font-size: 26px; line-height: 1.4; }
+  #app :is(.guide-concept > p:not(.eyebrow), .guide-concept .worked p, .guide-concept .mistake p) { font-size: 22px; line-height: 1.75; }
+  #app :is(.guide-concept .worked, .guide-concept .mistake) { margin: 18px 0; }
+  #app :is(.guide-concept .btn, .e2-card .btn) { font-size: 18px; line-height: 1.6; min-height: 44px; }
+  #app :is(.small, .eyebrow, figcaption) { font-size: 16px; line-height: 1.6; }
+  #app .guide-grid aside { font-size: 20px; line-height: 1.75; }
+}
+@media screen and (max-width: 767px) {
+  #app { font-size: 18px; }
+  #app :is(.guide-concept, .e2-card, .e2-evidence, .guide-concept > p:not(.eyebrow), .guide-concept .worked p, .guide-concept .mistake p) { font-size: 20px; }
+  #app .guide-concept { padding: 24px 18px; }
+  #app .guide-concept h2 { font-size: 24px; }
+  #app .guide-grid aside { font-size: 18px; }
+}

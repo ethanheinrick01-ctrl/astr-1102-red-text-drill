@@ -1,0 +1,12 @@
+/* Larger text for the existing Exam 1 drill without changing its questions. */
+@media screen {
+  body { font-size: 20px; line-height: 1.75; }
+  .set p, .choice, .feedback { font-size: 20px; line-height: 1.75; }
+  .prompt { font-size: 26px; line-height: 1.4; }
+  .source, .smallnote { font-size: 16px; line-height: 1.6; }
+  .btn { font-size: 18px; line-height: 1.6; }
+}
+@media screen and (max-width: 767px) {
+  body { font-size: 18px; }
+  .prompt { font-size: 24px; }
+}
