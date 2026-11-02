@@ -8,14 +8,14 @@
   #app :is(.guide-concept .worked, .guide-concept .mistake) { margin: 18px 0; }
   #app :is(.guide-concept .btn, .e2-card .btn) { font-size: 18px; line-height: 1.6; min-height: 44px; }
   #app :is(.small, .eyebrow, figcaption) { font-size: 16px; line-height: 1.6; }
-  #app .guide-grid aside { font-size: 20px; line-height: 1.75; }
+  #app .guide-grid aside { font-size: 22px; line-height: 1.75; }
 }
 @media screen and (max-width: 767px) {
   #app { font-size: 18px; }
   #app :is(.guide-concept, .e2-card, .e2-evidence, .guide-concept > p:not(.eyebrow), .guide-concept .worked p, .guide-concept .mistake p) { font-size: 20px; }
   #app .guide-concept { padding: 24px 18px; }
   #app .guide-concept h2 { font-size: 24px; }
-  #app .guide-grid aside { font-size: 18px; }
+  #app .guide-grid aside { font-size: 20px; }
 }
 /* Chapter 10 reading colors and structure; existing page backgrounds stay intact. */
 :root, [data-theme="dark"] {
