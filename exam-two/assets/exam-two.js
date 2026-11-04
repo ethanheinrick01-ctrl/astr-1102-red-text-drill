@@ -346,9 +346,14 @@
       q.choiceOrder.forEach((i, display) => {
         const option = button('', () => {
           onChange(i);
-          field.querySelectorAll('[role=radio]').forEach(el=>el.setAttribute('aria-checked',String(Number(el.dataset.value)===i)));
+          field.querySelectorAll('[role=radio]').forEach(el=>{const selected=Number(el.dataset.value)===i;el.setAttribute('aria-checked',String(selected));el.tabIndex=selected?0:-1;});
         });
-        option.className='e2-choice';option.setAttribute('role','radio');option.setAttribute('aria-checked',String(value===i));option.dataset.value=i;option.disabled=locked;
+        option.className='e2-choice';option.setAttribute('role','radio');option.setAttribute('aria-checked',String(value===i));option.dataset.value=i;option.disabled=locked;option.tabIndex=value===i||(value==null&&display===0)?0:-1;
+        option.onkeydown=e=>{
+          const delta={ArrowRight:1,ArrowDown:1,ArrowLeft:-1,ArrowUp:-1}[e.key];
+          if(!delta||locked)return;
+          e.preventDefault();const options=[...field.querySelectorAll('[role=radio]')],next=options[(display+delta+options.length)%options.length];next.click();next.focus();
+        };
         if(scored && i===q.answer)option.classList.add('correct');else if(scored && value===i)option.classList.add('incorrect');
         option.innerHTML=`<span class="e2-option-letter">${String.fromCharCode(65+display)}</span><span>${esc(q.choices[i])}</span>${scored&&i===q.answer?'<small>Correct answer</small>':''}`;
         field.append(option);
@@ -409,7 +414,9 @@
   function render(inspect=false) {
     if (expire()) return;
     if ((run.finishedAt || run.submittedAt) && !inspect) return results();
-    const q=run.questions[run.index], simulator=run.mode==='simulator', focused=!simulator&&run.selection?.origin==='focus';
+    const q=run.questions[run.index];
+    if(q.media?.src.endsWith('/grb-jet.svg'))q.media={...q.media,alt:'Two cones extend above and below a central engine. Observer markers are labeled A, B, C and D.'};
+    const simulator=run.mode==='simulator', focused=!simulator&&run.selection?.origin==='focus';
     const first=run.answers[q.instanceId], draft=run.correctionDrafts?.[q.instanceId], editing=Boolean(first&&draft?.editing);
     const latest=run.corrections[q.instanceId]?.at(-1)||first;
     const savedValue=editing?draft.value:first?latest.value:run.drafts[q.instanceId];
@@ -444,7 +451,7 @@
       record.innerHTML=`<div class="e2-first-record"><b>First try: ${first.correct?'correct':'needs work'}</b>${corrections.length?' · '+corrections.length+' correction attempt'+(corrections.length===1?'':'s'):''}<details><summary>Saved first response</summary><p>${esc(answerText(q,first.value))}</p></details></div>`;
       if(!editing&&!latest.correct){const row=document.createElement('div');row.className='row';row.append(button('Try a correction',()=>{saveCorrectionDraft(q,null,confidence);if(!unsaved)render(true);}));const link=document.createElement('a');link.className='button';link.href='#/topic/learn/'+q.moduleId;link.textContent='Review this topic';row.append(link);record.append(row);}
       else if(!editing&&corrections.length)record.insertAdjacentHTML('beforeend','<p class="small e2-correct-answer">Corrected after feedback. Recheck this concept later with a different question.</p>');
-    }else if(locked){host.querySelector('[data-e2-feedback]').innerHTML='<p class="small muted">No checked first response in this completed activity.</p>';}
+    }else if(locked){host.querySelector('[data-e2-feedback]').innerHTML='<p class="small muted">No checked first response in this completed activity.</p>';const reveal=document.createElement('details');reveal.innerHTML='<summary>Show answer and explanation</summary>';const explanation=feedback(q,{correct:false});explanation.querySelector('.verdict').remove();reveal.append(explanation);host.querySelector('[data-e2-feedback]').append(reveal);}
     const grid=host.querySelector('.e2-grid');
     run.questions.forEach((x,i)=>{const a=run.corrections[x.instanceId]?.at(-1)||run.answers[x.instanceId];const b=button(`${i+1}${run.flags[x.instanceId]?' ★':''}`,()=>navigate(i),'ghost',{'aria-label':`Question ${i+1}${a?', checked':', unfinished'}`,'data-e2-index':i});b.className='e2-number'+(a?a.correct?' correct':' incorrect':'');if(i===run.index)b.setAttribute('aria-current','step');grid.append(b);});
     const prev=host.querySelector('[data-e2-prev]');prev.disabled=run.index===0;prev.onclick=()=>navigate(run.index-1);
@@ -459,9 +466,9 @@
   }
   function results() {
     const initial=run.questions.filter(q=>run.initialIds.includes(q.instanceId)),scored=initial.filter(q=>run.answers[q.instanceId]),score=scored.filter(q=>run.answers[q.instanceId].correct).length,full=scored.length===initial.length;
-    const corrected=Object.values(run.corrections).filter(a=>a.length).length;
+    const corrected=Object.values(run.corrections).filter(a=>a.some(attempt=>attempt.correct)).length,completed=Boolean(run.finishedAt||run.submittedAt);
     host.classList.add('e2-session');
-    host.innerHTML=`<h1>${esc(run.title)} · Summary</h1><div class="row"><button class="button" data-e2-exit>Save & leave</button></div><p class="small muted" data-e2-status role="status">${esc(problem||'Saved in this browser · drafts and feedback resume after reopening.')}</p><p>${full?'All initial questions checked.':`In progress: ${initial.length-scored.length} initial questions still need checking.`}</p><section class="card"><h2>First-answer score${full?'':' so far'}</h2><p class="e2-summary-score">${score} / ${initial.length}</p><p>${Math.round(score/initial.length*100)} / 100 practice points · one point per complete correct question.</p><p>${corrected} question${corrected===1?' was':'s were'} later corrected. Those corrections do not replace this first-answer score.</p><button class="button primary" data-e2-resume>Resume / inspect answers</button></section><section class="card"><h2>Question review</h2><div data-e2-review></div></section><section class="card"><h2>Choose the next retrieval</h2><p>Use another question after a break. Corrections do not add independent mastery evidence.</p><div class="row"><a class="button" href="#/topic/review">Review open misses</a><a class="button" href="#/topic/backup">Back up progress</a></div></section>`;
+    host.innerHTML=`<h1>${esc(run.title)} · Summary</h1><div class="row"><button class="button" data-e2-exit>Save & leave</button></div><p class="small muted" data-e2-status role="status">${esc(problem||'Saved in this browser · drafts and feedback resume after reopening.')}</p><p>${full?'All initial questions checked.':completed?`Completed${run.expired?' · time expired':''}: ${initial.length-scored.length} initial questions unanswered.`:`In progress: ${initial.length-scored.length} initial questions still need checking.`}</p><section class="card"><h2>First-answer score${full||completed?'':' so far'}</h2><p class="e2-summary-score">${score} / ${initial.length}</p><p>${Math.round(score/initial.length*100)} / 100 practice points · one point per complete correct question.</p><p>${corrected} question${corrected===1?' was':'s were'} later corrected. Those corrections do not replace this first-answer score.</p><button class="button primary" data-e2-resume>Resume / inspect answers</button></section><section class="card"><h2>Question review</h2><div data-e2-review></div></section><section class="card"><h2>Choose the next retrieval</h2><p>Use another question after a break. Corrections do not add independent mastery evidence.</p><div class="row"><a class="button" href="#/topic/review">Review open misses</a><a class="button" href="#/topic/backup">Back up progress</a></div></section>`;
     if (run.finishedAt && full && run.mode !== 'simulator' && ['boss','pool'].includes(run.mode)) {
       try {
         const scores = JSON.parse((window.StudyStorage || localStorage).getItem(KEYS.scores) || '{}');
@@ -476,6 +483,11 @@
     run.questions.forEach((q,i)=>{const a=run.answers[q.instanceId],row=document.createElement('p');row.className='e2-summary-row';row.append(button('Q'+(i+1)+' · '+responseName(q),()=>navigate(i)));const text=document.createElement('span');text.textContent=a?`${a.correct?1:0}/1 first-answer points`:'Unchecked';row.append(text);list.append(row);});
     window.scrollTo(0,0);
   }
+  function sourceChoicesHTML(q){
+    const choices=q.choices||window.ASTRHomeworkChoices?.[q.id]||[];
+    const stages=q.id==='exam-two-hw-09-01'?'<p>Stages: Asymptotic Giant Branch (AGB) star; main-sequence star; red giant star; horizontal branch star; protostar; white dwarf.</p><p>Match each stage with an energy source:</p>':'';
+    return stages+(choices.length>1?`<ol type="A">${choices.map(c=>`<li>${esc(c)}</li>`).join('')}</ol>`:'');
+  }
   function sourceAnswerHTML(q,homework=false){
     const answer=homework?(q.answerText||q.displayedKey):q.choices[Number.isInteger(q.displayedAnswer)?q.displayedAnswer:q.supportedAnswer];
     return `<p class="${answer?'e2-correct-answer':'e2-muted'}">${answer?'Correct answer: '+esc(answer):'No reliable single answer is established by the supplied material.'}</p>${q.explanation||q.teachingNote?`<p>${esc(q.explanation||q.teachingNote)}</p>`:''}`;
@@ -486,7 +498,7 @@
   }
   function homeworkReview(){
     const items=(data.homework||[]).filter(q=>!Array.isArray(mode.homeworkIds)||mode.homeworkIds.includes(q.id)),body=shell(mode.title||'Homework questions',`${items.length} supplied homework questions`);
-    body.innerHTML=items.length?items.map(q=>`<article class="e2-th"><p class="e2-muted">Homework ${q.homework} · Question ${q.question}</p><h3>${esc(q.prompt||q.topic)}</h3><details><summary>Show correct answer</summary>${sourceAnswerHTML(q,true)}<details><summary>Original source</summary><a href="${esc(q.image)}" target="_blank" rel="noopener"><img loading="lazy" src="${esc(q.image)}" alt="Original homework ${q.homework}, question ${q.question}"></a></details></details></article>`).join(''):'<p>The supplied homework is not loaded. Open Sources to restore the course material.</p>';
+    body.innerHTML=items.length?items.map(q=>`<article class="e2-th"><p class="e2-muted">Homework ${q.homework} · Question ${q.question}</p><h3>${esc(q.prompt||q.topic)}</h3>${sourceChoicesHTML(q)}<details><summary>Show correct answer</summary>${sourceAnswerHTML(q,true)}<details><summary>Original source</summary><a href="${esc(q.image)}" target="_blank" rel="noopener"><img loading="lazy" src="${esc(q.image)}" alt="Original homework ${q.homework}, question ${q.question}"></a></details></details></article>`).join(''):'<p>The supplied homework is not loaded. Open Sources to restore the course material.</p>';
   }
   function renderEvidence(element) {
     element.className='e2-evidence hidden';
@@ -499,7 +511,7 @@
   window.ASTRExamTwo={
     keys:KEYS, form, ready, correct, answerText, mastery, schedule, mergeRuns, snapshot, poolFor, selectItems, rebuildMastery:updateMastery,
     exportPending(){return unsaved && run ? {key,raw:JSON.stringify(db)} : null;},
-    renderEvidence, sourceHTML, sourceAnswerHTML,
+    renderEvidence, sourceHTML, sourceAnswerHTML,sourceChoicesHTML,
     open(element,onLeave,options={}) {
       host=element;leave=onLeave;mode={kind:options.kind||'pool',title:options.title||'Exam 2 practice',...options};run=null;problem='';correction=null;unsaved=false;
       if(mode.kind==='source-review'){sourceReview();return;}

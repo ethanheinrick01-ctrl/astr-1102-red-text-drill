@@ -11580,7 +11580,7 @@ window.ASTR1102_EXAM2 = {
       "mockEligible": true,
       "media": {
         "src": "assets/visuals/exam-two/grb-jet.svg",
-        "alt": "Original two-cone jet diagram. A above the engine inside the upper cone; B at right; C at center; D at lower left.",
+        "alt": "Two cones extend above and below a central engine. Observer markers are labeled A, B, C and D.",
         "caption": "Original teaching model; not to scale."
       },
       "targets": [
