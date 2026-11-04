@@ -2263,7 +2263,7 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       ],
       "responseType": "multi",
       "type": "multi",
-      "explanation": "The explicit complete key gives these two explanations. Rapid rotation disrupting the outflow (option c) is not part of that key.",
+      "explanation": "The explicit complete key gives these two explanations. Rapid rotation disrupting the outflow is not part of that key.",
       "hint": "Identify the quantity, stage or mechanism the question actually asks about.",
       "source": "Lecture 22 pages 22–33 · Focus assessment",
       "sourceRefs": [

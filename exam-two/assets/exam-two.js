@@ -329,11 +329,14 @@
     const onChange = edit || (v => commit(q, v));
     if(type(q)==='multi'){
       const field=document.createElement('fieldset');field.className='e2-options';field.innerHTML='<legend>Select every correct answer.</legend>';
-      q.choiceOrder.forEach(i=>{const label=document.createElement('label');label.className='e2-choice';const selected=Array.isArray(value)&&value.includes(i);
+      q.choiceOrder.forEach((i,pos)=>{const label=document.createElement('label');label.className='e2-choice';const selected=Array.isArray(value)&&value.includes(i);
         if(scored&&q.answer.includes(i))label.classList.add('correct');else if(scored&&selected)label.classList.add('incorrect');
         const input=document.createElement('input');input.type='checkbox';input.checked=selected;input.disabled=locked;input.dataset.multiValue=i;
         input.onchange=()=>{const next=new Set(Array.isArray(value)?value:[]);input.checked?next.add(i):next.delete(i);value=[...next].sort((a,b)=>a-b);onChange(value);};
-        const text=document.createElement('span');text.textContent=q.choices[i];label.append(input,text);field.append(label);});wrap.append(field);
+        const letter=document.createElement('span');letter.className='e2-option-letter';letter.textContent=String.fromCharCode(65+pos);
+        const text=document.createElement('span');text.textContent=q.choices[i];
+        if(scored){const key=q.answer.includes(i),note=document.createElement('small');note.className='e2-choice-note';note.textContent=key?(selected?'Correct answer · you selected it':'Correct answer · you did not select it'):selected?'Not part of the key · you selected it':'';if(note.textContent)text.append(note);}
+        label.append(letter,input,text);field.append(label);});wrap.append(field);
     } else if (type(q) === 'target') {
       const chart = document.createElement('div'); chart.className = 'e2-target-chart';
       chart.innerHTML = `<img src="${esc(q.media.src)}" alt="${esc(q.media.alt)}">`;
@@ -348,7 +351,7 @@
       q.rowOrder.forEach(i => {
         const row = document.createElement('label'); row.className = 'e2-match';
         if (scored) row.classList.add(value?.[i] === q.answer[i] ? 'correct' : 'incorrect');
-        row.innerHTML = `<span>${esc(q.rows[i].label)}</span><select aria-label="${esc(q.rows[i].label)}" ${locked ? 'disabled' : ''}><option value="">Choose…</option>${q.choiceOrder.map(k => `<option value="${k}" ${value?.[i] === k ? 'selected' : ''}>${esc(q.choices[k])}</option>`).join('')}</select>${scored ? `<small class="e2-correct-answer">Correct answer: ${esc(q.choices[q.answer[i]])}</small>` : ''}`;
+        row.innerHTML = `<span>${esc(q.rows[i].label)}</span>${locked&&scored?`<span class="e2-match-answer">Your answer: ${esc(value?.[i]==null?'No answer':q.choices[value[i]])}</span>`:''}<select aria-label="${esc(q.rows[i].label)}" ${locked ? 'disabled' : ''} ${locked&&scored?'hidden':''}><option value="">Choose…</option>${q.choiceOrder.map(k => `<option value="${k}" ${value?.[i] === k ? 'selected' : ''}>${esc(q.choices[k])}</option>`).join('')}</select>${scored ? `<small class="e2-correct-answer">Correct answer: ${esc(q.choices[q.answer[i]])}</small>` : ''}`;
         row.querySelector('select').onchange = e => {const v = [...(value || Array(q.rows.length).fill(null))]; v[i] = e.target.value === '' ? null : Number(e.target.value); value = v; onChange(v);};
         field.append(row);
       }); wrap.append(field);

@@ -77,3 +77,7 @@
   .e2-th { padding: 14px; }
   .e2-controls .button { flex: 1; }
 }
+
+.e2-choice-note,.e2-match-answer{display:block;margin-top:2px}
+.e2-match-answer{grid-column:1/-1;white-space:normal;overflow-wrap:anywhere}
+.e2-choice .e2-option-letter{margin-right:8px}
