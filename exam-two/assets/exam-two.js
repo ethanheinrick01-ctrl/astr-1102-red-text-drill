@@ -15,7 +15,9 @@
   const uid = () => `${Date.now()}-${crypto.getRandomValues(new Uint32Array(1))[0].toString(36)}`;
   const type = q => q.responseType || q.type;
   const confidences = new Set(['low', 'medium', 'high']);
-  const itemMap = new Map(data.questions.map(q => [q.id, q]));
+  const focusBank = window.ASTR1102_FOCUS_ASSESSMENT;
+  const mockBank = window.ASTR1102_MOCK_ASSESSMENT;
+  const itemMap = new Map([...data.questions,...focusBank.questions,...mockBank.questions].map(q => [q.id, q]));
   const shuffle = (list, rng = Math.random) => {
     const result = [...list];
     for (let i = result.length - 1; i > 0; i--) {
@@ -80,6 +82,7 @@
     return shuffle(picked, rng).map(q => snapshot(q, rng));
   }
   function ready(q, value) {
+    if (type(q) === 'multi') return Array.isArray(value) && value.length > 0 && new Set(value).size === value.length && value.every(v=>Number.isInteger(v)&&v>=0&&v<q.choices.length);
     if (['match', 'order'].includes(type(q))) {
       const count = type(q) === 'match' ? q.rows.length : q.choices.length;
       if (!Array.isArray(value) || value.length !== count || !value.every(v => Number.isInteger(v) && v >= 0 && v < q.choices.length)) return false;
@@ -87,10 +90,11 @@
     }
     return Number.isInteger(value) && value >= 0 && value < q.choices.length;
   }
-  const correct = (q, value) => ready(q, value) && (Array.isArray(q.answer)
+  const correct = (q, value) => ready(q, value) && (type(q)==='multi' ? value.length===q.answer.length&&q.answer.every(v=>value.includes(v)) : Array.isArray(q.answer)
     ? q.answer.every((v, i) => value[i] === v) : value === q.answer);
   function answerText(q, value) {
     if (!ready(q, value)) return 'Unanswered';
+    if (type(q)==='multi') return [...value].sort((a,b)=>a-b).map(i=>q.choices[i]).join(' • ');
     if (type(q) === 'match') return q.rows.map((r, i) => `${r.label}: ${q.choices[value[i]]}`).join(' • ');
     if (type(q) === 'order') return value.map(i => q.choices[i]).join(' → ');
     return q.choices[value];
@@ -151,6 +155,23 @@
       s.history.push(clone(e)); states[e.conceptId] = s;
     }
     return states;
+  }
+  function focusProgress(runs) {
+    const latest = {};
+    for (const r of runs) {
+      const initial = new Set(r.initialIds || []);
+      for (const q of r.questions) {
+        const canonical = itemMap.get(q.id), a = r.answers[q.instanceId];
+        if (r.selection?.bank !== 'focus' || !initial.has(q.instanceId) || q.repeat || q.bridge ||
+            canonical?.bank !== 'focus' || q.bankVersion !== focusBank.version || !a ||
+            !confidences.has(a.confidence) || !ready(q,a.value)) continue;
+        if (!latest[q.id] || a.checkedAt > latest[q.id].checkedAt) latest[q.id] = {
+          checkedAt:a.checkedAt, passed:correct(q,a.value) && a.confidence !== 'low',
+          correct:correct(q,a.value), confidence:a.confidence
+        };
+      }
+    }
+    return latest;
   }
   function schedule(run, q, distance, pool = data.questions) {
     const root = q.rootId || q.id;
@@ -228,7 +249,7 @@
     return host.querySelector('[data-e2-body]');
   }
   function poolFor(options = {}) {
-    let pool = options.kind === 'boss' ? data.bossIds.map(id => itemMap.get(id)) : data.questions.slice();
+    let pool = options.bank==='focus' ? focusBank.questions.slice() : options.bank==='mock' ? mockBank.questions.slice() : options.kind === 'boss' ? data.bossIds.map(id => itemMap.get(id)) : data.questions.slice();
     if (options.moduleId) pool = pool.filter(q => q.moduleId === options.moduleId);
     if (options.conceptId) pool = pool.filter(q => q.conceptId === options.conceptId);
     if (Array.isArray(options.conceptIds)) pool = pool.filter(q => options.conceptIds.includes(q.conceptId));
@@ -240,7 +261,8 @@
     const pool = poolFor(options);
     const n = Math.min(pool.length, Number.isInteger(options.count) && options.count > 0 ? options.count : pool.length);
     const picked = shuffle(pool, rng).slice(0, n);
-    if (options.mcFirst) picked.sort((a,b) => Number(type(a) !== 'single') - Number(type(b) !== 'single'));
+    if(options.bank==='focus')picked.sort((a,b)=>({topHat:0,homework:1,gap:2}[a.assessmentKind])-({topHat:0,homework:1,gap:2}[b.assessmentKind]));
+    else if (options.mcFirst) picked.sort((a,b) => Number(type(a) !== 'single') - Number(type(b) !== 'single'));
     return picked;
   }
   function newRun() {
@@ -254,6 +276,7 @@
     const minutes = mode.kind === 'simulator' ? Number(host.querySelector('[data-e2-timer]').value) : 0;
     run = {id:`exam-two-${mode.kind}-${uid()}`, examId:'exam-two', mode:mode.kind, title:mode.title, moduleId:mode.moduleId || null, conceptFilter:mode.conceptId || null, contentVersion:data.version, seed, startedAt:now(), updatedAt:now(), deadline:minutes ? Date.now()+minutes*60000 : null, questions, initialIds:questions.map(q => q.instanceId), index:0, drafts:{}, draftTimes:{}, answers:{}, confidence:{}, flags:{}, corrections:{}, repeatCounts:{}};
     run.selection = {moduleId:mode.moduleId || null, conceptId:mode.conceptId || null, conceptIds:mode.conceptIds || null, itemIds:mode.itemIds || null, mcOnly:Boolean(mode.mcOnly), mcFirst:Boolean(mode.mcFirst), count:mode.count || null};
+    if(mode.bank)run.selection.bank=mode.bank;
     if (mode.origin === 'focus') Object.assign(run.selection, {origin:'focus', focusId:mode.focusId || null});
     if(mode.formId) run.selection.formId=mode.formId;
     run.selectionKey = JSON.stringify(run.selection);
@@ -264,7 +287,7 @@
     run = null; correction = null;
     const body = shell(mode.title, `Exam 2 · ${data.coverage}`);
     const simulator = mode.kind === 'simulator';
-    body.innerHTML = `<p class="e2-lead">${simulator ? 'Check each answer for immediate feedback. Your first-answer score stays separate from corrections.' : 'Choose confidence before checking. Your first checked answer stays saved; later corrections remain separate.'}</p><div class="e2-facts"><span><strong>${simulator ? 25 : mode.kind === 'boss' ? 25 : selectItems(mode).length}</strong> original tasks</span><span><strong>${esc(data.lectureRange || "13–17")}</strong> lectures available</span><span><strong>Supplied packet</strong> Exam 2 coverage</span></div>
+    body.innerHTML = `<p class="e2-lead">${simulator ? 'Check each answer for immediate feedback. Your first-answer score stays separate from corrections.' : 'Choose confidence before checking. Your first checked answer stays saved; later corrections remain separate.'}</p><div class="e2-facts"><span><strong>${simulator ? 25 : mode.kind === 'boss' ? 25 : selectItems(mode).length}</strong> ${mode.bank==='focus'?'assigned checks':'original tasks'}</span><span><strong>${esc(data.lectureRange || "13–17")}</strong> lectures available</span><span><strong>Supplied packet</strong> Exam 2 coverage</span></div>
       ${simulator ? `<p>Practice mix: 21 ordinary multiple choice, 1 T/F, 1 matching, 1 complete ordering, and 1 image target. Small source-supported calculations can appear.</p><p class="e2-muted">${esc(data.blueprint.authority)} Matching and ordering use whole-question scoring in this rehearsal; actual partial credit and allowed notes are not confirmed.</p><label class="e2-timer-label">Practice clock <select data-e2-timer><option value="0">Untimed</option><option value="30">30 minutes</option><option value="50">50 minutes</option></select></label><p class="e2-muted">An optional clock continues when you leave. An expired attempt is submitted when active or on resume; incomplete or uncommitted responses receive zero.</p>` : '<p class="e2-muted">Misses return after two intervening tasks; low-confidence correct answers after four. Two consecutive correct answers on different original roots, latest medium/high, establish mastery. A drill score uses its initial tasks only.</p>'}
       <div data-e2-start></div><h3>Saved attempts</h3><div data-e2-history></div>`;
     const start = button('Start new attempt', newRun, 'primary', {'data-e2-new':''}); start.disabled = Boolean(problem); body.querySelector('[data-e2-start]').append(start);
@@ -304,7 +327,14 @@
   function response(q, value, locked = false, scored = false, edit = null) {
     const wrap = document.createElement('div'); wrap.className = 'e2-response';
     const onChange = edit || (v => commit(q, v));
-    if (type(q) === 'target') {
+    if(type(q)==='multi'){
+      const field=document.createElement('fieldset');field.className='e2-options';field.innerHTML='<legend>Select every correct answer.</legend>';
+      q.choiceOrder.forEach(i=>{const label=document.createElement('label');label.className='e2-choice';const selected=Array.isArray(value)&&value.includes(i);
+        if(scored&&q.answer.includes(i))label.classList.add('correct');else if(scored&&selected)label.classList.add('incorrect');
+        const input=document.createElement('input');input.type='checkbox';input.checked=selected;input.disabled=locked;input.dataset.multiValue=i;
+        input.onchange=()=>{const next=new Set(Array.isArray(value)?value:[]);input.checked?next.add(i):next.delete(i);value=[...next].sort((a,b)=>a-b);onChange(value);};
+        const text=document.createElement('span');text.textContent=q.choices[i];label.append(input,text);field.append(label);});wrap.append(field);
+    } else if (type(q) === 'target') {
       const chart = document.createElement('div'); chart.className = 'e2-target-chart';
       chart.innerHTML = `<img src="${esc(q.media.src)}" alt="${esc(q.media.alt)}">`;
       q.targets.forEach((point, i) => {
@@ -398,7 +428,7 @@
     run.finishedAt = now();
     if (save()) updateMastery(); results();
   }
-  const responseName=q=>({'single':'Multiple choice','true-false':'True or false','match':'Matching','order':'Ordering','target':'Diagram question'}[type(q)] || 'Practice');
+  const responseName=q=>({'single':'Multiple choice','multi':'Select all that apply','true-false':'True or false','match':'Matching','order':'Ordering','target':'Diagram question'}[type(q)] || 'Practice');
   function leaveRun(){if(!save())return;run=null;correction=null;host.classList.remove('e2-session');leave();}
   function saveCorrectionDraft(q,value,confidence){
     const previous=run.correctionDrafts?.[q.instanceId];
@@ -428,8 +458,8 @@
     host.innerHTML=`<p class="eyebrow">${esc(run.title)} · question ${run.index+1} of ${run.questions.length}</p><h1 tabindex="-1">${esc(focused?run.title.replace(/^Exam Focus · /,''):responseName(q))}</h1>
       ${!focused?`<div class="row e2-session-tools"><button class="button" data-e2-exit>Save & leave</button><button class="button" data-e2-summary>Progress summary</button><button class="button" data-e2-flag>${run.flags[q.instanceId]?'★ Flagged':'Flag question'}</button></div>`:''}
       <p class="small muted" data-e2-status role="status">${esc(problem||'Saved in this browser · drafts and feedback resume after reopening.')}</p><p class="e2-session-count">${focused?`Question ${run.index+1} of ${run.questions.length} · ${count} checked · ${score} correct on first answer.`:`${count}/${run.questions.length} questions checked · ${score} correct on first answer. First-answer score stays separate from corrections.`}${run.deadline?'<span data-e2-clock></span>':''}</p>
-      ${focused?'<p class="small muted">First answers count toward Astronomy mastery. Corrections stay separate.</p><div class="row e2-session-tools"><button class="button" data-e2-exit>Save & return</button><a class="button" href="#/topic/focus">Focus progression</a></div>':''}
-      <article class="e2-question-card"><div class="e2-qhead">${focused?'Section question ':'Q'}${run.index+1}${q.repeat?' · spaced review':q.bridge?' · intervening retrieval':''}</div><div class="e2-prompt">${esc(q.prompt)}</div><div data-e2-response></div><div class="row e2-answer-actions" data-e2-actions></div><div data-e2-feedback></div></article><div data-e2-first></div>
+      ${focused?'<p class="small muted">Focus requires every assigned check correct on an independent first try at medium/high confidence. Corrections and spaced repeats stay separate.</p><div class="row e2-session-tools"><button class="button" data-e2-exit>Save & return</button><a class="button" href="#/topic/focus">Focus progression</a></div>':''}
+      <article class="e2-question-card"><div class="e2-qhead">${focused?'Section question ':'Q'}${run.index+1}${q.repeat?' · spaced review':q.bridge?' · intervening retrieval':''}</div>${q.bank?`<p class="small muted">${q.assessmentKind==='topHat'?'Top Hat · course question':q.assessmentKind==='homework'?'Homework · course question':q.bank==='focus'?'Fresh Focus check':'Fresh mock question'}</p>`:''}${q.context?`<p class="e2-context">${esc(q.context)}</p>`:''}<div class="e2-prompt">${esc(q.prompt)}</div><div data-e2-response></div><div class="row e2-answer-actions" data-e2-actions></div><div data-e2-feedback></div></article><div data-e2-first></div>
       <div class="row spread e2-session-nav"><button class="button" data-e2-prev>← Previous</button><button class="button primary" data-e2-next>${run.index===run.questions.length-1?(focused?'View Focus progress':'Save and view summary'):'Next question →'}</button></div>
       <details class="card e2-question-map"><summary>${focused?'Section question map':'Question map'}</summary><nav class="e2-grid" aria-label="Question navigation"></nav></details>`;
     host.querySelector('[data-e2-exit]').onclick=leaveRun;
@@ -509,7 +539,7 @@
     });}; renderRows('');element.querySelector('[data-e2-coverage-search]').oninput=e=>renderRows(e.target.value);
   }
   window.ASTRExamTwo={
-    keys:KEYS, form, ready, correct, answerText, mastery, schedule, mergeRuns, snapshot, poolFor, selectItems, rebuildMastery:updateMastery,
+    keys:KEYS, form, ready, correct, answerText, mastery, focusProgress, schedule, mergeRuns, snapshot, poolFor, selectItems, rebuildMastery:updateMastery,
     exportPending(){return unsaved && run ? {key,raw:JSON.stringify(db)} : null;},
     renderEvidence, sourceHTML, sourceAnswerHTML,sourceChoicesHTML,
     open(element,onLeave,options={}) {

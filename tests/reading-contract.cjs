@@ -52,6 +52,7 @@ const protectedData = JSON.stringify(data);
 const slidesBefore = data.sourceSlides;
 data.sourceSlides = Array.from({length: 13}, (_, i) => i + 13).flatMap(lecture =>
   Array.from({length: 50}, (_, i) => ({id: `l${lecture}p${i + 1}`, sourceId: `exam-two-source-l${lecture}`, lecture, page: i + 1, text: `Evidence ${lecture}/${i + 1}`})));
+for(const f of ['focus-assessment.js','mock-assessment.js'])vm.runInNewContext(fs.readFileSync(path.join(root,'exam-two/quizzes',f),'utf8'),context);
 vm.runInNewContext(fs.readFileSync(path.join(root, 'exam-two/assets/exam-two.js'), 'utf8'), context);
 const expected = {
   'parallax-geometry': [[13,18]], 'inverse-square': [[13,19],[14,5]],

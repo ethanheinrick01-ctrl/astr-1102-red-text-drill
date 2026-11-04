@@ -53,8 +53,8 @@
           for(const [id,d]of Object.entries(r.correctionDrafts)){
             const q=r.questions.find(q=>q.instanceId===id);
             if(!q||!r.answers[id]||!object(d)||typeof d.editing!=='boolean'||!['low','medium','high'].includes(d.confidence)||typeof d.updatedAt!=='string'||!Number.isFinite(Date.parse(d.updatedAt)))throw Error('Invalid correction draft.');
-            const kind=q.responseType||q.type, sequence=['match','order'].includes(kind);
-            if(d.value!==null&&(sequence?(!Array.isArray(d.value)||d.value.length!==(kind==='match'?q.rows.length:q.choices.length)):!Number.isInteger(d.value)))throw Error('Invalid correction draft response.');
+            const kind=q.responseType||q.type, sequence=['match','order','multi'].includes(kind);
+            if(d.value!==null&&(sequence?(!Array.isArray(d.value)||(kind==='multi'?(d.value.length>q.choices.length||d.value.some(v=>v===null)||new Set(d.value).size!==d.value.length):d.value.length!==(kind==='match'?q.rows.length:q.choices.length))):!Number.isInteger(d.value)))throw Error('Invalid correction draft response.');
             const vals=Array.isArray(d.value)?d.value:[d.value];
             if(vals.some(v=>v!==null&&(!Number.isInteger(v)||v<0||v>=q.choices.length)))throw Error('Invalid correction draft response.');
           }

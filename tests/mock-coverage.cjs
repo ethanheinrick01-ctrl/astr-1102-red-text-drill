@@ -1,6 +1,6 @@
 const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict'),path=require('node:path');
 const root=path.resolve(__dirname,'..'),context={window:{},crypto:require("node:crypto").webcrypto};
-for(const file of ['quizzes/exam-two-data.js','assets/exam-two.js'])vm.runInNewContext(fs.readFileSync(path.join(root,'exam-two',file),'utf8'),context);
+for(const file of ['quizzes/exam-two-data.js','quizzes/focus-assessment.js','quizzes/mock-assessment.js','assets/exam-two.js'])vm.runInNewContext(fs.readFileSync(path.join(root,'exam-two',file),'utf8'),context);
 const data=context.window.ASTR1102_EXAM2,engine=context.window.ASTRExamTwo,seen=new Set();
 for(let seed=1;seed<=300;seed++){
  const form=engine.form(seed),counts={};

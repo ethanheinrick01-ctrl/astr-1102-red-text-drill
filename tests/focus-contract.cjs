@@ -1,26 +1,32 @@
 const fs=require('fs'),vm=require('vm'),assert=require('assert/strict'),path=require('path'),crypto=require('crypto');
 const root=path.resolve(__dirname,'..'),ctx={window:{},document:{},crypto:crypto.webcrypto,localStorage:{getItem(){return null;}}};
-for(const f of ['quizzes/exam-two-data.js','study-guides/modules.js','study-guides/focus-data.js','assets/exam-two.js'])vm.runInNewContext(fs.readFileSync(path.join(root,'exam-two',f),'utf8'),ctx);
-const {ASTR1102_EXAM2:data,ASTR1102_FOCUS:focus,ASTRExamTwo:engine}=ctx.window;
+for(const f of ['quizzes/exam-two-data.js','study-guides/modules.js','study-guides/focus-data.js','quizzes/focus-assessment.js','quizzes/mock-assessment.js','assets/exam-two.js'])vm.runInNewContext(fs.readFileSync(path.join(root,'exam-two',f),'utf8'),ctx);
+const {ASTR1102_EXAM2:data,ASTR1102_FOCUS:focus,ASTR1102_FOCUS_ASSESSMENT:bank,ASTRExamTwo:e}=ctx.window;
 assert.equal(focus.units.length,30);assert.equal(new Set(focus.units.map(u=>u.id)).size,30);
 assert.deepEqual(Array.from(focus.units,u=>u.page),Array.from({length:30},(_,i)=>i+3));
-const ids=[...new Set(focus.units.flatMap(u=>u.conceptIds))];assert.equal(ids.length,67);assert.equal(engine.poolFor({conceptIds:ids}).length,188);
+assert.equal(data.questions.length,282);assert.equal(data.concepts.length,100);
+const all=e.poolFor({bank:'focus'}),study=new Set(data.questions.map(q=>q.id));
+assert.equal(all.length,106);assert.equal(new Set(all.map(q=>q.rootId)).size,106);assert(all.every(q=>!study.has(q.id)));
+assert.equal(all.filter(q=>q.assessmentKind==='topHat').length,36);assert.equal(all.filter(q=>q.assessmentKind==='homework').length,15);
+const families=all.filter(q=>q.sourceFamilyId).map(q=>q.sourceFamilyId);assert.equal(new Set(families).size,families.length);
 for(const u of focus.units){
- assert(u.points.length>=2&&u.checkpoint&&u.transfer);
- for(const id of u.conceptIds){assert(data.concepts.some(c=>c.id===id));assert(new Set(data.questions.filter(q=>q.conceptId===id).map(q=>q.rootId||q.id)).size>=2);}
- assert.equal(new Set(u.sources.map(s=>s.id)).size,u.sources.length);
- for(const s of u.sources)assert(['direct','related'].includes(s.strength)&&['topHat','homework'].includes(s.kind));
+ const g=bank.groups.find(g=>g.id===u.id),qs=all.filter(q=>g.itemIds.includes(q.id));
+ assert(qs.length>=2);assert(u.points.length>=2&&u.checkpoint&&u.transfer);
+ assert(u.conceptIds.every(id=>qs.some(q=>q.assessedConceptIds.includes(id))),u.id+' has an uncovered concept');
+ const selected=e.selectItems({bank:'focus',itemIds:g.itemIds});assert.equal(selected.length,g.itemIds.length);
+ const rank={topHat:0,homework:1,gap:2};assert(selected.every((q,i)=>!i||rank[selected[i-1].assessmentKind]<=rank[q.assessmentKind]));
+ for(const q of qs)assert(e.correct(q,q.answer),q.id);
+ const run={questions:[e.snapshot(qs[0])],initialIds:['unused'],repeatCounts:{},index:0};e.schedule(run,run.questions[0],4,qs);assert(run.questions.every(q=>g.itemIds.includes(q.id)));
 }
-const reached=new Set();
-for(let seed=1;seed<=500;seed++){
- const form=engine.form(seed,{conceptIds:ids}),counts={};assert.equal(form.length,25);assert.equal(new Set(form.map(q=>q.rootId||q.id)).size,25);
- for(const q of form){assert(ids.includes(q.conceptId));reached.add(q.conceptId);counts[q.responseType]=(counts[q.responseType]||0)+1;assert(engine.correct(q,q.answer));}
- assert.deepEqual(counts,{...counts,single:21,'true-false':1,match:1,order:1,target:1});assert(form.filter(q=>q.responseType==='single'&&q.media).length>=2);
- assert.deepEqual(Array.from(engine.form(seed,{conceptIds:ids}),q=>q.id),Array.from(form,q=>q.id));
-}
-assert.equal(reached.size,ids.length);
-// Source-only pages remain eligible, including the explicit review topic absent from saved source questions.
-assert(reached.has('exam-two-concept-standard-candle'));assert(reached.has('exam-two-concept-roche-overflow'));
-assert.throws(()=>engine.form(1,{conceptIds:[]}),/Missing|complete/);
-assert.deepEqual(Array.from(data.topHat),[]);assert.deepEqual(Array.from(data.homework||[]),[]);assert.deepEqual(Array.from(data.sourceSlides),[]);
-console.log('Focus contract passed: all 30 review pages, 67 stable concepts, 188 roots, 500 valid scoped mocks, source gaps reachable and private question arrays empty.');
+const q=e.snapshot(all[0]),wrong=(q.answer+1)%q.choices.length;
+const run=(answer,confidence='medium',at='2026-11-04T12:00:00Z')=>({selection:{bank:'focus'},questions:[q],initialIds:[q.instanceId],answers:{[q.instanceId]:{value:answer,confidence,checkedAt:at}},corrections:{[q.instanceId]:[{value:q.answer,correct:true,confidence:'high'}]}});
+assert.equal(e.focusProgress([{...run(q.answer),selection:{}}])[q.id],undefined);
+assert.equal(e.focusProgress([run(wrong)])[q.id].passed,false);
+assert.equal(e.focusProgress([run(q.answer,'low')])[q.id].passed,false);
+assert.equal(e.focusProgress([run(q.answer)])[q.id].passed,true);
+assert.equal(e.focusProgress([{...run(q.answer),initialIds:[]}])[q.id],undefined);
+assert.equal(e.focusProgress([{...run(q.answer),questions:[{...q,repeat:true}]}])[q.id],undefined);
+assert.equal(e.focusProgress([{...run(q.answer),questions:[{...q,bankVersion:'retired'}]}])[q.id],undefined);
+assert.equal(e.focusProgress([run(q.answer),run(wrong,'high','2026-11-04T13:00:00Z')])[q.id].passed,false);
+const multi=all.find(q=>q.responseType==='multi');assert(e.correct(multi,[3,0]));assert(!e.correct(multi,[0]));assert(!e.ready(multi,[0,0]));assert(!e.ready(multi,[]));assert(!e.ready(multi,[99]));
+console.log('Focus contract PASS: 30 complete review mappings, separate106 questions, source-first/deduplicated pools, scoped repeats, independent confidence-gated first answers and native multiple-answer grading.');
