@@ -1,0 +1,14 @@
+Superluminous and pair-instability supernovae
+Lecture 29 pages 4–13
+Synthetic narration in Ethan’s voice, generated locally.
+
+Brightness is a clue
+Superluminous supernovae reach unusually high intrinsic luminosities. Their light curves and spectra vary, so brightness alone does not identify one engine. On the absolute magnitude scale, more negative means brighter in the same band. Apparent brightness also depends on distance and cannot establish this intrinsic category by itself.
+
+Support weakens first
+In a hot, massive core, energetic photons can create electron and positron pairs. That change softens pressure support. Gravity drives contraction, which heats the core and accelerates advanced burning. In the full disruption regime, explosive burning can unbind the star. Follow the order: support weakens, contraction heats the core, then thermonuclear burning responds.
+
+Name the mass
+An initial stellar mass is not the same as a final carbon and oxygen core mass. Material outside the core, mass loss and composition affect the evolution. The lecture’s rough mass scales are model guideposts, not a guaranteed fate for every heavier star. Extreme luminosity alone does not prove a measured core mass or a pair instability explosion.
+
+Original schematic teaching animation. Distances, sizes, rates and particle counts are illustrative.

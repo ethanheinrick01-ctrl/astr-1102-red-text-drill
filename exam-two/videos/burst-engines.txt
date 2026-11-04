@@ -1,0 +1,14 @@
+Gamma-ray bursts: engines and viewing angle
+Lecture 26 pages 14–24; Lecture 30 page 30
+Synthetic narration in Ethan’s voice, generated locally.
+
+Find the fading source
+The prompt gamma ray flash can end quickly, but an afterglow may remain. Rapid follow up locates that fading counterpart and can connect it to a host galaxy. A secure redshift provides distance evidence. A nearly uniform distribution of burst directions, by itself, cannot tell us how far away the bursts are.
+
+Two pathways
+In the lecture model for many long bursts, a rapidly rotating massive star collapses and feeds a central engine through a disk. Jets emerge through the surrounding star. Many short bursts instead come from compact mergers. A neutron star merger with both gravitational waves and a gamma ray signal supports that second pathway. Duration alone is not a unique engine diagnosis.
+
+A jet can miss us
+Now keep the source and its distance fixed, but change the jet direction. A viewer inside the beam can see a bright prompt burst. An off axis viewer can miss it even though the explosion still occurs. Beaming makes the detected sample smaller than the full event population; it does not turn the engine off.
+
+Original schematic teaching animation. Distances, sizes, rates and particle counts are illustrative.

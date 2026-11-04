@@ -1,11 +1,11 @@
 # Astronomy Study Lab
 
-Live site: https://ethanheinrick01-ctrl.github.io/astr-1102-red-text-drill/
+[Open the study lab](https://ethanheinrick01-ctrl.github.io/astr-1102-red-text-drill/).
 
-Exam 1 preserves the original Red Text Drill and its storage key. Exam 2 contains the completed Lectures 13–23 guide, 165 original tasks, 25-question Boss Drill and rehearsal, confidence, corrections, mastery, and progress backups. Later material remains pending.
+Exam 2 covers Lectures 13–30 with 32 lessons, 100 concepts, 282 original practice questions and 32 narrated animations. Exam Focus follows the 30 substantive pages of the final review and offers three original-question mock forms of 25 questions each.
 
-Exam 2 uses the Diagnostics-style chapter home and navigation, a chapter/concept practice builder, mixed and multiple-choice quick starts, targeted review, original application cases, typed retrieval with self-check rubrics, notes, and light/dark themes. Notes, selection settings, and typed history are included in progress backups. Typed self-checks do not award automatic mastery.
+Study, Focus, practice and mocks share a consistent question workflow: choose an answer and confidence, check for immediate feedback, save a separate correction, and resume later. First-answer scores remain separate from corrections. Matching and ordering use whole-question scoring. The mock format is practice based on the observed earlier exam, not a prediction of the next exam's exact format.
 
-Private lecture figures, slide passages, and supplied Top Hat captures are excluded from the repository. A course-specific source pack may be imported locally; IndexedDB keeps it only in that browser. The site does not upload it or send analytics. Imported sources do not alter questions, grading, or progress.
+Progress stays in the browser. Export/import supports moving or recovering it; the site does not upload progress or send analytics. Exam 1 and existing saved records remain supported.
 
-Each Exam 2 guide begins with a narrated animated explainer (19 films, about fifteen minutes total), chapter jumps, default English captions, playback speed, transcript and downloads. Films are original teaching reconstructions based on Lectures 13–23. The ten newest films use Ethan’s synthetic voice generated locally; the earlier nine retain their Clear narration. A private sources-and-films pack adds the supplied lecture figure beside each moving model; earlier source packs remain supported. Films do not write answers or award mastery.
+The site includes the supplied lecture pages, figures, Top Hat and matching homework alongside original teaching, practice, diagrams and animations. Source-question review shows the correct answer and a short explanation. Credentials, environment files, machine paths, voice-conditioning recordings, personal progress backups and internal project documents are excluded. Source materials do not transmit learner progress or change scores.

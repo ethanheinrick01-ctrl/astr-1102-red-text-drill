@@ -1,0 +1,23 @@
+const fs=require('fs'),path=require('path'),vm=require('vm'),assert=require('assert/strict'),crypto=require('crypto');
+const root=path.join(__dirname,'..'),storage=new Map();let fail=false;
+const w={dispatchEvent(){}},c={window:w,crypto:crypto.webcrypto,Event:class{},CustomEvent:class{},document:{createTextNode:s=>s,getElementById(){return null}},localStorage:{getItem:k=>storage.get(k)||null,setItem:(k,v)=>{if(fail)throw Error('Quota exceeded');storage.set(k,v)}}};
+for(const f of ['quizzes/exam-two-data.js','study-guides/modules.js','study-guides/focus-data.js','study-guides/mock-forms.js','assets/listing-data.js'])vm.runInNewContext(fs.readFileSync(path.join(root,'exam-two',f),'utf8'),c);
+let source=fs.readFileSync(path.join(root,'exam-two/assets/exam-two.js'),'utf8');
+source=source.replace('  window.ASTRExamTwo={',`  window.workflowTest={set(r){run=r;key=r.mode==='simulator'?KEYS.simulator:KEYS.practice;db={schemaVersion:1,runs:[r]};host={querySelector(){return null}};render=()=>{};results=()=>{};},check,submit,saveCorrectionDraft,checkCorrection,get(){return clone(run)}};\n  window.ASTRExamTwo={`);
+vm.runInNewContext(source,c);vm.runInNewContext(fs.readFileSync(path.join(root,'exam-two/assets/progress-backup.js'),'utf8'),c);
+const e=w.ASTRExamTwo,t=w.workflowTest;
+let fixtureNumber=0;function makeRun(mode='simulator'){const questions=e.form(33,{formId:'review-a-v1'});return {id:mode+'-fixture-'+(++fixtureNumber),examId:'exam-two',schemaVersion:1,mode,title:'Fixture',questions,initialIds:questions.map(q=>q.instanceId),answers:{},drafts:{},confidence:{},draftTimes:{},corrections:{},flags:{},repeatCounts:{},index:0,startedAt:new Date().toISOString(),selection:{}};}
+let run=makeRun();t.set(run);const first=run.questions[0];run.drafts[first.instanceId]=(first.answer+1)%first.choices.length;run.confidence[first.instanceId]='high';t.check(first);run=t.get();assert.equal(run.questions.length,25);assert.equal(run.answers[first.instanceId].correct,false);const firstBytes=JSON.stringify(run.answers[first.instanceId]);
+t.saveCorrectionDraft(first,first.answer,'medium');t.checkCorrection(first);run=t.get();assert.equal(run.corrections[first.instanceId].length,1);assert.equal(run.corrections[first.instanceId][0].correct,true);assert.equal(JSON.stringify(run.answers[first.instanceId]),firstBytes);
+// Submission cannot replace checked first responses with drafts or corrections.
+run.drafts[first.instanceId]=first.answer;t.set(run);t.submit();run=t.get();assert.equal(JSON.stringify(run.answers[first.instanceId]),firstBytes);
+// Every response type checks immediately; mocks keep exactly25 items.
+run=makeRun();t.set(run);for(const q of run.questions){run=t.get();run.drafts[q.instanceId]=q.answer;run.confidence[q.instanceId]='medium';t.set(run);t.check(q);}run=t.get();assert.equal(Object.keys(run.answers).length,25);assert.equal(run.questions.length,25);assert.equal(Object.values(run.answers).filter(a=>a.correct).length,25);
+// A nearly-full store reports failure and keeps recoverable unsaved activity.
+run=makeRun();run.drafts[run.questions[0].instanceId]=run.questions[0].answer;run.confidence[run.questions[0].instanceId]='medium';t.set(run);fail=true;t.check(run.questions[0]);assert(e.exportPending());fail=false;
+// Ordinary practice retains adaptive scheduling.
+run=makeRun('custom');const q=run.questions[0];run.drafts[q.instanceId]=(q.answer+1)%q.choices.length;run.confidence[q.instanceId]='high';t.set(run);t.check(q);assert(t.get().questions.length>25);
+// Correction drafts survive merges and validated backups without changing firsts.
+const left=t.get(),right=structuredClone(left),id=q.instanceId;left.correctionDrafts={[id]:{value:null,confidence:'medium',editing:true,updatedAt:'2026-11-04T04:00:00Z'}};right.correctionDrafts={[id]:{value:q.answer,confidence:'high',editing:true,updatedAt:'2026-11-04T05:00:00Z'}};const merged=e.mergeRuns([right],[left])[0];assert.equal(merged.correctionDrafts[id].value,q.answer);assert.equal(JSON.stringify(merged.answers),JSON.stringify(left.answers));
+const key=e.keys.practice;storage.set(key,JSON.stringify({schemaVersion:1,runs:[left]}));const backup={format:'astr1102-study-backup-v1',course:'ASTR 1102',storage:{[key]:JSON.stringify({schemaVersion:1,runs:[right]})}};assert(w.ASTRProgressBackup.planImport(backup).writes[key]);right.correctionDrafts[id].value=999;backup.storage[key]=JSON.stringify({schemaVersion:1,runs:[right]});assert.throws(()=>w.ASTRProgressBackup.planImport(backup),/Invalid correction/);
+console.log('Question workflow PASS: immediate five-format mock checks, fixed25items, immutable firsts, separate corrections, adaptive practice, unsaved recovery and correction-draft backup merge.');

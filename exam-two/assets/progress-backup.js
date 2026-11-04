@@ -26,6 +26,7 @@
     if (!object(value)) throw Error(`Invalid data in ${key}.`);
     if (key === 'astr1102-exam2-ui-v1') {
       if (value.schemaVersion !== 1 || !object(value.notes) || !object(value.builder) || !['dark','light'].includes(value.theme)) throw Error('Invalid interface or notes backup.');
+      if(value.focusReading!==undefined){if(!object(value.focusReading))throw Error('Invalid Focus reading record.');for(const [id,r] of Object.entries(value.focusReading))if(!window.ASTR1102_FOCUS?.units.some(u=>u.id===id)||!object(r)||typeof r.studied!=='boolean'||typeof r.updatedAt!=='string')throw Error('Invalid Focus reading record.');}
       for (const [id,note] of Object.entries(value.notes)) if (!window.ASTR1102_MODULES.some(m=>m.examId==='exam-two'&&m.id===id) || !object(note) || typeof note.value !== 'string' || typeof note.updatedAt !== 'string') throw Error('Invalid chapter note.');
       if (!Array.isArray(value.builder.conceptIds) || value.builder.conceptIds.some(id=>!window.ASTR1102_EXAM2.concepts.some(c=>c.id===id)) || ![10,15,20,25,30,999].includes(value.builder.count) || typeof value.builder.mcOnly !== 'boolean') throw Error('Invalid practice selection.');
     } else if (key === 'astr1102-exam2-listing-v1') {
@@ -46,6 +47,17 @@
           questionIds.add(q.instanceId);
           const a = r.answers[q.instanceId];
           if (a && (!window.ASTRExamTwo.ready(q,a.value) || !['low','medium','high'].includes(a.confidence) || !a.checkedAt || a.correct !== window.ASTRExamTwo.correct(q,a.value))) throw Error('Invalid committed first answer.');
+        }
+        if(r.correctionDrafts!==undefined){
+          if(!object(r.correctionDrafts))throw Error('Invalid correction drafts.');
+          for(const [id,d]of Object.entries(r.correctionDrafts)){
+            const q=r.questions.find(q=>q.instanceId===id);
+            if(!q||!r.answers[id]||!object(d)||typeof d.editing!=='boolean'||!['low','medium','high'].includes(d.confidence)||typeof d.updatedAt!=='string'||!Number.isFinite(Date.parse(d.updatedAt)))throw Error('Invalid correction draft.');
+            const kind=q.responseType||q.type, sequence=['match','order'].includes(kind);
+            if(d.value!==null&&(sequence?(!Array.isArray(d.value)||d.value.length!==(kind==='match'?q.rows.length:q.choices.length)):!Number.isInteger(d.value)))throw Error('Invalid correction draft response.');
+            const vals=Array.isArray(d.value)?d.value:[d.value];
+            if(vals.some(v=>v!==null&&(!Number.isInteger(v)||v<0||v>=q.choices.length)))throw Error('Invalid correction draft response.');
+          }
         }
         if (r.initialIds.some(id => !questionIds.has(id)) || Object.keys(r.answers).some(id => !questionIds.has(id))) throw Error('An answer refers to a missing question.');
       }
@@ -71,6 +83,7 @@
       let merged = copy(incoming);
       if (existing && key === 'astr1102-exam2-ui-v1') {
         merged = {...existing,notes:{...existing.notes},builder:existing.builder};
+        if(existing.focusReading||incoming.focusReading){merged.focusReading=copy(existing.focusReading||{});for(const [id,r] of Object.entries(incoming.focusReading||{}))if(!merged.focusReading[id]||r.updatedAt>merged.focusReading[id].updatedAt)merged.focusReading[id]=copy(r);}
         for (const [id,note] of Object.entries(incoming.notes)) if (!merged.notes[id] || note.updatedAt > merged.notes[id].updatedAt) merged.notes[id] = copy(note);
         if ((incoming.builder.updatedAt || '') > (existing.builder.updatedAt || '')) merged.builder = copy(incoming.builder);
       } else if (existing && key === 'astr1102-exam2-listing-v1') {

@@ -1,10 +1,11 @@
 /* Presentation-only navigation. Does not read or write learning records. */
 (() => {
   'use strict';
-  const tabs=[['home','Study'],['review','Review'],['progress','Progress']];
+  const tabs=[['home','Study'],['focus','Exam focus'],['review','Review'],['progress','Progress']];
   function activeTab(route){
     if(['progress','backup'].includes(route))return 'progress';
     if(route==='review')return 'review';
+    if(['focus','focus-sources','questions','review-map','test'].includes(route))return 'focus';
     return 'home';
   }
   function navHTML(route){

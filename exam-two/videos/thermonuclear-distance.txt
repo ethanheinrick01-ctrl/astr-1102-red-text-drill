@@ -1,0 +1,14 @@
+Type Ia explosions and distance measurements
+Lecture 27 pages 12–16; Lecture 28 pages 4–10; Lecture 30 page 32
+Synthetic narration in Ethan’s voice, generated locally.
+
+A runaway interior
+In the near Chandrasekhar model, an accreting carbon and oxygen white dwarf contracts and heats until carbon burning runs away. Degeneracy pressure responds weakly to temperature, so expansion cooling initially fails to stabilize the burning. This is a thermonuclear disruption, rather than an iron core collapsing into a neutron star. Other Type One A progenitor channels also exist.
+
+Heat after the explosion
+The explosion makes radioactive nickel fifty six. It decays into cobalt fifty six, then stable iron fifty six. Deposited energy from that chain heats the expanding debris and sustains the light. The later radioactive heating differs from the rapid burning that made the unstable nuclei in the first place.
+
+Use a calibrated candle
+Calibrate the event’s luminosity before comparing it with received brightness. For equal calibrated luminosities and negligible extinction, an event sixteen times fainter is four times farther away. Dust can also make it fainter; ignoring that dimming overestimates distance. Standardizable candles need calibration, not an assumption that every explosion is perfectly identical.
+
+Original schematic teaching animation. Distances, sizes, rates and particle counts are illustrative.

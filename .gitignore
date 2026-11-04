@@ -5,3 +5,12 @@ context/
 
 *Private-Sources-and-Films.json
 private-films/
+
+# Local course material and personal recovery files never belong in a release.
+course-material/
+.env
+.env.*
+*.pem
+*Private-Sources*.json
+*progress-backup*.json
+voice-conditioning/

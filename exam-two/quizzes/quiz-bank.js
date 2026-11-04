@@ -2670,6 +2670,768 @@ window.ASTR1102_QUIZZES = [
         "status": "verified",
         "topic": "Original Exam 2 practice",
         "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l26-light-path",
+        "rootId": "exam-two-item-l26-light-path",
+        "moduleId": "exam-two-module-26",
+        "conceptId": "exam-two-concept-spacetime-gravity",
+        "concept": "exam-two-concept-spacetime-gravity",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "A light ray passes outside a black hole’s capture region and reaches a distant observer along a bent path. What explains the deflection?",
+        "choices": [
+          "Spacetime curvature changes the ray’s path",
+          "Reflection by orbiting plasma changes the ray’s path",
+          "Scattering by intervening dust changes the ray’s path",
+          "Refraction through a stellar atmosphere changes the ray’s path"
+        ],
+        "answer": 0,
+        "hint": "The stipulated ray escapes; identify the gravitational effect.",
+        "explanation": "General relativity allows an escaping light ray to be deflected by curved spacetime. Accretion, scattering by dust and surface reflection are different processes.",
+        "source": "Lecture 26 pages 6–8 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l26",
+            "locator": "pages 6–8",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-spacetime-gravity"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l26-multiple-images",
+        "rootId": "exam-two-item-l26-multiple-images",
+        "moduleId": "exam-two-module-26",
+        "conceptId": "exam-two-concept-lensing-images",
+        "concept": "exam-two-concept-lensing-images",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Three distorted images around a foreground cluster share the same detailed spectrum. Which interpretation is consistent with gravitational lensing?",
+        "choices": [
+          "The arcs must trace a circular stellar orbit around the lens",
+          "Three separate galaxies must occupy the same distance",
+          "One background galaxy reaches us along several paths",
+          "Each arc must be a separate foreground cluster member"
+        ],
+        "answer": 2,
+        "hint": "The number of apparent images need not equal the number of sources.",
+        "explanation": "A lens can direct several paths from one background galaxy toward us. Matching spectra support that interpretation, although they are not sufficient alone to prove a unique association.",
+        "source": "Lecture 26 pages 8–9 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l26",
+            "locator": "pages 8–9",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-lensing-images"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l26-shadow-ring",
+        "rootId": "exam-two-item-l26-shadow-ring",
+        "moduleId": "exam-two-module-26",
+        "conceptId": "exam-two-concept-black-hole-messengers",
+        "concept": "exam-two-concept-black-hole-messengers",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "What produces the bright emission surrounding a black-hole shadow in the lecture’s image interpretation?",
+        "choices": [
+          "Scattered optical light from a cool dust shell",
+          "Radiation arriving from inside the event horizon",
+          "Radiation from nearby plasma",
+          "Reflection from an opaque stellar surface"
+        ],
+        "answer": 2,
+        "hint": "Separate emitting material from the central capture region.",
+        "explanation": "Nearby plasma radiates; gravity redirects and captures some of that radiation. The emission is not from a solid surface or within the horizon.",
+        "source": "Lecture 26 pages 10–12 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l26",
+            "locator": "pages 10–12",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-black-hole-messengers"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l26-grb-distance-evidence",
+        "rootId": "exam-two-item-l26-grb-distance-evidence",
+        "moduleId": "exam-two-module-27",
+        "conceptId": "exam-two-concept-grb-distance",
+        "concept": "exam-two-concept-grb-distance",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Which added observation most directly advances a burst from a sky position to a cosmological distance estimate?",
+        "choices": [
+          "A measured gamma-ray burst duration",
+          "A secure afterglow or host redshift",
+          "A precisely measured sky position alone",
+          "An approximately isotropic distribution of burst positions"
+        ],
+        "answer": 1,
+        "hint": "A direction is not a distance.",
+        "explanation": "A secure counterpart/host association and redshift supply distance evidence under the cosmological model. The other choices only change directional display or sampling.",
+        "source": "Lecture 26 pages 15–19 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l26",
+            "locator": "pages 15–19",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-grb-distance"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l26-grb-merger",
+        "rootId": "exam-two-item-l26-grb-merger",
+        "moduleId": "exam-two-module-27",
+        "conceptId": "exam-two-concept-grb-progenitors",
+        "concept": "exam-two-concept-grb-progenitors",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "A short gamma-ray flash accompanies a gravitational-wave signal identified as a neutron-star merger. Which progenitor best fits the combined evidence?",
+        "choices": [
+          "A pair of merging compact stars",
+          "A rapidly rotating massive star undergoing collapse",
+          "A pair of white dwarfs undergoing a Type Ia disruption",
+          "A white dwarf undergoing a surface nova"
+        ],
+        "answer": 0,
+        "hint": "Use both the time profile and the independently identified merger.",
+        "explanation": "The merger signal directly supports a compact-binary origin for this short burst. The other processes do not account for that signal.",
+        "source": "Lecture 26 pages 16, 20–23 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l26",
+            "locator": "pages 16, 20–23",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-grb-progenitors"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l26-grb-offaxis",
+        "rootId": "exam-two-item-l26-grb-offaxis",
+        "moduleId": "exam-two-module-27",
+        "conceptId": "exam-two-concept-grb-beaming",
+        "concept": "exam-two-concept-grb-beaming",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Two observers are equally far from a burst. One looks nearly down its jet; the other lies well outside the beam. Why can only the first see a bright prompt burst?",
+        "choices": [
+          "The jet sends equal prompt power in every direction",
+          "The prompt radiation is concentrated toward the jet axis",
+          "The off-axis direction always has more interstellar dust",
+          "The two directions require different intrinsic progenitors"
+        ],
+        "answer": 1,
+        "hint": "Hold distance fixed and change the viewing direction.",
+        "explanation": "Relativistic beaming concentrates prompt emission toward the jet axis. Equal distances do not ensure equal received brightness from an anisotropic source.",
+        "source": "Lecture 26 pages 22–24 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l26",
+            "locator": "pages 22–24",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-grb-beaming"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l27-overflow-trigger",
+        "rootId": "exam-two-item-l27-overflow-trigger",
+        "moduleId": "exam-two-module-28",
+        "conceptId": "exam-two-concept-roche-overflow",
+        "concept": "exam-two-concept-roche-overflow",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "A binary star expands until its surface reaches the critical Roche-lobe boundary. What can happen next?",
+        "choices": [
+          "Gas flows toward the companion through the inner-point region",
+          "Gas remains confined until the donor’s core collapses",
+          "The companion becomes the donor solely because it is smaller",
+          "The overflowing gas immediately loses all orbital angular momentum"
+        ],
+        "answer": 0,
+        "hint": "The boundary concerns how matter remains associated with each star.",
+        "explanation": "A lobe-filling donor can transfer gas toward its companion. The process does not require immediate collapse, extinguished fusion or an unbound orbit.",
+        "source": "Lecture 27 pages 8 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l27",
+            "locator": "pages 8",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-roche-overflow"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l28-disk-cause",
+        "rootId": "exam-two-item-l28-disk-cause",
+        "moduleId": "exam-two-module-28",
+        "conceptId": "exam-two-concept-accretion-disk-stream",
+        "concept": "exam-two-concept-accretion-disk-stream",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Why does the transferred stream in a disk-fed white-dwarf binary tend to orbit the accretor before reaching it?",
+        "choices": [
+          "It has lost its tangential motion before transfer",
+          "Its outward radiation force exceeds gravity everywhere",
+          "It retains orbital angular momentum",
+          "Its pressure eliminates the companion’s gravitational attraction"
+        ],
+        "answer": 2,
+        "hint": "The gas begins with sideways motion in the binary.",
+        "explanation": "Orbital angular momentum prevents an immediate straight plunge. Redistribution of that angular momentum permits inward accretion.",
+        "source": "Lecture 28 pages 8–9 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l28",
+            "locator": "pages 8–9",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-accretion-disk-stream"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l27-secondary-clock",
+        "rootId": "exam-two-item-l27-secondary-clock",
+        "moduleId": "exam-two-module-28",
+        "conceptId": "exam-two-concept-binary-evolution-timing",
+        "concept": "exam-two-concept-binary-evolution-timing",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Immediately after a massive primary dies, its much lower-mass companion is still young relative to its own main-sequence lifetime. What state is plausible for that companion?",
+        "choices": [
+          "A red giant sharing the primary’s evolutionary clock",
+          "A helium-burning giant exposed by the primary’s winds",
+          "A cooling white dwarf formed at the primary’s death",
+          "Still a main-sequence star"
+        ],
+        "answer": 3,
+        "hint": "The two stars have different evolutionary timescales.",
+        "explanation": "The lower-mass companion can remain on the main sequence. Shared birth time does not imply equal evolutionary lifetime or the same remnant.",
+        "source": "Lecture 27 pages 9 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l27",
+            "locator": "pages 9",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-binary-evolution-timing"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l27-xray-fuel",
+        "rootId": "exam-two-item-l27-xray-fuel",
+        "moduleId": "exam-two-module-29",
+        "conceptId": "exam-two-concept-xray-burst-fuel",
+        "concept": "exam-two-concept-xray-burst-fuel",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Hydrogen-rich gas accretes onto a neutron star and steadily builds a helium layer. In the lecture’s burst sequence, which fuel then ignites explosively?",
+        "choices": [
+          "Hydrogen in a red-giant shell",
+          "Iron in a collapsing massive core",
+          "Carbon in a white-dwarf core",
+          "Helium in the accumulated surface layer"
+        ],
+        "answer": 3,
+        "hint": "Separate incoming material from the accumulated burst fuel.",
+        "explanation": "The specified hydrogen burning leaves helium, which ignites in the surface burst. The other choices locate burning in different systems or stages.",
+        "source": "Lecture 27 pages 10 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l27",
+            "locator": "pages 10",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-xray-burst-fuel"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l27-nova-object",
+        "rootId": "exam-two-item-l27-nova-object",
+        "moduleId": "exam-two-module-29",
+        "conceptId": "exam-two-concept-nova-hydrogen",
+        "concept": "exam-two-concept-nova-hydrogen",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "A binary brightens as accreted hydrogen erupts, then still contains the same white dwarf. Which event fits?",
+        "choices": [
+          "An iron-core-collapse supernova",
+          "A full Type Ia disruption",
+          "A neutron-star helium burst",
+          "A classical nova"
+        ],
+        "answer": 3,
+        "hint": "Use both the fuel and the surviving accretor.",
+        "explanation": "A classical nova is a hydrogen surface eruption on a surviving white dwarf. Full disruption and the other accretor/core types do not fit.",
+        "source": "Lecture 27 pages 11–12 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l27",
+            "locator": "pages 11–12",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-nova-hydrogen"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l27-eruption-match",
+        "rootId": "exam-two-item-l27-eruption-match",
+        "moduleId": "exam-two-module-29",
+        "conceptId": "exam-two-concept-surface-event-comparison",
+        "concept": "exam-two-concept-surface-event-comparison",
+        "type": "match",
+        "responseType": "match",
+        "prompt": "Match each event in the lecture models to its explosive fuel and site.",
+        "choices": [
+          "Carbon–oxygen white-dwarf disruption",
+          "Helium layer on a neutron star",
+          "Hydrogen layer on a white dwarf"
+        ],
+        "answer": [
+          1,
+          2,
+          0
+        ],
+        "hint": "Match every row by its physical mechanism.",
+        "explanation": "The object and fuel must both match: helium/NS, hydrogen/WD, carbon–oxygen WD disruption.",
+        "source": "Lecture 27 pages 10–12 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l27",
+            "locator": "pages 10–12",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-surface-event-comparison"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true,
+        "rows": [
+          {
+            "label": "Thermonuclear X-ray burst",
+            "answer": "Helium layer on a neutron star"
+          },
+          {
+            "label": "Classical nova",
+            "answer": "Hydrogen layer on a white dwarf"
+          },
+          {
+            "label": "Type Ia supernova",
+            "answer": "Carbon–oxygen white-dwarf disruption"
+          }
+        ],
+        "options": [
+          "Carbon–oxygen white-dwarf disruption",
+          "Helium layer on a neutron star",
+          "Hydrogen layer on a white dwarf"
+        ]
+      },
+      {
+        "id": "exam-two-item-l27-ia-feedback",
+        "rootId": "exam-two-item-l27-ia-feedback",
+        "moduleId": "exam-two-module-30",
+        "conceptId": "exam-two-concept-ia-runaway",
+        "concept": "exam-two-concept-ia-runaway",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Why can heating run away during carbon ignition in the degenerate white-dwarf model?",
+        "choices": [
+          "Heating produces prompt expansion that fully suppresses burning",
+          "The surface hydrogen layer alone supplies the core’s runaway",
+          "Degeneracy pressure rises exactly in proportion to temperature",
+          "Pressure initially responds too weakly for prompt expansion cooling"
+        ],
+        "answer": 3,
+        "hint": "Compare the response to heat with an ordinary expansion thermostat.",
+        "explanation": "Weak temperature sensitivity of degeneracy pressure initially limits the stabilizing expansion response while burning accelerates. The thermonuclear runaway is in the white-dwarf interior, not just a nova layer.",
+        "source": "Lecture 27 pages 12–14 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l27",
+            "locator": "pages 12–14",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-ia-runaway"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l28-nickel-half",
+        "rootId": "exam-two-item-l28-nickel-half",
+        "moduleId": "exam-two-module-30",
+        "conceptId": "exam-two-concept-ia-radioactivity",
+        "concept": "exam-two-concept-ia-radioactivity",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "A sample initially contains 800 nickel-56 nuclei. After one six-day half-life, how many nickel-56 nuclei remain on average?",
+        "choices": [
+          "600",
+          "400",
+          "800",
+          "200"
+        ],
+        "answer": 1,
+        "hint": "One half-life leaves half the parent nuclei.",
+        "explanation": "800 × 1/2 = 400 parent nuclei on average. This counts nickel-56, not all nuclei and not a directly specified brightness.",
+        "source": "Lecture 28 pages 10 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l28",
+            "locator": "pages 10",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-ia-radioactivity"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l27-ia-distance-ratio",
+        "rootId": "exam-two-item-l27-ia-distance-ratio",
+        "moduleId": "exam-two-module-30",
+        "conceptId": "exam-two-concept-ia-standard-candle",
+        "concept": "exam-two-concept-ia-standard-candle",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Two Type Ia events have equal calibrated luminosity and negligible extinction. Event B is sixteen times fainter than A. How does its distance compare?",
+        "choices": [
+          "B is the same distance",
+          "B is four times nearer",
+          "B is sixteen times farther",
+          "B is four times farther"
+        ],
+        "answer": 3,
+        "hint": "Use brightness ∝ 1/distance².",
+        "explanation": "A brightness factor of 1/16 requires a distance factor of √16 = 4 under the stated assumptions.",
+        "source": "Lecture 27 pages 15–16 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l27",
+            "locator": "pages 15–16",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-ia-standard-candle"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l28-inspiral",
+        "rootId": "exam-two-item-l28-inspiral",
+        "moduleId": "exam-two-module-31",
+        "conceptId": "exam-two-concept-common-envelope",
+        "concept": "exam-two-concept-common-envelope",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Two stellar cores orbit inside a shared envelope and experience drag. Which paired change follows in the lecture’s picture?",
+        "choices": [
+          "Core separation stays fixed; only surface rotation can change",
+          "Core separation decreases; the envelope gains orbital energy",
+          "Core separation increases; the envelope gains orbital energy",
+          "Core separation decreases; the envelope must lose the transferred energy"
+        ],
+        "answer": 1,
+        "hint": "Track energy transfer from orbit to gas.",
+        "explanation": "Drag removes orbital energy and angular momentum from the cores and deposits energy in the envelope, shrinking the separation. Envelope expansion and core inspiral can coexist.",
+        "source": "Lecture 28 pages 11 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l28",
+            "locator": "pages 11",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-common-envelope"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l28-v1309-evidence",
+        "rootId": "exam-two-item-l28-v1309-evidence",
+        "moduleId": "exam-two-module-31",
+        "conceptId": "exam-two-concept-merger-transient",
+        "concept": "exam-two-concept-merger-transient",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "Which observation most strongly supports the binary-merger interpretation of the V1309 Sco example?",
+        "choices": [
+          "A decreasing eclipsing-binary period before the outburst",
+          "A red spectrum measured after the outburst alone",
+          "A light curve measured only after all eclipses disappeared",
+          "A high peak apparent brightness without a distance"
+        ],
+        "answer": 0,
+        "hint": "Choose evidence of the precursor system and its changing orbit.",
+        "explanation": "A shrinking precursor binary period supports an inspiral/merger explanation. Redness, apparent peak brightness or a post-event curve alone provide less direct evidence of the changing binary.",
+        "source": "Lecture 28 pages 11–12 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l28",
+            "locator": "pages 11–12",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-merger-transient"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l28-blue-straggler",
+        "rootId": "exam-two-item-l28-blue-straggler",
+        "moduleId": "exam-two-module-31",
+        "conceptId": "exam-two-concept-blue-straggler",
+        "concept": "exam-two-concept-blue-straggler",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "An old cluster contains one main-sequence star hotter and more luminous than its ordinary turnoff. Which process can explain it without new star formation?",
+        "choices": [
+          "Ordinary single-star cooling after core hydrogen exhaustion",
+          "White-dwarf cooling with no new nuclear fuel",
+          "Mass gain or merger with fresh core fuel mixing",
+          "Dust extinction increasing the measured temperature"
+        ],
+        "answer": 2,
+        "hint": "Ask how binary interaction changes mass and available fuel.",
+        "explanation": "Binary mass gain or a merger can increase mass and available core fuel, producing an apparent main-sequence age exception. Ordinary cooling or dust does not supply that physical change.",
+        "source": "Lecture 28 pages 13 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l28",
+            "locator": "pages 13",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-blue-straggler"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l29-magnitude-direction",
+        "rootId": "exam-two-item-l29-magnitude-direction",
+        "moduleId": "exam-two-module-32",
+        "conceptId": "exam-two-concept-superluminous-observations",
+        "concept": "exam-two-concept-superluminous-observations",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "In the same band, event A peaks at absolute magnitude −22 and B at −20. Which is intrinsically brighter in that band?",
+        "choices": [
+          "B",
+          "A",
+          "Distance is required to compare these absolute magnitudes",
+          "They have equal luminosity"
+        ],
+        "answer": 1,
+        "hint": "Absolute magnitude already uses a common reference distance.",
+        "explanation": "More negative absolute magnitude means greater intrinsic band luminosity. Distance is not needed for this specified absolute-magnitude comparison.",
+        "source": "Lecture 29 pages 4–10 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l29",
+            "locator": "pages 4–10",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-superluminous-observations"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l29-pair-sequence",
+        "rootId": "exam-two-item-l29-pair-sequence",
+        "moduleId": "exam-two-module-32",
+        "conceptId": "exam-two-concept-pair-instability-chain",
+        "concept": "exam-two-concept-pair-instability-chain",
+        "type": "order",
+        "responseType": "order",
+        "prompt": "Order the steps in the full pair-instability explosion model described here.",
+        "choices": [
+          "Energetic photons produce electron–positron pairs",
+          "Pressure support weakens",
+          "The core contracts and heats",
+          "Explosive burning can unbind the star"
+        ],
+        "answer": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "hint": "Track support, motion and ignition in causal order.",
+        "explanation": "Pair creation softens support; gravity drives contraction and heating; explosive burning can then disrupt the star in the appropriate regime.",
+        "source": "Lecture 29 pages 12 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l29",
+            "locator": "pages 12",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-pair-instability-chain"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
+      },
+      {
+        "id": "exam-two-item-l29-mass-quantity",
+        "rootId": "exam-two-item-l29-mass-quantity",
+        "moduleId": "exam-two-module-32",
+        "conceptId": "exam-two-concept-pair-model-boundaries",
+        "concept": "exam-two-concept-pair-model-boundaries",
+        "type": "single",
+        "responseType": "single",
+        "prompt": "A model lists one threshold for initial stellar mass and another for carbon–oxygen core mass. Why are those numbers different?",
+        "choices": [
+          "The two thresholds count the same matter at every stage",
+          "Initial mass refers only to the hydrogen-free core",
+          "The core is only part of the star, and mass loss alters the final structure",
+          "Core mass always includes all previously ejected material"
+        ],
+        "answer": 2,
+        "hint": "Track what matter remains in the evolved core.",
+        "explanation": "Initial stellar mass and final carbon–oxygen core mass count different material. Envelope evolution and mass loss connect them in a model-dependent way.",
+        "source": "Lecture 29 pages 9–12 · original practice",
+        "sourceRefs": [
+          {
+            "id": "exam-two-source-l29",
+            "locator": "pages 9–12",
+            "boundary": "verified"
+          }
+        ],
+        "claimIds": [
+          "exam-two-claim-pair-model-boundaries"
+        ],
+        "provenance": "original",
+        "original": true,
+        "status": "verified",
+        "topic": "Original Exam 2 practice",
+        "mockEligible": true
       }
     ]
   },

@@ -506,5 +506,145 @@ window.ASTR1102_VISUALS = {
       }
     ],
     "interactions": []
+  },
+  "exam-two-module-26": {
+    "id": "exam-two-module-26-visuals",
+    "label": "Curved spacetime and black-hole evidence",
+    "intro": "Read the physical relationships in this original model. Imported course figures appear with their original wording.",
+    "visuals": [
+      {
+        "id": "exam-two-module-26-model",
+        "moduleId": "exam-two-module-26",
+        "src": "assets/visuals/exam-two/lens-paths.svg",
+        "title": "Curved spacetime and black-hole evidence",
+        "alt": "Follow light past a gravitating object, then separate lensing images from merger signals.",
+        "caption": "Follow light past a gravitating object, then separate lensing images from merger signals.",
+        "notice": "Original teaching schematic; see the lesson for model limits.",
+        "source": "Lecture 26 pages 6–13; Lecture 30 page 29",
+        "status": "verified",
+        "statusLabel": "Original teaching diagram"
+      }
+    ],
+    "interactions": []
+  },
+  "exam-two-module-27": {
+    "id": "exam-two-module-27-visuals",
+    "label": "Gamma-ray bursts: engines and viewing angle",
+    "intro": "Read the physical relationships in this original model. Imported course figures appear with their original wording.",
+    "visuals": [
+      {
+        "id": "exam-two-module-27-model",
+        "moduleId": "exam-two-module-27",
+        "src": "assets/visuals/exam-two/grb-jet.svg",
+        "title": "Gamma-ray bursts: engines and viewing angle",
+        "alt": "Use afterglows to find sources, distinguish the main progenitor models, and test jet visibility.",
+        "caption": "Use afterglows to find sources, distinguish the main progenitor models, and test jet visibility.",
+        "notice": "Original teaching schematic; see the lesson for model limits.",
+        "source": "Lecture 26 pages 14–24; Lecture 30 page 30",
+        "status": "verified",
+        "statusLabel": "Original teaching diagram"
+      }
+    ],
+    "interactions": []
+  },
+  "exam-two-module-28": {
+    "id": "exam-two-module-28-visuals",
+    "label": "Interacting binaries and accretion",
+    "intro": "Read the physical relationships in this original model. Imported course figures appear with their original wording.",
+    "visuals": [
+      {
+        "id": "exam-two-module-28-model",
+        "moduleId": "exam-two-module-28",
+        "src": "assets/visuals/exam-two/roche-disk.svg",
+        "title": "Interacting binaries and accretion",
+        "alt": "Track the donor, the gas stream and the changing identities of the two stars.",
+        "caption": "Track the donor, the gas stream and the changing identities of the two stars.",
+        "notice": "Original teaching schematic; see the lesson for model limits.",
+        "source": "Lecture 27 pages 8–9; Lecture 28 pages 7–9; Lecture 30 page 31",
+        "status": "verified",
+        "statusLabel": "Original teaching diagram"
+      }
+    ],
+    "interactions": []
+  },
+  "exam-two-module-29": {
+    "id": "exam-two-module-29-visuals",
+    "label": "Surface explosions: X-ray bursts and novae",
+    "intro": "Read the physical relationships in this original model. Imported course figures appear with their original wording.",
+    "visuals": [
+      {
+        "id": "exam-two-module-29-model",
+        "moduleId": "exam-two-module-29",
+        "src": "assets/visuals/exam-two/surface-bursts.svg",
+        "title": "Surface explosions: X-ray bursts and novae",
+        "alt": "Distinguish the accretor, the fuel and what survives a surface eruption.",
+        "caption": "Distinguish the accretor, the fuel and what survives a surface eruption.",
+        "notice": "Original teaching schematic; see the lesson for model limits.",
+        "source": "Lecture 27 pages 10–12",
+        "status": "verified",
+        "statusLabel": "Original teaching diagram"
+      }
+    ],
+    "interactions": []
+  },
+  "exam-two-module-30": {
+    "id": "exam-two-module-30-visuals",
+    "label": "Type Ia explosions and distance measurements",
+    "intro": "Read the physical relationships in this original model. Imported course figures appear with their original wording.",
+    "visuals": [
+      {
+        "id": "exam-two-module-30-model",
+        "moduleId": "exam-two-module-30",
+        "src": "assets/visuals/exam-two/ia-distance.svg",
+        "title": "Type Ia explosions and distance measurements",
+        "alt": "Connect runaway burning, radioactive heating and calibrated luminosity.",
+        "caption": "Connect runaway burning, radioactive heating and calibrated luminosity.",
+        "notice": "Original teaching schematic; see the lesson for model limits.",
+        "source": "Lecture 27 pages 12–16; Lecture 28 pages 4–10; Lecture 30 page 32",
+        "status": "verified",
+        "statusLabel": "Original teaching diagram"
+      }
+    ],
+    "interactions": []
+  },
+  "exam-two-module-31": {
+    "id": "exam-two-module-31-visuals",
+    "label": "Common envelopes, mergers and rejuvenation",
+    "intro": "Read the physical relationships in this original model. Imported course figures appear with their original wording.",
+    "visuals": [
+      {
+        "id": "exam-two-module-31-model",
+        "moduleId": "exam-two-module-31",
+        "src": "assets/visuals/exam-two/stellar-merger.svg",
+        "title": "Common envelopes, mergers and rejuvenation",
+        "alt": "Follow orbital energy into an envelope and understand stars above an old cluster’s turnoff.",
+        "caption": "Follow orbital energy into an envelope and understand stars above an old cluster’s turnoff.",
+        "notice": "Original teaching schematic; see the lesson for model limits.",
+        "source": "Lecture 28 pages 11–13",
+        "status": "verified",
+        "statusLabel": "Original teaching diagram"
+      }
+    ],
+    "interactions": []
+  },
+  "exam-two-module-32": {
+    "id": "exam-two-module-32-visuals",
+    "label": "Superluminous and pair-instability supernovae",
+    "intro": "Read the physical relationships in this original model. Imported course figures appear with their original wording.",
+    "visuals": [
+      {
+        "id": "exam-two-module-32-model",
+        "moduleId": "exam-two-module-32",
+        "src": "assets/visuals/exam-two/pair-instability.svg",
+        "title": "Superluminous and pair-instability supernovae",
+        "alt": "Separate unusually bright observations from the physical models that might explain them.",
+        "caption": "Separate unusually bright observations from the physical models that might explain them.",
+        "notice": "Original teaching schematic; see the lesson for model limits.",
+        "source": "Lecture 29 pages 4–13",
+        "status": "verified",
+        "statusLabel": "Original teaching diagram"
+      }
+    ],
+    "interactions": []
   }
 };

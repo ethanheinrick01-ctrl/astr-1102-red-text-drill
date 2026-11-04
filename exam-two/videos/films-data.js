@@ -871,5 +871,257 @@ window.ASTR1102_FILMS = [
       }
     ],
     "disclosure": "Original schematic reconstruction. Sizes, times and particle counts are illustrative. Local synthetic Ethan narration."
+  },
+  {
+    "id": "lensing-evidence",
+    "moduleId": "exam-two-module-26",
+    "title": "Curved spacetime and black-hole evidence",
+    "source": "Lecture 26 pages 6–13; Lecture 30 page 29",
+    "voice": "Ethan · synthetic voice",
+    "src": "videos/lensing-evidence.mp4",
+    "poster": "videos/lensing-evidence.jpg",
+    "captions": "videos/lensing-evidence.vtt",
+    "transcriptSrc": "videos/lensing-evidence.txt",
+    "duration": 57.35,
+    "stages": [
+      {
+        "title": "Light follows curvature",
+        "text": "A light ray can bend past a massive object and still escape. General relativity connects matter and energy with curved spacetime. The curved path changes the direction from which we see a background source; it does not require the source itself to move. The rubber sheet is an analogy, not a literal fabric pulled downward.",
+        "start": 0,
+        "end": 18.61,
+        "caption": "Light follows curvature"
+      },
+      {
+        "title": "Several paths, one source",
+        "text": "Watch light from one background galaxy take different paths around a foreground lens. An observer can receive several apparent images, including distorted arcs. The lens has redirected light, not created extra galaxies. A classroom photograph alone may not reveal the exact number of distinct background sources.",
+        "start": 18.61,
+        "end": 37.75,
+        "caption": "Several paths, one source"
+      },
+      {
+        "title": "Different evidence",
+        "text": "Near a black hole, plasma emits light while gravity redirects or captures it. A bright ring surrounds a shadow; it is not a solid surface shining through the horizon. A merger also changes spacetime and can send gravitational waves outward. Those waves are a different messenger from radio, optical light or gamma rays.",
+        "start": 37.75,
+        "end": 57.35,
+        "caption": "Different evidence"
+      }
+    ],
+    "disclosure": "Original schematic teaching animation. Distances, sizes, rates and particle counts are illustrative."
+  },
+  {
+    "id": "burst-engines",
+    "moduleId": "exam-two-module-27",
+    "title": "Gamma-ray bursts: engines and viewing angle",
+    "source": "Lecture 26 pages 14–24; Lecture 30 page 30",
+    "voice": "Ethan · synthetic voice",
+    "src": "videos/burst-engines.mp4",
+    "poster": "videos/burst-engines.jpg",
+    "captions": "videos/burst-engines.vtt",
+    "transcriptSrc": "videos/burst-engines.txt",
+    "duration": 61.74,
+    "stages": [
+      {
+        "title": "Find the fading source",
+        "text": "The prompt gamma ray flash can end quickly, but an afterglow may remain. Rapid follow up locates that fading counterpart and can connect it to a host galaxy. A secure redshift provides distance evidence. A nearly uniform distribution of burst directions, by itself, cannot tell us how far away the bursts are.",
+        "start": 0,
+        "end": 20.59,
+        "caption": "Find the fading source"
+      },
+      {
+        "title": "Two pathways",
+        "text": "In the lecture model for many long bursts, a rapidly rotating massive star collapses and feeds a central engine through a disk. Jets emerge through the surrounding star. Many short bursts instead come from compact mergers. A neutron star merger with both gravitational waves and a gamma ray signal supports that second pathway. Duration alone is not a unique engine diagnosis.",
+        "start": 20.59,
+        "end": 42.92,
+        "caption": "Two pathways"
+      },
+      {
+        "title": "A jet can miss us",
+        "text": "Now keep the source and its distance fixed, but change the jet direction. A viewer inside the beam can see a bright prompt burst. An off axis viewer can miss it even though the explosion still occurs. Beaming makes the detected sample smaller than the full event population; it does not turn the engine off.",
+        "start": 42.92,
+        "end": 61.74,
+        "caption": "A jet can miss us"
+      }
+    ],
+    "disclosure": "Original schematic teaching animation. Distances, sizes, rates and particle counts are illustrative."
+  },
+  {
+    "id": "binary-transfer",
+    "moduleId": "exam-two-module-28",
+    "title": "Interacting binaries and accretion",
+    "source": "Lecture 27 pages 8–9; Lecture 28 pages 7–9; Lecture 30 page 31",
+    "voice": "Ethan · synthetic voice",
+    "src": "videos/binary-transfer.mp4",
+    "poster": "videos/binary-transfer.jpg",
+    "captions": "videos/binary-transfer.vtt",
+    "transcriptSrc": "videos/binary-transfer.txt",
+    "duration": 59.20004166666667,
+    "stages": [
+      {
+        "title": "Filling the lobe",
+        "text": "A star can expand until it fills its critical lobe. Gas then flows through the inner point region toward the companion. The donor loses this material; the receiving star gains it. These boundaries describe a rotating binary, so the effective force balance includes rotation as well as both stars’ gravity.",
+        "start": 0,
+        "end": 18.41,
+        "caption": "Filling the lobe"
+      },
+      {
+        "title": "A curved stream",
+        "text": "The transferred gas already carries orbital angular momentum. In this disk fed system it curves around the compact star, strikes the outer disk and gradually moves inward. The impact makes a bright spot away from the stellar center. Gravitational energy released by accretion can power light without restarting ordinary core fusion.",
+        "start": 18.41,
+        "end": 38.28,
+        "caption": "A curved stream"
+      },
+      {
+        "title": "Two different clocks",
+        "text": "The initially more massive star normally evolves first. Its lower mass companion can still be on the main sequence when the primary dies. If the binary stays bound, that companion may become a giant much later and feed the compact remnant. The primary’s death and the later donor expansion are separate events.",
+        "start": 38.28,
+        "end": 59.20004166666667,
+        "caption": "Two different clocks"
+      }
+    ],
+    "disclosure": "Original schematic teaching animation. Distances, sizes, rates and particle counts are illustrative."
+  },
+  {
+    "id": "surface-bursts",
+    "moduleId": "exam-two-module-29",
+    "title": "Surface explosions: X-ray bursts and novae",
+    "source": "Lecture 27 pages 10–12",
+    "voice": "Ethan · synthetic voice",
+    "src": "videos/surface-bursts.mp4",
+    "poster": "videos/surface-bursts.jpg",
+    "captions": "videos/surface-bursts.vtt",
+    "transcriptSrc": "videos/surface-bursts.txt",
+    "duration": 60.46,
+    "stages": [
+      {
+        "title": "A neutron star burst",
+        "text": "Hydrogen rich gas accumulates on a neutron star. In this lecture’s thermonuclear burst model, hydrogen burning builds a helium layer. When helium ignites rapidly, the surface flares and then settles. The neutron star survives and can accumulate more fuel. A rotating pulsar beam is a different explanation for regularly repeating light.",
+        "start": 0,
+        "end": 20.31,
+        "caption": "A neutron star burst"
+      },
+      {
+        "title": "A classical nova",
+        "text": "A white dwarf can also receive gas, but the classical nova ignites hydrogen in its accreted surface layer. Expanding material makes the system brighten. The underlying white dwarf survives, so later accretion can replenish the fuel. This differs from an explosion that disrupts the whole white dwarf.",
+        "start": 20.31,
+        "end": 39.14,
+        "caption": "A classical nova"
+      },
+      {
+        "title": "Keep the outcomes distinct",
+        "text": "Compare the accretor, the explosive fuel and the aftermath. Helium on a neutron star gives the burst model; hydrogen on a white dwarf gives a classical nova. The full Type One A model disrupts a carbon and oxygen white dwarf. No compact stellar remnant still allows expanding ejecta and an extended remnant of gas.",
+        "start": 39.14,
+        "end": 60.46,
+        "caption": "Keep the outcomes distinct"
+      }
+    ],
+    "disclosure": "Original schematic teaching animation. Distances, sizes, rates and particle counts are illustrative."
+  },
+  {
+    "id": "thermonuclear-distance",
+    "moduleId": "exam-two-module-30",
+    "title": "Type Ia explosions and distance measurements",
+    "source": "Lecture 27 pages 12–16; Lecture 28 pages 4–10; Lecture 30 page 32",
+    "voice": "Ethan · synthetic voice",
+    "src": "videos/thermonuclear-distance.mp4",
+    "poster": "videos/thermonuclear-distance.jpg",
+    "captions": "videos/thermonuclear-distance.vtt",
+    "transcriptSrc": "videos/thermonuclear-distance.txt",
+    "duration": 65.82,
+    "stages": [
+      {
+        "title": "A runaway interior",
+        "text": "In the near Chandrasekhar model, an accreting carbon and oxygen white dwarf contracts and heats until carbon burning runs away. Degeneracy pressure responds weakly to temperature, so expansion cooling initially fails to stabilize the burning. This is a thermonuclear disruption, rather than an iron core collapsing into a neutron star. Other Type One A progenitor channels also exist.",
+        "start": 0,
+        "end": 23.23,
+        "caption": "A runaway interior"
+      },
+      {
+        "title": "Heat after the explosion",
+        "text": "The explosion makes radioactive nickel fifty six. It decays into cobalt fifty six, then stable iron fifty six. Deposited energy from that chain heats the expanding debris and sustains the light. The later radioactive heating differs from the rapid burning that made the unstable nuclei in the first place.",
+        "start": 23.23,
+        "end": 42.88,
+        "caption": "Heat after the explosion"
+      },
+      {
+        "title": "Use a calibrated candle",
+        "text": "Calibrate the event’s luminosity before comparing it with received brightness. For equal calibrated luminosities and negligible extinction, an event sixteen times fainter is four times farther away. Dust can also make it fainter; ignoring that dimming overestimates distance. Standardizable candles need calibration, not an assumption that every explosion is perfectly identical.",
+        "start": 42.88,
+        "end": 65.82,
+        "caption": "Use a calibrated candle"
+      }
+    ],
+    "disclosure": "Original schematic teaching animation. Distances, sizes, rates and particle counts are illustrative."
+  },
+  {
+    "id": "stellar-mergers",
+    "moduleId": "exam-two-module-31",
+    "title": "Common envelopes, mergers and rejuvenation",
+    "source": "Lecture 28 pages 11–13",
+    "voice": "Ethan · synthetic voice",
+    "src": "videos/stellar-mergers.mp4",
+    "poster": "videos/stellar-mergers.jpg",
+    "captions": "videos/stellar-mergers.vtt",
+    "transcriptSrc": "videos/stellar-mergers.txt",
+    "duration": 62.27000000000001,
+    "stages": [
+      {
+        "title": "Inside a common envelope",
+        "text": "Unstable transfer can engulf two stellar cores in one gaseous envelope. Drag transfers orbital energy into that gas while the cores spiral closer. If the envelope escapes soon enough, a close binary can survive. If it remains, the continuing inspiral can merge the cores. The shared envelope does not guarantee one outcome.",
+        "start": 0,
+        "end": 21.28,
+        "caption": "Inside a common envelope"
+      },
+      {
+        "title": "A merger lights up",
+        "text": "A merger can release orbital energy and produce a luminous red nova. In the observed example, an eclipsing binary’s period shortened before the outburst. That changing precursor supports the merger interpretation. Despite the similar name, a luminous red nova is different from hydrogen igniting on a white dwarf in a classical nova.",
+        "start": 21.28,
+        "end": 41.39000000000001,
+        "caption": "A merger lights up"
+      },
+      {
+        "title": "An apparent younger star",
+        "text": "Mass gain or a merger can give a star more mass and mix fresh hydrogen toward its core. In an old cluster, the result may lie above and to the blue side of the ordinary turnoff: a blue straggler. Its evolutionary state looks younger, but elapsed time has not reversed. One such star does not reset the cluster’s age.",
+        "start": 41.39000000000001,
+        "end": 62.27000000000001,
+        "caption": "An apparent younger star"
+      }
+    ],
+    "disclosure": "Original schematic teaching animation. Distances, sizes, rates and particle counts are illustrative."
+  },
+  {
+    "id": "pair-instability",
+    "moduleId": "exam-two-module-32",
+    "title": "Superluminous and pair-instability supernovae",
+    "source": "Lecture 29 pages 4–13",
+    "voice": "Ethan · synthetic voice",
+    "src": "videos/pair-instability.mp4",
+    "poster": "videos/pair-instability.jpg",
+    "captions": "videos/pair-instability.vtt",
+    "transcriptSrc": "videos/pair-instability.txt",
+    "duration": 66.96,
+    "stages": [
+      {
+        "title": "Brightness is a clue",
+        "text": "Superluminous supernovae reach unusually high intrinsic luminosities. Their light curves and spectra vary, so brightness alone does not identify one engine. On the absolute magnitude scale, more negative means brighter in the same band. Apparent brightness also depends on distance and cannot establish this intrinsic category by itself.",
+        "start": 0,
+        "end": 21.63,
+        "caption": "Brightness is a clue"
+      },
+      {
+        "title": "Support weakens first",
+        "text": "In a hot, massive core, energetic photons can create electron and positron pairs. That change softens pressure support. Gravity drives contraction, which heats the core and accelerates advanced burning. In the full disruption regime, explosive burning can unbind the star. Follow the order: support weakens, contraction heats the core, then thermonuclear burning responds.",
+        "start": 21.63,
+        "end": 43.86,
+        "caption": "Support weakens first"
+      },
+      {
+        "title": "Name the mass",
+        "text": "An initial stellar mass is not the same as a final carbon and oxygen core mass. Material outside the core, mass loss and composition affect the evolution. The lecture’s rough mass scales are model guideposts, not a guaranteed fate for every heavier star. Extreme luminosity alone does not prove a measured core mass or a pair instability explosion.",
+        "start": 43.86,
+        "end": 66.96,
+        "caption": "Name the mass"
+      }
+    ],
+    "disclosure": "Original schematic teaching animation. Distances, sizes, rates and particle counts are illustrative."
   }
 ];

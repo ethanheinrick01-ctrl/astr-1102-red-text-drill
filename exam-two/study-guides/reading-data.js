@@ -1681,3 +1681,422 @@ window.ASTR1102_READING_SUMMARIES = {
     }
   ]
 };
+
+/* November3 additions */
+Object.assign(window.ASTR1102_READING, {
+  "exam-two-concept-spacetime-gravity": {
+    "body": {
+      "source": "General relativity describes gravity through the curvature of spacetime. Matter and energy affect geometry; freely moving matter and light follow paths determined by that geometry. The rubber-sheet picture is an analogy, not a literal fabric pulled downward by another external gravity. Near a star or black hole, an escaping light ray can change direction. It need not cross an event horizon merely because its path bends. Locally, a freely falling observer still describes light moving at the speed of light.",
+      "html": "<ul class=\"study-points\"><li>General relativity describes gravity through the <mark class=\"study-term\">curvature of spacetime</mark>. <mark class=\"study-definition\">Matter and energy affect geometry; freely moving matter and light follow paths determined by that geometry</mark>. The rubber-sheet picture is an analogy, not a literal fabric pulled downward by another external gravity. Near a star or black hole, an escaping light ray can change direction. It need not cross an event horizon merely because its path bends.</li><li>Locally, a freely falling observer still describes light moving at the speed of light.</li></ul>"
+    },
+    "worked": {
+      "source": "Worked example: A background star appears displaced when its light passes near the Sun. Deflection concerns the ray’s direction, not a claim that the star moved or the photon acquired ordinary rest mass.",
+      "html": "<ul class=\"study-points\"><li>A background star appears displaced when its light passes near the Sun. <mark class=\"study-term\">Deflection</mark> concerns <mark class=\"study-definition\">the ray’s direction, not a claim that the star moved or the photon acquired ordinary rest mass</mark>.</li></ul>"
+    },
+    "checkpoint": {
+      "source": "Common mistake: Do not confuse gravitational lensing with the claim that every nearby ray is swallowed.",
+      "html": "<ul class=\"study-points\"><li><mark class=\"study-definition\">Do not confuse</mark> <mark class=\"study-term\">gravitational lensing</mark> <mark class=\"study-definition\">with the claim that every nearby ray is swallowed.</mark></li></ul>"
+    },
+    "checkpointAfter": "event horizon"
+  },
+  "exam-two-concept-lensing-images": {
+    "body": {
+      "source": "Gravitational lensing redirects light from a background source around an intervening mass. Different paths can make distorted arcs or multiple apparent images of one galaxy; favorable alignment can make a ring. The lens does not manufacture extra galaxies. To interpret a cluster image, separate foreground lenses from distorted background sources. Similar-looking arcs are suggestive, but a unique source count requires evidence beyond an unlabeled classroom image.",
+      "html": "<ul class=\"study-points\"><li><mark class=\"study-term\">Gravitational lensing</mark> <mark class=\"study-definition\">redirects light from a background source around an intervening mass</mark>. Different paths can make distorted arcs or multiple apparent images of one galaxy; favorable alignment can make a ring.</li><li>The lens does not manufacture extra galaxies. To interpret a cluster image, separate foreground lenses from distorted background sources.</li><li>Similar-looking arcs are suggestive, but a unique source count requires evidence beyond an unlabeled classroom image.</li></ul>"
+    },
+    "worked": {
+      "source": "Worked example: Several arcs around a cluster can be images of one more distant galaxy. Counting bright patches as separate physical galaxies can therefore overcount sources.",
+      "html": "<ul class=\"study-points\"><li><mark class=\"study-term\">Several arcs</mark> around a cluster <mark class=\"study-definition\">can be images of one more distant galaxy</mark>. Counting bright patches as separate physical galaxies can therefore overcount sources.</li></ul>"
+    },
+    "checkpoint": {
+      "source": "Common mistake: An apparent ring is not necessarily a circular galaxy surrounding the lens.",
+      "html": "<ul class=\"study-points\"><li><mark class=\"study-definition\">An</mark> <mark class=\"study-term\">apparent ring</mark> <mark class=\"study-definition\">is not necessarily a circular galaxy surrounding the lens.</mark></li></ul>"
+    },
+    "checkpointAfter": "unique source count"
+  },
+  "exam-two-concept-black-hole-messengers": {
+    "body": {
+      "source": "A black-hole shadow image shows a dark central region against emission from nearby plasma, shaped by light propagation and capture. The bright ring is not a photograph of a solid surface or light emitted from inside the horizon. Gravitational waves from compact-object mergers are changes in spacetime detected through their effects on instruments. They are not an electromagnetic band. Together with orbital and radiation evidence, these observations test different consequences of black-hole models; no single cartoon supplies all of that evidence.",
+      "html": "<ul class=\"study-points\"><li>A black-hole shadow image shows a dark central region against emission from nearby plasma, shaped by light propagation and capture. The bright ring is not a photograph of a solid surface or light emitted from inside the horizon.</li><li><mark class=\"study-term\">Gravitational waves</mark> from compact-object mergers are <mark class=\"study-definition\">changes in spacetime detected through their effects on instruments</mark>. They are not an electromagnetic band.</li><li>Together with orbital and radiation evidence, these observations test different consequences of black-hole models; no single cartoon supplies all of that evidence.</li></ul>"
+    },
+    "worked": {
+      "source": "Worked example: An image of emission near a supermassive black hole and a gravitational-wave signal from a stellar-mass merger probe different systems and messengers. Neither requires light to escape from within an event horizon.",
+      "html": "<ul class=\"study-points\"><li>An image of emission near a supermassive black hole and a gravitational-wave signal from a stellar-mass merger probe <mark class=\"study-term\">different systems and messengers</mark>. <mark class=\"study-definition\">Neither requires light to escape from within an event horizon</mark>.</li></ul>"
+    },
+    "checkpoint": {
+      "source": "Common mistake: Do not label a gravitational-wave detection a gamma-ray photograph.",
+      "html": "<ul class=\"study-points\"><li><mark class=\"study-definition\">Do not label a</mark> <mark class=\"study-term\">gravitational-wave detection</mark> <mark class=\"study-definition\">a gamma-ray photograph.</mark></li></ul>"
+    },
+    "checkpointAfter": "electromagnetic band"
+  },
+  "exam-two-concept-grb-distance": {
+    "body": {
+      "source": "A gamma-ray burst is a short flash followed, in many cases, by a fading afterglow at X-ray, optical and other wavelengths. Rapid localization lets telescopes identify a counterpart and obtain a spectrum or host-galaxy association. Redshift evidence then places many bursts at cosmological distances. An approximately isotropic sky distribution means the bursts are spread across directions; that pattern alone does not measure how far away they are.",
+      "html": "<ul class=\"study-points\"><li>A gamma-ray burst is a short flash followed, in many cases, by a fading afterglow at X-ray, optical and other wavelengths. <mark class=\"study-term\">Rapid localization</mark> <mark class=\"study-definition\">lets telescopes identify a counterpart and obtain a spectrum or host-galaxy association</mark>. Redshift evidence then places many bursts at cosmological distances. An approximately isotropic sky distribution means the bursts are spread across directions; that pattern alone does not measure how far away they are.</li></ul>"
+    },
+    "worked": {
+      "source": "Worked example: Two equally bright bursts can have different intrinsic powers and distances. A localized afterglow and a securely associated redshift constrain distance more directly than apparent brightness alone.",
+      "html": "<ul class=\"study-points\"><li>Two equally bright bursts can have different intrinsic powers and distances. A localized afterglow and a <mark class=\"study-term\">securely associated redshift</mark> <mark class=\"study-definition\">constrain distance more directly than apparent brightness alone</mark>.</li></ul>"
+    },
+    "checkpoint": {
+      "source": "Common mistake: Do not turn an all-sky map into a distance measurement or equate a projected host-center offset with no host association.",
+      "html": "<ul class=\"study-points\"><li><mark class=\"study-definition\">Do not turn an</mark> <mark class=\"study-term\">all-sky map</mark> <mark class=\"study-definition\">into a distance measurement or equate a projected host-center offset with no host association.</mark></li></ul>"
+    },
+    "checkpointAfter": "sky distribution"
+  },
+  "exam-two-concept-grb-progenitors": {
+    "body": {
+      "source": "The lecture separates long bursts, roughly seconds to minutes, from short bursts below about two seconds. Its main long-burst model is a rapidly rotating massive star whose collapse feeds a central engine and launches jets. The compact-merger model explains many short bursts; the neutron-star merger GW170817 and its gamma-ray counterpart provide a key example. Duration is a useful classification clue, not a unique engine diagnosis for every event. The lecture also discusses a magnetar or black-hole engine for one long-burst supernova association.",
+      "html": "<ul class=\"study-points\"><li>The lecture separates long bursts, roughly seconds to minutes, from short bursts below about two seconds. Its main long-burst model is a rapidly rotating massive star whose collapse feeds a central engine and launches jets. The <mark class=\"study-term\">compact-merger model</mark> <mark class=\"study-definition\">explains many short bursts</mark>; the neutron-star merger GW170817 and its gamma-ray counterpart provide a key example. Duration is a useful classification clue, not a unique engine diagnosis for every event. The lecture also discusses a magnetar or black-hole engine for one long-burst supernova association.</li></ul>"
+    },
+    "worked": {
+      "source": "Worked example: A short gamma-ray event coincident with a neutron-star merger signal supports the compact-merger explanation. It should not be relabeled massive-star collapse solely because both events can launch jets.",
+      "html": "<ul class=\"study-points\"><li>A short gamma-ray event coincident with a <mark class=\"study-term\">neutron-star merger signal</mark> <mark class=\"study-definition\">supports the compact-merger explanation</mark>. It should not be relabeled massive-star collapse solely because both events can launch jets.</li></ul>"
+    },
+    "checkpoint": {
+      "source": "Common mistake: Keep the course’s long/short associations while avoiding an absolute rule that every long burst must leave a black hole.",
+      "html": "<ul class=\"study-points\"><li><mark class=\"study-definition\">Keep the course’s</mark> <mark class=\"study-term\">long/short associations</mark> <mark class=\"study-definition\">while avoiding an absolute rule that every long burst must leave a black hole.</mark></li></ul>"
+    },
+    "checkpointAfter": "Duration"
+  },
+  "exam-two-concept-grb-beaming": {
+    "body": {
+      "source": "Relativistic jets concentrate prompt gamma-ray emission into a limited range of directions. An observer near a jet axis can see a bright burst, while another observer can miss the prompt signal from the same event. This selection effect means the detected burst count is not the complete event count. Off-axis material can still have later observable emission; missing the prompt burst does not establish that no explosion occurred.",
+      "html": "<ul class=\"study-points\"><li><mark class=\"study-term\">Relativistic jets</mark> <mark class=\"study-definition\">concentrate prompt gamma-ray emission into a limited range of directions</mark>. An observer near a jet axis can see a bright burst, while another observer can miss the prompt signal from the same event.</li><li>This selection effect means the detected burst count is not the complete event count. Off-axis material can still have later observable emission; missing the prompt burst does not establish that no explosion occurred.</li></ul>"
+    },
+    "worked": {
+      "source": "Worked example: Rotate an otherwise identical jet away from Earth: the observed prompt burst can disappear while the source still releases energy. A wider beam would illuminate more viewing directions if all other conditions were held fixed.",
+      "html": "<ul class=\"study-points\"><li>Rotate an otherwise identical <mark class=\"study-term\">jet away from Earth</mark>: <mark class=\"study-definition\">the observed prompt burst can disappear while the source still releases energy</mark>. A wider beam would illuminate more viewing directions if all other conditions were held fixed.</li></ul>"
+    },
+    "checkpoint": {
+      "source": "Common mistake: Do not attribute every missed burst to dust or conclude that an undetected prompt flash proves no central engine.",
+      "html": "<ul class=\"study-points\"><li><mark class=\"study-definition\">Do not attribute every missed burst to dust or conclude that an</mark> <mark class=\"study-term\">undetected prompt flash</mark> <mark class=\"study-definition\">proves no central engine.</mark></li></ul>"
+    },
+    "checkpointAfter": "Off-axis"
+  },
+  "exam-two-concept-roche-overflow": {
+    "body": {
+      "source": "A Roche lobe is the region around a star bounded by the critical gravitational-plus-rotational potential surface in a binary. When a star expands to fill that region, gas can flow through the inner Lagrange-point region toward its companion. The donor loses the transferred gas; the accretor receives it. The slide’s equal-gravity description of the inner point is simplified: the rotating-frame effective force balance includes orbital rotation. Detached stars can evolve before any overflow begins.",
+      "html": "<ul class=\"study-points\"><li>A <mark class=\"study-term\">Roche lobe</mark> is <mark class=\"study-definition\">the region around a star bounded by the critical gravitational-plus-rotational potential surface in a binary</mark>. When a star expands to fill that region, gas can flow through the inner Lagrange-point region toward its companion.</li><li>The donor loses the transferred gas; the accretor receives it. The slide’s equal-gravity description of the inner point is simplified: the rotating-frame effective force balance includes orbital rotation.</li><li>Detached stars can evolve before any overflow begins.</li></ul>"
+    },
+    "worked": {
+      "source": "Worked example: A donor can initiate transfer by expanding even if the separation has not suddenly changed. A star well inside its lobe does not undergo Roche-lobe overflow merely because it has a companion.",
+      "html": "<ul class=\"study-points\"><li>A <mark class=\"study-term\">donor</mark> <mark class=\"study-definition\">can initiate transfer by expanding even if the separation has not suddenly changed</mark>. A star well inside its lobe does not undergo Roche-lobe overflow merely because it has a companion.</li></ul>"
+    },
+    "checkpoint": {
+      "source": "Common mistake: Do not identify the Roche lobe with the stellar surface at every evolutionary stage.",
+      "html": "<ul class=\"study-points\"><li><mark class=\"study-definition\">Do not identify the</mark> <mark class=\"study-term\">Roche lobe</mark> <mark class=\"study-definition\">with the stellar surface at every evolutionary stage.</mark></li></ul>"
+    },
+    "checkpointAfter": "Detached"
+  },
+  "exam-two-concept-accretion-disk-stream": {
+    "body": {
+      "source": "Transferred gas retains orbital angular momentum. In the illustrated disk-fed white-dwarf binary, the stream does not fall straight to the center: it curves around the accretor, joins an accretion disk and gradually moves inward as angular momentum is transported outward. The stream’s impact on the disk can make a bright spot. Disk light is powered largely by released gravitational energy, not proof that the white dwarf has restarted steady core fusion. Strongly magnetic systems can channel flow differently; the diagram is the disk-fed case.",
+      "html": "<ul class=\"study-points\"><li>Transferred gas retains <mark class=\"study-term\">orbital angular momentum</mark>. In the illustrated disk-fed white-dwarf binary, <mark class=\"study-definition\">the stream does not fall straight to the center</mark>: it curves around the accretor, joins an accretion disk and gradually moves inward as angular momentum is transported outward. The stream’s impact on the disk can make a bright spot. Disk light is powered largely by released gravitational energy, not proof that the white dwarf has restarted steady core fusion.</li><li>Strongly magnetic systems can channel flow differently; the diagram is the disk-fed case.</li></ul>"
+    },
+    "worked": {
+      "source": "Worked example: Trace donor → curved stream → outer disk/bright spot → inward accretion. The bright impact region and central white dwarf are distinct places.",
+      "html": "<ul class=\"study-points\"><li><mark class=\"study-term\">Trace</mark> <mark class=\"study-definition\">donor → curved stream → outer disk/bright spot → inward accretion</mark>. The bright impact region and central white dwarf are distinct places.</li></ul>"
+    },
+    "checkpoint": {
+      "source": "Common mistake: Do not draw a straight radial plunge and call it an angular-momentum-supported disk.",
+      "html": "<ul class=\"study-points\"><li><mark class=\"study-definition\">Do not draw a straight radial plunge and call it an</mark> <mark class=\"study-term\">angular-momentum-supported disk</mark><mark class=\"study-definition\">.</mark></li></ul>"
+    },
+    "checkpointAfter": "Strongly magnetic"
+  },
+  "exam-two-concept-binary-evolution-timing": {
+    "body": {
+      "source": "In a binary, the initially more massive star normally evolves sooner. A low-mass primary can leave a white dwarf; a massive primary can leave a neutron star or black hole. If the binary remains bound, the lower-mass companion may still be on the main sequence immediately after the primary’s death. Much later, that companion can expand and transfer gas onto the compact remnant. A supernova can disrupt a binary, so continued interaction is conditional on survival.",
+      "html": "<ul class=\"study-points\"><li>In a binary, the <mark class=\"study-term\">initially more massive star</mark> <mark class=\"study-definition\">normally evolves sooner</mark>. A low-mass primary can leave a white dwarf; a massive primary can leave a neutron star or black hole.</li><li>If the binary remains bound, the lower-mass companion may still be on the main sequence immediately after the primary’s death. Much later, that companion can expand and transfer gas onto the compact remnant.</li><li>A supernova can disrupt a binary, so continued interaction is conditional on survival.</li></ul>"
+    },
+    "worked": {
+      "source": "Worked example: A 15-solar-mass primary can die while its solar-mass companion remains unevolved. The later red-giant donor plus compact-remnant picture describes a later stage, assuming the system survived.",
+      "html": "<ul class=\"study-points\"><li>A <mark class=\"study-term\">15-solar-mass primary</mark> <mark class=\"study-definition\">can die while its solar-mass companion remains unevolved</mark>. The later red-giant donor plus compact-remnant picture describes a later stage, assuming the system survived.</li></ul>"
+    },
+    "checkpoint": {
+      "source": "Common mistake: Do not compress the primary’s death and the secondary’s giant stage into the same instant.",
+      "html": "<ul class=\"study-points\"><li><mark class=\"study-definition\">Do not compress the</mark> <mark class=\"study-term\">primary’s death</mark> <mark class=\"study-definition\">and the secondary’s giant stage into the same instant.</mark></li></ul>"
+    },
+    "checkpointAfter": "Much later"
+  },
+  "exam-two-concept-xray-burst-fuel": {
+    "body": {
+      "source": "In the lecture’s thermonuclear X-ray-burst model, a neutron star accretes hydrogen-rich material from a companion. Hydrogen burning builds a helium layer. When that layer ignites rapidly, it produces a brief, intense burst, often lasting seconds to about a minute in the illustrated class. The neutron star survives the surface event and can accumulate more fuel. This is not the rotating-beam explanation of ordinary pulsar pulses or a claim that all variable X-ray sources share one mechanism.",
+      "html": "<ul class=\"study-points\"><li>In the lecture’s thermonuclear X-ray-burst model, a neutron star accretes hydrogen-rich material from a companion. Hydrogen burning builds a <mark class=\"study-term\">helium layer</mark>. <mark class=\"study-definition\">When that layer ignites rapidly, it produces a brief, intense burst</mark>, often lasting seconds to about a minute in the illustrated class. The neutron star survives the surface event and can accumulate more fuel.</li><li>This is not the rotating-beam explanation of ordinary pulsar pulses or a claim that all variable X-ray sources share one mechanism.</li></ul>"
+    },
+    "worked": {
+      "source": "Worked example: Fuel is supplied as hydrogen, but the explosive layer in this model is helium. Distinguish what arrives from what ignites during the burst.",
+      "html": "<ul class=\"study-points\"><li><mark class=\"study-term\">Fuel</mark> is <mark class=\"study-definition\">supplied as hydrogen, but the explosive layer in this model is helium</mark>. Distinguish what arrives from what ignites during the burst.</li></ul>"
+    },
+    "checkpoint": {
+      "source": "Common mistake: Do not call the neutron-star surface a white-dwarf surface or equate a thermonuclear burst with a spin pulse.",
+      "html": "<ul class=\"study-points\"><li><mark class=\"study-definition\">Do not call the neutron-star surface a white-dwarf surface or equate a</mark> <mark class=\"study-term\">thermonuclear burst</mark> <mark class=\"study-definition\">with a spin pulse.</mark></li></ul>"
+    },
+    "checkpointAfter": "rotating-beam"
+  },
+  "exam-two-concept-nova-hydrogen": {
+    "body": {
+      "source": "A classical nova occurs when hydrogen-rich material accumulates on a white dwarf and undergoes a thermonuclear runaway in the surface layer. The system can brighten for days or longer while ejecting accreted material. The underlying white dwarf survives; renewed accretion can eventually permit another eruption. A classical nova is therefore different from the course’s Type Ia model, in which runaway burning disrupts the carbon–oxygen white dwarf itself.",
+      "html": "<ul class=\"study-points\"><li>A <mark class=\"study-term\">classical nova</mark> occurs when <mark class=\"study-definition\">hydrogen-rich material accumulates on a white dwarf and undergoes a thermonuclear runaway in the surface layer</mark>. The system can brighten for days or longer while ejecting accreted material.</li><li>The underlying white dwarf survives; renewed accretion can eventually permit another eruption. A classical nova is therefore different from the course’s Type Ia model, in which runaway burning disrupts the carbon–oxygen white dwarf itself.</li></ul>"
+    },
+    "worked": {
+      "source": "Worked example: After a nova fades, the binary can still contain its white dwarf. If the event instead destroys the whole white dwarf, the classical-nova interpretation fails.",
+      "html": "<ul class=\"study-points\"><li><mark class=\"study-term\">After a nova fades</mark>, <mark class=\"study-definition\">the binary can still contain its white dwarf</mark>. If the event instead destroys the whole white dwarf, the classical-nova interpretation fails.</li></ul>"
+    },
+    "checkpoint": {
+      "source": "Common mistake: The word nova does not mean a newly born star, and a nova is not simply a small Type Ia with the same surviving object.",
+      "html": "<ul class=\"study-points\"><li><mark class=\"study-definition\">The word</mark> <mark class=\"study-term\">nova</mark> <mark class=\"study-definition\">does not mean a newly born star, and a nova is not simply a small Type Ia with the same surviving object.</mark></li></ul>"
+    },
+    "checkpointAfter": "Type Ia"
+  },
+  "exam-two-concept-surface-event-comparison": {
+    "body": {
+      "source": "The useful comparison has three parts: the accretor, the explosive fuel and the outcome. In these lecture models, a thermonuclear X-ray burst involves helium on a neutron star; a classical nova involves hydrogen on a white dwarf; a Type Ia involves runaway burning of a carbon–oxygen white dwarf and full disruption. Duration and wavelength help, but brightness alone is not a complete classifier. “No compact remnant” in the full-disruption model still allows expanding ejecta and an extended supernova remnant.",
+      "html": "<ul class=\"study-points\"><li>The useful comparison has three parts: the accretor, the explosive fuel and the outcome. In these lecture models, a thermonuclear X-ray burst involves helium on a neutron star; a classical nova involves hydrogen on a white dwarf; a Type Ia involves runaway burning of a carbon–oxygen white dwarf and full disruption.</li><li>Duration and wavelength help, but brightness alone is not a complete classifier. “<mark class=\"study-term\">No compact remnant</mark>” in the full-disruption model <mark class=\"study-definition\">still allows expanding ejecta and an extended supernova remnant</mark>.</li></ul>"
+    },
+    "worked": {
+      "source": "Worked example: A statement that a bright event leaves no material is stronger than the source supports. A disrupted star leaves ejecta even when it leaves no surviving compact star.",
+      "html": "<ul class=\"study-points\"><li>A statement that a bright event leaves no material is stronger than the source supports. <mark class=\"study-term\">A disrupted star</mark> <mark class=\"study-definition\">leaves ejecta even when it leaves no surviving compact star</mark>.</li></ul>"
+    },
+    "checkpoint": {
+      "source": "Common mistake: Do not replace a three-part physical comparison with the vague claim that one event is merely brighter.",
+      "html": "<ul class=\"study-points\"><li><mark class=\"study-definition\">Do not replace a</mark> <mark class=\"study-term\">three-part physical comparison</mark> <mark class=\"study-definition\">with the vague claim that one event is merely brighter.</mark></li></ul>"
+    },
+    "checkpointAfter": "No compact remnant"
+  },
+  "exam-two-concept-ia-runaway": {
+    "body": {
+      "source": "In the lecture’s near-Chandrasekhar accretion model, a carbon–oxygen white dwarf gains mass, contracts and heats until carbon burning runs away. Degeneracy pressure responds weakly to temperature, so the usual expansion-and-cooling thermostat initially fails. The explosion disrupts the white dwarf instead of forming an iron core that collapses to a neutron star. About 1.4 solar masses is the course’s approximate white-dwarf mass scale, not the original progenitor’s mass. Accretion from a nondegenerate companion and mergers of two white dwarfs are different progenitor channels discussed in the packet; this one threshold is not a universal description of every Type Ia channel.",
+      "html": "<ul class=\"study-points\"><li>In the lecture’s near-Chandrasekhar accretion model, a carbon–oxygen white dwarf gains mass, contracts and heats until carbon burning runs away. <mark class=\"study-term\">Degeneracy pressure</mark> <mark class=\"study-definition\">responds weakly to temperature, so the usual expansion-and-cooling thermostat initially fails</mark>. The explosion disrupts the white dwarf instead of forming an iron core that collapses to a neutron star. About 1.4 solar masses is the course’s approximate white-dwarf mass scale, not the original progenitor’s mass.</li><li>Accretion from a nondegenerate companion and mergers of two white dwarfs are different progenitor channels discussed in the packet; this one threshold is not a universal description of every Type Ia channel.</li></ul>"
+    },
+    "worked": {
+      "source": "Worked example: Identify the quantity before using 1.4 solar masses: it describes the white dwarf in the stated model. A more massive birth star may lose its envelope before becoming a smaller remnant.",
+      "html": "<ul class=\"study-points\"><li>Identify the quantity before using <mark class=\"study-term\">1.4 solar masses</mark>: <mark class=\"study-definition\">it describes the white dwarf in the stated model</mark>. A more massive birth star may lose its envelope before becoming a smaller remnant.</li></ul>"
+    },
+    "checkpoint": {
+      "source": "Common mistake: Do not use “Type I” as a synonym for Type Ia or treat all hydrogen-poor supernovae as this pathway.",
+      "html": "<ul class=\"study-points\"><li><mark class=\"study-definition\">Do not use “</mark><mark class=\"study-term\">Type I</mark><mark class=\"study-definition\">” as a synonym for Type Ia or treat all hydrogen-poor supernovae as this pathway.</mark></li></ul>"
+    },
+    "checkpointAfter": "not a universal"
+  },
+  "exam-two-concept-ia-radioactivity": {
+    "body": {
+      "source": "The explosion synthesizes radioactive nickel-56 along with other products. Nickel-56 decays to cobalt-56, which decays to stable iron-56. Energy deposited from the decay products heats the expanding ejecta and sustains the light after the initial explosion. The lecture gives approximate half-lives of six days and seventy-seven days; these are decay timescales, not a rule that all observed light curves have identical shapes. Near maximum light, characteristic silicon features help identify Type Ia spectra, which lack hydrogen lines in the classification used here.",
+      "html": "<ul class=\"study-points\"><li>The explosion synthesizes radioactive nickel-56 along with other products. <mark class=\"study-term\">Nickel-56</mark> <mark class=\"study-definition\">decays to cobalt-56, which decays to stable iron-56</mark>. Energy deposited from the decay products heats the expanding ejecta and sustains the light after the initial explosion. The lecture gives approximate half-lives of six days and seventy-seven days; these are decay timescales, not a rule that all observed light curves have identical shapes.</li><li>Near maximum light, characteristic silicon features help identify Type Ia spectra, which lack hydrogen lines in the classification used here.</li></ul>"
+    },
+    "worked": {
+      "source": "Worked example: After one nickel-56 half-life, half of the initial nickel-56 nuclei remain undecayed. That does not mean the observed brightness must halve at exactly the same instant, because transport and energy deposition also matter.",
+      "html": "<ul class=\"study-points\"><li>After <mark class=\"study-term\">one nickel-56 half-life</mark>, <mark class=\"study-definition\">half of the initial nickel-56 nuclei remain undecayed</mark>. That does not mean the observed brightness must halve at exactly the same instant, because transport and energy deposition also matter.</li></ul>"
+    },
+    "checkpoint": {
+      "source": "Common mistake: Radioactive decay after the event differs from the thermonuclear burning that made the unstable nuclei.",
+      "html": "<ul class=\"study-points\"><li><mark class=\"study-term\">Radioactive decay after the event</mark> <mark class=\"study-definition\">differs from the thermonuclear burning that made the unstable nuclei.</mark></li></ul>"
+    },
+    "checkpointAfter": "decay timescales"
+  },
+  "exam-two-concept-ia-standard-candle": {
+    "body": {
+      "source": "Type Ia supernovae can be used as standardizable candles: their luminosities are calibrated using observed light-curve properties rather than assumed perfectly identical. Compare the calibrated intrinsic luminosity with the received brightness to infer distance. For equal calibrated luminosities and negligible extinction, brightness varies inversely with distance squared. Dust, calibration and event differences must be accounted for in a real measurement. The packet connects these distances to cosmology without making a universal brightness ratio between every Type Ia and every core-collapse event.",
+      "html": "<ul class=\"study-points\"><li>Type Ia supernovae can be used as <mark class=\"study-term\">standardizable candles</mark>: <mark class=\"study-definition\">their luminosities are calibrated using observed light-curve properties rather than assumed perfectly identical</mark>. Compare the calibrated intrinsic luminosity with the received brightness to infer distance.</li><li>For equal calibrated luminosities and negligible extinction, brightness varies inversely with distance squared. Dust, calibration and event differences must be accounted for in a real measurement.</li><li>The packet connects these distances to cosmology without making a universal brightness ratio between every Type Ia and every core-collapse event.</li></ul>"
+    },
+    "worked": {
+      "source": "Worked example: If one calibrated event appears nine times fainter than another and extinction is negligible, it is three times farther away. The luminosity assumption is essential.",
+      "html": "<ul class=\"study-points\"><li>If one calibrated event appears <mark class=\"study-term\">nine times fainter</mark> than another and <mark class=\"study-definition\">extinction is negligible, it is three times farther away</mark>. The luminosity assumption is essential.</li></ul>"
+    },
+    "checkpoint": {
+      "source": "Common mistake: A fainter event is not necessarily farther if its intrinsic luminosity or extinction differs.",
+      "html": "<ul class=\"study-points\"><li><mark class=\"study-definition\">A</mark> <mark class=\"study-term\">fainter event</mark> <mark class=\"study-definition\">is not necessarily farther if its intrinsic luminosity or extinction differs.</mark></li></ul>"
+    },
+    "checkpointAfter": "Dust"
+  },
+  "exam-two-concept-common-envelope": {
+    "body": {
+      "source": "Unstable mass transfer can engulf both stellar cores in a shared gaseous envelope. Drag transfers orbital energy and angular momentum into the envelope, so the cores spiral closer. If enough energy helps eject the envelope, a tighter binary can survive. If the envelope is not expelled soon enough, inspiral can end in a merger. The presence of a common envelope alone does not guarantee which outcome occurs.",
+      "html": "<ul class=\"study-points\"><li>Unstable mass transfer can engulf both stellar cores in a shared gaseous envelope. <mark class=\"study-term\">Drag</mark> <mark class=\"study-definition\">transfers orbital energy and angular momentum into the envelope, so the cores spiral closer</mark>. If enough energy helps eject the envelope, a tighter binary can survive. If the envelope is not expelled soon enough, inspiral can end in a merger.</li><li>The presence of a common envelope alone does not guarantee which outcome occurs.</li></ul>"
+    },
+    "worked": {
+      "source": "Worked example: As the orbit contracts, the envelope can gain energy. An expanding envelope and a shrinking core separation can therefore occur together.",
+      "html": "<ul class=\"study-points\"><li>As the <mark class=\"study-term\">orbit contracts</mark>, <mark class=\"study-definition\">the envelope can gain energy</mark>. An expanding envelope and a shrinking core separation can therefore occur together.</li></ul>"
+    },
+    "checkpoint": {
+      "source": "Common mistake: Do not infer that outward-moving envelope gas requires the cores to move farther apart.",
+      "html": "<ul class=\"study-points\"><li><mark class=\"study-definition\">Do not infer that</mark> <mark class=\"study-term\">outward-moving envelope gas</mark> <mark class=\"study-definition\">requires the cores to move farther apart.</mark></li></ul>"
+    },
+    "checkpointAfter": "If"
+  },
+  "exam-two-concept-merger-transient": {
+    "body": {
+      "source": "A stellar merger can release orbital energy and produce a luminous red nova, a transient that lasts weeks to months in the lecture examples. This merger event differs from a classical nova’s hydrogen surface burning on a white dwarf. V1309 Scorpii was observed as an eclipsing binary with a decreasing orbital period before its 2008 outburst; that pre-outburst record supports the merger interpretation. The word nova in these two names does not establish the same engine.",
+      "html": "<ul class=\"study-points\"><li>A stellar merger can release orbital energy and produce a <mark class=\"study-term\">luminous red nova</mark>, <mark class=\"study-definition\">a transient that lasts weeks to months in the lecture examples</mark>. This merger event differs from a classical nova’s hydrogen surface burning on a white dwarf.</li><li>V1309 Scorpii was observed as an eclipsing binary with a decreasing orbital period before its 2008 outburst; that pre-outburst record supports the merger interpretation. The word nova in these two names does not establish the same engine.</li></ul>"
+    },
+    "worked": {
+      "source": "Worked example: A progressively shorter orbital period before an outburst supports a tightening binary. The subsequent transient is interpreted together with that history, not solely from its red color.",
+      "html": "<ul class=\"study-points\"><li>A progressively <mark class=\"study-term\">shorter orbital period</mark> before an outburst <mark class=\"study-definition\">supports a tightening binary</mark>. The subsequent transient is interpreted together with that history, not solely from its red color.</li></ul>"
+    },
+    "checkpoint": {
+      "source": "Common mistake: Do not call every red transient a merger from color alone or transfer the classical-nova fuel mechanism to a luminous red nova.",
+      "html": "<ul class=\"study-points\"><li><mark class=\"study-definition\">Do not call every</mark> <mark class=\"study-term\">red transient</mark> <mark class=\"study-definition\">a merger from color alone or transfer the classical-nova fuel mechanism to a luminous red nova.</mark></li></ul>"
+    },
+    "checkpointAfter": "word nova"
+  },
+  "exam-two-concept-blue-straggler": {
+    "body": {
+      "source": "Blue stragglers lie above and to the blue side of an old population’s main-sequence turnoff. A merger or mass transfer can increase a star’s mass, and mixing can make additional hydrogen available to its core. It can then occupy a position resembling a younger star even though its components formed with the old population. This is rejuvenation of its evolutionary state, not a reversal of chronological time. Not every blue straggler must come from the same channel, and the packet’s proposed links to magnetic fields or particular supernovae remain model possibilities.",
+      "html": "<ul class=\"study-points\"><li><mark class=\"study-term\">Blue stragglers</mark> <mark class=\"study-definition\">lie above and to the blue side of an old population’s main-sequence turnoff</mark>. A merger or mass transfer can increase a star’s mass, and mixing can make additional hydrogen available to its core.</li><li>It can then occupy a position resembling a younger star even though its components formed with the old population. This is rejuvenation of its evolutionary state, not a reversal of chronological time.</li><li>Not every blue straggler must come from the same channel, and the packet’s proposed links to magnetic fields or particular supernovae remain model possibilities.</li></ul>"
+    },
+    "worked": {
+      "source": "Worked example: An old cluster can contain an unusually hot, luminous main-sequence star if binary interaction changes its mass and fuel supply. That one star need not reset the age inferred from the population’s ordinary turnoff.",
+      "html": "<ul class=\"study-points\"><li>An old cluster can contain an unusually hot, luminous main-sequence star if <mark class=\"study-term\">binary interaction</mark> <mark class=\"study-definition\">changes its mass and fuel supply</mark>. That one star need not reset the age inferred from the population’s ordinary turnoff.</li></ul>"
+    },
+    "checkpoint": {
+      "source": "Common mistake: Do not infer a recent second burst of star formation from one blue straggler alone.",
+      "html": "<ul class=\"study-points\"><li><mark class=\"study-definition\">Do not infer a recent second burst of star formation from one</mark> <mark class=\"study-term\">blue straggler</mark> <mark class=\"study-definition\">alone.</mark></li></ul>"
+    },
+    "checkpointAfter": "chronological"
+  },
+  "exam-two-concept-superluminous-observations": {
+    "body": {
+      "source": "Superluminous supernovae reach unusually high intrinsic luminosities compared with ordinary supernovae. The lecture illustrates a magnitude boundary near minus twenty-one; on the magnitude scale, more negative values mean brighter. The precise threshold depends on the band and convention, so it should not be equated uncritically with one bolometric luminosity conversion. Observed light curves and spectra vary, and many examples occur in metal-poor dwarf hosts. These trends help constrain models but do not identify one universal explosion engine. Historical survey discovery rates are not current rate predictions.",
+      "html": "<ul class=\"study-points\"><li>Superluminous supernovae reach unusually high intrinsic luminosities compared with ordinary supernovae. The lecture illustrates a magnitude boundary near minus twenty-one; on the magnitude scale, <mark class=\"study-term\">more negative values</mark> <mark class=\"study-definition\">mean brighter</mark>. The precise threshold depends on the band and convention, so it should not be equated uncritically with one bolometric luminosity conversion. Observed light curves and spectra vary, and many examples occur in metal-poor dwarf hosts.</li><li>These trends help constrain models but do not identify one universal explosion engine. Historical survey discovery rates are not current rate predictions.</li></ul>"
+    },
+    "worked": {
+      "source": "Worked example: In the same photometric band, absolute magnitude minus twenty-two is brighter than minus twenty, regardless of which event is closer. Apparent brightness alone cannot establish the intrinsic category.",
+      "html": "<ul class=\"study-points\"><li>In the same photometric band, <mark class=\"study-term\">absolute magnitude minus twenty-two</mark> <mark class=\"study-definition\">is brighter than minus twenty, regardless of which event is closer</mark>. Apparent brightness alone cannot establish the intrinsic category.</li></ul>"
+    },
+    "checkpoint": {
+      "source": "Common mistake: The brightest-looking object in a telescope is not necessarily the most luminous source.",
+      "html": "<ul class=\"study-points\"><li><mark class=\"study-definition\">The</mark> <mark class=\"study-term\">brightest-looking object</mark> <mark class=\"study-definition\">in a telescope is not necessarily the most luminous source.</mark></li></ul>"
+    },
+    "checkpointAfter": "precise threshold"
+  },
+  "exam-two-concept-pair-instability-chain": {
+    "body": {
+      "source": "In a sufficiently hot, massive core, energetic photons can produce electron–positron pairs. This converts some radiation energy into particle rest mass and softens the pressure response, weakening support against gravity. Contraction raises the temperature, which can ignite explosive oxygen burning and other advanced burning. In the full pair-instability disruption regime, the thermonuclear release can unbind the star and synthesize radioactive material. The sequence starts with a pressure-support problem, not with electrons simply supplying extra outward pressure.",
+      "html": "<ul class=\"study-points\"><li>In a sufficiently hot, massive core, energetic photons can produce <mark class=\"study-term\">electron–positron pairs</mark>. This converts some radiation energy into particle rest mass and <mark class=\"study-definition\">softens the pressure response, weakening support against gravity</mark>. Contraction raises the temperature, which can ignite explosive oxygen burning and other advanced burning. In the full pair-instability disruption regime, the thermonuclear release can unbind the star and synthesize radioactive material.</li><li>The sequence starts with a pressure-support problem, not with electrons simply supplying extra outward pressure.</li></ul>"
+    },
+    "worked": {
+      "source": "Worked example: Pair creation → weaker support → contraction and heating → explosive burning. Follow the sign of the pressure change before predicting the motion.",
+      "html": "<ul class=\"study-points\"><li><mark class=\"study-term\">Pair creation</mark> → <mark class=\"study-definition\">weaker support → contraction and heating → explosive burning</mark>. Follow the sign of the pressure change before predicting the motion.</li></ul>"
+    },
+    "checkpoint": {
+      "source": "Common mistake: Do not equate pair instability with the ordinary iron-core-collapse mechanism or say pair creation immediately blows the star apart before contraction.",
+      "html": "<ul class=\"study-points\"><li><mark class=\"study-definition\">Do not equate</mark> <mark class=\"study-term\">pair instability</mark> <mark class=\"study-definition\">with the ordinary iron-core-collapse mechanism or say pair creation immediately blows the star apart before contraction.</mark></li></ul>"
+    },
+    "checkpointAfter": "sequence starts"
+  },
+  "exam-two-concept-pair-model-boundaries": {
+    "body": {
+      "source": "The lecture gives rough scales above about one hundred thirty solar masses initially or about sixty solar masses in the carbon–oxygen core for entry into pair-instability conditions. These are different mass quantities and model-dependent guideposts. Mass loss, composition and the final core structure matter; even higher masses need not all end in the same full disruption. Distinguish the full-disruption model from pulsational mass ejection or collapse in neighboring regimes. A bright light curve by itself does not establish a measured carbon–oxygen core mass.",
+      "html": "<ul class=\"study-points\"><li>The lecture gives rough scales above about one hundred thirty solar masses initially or about sixty solar masses in the carbon–oxygen core for entry into pair-instability conditions. These are different mass quantities and <mark class=\"study-term\">model-dependent guideposts</mark>. <mark class=\"study-definition\">Mass loss, composition and the final core structure matter</mark>; even higher masses need not all end in the same full disruption. Distinguish the full-disruption model from pulsational mass ejection or collapse in neighboring regimes.</li><li>A bright light curve by itself does not establish a measured carbon–oxygen core mass.</li></ul>"
+    },
+    "worked": {
+      "source": "Worked example: A star can lose a large envelope and leave a core far lighter than its initial mass. Comparing its initial mass directly with a core-mass threshold mixes unlike quantities.",
+      "html": "<ul class=\"study-points\"><li>A star can lose a large envelope and leave a core far lighter than its initial mass. Comparing its <mark class=\"study-term\">initial mass directly with a core-mass threshold</mark> <mark class=\"study-definition\">mixes unlike quantities</mark>.</li></ul>"
+    },
+    "checkpoint": {
+      "source": "Common mistake: Do not infer a guaranteed fate for every star above one approximate initial-mass threshold.",
+      "html": "<ul class=\"study-points\"><li><mark class=\"study-definition\">Do not infer a guaranteed fate for every star above one approximate</mark> <mark class=\"study-term\">initial-mass threshold</mark><mark class=\"study-definition\">.</mark></li></ul>"
+    },
+    "checkpointAfter": "full-disruption"
+  }
+});
+Object.assign(window.ASTR1102_READING_SUMMARIES, {
+  "exam-two-module-26": [
+    {
+      "source": "Gravity changes light paths as well as material motion.",
+      "html": "<mark class=\"study-term\">Gravity</mark> <mark class=\"study-definition\">changes light paths as well as material motion</mark>."
+    },
+    {
+      "source": "Lensing redirects background light and can make multiple images.",
+      "html": "<mark class=\"study-term\">Lensing</mark> <mark class=\"study-definition\">redirects background light and can make multiple images</mark>."
+    },
+    {
+      "source": "An emission ring, a shadow and gravitational waves are different evidence.",
+      "html": "<mark class=\"study-term\">An emission ring, a shadow and gravitational waves</mark> <mark class=\"study-definition\">are different evidence</mark>."
+    }
+  ],
+  "exam-two-module-27": [
+    {
+      "source": "Afterglow localization connects a burst to a host and distance.",
+      "html": "<mark class=\"study-term\">Afterglow localization</mark> <mark class=\"study-definition\">connects a burst to a host and distance</mark>."
+    },
+    {
+      "source": "The course associates long bursts with massive-star collapse and short bursts with compact mergers.",
+      "html": "The course associates <mark class=\"study-term\">long bursts</mark> <mark class=\"study-definition\">with massive-star collapse and short bursts with compact mergers</mark>."
+    },
+    {
+      "source": "A jet must point sufficiently toward us for a bright prompt burst.",
+      "html": "<mark class=\"study-term\">A jet</mark> <mark class=\"study-definition\">must point sufficiently toward us for a bright prompt burst</mark>."
+    }
+  ],
+  "exam-two-module-28": [
+    {
+      "source": "Overflow begins when a donor reaches its Roche lobe.",
+      "html": "<mark class=\"study-term\">Overflow</mark> <mark class=\"study-definition\">begins when a donor reaches its Roche lobe</mark>."
+    },
+    {
+      "source": "Orbital angular momentum can make an accretion disk.",
+      "html": "<mark class=\"study-term\">Orbital angular momentum</mark> <mark class=\"study-definition\">can make an accretion disk</mark>."
+    },
+    {
+      "source": "The primary’s death and the secondary’s later giant stage are separate times.",
+      "html": "<mark class=\"study-term\">The primary’s death</mark> <mark class=\"study-definition\">and the secondary’s later giant stage are separate times</mark>."
+    }
+  ],
+  "exam-two-module-29": [
+    {
+      "source": "The course’s thermonuclear X-ray burst burns accumulated helium on a neutron star.",
+      "html": "The course’s <mark class=\"study-term\">thermonuclear X-ray burst</mark> <mark class=\"study-definition\">burns accumulated helium on a neutron star</mark>."
+    },
+    {
+      "source": "A classical nova ignites accreted hydrogen on a white dwarf.",
+      "html": "A <mark class=\"study-term\">classical nova</mark> <mark class=\"study-definition\">ignites accreted hydrogen on a white dwarf</mark>."
+    },
+    {
+      "source": "Surface eruptions differ from full thermonuclear disruption.",
+      "html": "<mark class=\"study-term\">Surface eruptions</mark> <mark class=\"study-definition\">differ from full thermonuclear disruption</mark>."
+    }
+  ],
+  "exam-two-module-30": [
+    {
+      "source": "The course model disrupts a carbon–oxygen white dwarf.",
+      "html": "The <mark class=\"study-term\">course model</mark> <mark class=\"study-definition\">disrupts a carbon–oxygen white dwarf</mark>."
+    },
+    {
+      "source": "Nickel–cobalt decay deposits energy in expanding ejecta.",
+      "html": "<mark class=\"study-term\">Nickel–cobalt decay</mark> <mark class=\"study-definition\">deposits energy in expanding ejecta</mark>."
+    },
+    {
+      "source": "Calibrated luminosity plus apparent brightness constrains distance.",
+      "html": "<mark class=\"study-term\">Calibrated luminosity plus apparent brightness</mark> <mark class=\"study-definition\">constrains distance</mark>."
+    }
+  ],
+  "exam-two-module-31": [
+    {
+      "source": "Drag inside a common envelope shrinks the orbit.",
+      "html": "<mark class=\"study-term\">Drag inside a common envelope</mark> <mark class=\"study-definition\">shrinks the orbit</mark>."
+    },
+    {
+      "source": "Envelope ejection can leave a close binary; continued inspiral can merge the cores.",
+      "html": "<mark class=\"study-term\">Envelope ejection</mark> <mark class=\"study-definition\">can leave a close binary; continued inspiral can merge the cores</mark>."
+    },
+    {
+      "source": "Mergers or mass gain can make stars appear younger than their surroundings.",
+      "html": "<mark class=\"study-term\">Mergers or mass gain</mark> <mark class=\"study-definition\">can make stars appear younger than their surroundings</mark>."
+    }
+  ],
+  "exam-two-module-32": [
+    {
+      "source": "Superluminous describes extreme luminosity, not one unique engine.",
+      "html": "<mark class=\"study-term\">Superluminous</mark> <mark class=\"study-definition\">describes extreme luminosity, not one unique engine</mark>."
+    },
+    {
+      "source": "Pair creation can reduce pressure support and trigger contraction.",
+      "html": "<mark class=\"study-term\">Pair creation</mark> <mark class=\"study-definition\">can reduce pressure support and trigger contraction</mark>."
+    },
+    {
+      "source": "Initial stellar mass, core mass and model outcome are different quantities.",
+      "html": "<mark class=\"study-term\">Initial stellar mass, core mass and model outcome</mark> <mark class=\"study-definition\">are different quantities</mark>."
+    }
+  ]
+});

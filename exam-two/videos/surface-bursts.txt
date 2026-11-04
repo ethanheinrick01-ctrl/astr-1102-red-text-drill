@@ -1,0 +1,14 @@
+Surface explosions: X-ray bursts and novae
+Lecture 27 pages 10–12
+Synthetic narration in Ethan’s voice, generated locally.
+
+A neutron star burst
+Hydrogen rich gas accumulates on a neutron star. In this lecture’s thermonuclear burst model, hydrogen burning builds a helium layer. When helium ignites rapidly, the surface flares and then settles. The neutron star survives and can accumulate more fuel. A rotating pulsar beam is a different explanation for regularly repeating light.
+
+A classical nova
+A white dwarf can also receive gas, but the classical nova ignites hydrogen in its accreted surface layer. Expanding material makes the system brighten. The underlying white dwarf survives, so later accretion can replenish the fuel. This differs from an explosion that disrupts the whole white dwarf.
+
+Keep the outcomes distinct
+Compare the accretor, the explosive fuel and the aftermath. Helium on a neutron star gives the burst model; hydrogen on a white dwarf gives a classical nova. The full Type One A model disrupts a carbon and oxygen white dwarf. No compact stellar remnant still allows expanding ejecta and an extended remnant of gas.
+
+Original schematic teaching animation. Distances, sizes, rates and particle counts are illustrative.

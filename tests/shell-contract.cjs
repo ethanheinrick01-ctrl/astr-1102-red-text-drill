@@ -3,11 +3,12 @@ const root=path.resolve(__dirname,'..'),context={window:{},document:{},location:
 vm.runInNewContext(fs.readFileSync(path.join(root,'exam-two/assets/study-shell.js'),'utf8'),context);
 const shell=context.window.ASTRShell;
 // Existing deep links stay in their primary lane, including active saved runs.
-for(const route of ['home','guide','learn','sources','unknown','practice','cases','test','listing','run'])assert.equal(shell.activeTab(route),'home');
+for(const route of ['home','guide','learn','sources','unknown','practice','cases','listing','run'])assert.equal(shell.activeTab(route),'home');
 assert.equal(shell.activeTab('review'),'review');
+for(const route of ['focus','focus-sources','review-map','test'])assert.equal(shell.activeTab(route),'focus');
 for(const route of ['progress','backup'])assert.equal(shell.activeTab(route),'progress');
-for(const route of ['home','learn','practice','run','progress','backup']){
- const html=shell.navHTML(route);assert.equal((html.match(/<a /g)||[]).length,3);assert.equal((html.match(/aria-current="page"/g)||[]).length,1);assert(!html.includes('Focus'));
+for(const route of ['home','learn','practice','run','progress','backup','focus','test']){
+ const html=shell.navHTML(route);assert.equal((html.match(/<a /g)||[]).length,4);assert.equal((html.match(/aria-current="page"/g)||[]).length,1);assert(html.includes('Exam focus'));
  assert(html.includes(`href="#/topic/${shell.activeTab(route)}" class="on" aria-current="page"`));
 }
 // A heading jump opens its source/media ancestors and moves keyboard focus without changing routes.
@@ -33,4 +34,4 @@ events.click({target:{closest(){return historyLink;}},preventDefault(){}});asser
 historyLink.hash='#/topic/progress';context.location.hash='#/topic/home';events.click({target:{closest(){return historyLink;}}});assert.equal(globalEvents.hashchange.options.once,true);globalEvents.hashchange.fn();assert.equal(target.scrolled.block,'start');
 // Loader ordering matters: the shell must exist before the application starts.
 const index=fs.readFileSync(path.join(root,'exam-two/index.html'),'utf8');assert(index.indexOf('assets/study-shell.js')<index.indexOf('assets/start.js'));assert(index.indexOf('assets/study-shell.css')>index.indexOf('assets/readability.css'));assert(index.includes('id="study-tools"'));assert(index.includes('data-tool-target="saved-activities"'));
-console.log('Shell contract passed: preserved route families, exactly three tabs, accessible lesson jumps, Tools/History navigation, and loader order.');
+console.log('Shell contract passed: preserved route families, exactly four tabs, accessible lesson jumps, Tools/History navigation, and loader order.');

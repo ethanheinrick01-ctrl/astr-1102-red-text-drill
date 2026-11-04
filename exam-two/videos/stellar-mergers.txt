@@ -1,0 +1,14 @@
+Common envelopes, mergers and rejuvenation
+Lecture 28 pages 11–13
+Synthetic narration in Ethan’s voice, generated locally.
+
+Inside a common envelope
+Unstable transfer can engulf two stellar cores in one gaseous envelope. Drag transfers orbital energy into that gas while the cores spiral closer. If the envelope escapes soon enough, a close binary can survive. If it remains, the continuing inspiral can merge the cores. The shared envelope does not guarantee one outcome.
+
+A merger lights up
+A merger can release orbital energy and produce a luminous red nova. In the observed example, an eclipsing binary’s period shortened before the outburst. That changing precursor supports the merger interpretation. Despite the similar name, a luminous red nova is different from hydrogen igniting on a white dwarf in a classical nova.
+
+An apparent younger star
+Mass gain or a merger can give a star more mass and mix fresh hydrogen toward its core. In an old cluster, the result may lie above and to the blue side of the ordinary turnoff: a blue straggler. Its evolutionary state looks younger, but elapsed time has not reversed. One such star does not reset the cluster’s age.
+
+Original schematic teaching animation. Distances, sizes, rates and particle counts are illustrative.
