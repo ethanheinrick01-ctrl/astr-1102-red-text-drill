@@ -1,4 +1,4 @@
-/* Exact course questions first; freshly authored gap checks. No Study-bank selection. */
+/* Exact course questions first; Exam 1-level gap checks (rewritten 2026-11-05). No Study-bank selection. */
 window.ASTR1102_FOCUS_ASSESSMENT = {
   "version": "focus-source-first-20261104-v1",
   "questions": [
@@ -873,7 +873,7 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       "answer": 1,
       "responseType": "single",
       "type": "single",
-      "explanation": "The supplied temperature powers rank triple-alpha as more sensitive than CNO and the pp chain.",
+      "explanation": "Triple-alpha (about T⁴¹) is more sensitive to temperature than the CNO cycle (about T¹⁶) or the pp chain (about T⁴).",
       "hint": "Identify the quantity, stage or mechanism the question actually asks about.",
       "source": "Lecture 20 pages 10, 13, 15 · Focus assessment",
       "sourceRefs": [
@@ -1575,7 +1575,7 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       "answer": 3,
       "responseType": "single",
       "type": "single",
-      "explanation": "Combining surface area with surface flux gives L = 4πR²σT⁴. This is the source-supported answer; the supplied page has no displayed graded key.",
+      "explanation": "Combining surface area with surface flux gives L = 4πR²σT⁴.",
       "hint": "Identify the quantity, stage or mechanism the question actually asks about.",
       "source": "Lecture 15 pages 7–11, 15–16 · Focus assessment",
       "sourceRefs": [
@@ -2187,7 +2187,7 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       ],
       "responseType": "match",
       "type": "match",
-      "explanation": "‘None’ means no ongoing nuclear burning, not zero luminosity. An AGB star can also have a hydrogen-burning shell; the supplied matching key emphasizes its helium shell.",
+      "explanation": "‘None’ means no ongoing nuclear burning, not zero luminosity. An AGB star can also have a hydrogen-burning shell; the matching answer is its helium shell.",
       "hint": "Identify the quantity, stage or mechanism the question actually asks about.",
       "source": "Lecture 16 pages 27–29 · Focus assessment",
       "sourceRefs": [
@@ -2263,7 +2263,7 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       ],
       "responseType": "multi",
       "type": "multi",
-      "explanation": "The explicit complete key gives these two explanations. Rapid rotation disrupting the outflow is not part of that key.",
+      "explanation": "Both are correct: a companion star, or a disk around the star’s equator, can funnel the gas into two lobes. Rapid rotation is not one of the answers.",
       "hint": "Identify the quantity, stage or mechanism the question actually asks about.",
       "source": "Lecture 22 pages 22–33 · Focus assessment",
       "sourceRefs": [
@@ -2292,22 +2292,22 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       ]
     },
     {
-      "id": "exam-two-item-focus-gap-parallax-reference",
-      "rootId": "exam-two-item-focus-gap-parallax-reference",
+      "id": "exam-two-item-focus-gap-parallax-background-e1",
+      "rootId": "exam-two-item-focus-gap-parallax-background-e1",
       "conceptId": "exam-two-concept-parallax-geometry",
       "moduleId": "exam-two-module-01",
-      "prompt": "An astronomer uses a second nearby star as a fixed reference for annual parallax. That reference star also has measurable annual parallax. Which assumption has failed?",
+      "prompt": "To measure a nearby star’s parallax, astronomers compare its position against:",
       "choices": [
-        "The reference position is effectively fixed against the distant background",
-        "The target must have the same brightness as the reference",
-        "The two stars must have the same surface temperature",
-        "The target must orbit the reference star"
+        "Much more distant background stars",
+        "The Sun",
+        "The Moon",
+        "The star’s own brightness"
       ],
       "answer": 0,
       "responseType": "single",
       "type": "single",
-      "explanation": "A useful distant background has negligible annual displacement at the measurement precision. A nearby moving reference cannot simply be treated as fixed; matching brightness or temperature does not solve this.",
-      "hint": "Identify the quantity, stage or mechanism the question actually asks about.",
+      "explanation": "Parallax is the nearby star’s apparent shift against much more distant background stars as Earth orbits.",
+      "hint": "Find the one relationship or course fact the question names.",
       "source": "Lecture 13 pages 7–12 · Focus assessment",
       "sourceRefs": [
         {
@@ -2334,22 +2334,22 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       ]
     },
     {
-      "id": "exam-two-item-focus-gap-power-definitions",
-      "rootId": "exam-two-item-focus-gap-power-definitions",
+      "id": "exam-two-item-focus-gap-flux-definition-e1",
+      "rootId": "exam-two-item-focus-gap-flux-definition-e1",
       "conceptId": "exam-two-concept-flux-luminosity",
       "moduleId": "exam-two-module-02",
-      "prompt": "A report labels a value in watts as “surface flux.” Which missing part of the measurement would make it a flux?",
+      "prompt": "Surface flux (F) measures:",
       "choices": [
-        "The emitting surface area over which that power is distributed",
-        "The observer’s apparent-magnitude zero point",
-        "The star’s spectral-class letter",
-        "The number of years the star has lived"
+        "Power emitted per square meter of the star’s surface",
+        "Total power emitted by the whole star",
+        "Light received per square meter at Earth",
+        "The star’s distance"
       ],
       "answer": 0,
       "responseType": "single",
       "type": "single",
-      "explanation": "Surface flux is emitted power per unit surface area, in W/m². Watts alone measure a total power, so the missing area matters.",
-      "hint": "Identify the quantity, stage or mechanism the question actually asks about.",
+      "explanation": "F = power per m² at the star (σT⁴). Luminosity L is the total; brightness b is what arrives here.",
+      "hint": "Find the one relationship or course fact the question names.",
       "source": "Lecture 13 pages 19–24 · Focus assessment",
       "sourceRefs": [
         {
@@ -2376,22 +2376,22 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       ]
     },
     {
-      "id": "exam-two-item-focus-gap-infer-intrinsic-power",
-      "rootId": "exam-two-item-focus-gap-infer-intrinsic-power",
+      "id": "exam-two-item-focus-gap-radius-three-e1",
+      "rootId": "exam-two-item-focus-gap-radius-three-e1",
       "conceptId": "exam-two-concept-combined-ratio",
       "moduleId": "exam-two-module-02",
-      "prompt": "Two stars have equal surface temperature and equal received brightness. Star X is four times farther away. Neglecting dust, what radius comparison is required?",
+      "prompt": "Star X has three times the radius of star Y and the same temperature. How much more luminous is X? Hint: L ∝ R²T⁴.",
       "choices": [
-        "X has four times the radius",
-        "X has sixteen times the radius",
-        "Both have the same radius",
-        "X has one-quarter the radius"
+        "9 times",
+        "3 times",
+        "6 times",
+        "27 times"
       ],
       "answer": 0,
       "responseType": "single",
       "type": "single",
-      "explanation": "At fixed temperature, L ∝ R², while b ∝ L/d². Equal b therefore requires R/d to be equal: four times the distance requires four times the radius.",
-      "hint": "Identify the quantity, stage or mechanism the question actually asks about.",
+      "explanation": "Same T, so L scales as R²: 3² = 9.",
+      "hint": "Square the radius ratio.",
       "source": "Lecture 13 pages 23–25 · Focus assessment",
       "sourceRefs": [
         {
@@ -2418,22 +2418,22 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       ]
     },
     {
-      "id": "exam-two-item-focus-gap-magnitude-from-ratio",
-      "rootId": "exam-two-item-focus-gap-magnitude-from-ratio",
+      "id": "exam-two-item-focus-gap-magnitude-five-steps-e1",
+      "rootId": "exam-two-item-focus-gap-magnitude-five-steps-e1",
       "conceptId": "exam-two-concept-magnitude-ratio",
       "moduleId": "exam-two-module-03",
-      "prompt": "Using the lecture’s 2.5-per-step approximation, star P is 2.5 × 2.5 times brighter than star Q. How do their apparent magnitudes compare?",
+      "prompt": "Star P has magnitude 1 and star Q has magnitude 6. Which is brighter, and by about how much?",
       "choices": [
-        "P has a magnitude two units lower",
-        "P has a magnitude two units higher",
-        "P has a magnitude 6.25 units lower",
-        "Both have the same magnitude"
+        "P, about 100 times",
+        "Q, about 100 times",
+        "P, about 5 times",
+        "Q, about 5 times"
       ],
       "answer": 0,
       "responseType": "single",
       "type": "single",
-      "explanation": "Two multiplicative brightness steps correspond to two magnitude steps. The brighter star has the lower magnitude; a flux ratio is not itself a magnitude difference.",
-      "hint": "Identify the quantity, stage or mechanism the question actually asks about.",
+      "explanation": "Lower magnitude is brighter, and five magnitude steps = 100×.",
+      "hint": "Find the one relationship or course fact the question names.",
       "source": "Lecture 14 pages 10–15 · Focus assessment",
       "sourceRefs": [
         {
@@ -2460,22 +2460,22 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       ]
     },
     {
-      "id": "exam-two-item-focus-gap-absolute-reference",
-      "rootId": "exam-two-item-focus-gap-absolute-reference",
+      "id": "exam-two-item-focus-gap-absolute-meaning-e1",
+      "rootId": "exam-two-item-focus-gap-absolute-meaning-e1",
       "conceptId": "exam-two-concept-absolute-magnitude",
       "moduleId": "exam-two-module-03",
-      "prompt": "A star has apparent magnitude +7 and absolute magnitude +2 in one band. What does the +2 describe?",
+      "prompt": "A star’s absolute magnitude describes:",
       "choices": [
-        "Its apparent magnitude if placed at 10 pc with extinction removed",
-        "Its present apparent magnitude after changing the magnitude zero point",
-        "Its received brightness being twice the Sun’s",
-        "Its current distance being 2 pc"
+        "How bright it would look from a standard 10 parsecs",
+        "How bright it looks from Earth",
+        "How far away it is",
+        "Its surface temperature"
       ],
       "answer": 0,
       "responseType": "single",
       "type": "single",
-      "explanation": "The absolute value describes the standardized 10-pc, extinction-free view. It does not give the current received brightness, distance or an arbitrary new zero point.",
-      "hint": "Identify the quantity, stage or mechanism the question actually asks about.",
+      "explanation": "Absolute magnitude M puts every star at 10 pc, so it measures true (intrinsic) brightness.",
+      "hint": "Find the one relationship or course fact the question names.",
       "source": "Lecture 14 pages 14–16 · Focus assessment",
       "sourceRefs": [
         {
@@ -2548,7 +2548,7 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       "rootId": "exam-two-item-focus-gap-spectral-complete-sequence",
       "conceptId": "exam-two-concept-spectral-temperature",
       "moduleId": "exam-two-module-04",
-      "prompt": "Arrange these spectral classes from hottest to coolest, including the cool extensions used in the review.",
+      "prompt": "Arrange these spectral classes from hottest to coolest.",
       "choices": [
         "O",
         "B",
@@ -2573,7 +2573,7 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       ],
       "responseType": "order",
       "type": "order",
-      "explanation": "The supplied sequence is O–B–A–F–G–K–M–L–T. L and T extend beyond the traditional OBAFGKM sequence.",
+      "explanation": "O B A F G K M L T (Oh Be A Fine Girl/Guy, Kiss Me).",
       "hint": "Identify the quantity, stage or mechanism the question actually asks about.",
       "source": "Lecture 16 pages 5, 9–12, 24–25 · Focus assessment",
       "sourceRefs": [
@@ -2605,7 +2605,7 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       "rootId": "exam-two-item-focus-gap-sun-subclass",
       "conceptId": "exam-two-concept-spectral-temperature",
       "moduleId": "exam-two-module-04",
-      "prompt": "The review identifies the Sun as which spectral subclass?",
+      "prompt": "The Sun is which spectral type?",
       "choices": [
         "G2",
         "A2",
@@ -2615,7 +2615,7 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       "answer": 0,
       "responseType": "single",
       "type": "single",
-      "explanation": "The Sun’s taught spectral subclass is G2. A, K and M are different temperature classes.",
+      "explanation": "The Sun is a G2 star.",
       "hint": "Identify the quantity, stage or mechanism the question actually asks about.",
       "source": "Lecture 16 pages 5, 9–12, 24–25 · Focus assessment",
       "sourceRefs": [
@@ -2643,22 +2643,22 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       ]
     },
     {
-      "id": "exam-two-item-focus-gap-hr-radius-inference",
-      "rootId": "exam-two-item-focus-gap-hr-radius-inference",
+      "id": "exam-two-item-focus-gap-hr-upper-right-e1",
+      "rootId": "exam-two-item-focus-gap-hr-upper-right-e1",
       "conceptId": "exam-two-concept-hr-axes",
       "moduleId": "exam-two-module-06",
-      "prompt": "A point on an H–R diagram is cool but highly luminous. Which explanation fits that combination?",
+      "prompt": "A star in the upper right of the H–R diagram is cool but very luminous. It must be:",
       "choices": [
-        "A large emitting surface area",
-        "A particularly small distance from Earth",
-        "A hot surface hidden by the vertical axis",
-        "A small emitting surface area"
+        "Very large",
+        "Very small",
+        "Very close to Earth",
+        "Very hot"
       ],
       "answer": 0,
       "responseType": "single",
       "type": "single",
-      "explanation": "Cool surfaces emit less power per area, so high luminosity requires a large area. H–R luminosity is intrinsic rather than a distance-dependent brightness.",
-      "hint": "Identify the quantity, stage or mechanism the question actually asks about.",
+      "explanation": "A cool surface emits little per m², so a lot of total light needs a huge surface: a giant.",
+      "hint": "Find the one relationship or course fact the question names.",
       "source": "Lecture 16 pages 6, 13–14, 22; Lecture 15 page 8 · Focus assessment",
       "sourceRefs": [
         {
@@ -2694,17 +2694,17 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       "rootId": "exam-two-item-focus-gap-white-dwarf-power",
       "conceptId": "exam-two-concept-white-dwarf-remnant",
       "moduleId": "exam-two-module-16",
-      "prompt": "An isolated white dwarf has no fresh fuel supply. As it radiates away its stored thermal energy, what long-term trend is expected in the course model?",
+      "prompt": "With no fuel left, a white dwarf radiates away its stored heat. Over time it:",
       "choices": [
-        "It cools and fades",
-        "It heats up indefinitely at fixed luminosity",
-        "It resumes main-sequence core hydrogen fusion",
-        "It turns its lost radiation back into new envelope mass"
+        "Cools and fades",
+        "Heats up forever",
+        "Restarts hydrogen fusion",
+        "Becomes a main-sequence star again"
       ],
       "answer": 0,
       "responseType": "single",
       "type": "single",
-      "explanation": "The remaining thermal reservoir declines as the isolated remnant radiates. Cooling and fading do not require a new nuclear-burning phase.",
+      "explanation": "No fusion, so the white dwarf slowly cools and fades.",
       "hint": "Identify the quantity, stage or mechanism the question actually asks about.",
       "source": "Lecture 22 pages 18–22 · Focus assessment",
       "sourceRefs": [
@@ -2742,22 +2742,22 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       ]
     },
     {
-      "id": "exam-two-item-focus-gap-ism-lines",
-      "rootId": "exam-two-item-focus-gap-ism-lines",
+      "id": "exam-two-item-focus-gap-ism-contents-e1",
+      "rootId": "exam-two-item-focus-gap-ism-contents-e1",
       "conceptId": "exam-two-concept-ism-density",
       "moduleId": "exam-two-module-07",
-      "prompt": "A low-density interstellar gas cloud is observed apart from any bright continuum background. Its atoms are excited. Which spectrum is expected?",
+      "prompt": "The interstellar medium, the space between the stars, contains:",
       "choices": [
-        "Bright emission lines",
-        "A dense opaque blackbody continuum",
-        "Only absorption lines against empty sky",
-        "A spectrum determined solely by dust temperature"
+        "Very low-density gas and dust",
+        "Nothing at all",
+        "Dense solid rock",
+        "Only light"
       ],
       "answer": 0,
       "responseType": "single",
       "type": "single",
-      "explanation": "Excited low-density gas emits at specific atomic wavelengths. Absorption lines require a suitable continuum behind the gas; dust thermal emission is a different component.",
-      "hint": "Identify the quantity, stage or mechanism the question actually asks about.",
+      "explanation": "The space between stars is not a vacuum: it holds thin gas and dust.",
+      "hint": "Find the one relationship or course fact the question names.",
       "source": "Lecture 17 pages 8–10 · Focus assessment",
       "sourceRefs": [
         {
@@ -2788,17 +2788,17 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       "rootId": "exam-two-item-focus-gap-dust-infrared",
       "conceptId": "exam-two-concept-dust-scattering",
       "moduleId": "exam-two-module-07",
-      "prompt": "Dust absorbs starlight and warms up. In the course model, where does much of its reradiated energy emerge?",
+      "prompt": "Dust absorbs starlight and warms up. It then re-emits that energy mainly as:",
       "choices": [
-        "Infrared wavelengths",
-        "Ultraviolet wavelengths",
-        "Gamma-ray wavelengths",
-        "The same visible wavelengths without a change"
+        "Infrared light",
+        "Ultraviolet light",
+        "Gamma rays",
+        "Visible light, unchanged"
       ],
       "answer": 0,
       "responseType": "single",
       "type": "single",
-      "explanation": "Cool interstellar dust reradiates thermally in infrared. This differs from scattering light without converting it into a warm thermal spectrum.",
+      "explanation": "Warm dust glows in the infrared.",
       "hint": "Identify the quantity, stage or mechanism the question actually asks about.",
       "source": "Lecture 17 pages 10–11, 17–19 · Focus assessment",
       "sourceRefs": [
@@ -2826,22 +2826,22 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       ]
     },
     {
-      "id": "exam-two-item-focus-gap-hii-recombination",
-      "rootId": "exam-two-item-focus-gap-hii-recombination",
+      "id": "exam-two-item-focus-gap-hii-glow-e1",
+      "rootId": "exam-two-item-focus-gap-hii-glow-e1",
       "conceptId": "exam-two-concept-nebula-mechanism",
       "moduleId": "exam-two-module-07",
-      "prompt": "Which spectral measurement best distinguishes glowing H II gas from dust merely reflecting the illuminating star?",
+      "prompt": "In an H II region, when electrons recombine with hydrogen nuclei, the gas:",
       "choices": [
-        "Strong hydrogen emission lines from the cloud",
-        "A copy of the star’s absorption-line pattern",
-        "A continuum with no cloud-generated lines",
-        "The star’s original spectrum reduced equally at every wavelength"
+        "Gives off light, glowing pink",
+        "Starts nuclear fusion",
+        "Turns into dust",
+        "Becomes a black hole"
       ],
       "answer": 0,
       "responseType": "single",
       "type": "single",
-      "explanation": "Ionized gas produces its own recombination/atomic line spectrum. Scattered light instead carries the illuminating stellar spectrum, modified by scattering.",
-      "hint": "Identify the quantity, stage or mechanism the question actually asks about.",
+      "explanation": "UV from hot O/B stars ionizes hydrogen; recombination makes the characteristic pink glow.",
+      "hint": "Find the one relationship or course fact the question names.",
       "source": "Lecture 17 pages 12–14, 17–19 · Focus assessment",
       "sourceRefs": [
         {
@@ -2868,22 +2868,22 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       ]
     },
     {
-      "id": "exam-two-item-focus-gap-nebula-mechanism-match",
-      "rootId": "exam-two-item-focus-gap-nebula-mechanism-match",
+      "id": "exam-two-item-focus-gap-dark-nebula-e1",
+      "rootId": "exam-two-item-focus-gap-dark-nebula-e1",
       "conceptId": "exam-two-concept-nebula-mechanism",
       "moduleId": "exam-two-module-07",
-      "prompt": "Imagine removing the dust from a region while leaving its excited gas and illuminating stars in place. Which pair of features would be directly lost?",
+      "prompt": "A dark nebula looks dark because:",
       "choices": [
-        "A reflected-light haze and an obscuring dust lane",
-        "The gas’s hydrogen lines and the stars themselves",
-        "The stars’ core fusion and the gas’s hydrogen nuclei",
-        "The ionizing ultraviolet photons and every gas atom"
+        "Its dust blocks light from the stars behind it",
+        "It contains no matter at all",
+        "Its gas is too hot to glow",
+        "It is a black hole"
       ],
       "answer": 0,
       "responseType": "single",
       "type": "single",
-      "explanation": "Dust supplies the scattering material for reflection and the obscurer for a dark lane. Removing it does not by itself remove excited gas, the stars or their nuclear energy source.",
-      "hint": "Identify the quantity, stage or mechanism the question actually asks about.",
+      "explanation": "Dark nebulae are dense dust clouds that block background starlight (the Horsehead is the example).",
+      "hint": "Find the one relationship or course fact the question names.",
       "source": "Lecture 17 pages 12–14, 17–19 · Focus assessment",
       "sourceRefs": [
         {
@@ -2910,22 +2910,22 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       ]
     },
     {
-      "id": "exam-two-item-focus-gap-reflection-transmission",
-      "rootId": "exam-two-item-focus-gap-reflection-transmission",
+      "id": "exam-two-item-focus-gap-reflection-blue-e1",
+      "rootId": "exam-two-item-focus-gap-reflection-blue-e1",
       "conceptId": "exam-two-concept-dust-scattering",
       "moduleId": "exam-two-module-07",
-      "prompt": "A student says a reddened background star must have had its blue photons converted into red photons by dust. What correction fits the visible-light scattering model?",
+      "prompt": "Reflection nebulae usually look blue because dust:",
       "choices": [
-        "More blue photons are removed from the direct beam; conversion to red is not required",
-        "Every blue photon must gain energy and become red",
-        "Dust must remove more red than blue photons from the beam",
-        "The dust must raise the star’s actual surface temperature"
+        "Scatters blue light more than red",
+        "Makes blue light by fusion",
+        "Is hotter than the stars",
+        "Blocks all red light completely"
       ],
       "answer": 0,
       "responseType": "single",
       "type": "single",
-      "explanation": "Selective removal changes the color of the transmitted mixture without requiring each blue photon to change into a red photon. Thermal infrared reradiation is a separate process.",
-      "hint": "Identify the quantity, stage or mechanism the question actually asks about.",
+      "explanation": "Dust scatters blue light most, so scattered light looks blue and light passing through looks redder.",
+      "hint": "Find the one relationship or course fact the question names.",
       "source": "Lecture 17 pages 10–11, 17–19 · Focus assessment",
       "sourceRefs": [
         {
@@ -2952,22 +2952,22 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       ]
     },
     {
-      "id": "exam-two-item-focus-gap-balance-and-luminosity",
-      "rootId": "exam-two-item-focus-gap-balance-and-luminosity",
+      "id": "exam-two-item-focus-gap-hydrostatic-meaning-e1",
+      "rootId": "exam-two-item-focus-gap-hydrostatic-meaning-e1",
       "conceptId": "exam-two-concept-protostar-support",
       "moduleId": "exam-two-module-09",
-      "prompt": "A star is approximately in hydrostatic equilibrium but is radiating energy. Which statement follows?",
+      "prompt": "Hydrostatic equilibrium means a star’s:",
       "choices": [
-        "Force balance does not by itself replace the radiated energy",
-        "Hydrostatic balance guarantees no energy leaves",
-        "All nuclear reactions must have stopped",
-        "Its core and surface must have equal temperatures"
+        "Outward pressure balances inward gravity",
+        "Temperature is the same everywhere",
+        "Fusion has stopped",
+        "Brightness is zero"
       ],
       "answer": 0,
       "responseType": "single",
       "type": "single",
-      "explanation": "Hydrostatic equilibrium is approximate force balance, not an energy source. A star can radiate while supported and can have very different core and surface temperatures.",
-      "hint": "Identify the quantity, stage or mechanism the question actually asks about.",
+      "explanation": "Gravity pulls in, pressure pushes out; in balance the star neither expands nor contracts.",
+      "hint": "Find the one relationship or course fact the question names.",
       "source": "Lecture 18 pages 18–19 · Focus assessment",
       "sourceRefs": [
         {
@@ -2994,22 +2994,22 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       ]
     },
     {
-      "id": "exam-two-item-focus-gap-trigger-versus-collapse",
-      "rootId": "exam-two-item-focus-gap-trigger-versus-collapse",
+      "id": "exam-two-item-focus-gap-trigger-shock-e1",
+      "rootId": "exam-two-item-focus-gap-trigger-shock-e1",
       "conceptId": "exam-two-concept-triggered-birth",
       "moduleId": "exam-two-module-10",
-      "prompt": "A supernova shock compresses a molecular cloud, but pressure still prevents self-gravitating contraction. What does this show about triggering?",
+      "prompt": "Which of these can compress a gas cloud and trigger star formation?",
       "choices": [
-        "An external compression can help without guaranteeing collapse",
-        "Every shocked cloud must already contain a hydrogen-fusing core",
-        "A shock removes the need for gravity in star formation",
-        "Compression and completed star formation are the same event"
+        "A shock wave from a nearby supernova",
+        "A cooling white dwarf",
+        "Light from the Moon",
+        "A planet’s orbit"
       ],
       "answer": 0,
       "responseType": "single",
       "type": "single",
-      "explanation": "A trigger can move conditions toward collapse, but pressure, temperature and density still matter. Compression is not itself completed star formation or sustained fusion.",
-      "hint": "Identify the quantity, stage or mechanism the question actually asks about.",
+      "explanation": "Triggers: spiral-arm density waves, cloud collisions and supernova shocks.",
+      "hint": "Find the one relationship or course fact the question names.",
       "source": "Lecture 19 pages 9–14 · Focus assessment",
       "sourceRefs": [
         {
@@ -3036,22 +3036,22 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       ]
     },
     {
-      "id": "exam-two-item-focus-gap-giant-core-surface",
-      "rootId": "exam-two-item-focus-gap-giant-core-surface",
+      "id": "exam-two-item-focus-gap-giant-core-envelope-e1",
+      "rootId": "exam-two-item-focus-gap-giant-core-envelope-e1",
       "conceptId": "exam-two-concept-red-giant-shell",
       "moduleId": "exam-two-module-12",
-      "prompt": "An observer sees a Sun-like star redden during its first giant ascent and concludes that its helium core must also be cooling. Which limitation invalidates that inference?",
+      "prompt": "As a Sun-like star becomes a red giant, its core ____ while its envelope ____.",
       "choices": [
-        "The surface and core can change temperature in opposite directions",
-        "The H–R temperature axis measures only the core",
-        "A red giant has no helium core at this stage",
-        "Redder light necessarily means less total luminosity"
+        "Contracts and heats; expands and cools",
+        "Expands and cools; contracts and heats",
+        "Stays the same; collapses",
+        "Explodes; disappears"
       ],
       "answer": 0,
       "responseType": "single",
       "type": "single",
-      "explanation": "The expanding envelope cools at its surface while the inert helium core contracts and heats. Surface color does not directly measure core temperature.",
-      "hint": "Identify the quantity, stage or mechanism the question actually asks about.",
+      "explanation": "Inert He core contracts and heats; H-shell burning puffs the envelope up and it cools (redder).",
+      "hint": "Find the one relationship or course fact the question names.",
       "source": "Lecture 20 pages 18–23 · Focus assessment",
       "sourceRefs": [
         {
@@ -3083,22 +3083,22 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       ]
     },
     {
-      "id": "exam-two-item-focus-gap-turnoff-selection",
-      "rootId": "exam-two-item-focus-gap-turnoff-selection",
+      "id": "exam-two-item-focus-gap-turnoff-moves-e1",
+      "rootId": "exam-two-item-focus-gap-turnoff-moves-e1",
       "conceptId": "exam-two-concept-cluster-turnoff",
       "moduleId": "exam-two-module-13",
-      "prompt": "Which part of a normal cluster’s H–R diagram most directly marks the main-sequence lifetime just reached by its population?",
+      "prompt": "As a star cluster ages, its main-sequence turnoff moves:",
       "choices": [
-        "The point where stars are now departing the main sequence",
-        "The single brightest foreground star in the same field",
-        "The apparent magnitude of the faintest detected object",
-        "The color of any one red giant without a population comparison"
+        "Down, toward cooler and fainter stars",
+        "Up, toward hotter and brighter stars",
+        "It never moves",
+        "To the far left of the diagram"
       ],
       "answer": 0,
       "responseType": "single",
       "type": "single",
-      "explanation": "The turnoff identifies the stars whose core-hydrogen lifetime matches the cluster’s approximate age. Foreground contamination and an observing threshold are different measurements.",
-      "hint": "Identify the quantity, stage or mechanism the question actually asks about.",
+      "explanation": "The most massive stars leave first, so the turnoff slides down the main sequence with age.",
+      "hint": "Find the one relationship or course fact the question names.",
       "source": "Lecture 21 pages 9–19, 32 · Focus assessment",
       "sourceRefs": [
         {
@@ -3125,22 +3125,22 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       ]
     },
     {
-      "id": "exam-two-item-focus-gap-cluster-age-control",
-      "rootId": "exam-two-item-focus-gap-cluster-age-control",
+      "id": "exam-two-item-focus-gap-cluster-same-age-e1",
+      "rootId": "exam-two-item-focus-gap-cluster-same-age-e1",
       "conceptId": "exam-two-concept-cluster-controls",
       "moduleId": "exam-two-module-13",
-      "prompt": "Why is comparing two unrelated field stars less controlled than comparing different masses in one ordinary cluster?",
+      "prompt": "Why are star clusters useful for studying how stars evolve?",
       "choices": [
-        "The field stars can have different formation ages",
-        "The field stars must have exactly the same mass",
-        "Cluster stars all have identical luminosity",
-        "Cluster stars stop changing after formation"
+        "Their stars formed at about the same time and distance",
+        "All their stars have the same mass",
+        "Their stars never change",
+        "They contain only one star"
       ],
       "answer": 0,
       "responseType": "single",
       "type": "single",
-      "explanation": "An ordinary cluster approximately controls formation age. Unrelated field stars may differ in age as well as mass, so evolutionary differences cannot simply be assigned to mass alone.",
-      "hint": "Identify the quantity, stage or mechanism the question actually asks about.",
+      "explanation": "Same age and distance, different masses: the cluster shows how mass controls evolution.",
+      "hint": "Find the one relationship or course fact the question names.",
       "source": "Lecture 21 pages 7–8, 11–23 · Focus assessment",
       "sourceRefs": [
         {
@@ -3167,22 +3167,22 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       ]
     },
     {
-      "id": "exam-two-item-focus-gap-cepheid-chain",
-      "rootId": "exam-two-item-focus-gap-cepheid-chain",
+      "id": "exam-two-item-focus-gap-cepheid-fainter-e1",
+      "rootId": "exam-two-item-focus-gap-cepheid-fainter-e1",
       "conceptId": "exam-two-concept-standard-candle",
       "moduleId": "exam-two-module-14",
-      "prompt": "A wrong Cepheid-class calibration assigns four times the true luminosity. If the received brightness is correct and dust is negligible, how is the inferred distance affected?",
+      "prompt": "Two Cepheids have the same period, so the same luminosity. One looks fainter. It is:",
       "choices": [
-        "It is twice the true distance",
-        "It is four times the true distance",
-        "It is half the true distance",
-        "It is unchanged"
+        "Farther away",
+        "Closer",
+        "Hotter",
+        "Younger"
       ],
       "answer": 0,
       "responseType": "single",
       "type": "single",
-      "explanation": "At fixed received brightness, inferred d ∝ √L. A fourfold luminosity error gives a twofold distance error, illustrating why the correct variable-star calibration matters.",
-      "hint": "Identify the quantity, stage or mechanism the question actually asks about.",
+      "explanation": "Same luminosity; fainter means farther (inverse-square law).",
+      "hint": "Find the one relationship or course fact the question names.",
       "source": "Lecture 21 pages 29–31 · Focus assessment",
       "sourceRefs": [
         {
@@ -3209,22 +3209,22 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       ]
     },
     {
-      "id": "exam-two-item-focus-gap-variable-class",
-      "rootId": "exam-two-item-focus-gap-variable-class",
+      "id": "exam-two-item-focus-gap-cepheid-vs-rrlyrae-e1",
+      "rootId": "exam-two-item-focus-gap-cepheid-vs-rrlyrae-e1",
       "conceptId": "exam-two-concept-variable-periods",
       "moduleId": "exam-two-module-14",
-      "prompt": "A candidate variable has brightened once, but no recurrence time has been measured. Which measurement requires repeat observations before a pulsation-based distance calibration can be used?",
+      "prompt": "Compared with RR Lyrae stars, Cepheid variables are:",
       "choices": [
-        "Time between recurring cycles",
-        "Apparent brightness at that peak",
-        "Spectral type from a single spectrum",
-        "Color from simultaneous blue and visual filters"
+        "More luminous, with longer periods",
+        "Fainter, with shorter periods",
+        "Exactly the same",
+        "Not variable at all"
       ],
       "answer": 0,
       "responseType": "single",
       "type": "single",
-      "explanation": "One brightening does not establish a cycle duration. A period–luminosity method requires a measured recurring period as well as the appropriate class calibration.",
-      "hint": "Identify the quantity, stage or mechanism the question actually asks about.",
+      "explanation": "Cepheids: luminous, about 1–100 days, seen in other galaxies. RR Lyrae: under a day, fainter, used in the Milky Way.",
+      "hint": "Find the one relationship or course fact the question names.",
       "source": "Lecture 21 pages 28–29 · Focus assessment",
       "sourceRefs": [
         {
@@ -3293,22 +3293,22 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       ]
     },
     {
-      "id": "exam-two-item-focus-gap-wind-exposed-layer",
-      "rootId": "exam-two-item-focus-gap-wind-exposed-layer",
+      "id": "exam-two-item-focus-gap-wolf-rayet-e1",
+      "rootId": "exam-two-item-focus-gap-wolf-rayet-e1",
       "conceptId": "exam-two-concept-envelope-stripping",
       "moduleId": "exam-two-module-17",
-      "prompt": "A massive star’s spectrum reveals a helium-rich surface after envelope stripping. Which additional claim is NOT established by that surface observation alone?",
+      "prompt": "A massive star that loses its hydrogen envelope to strong winds exposes:",
       "choices": [
-        "Its present core must be burning helium",
-        "Much of its former hydrogen envelope has been lost",
-        "Deeper layers have become exposed",
-        "Its surface composition differs from a hydrogen-rich envelope"
+        "Helium-rich layers (a Wolf–Rayet star)",
+        "An iron surface",
+        "A white dwarf",
+        "A new hydrogen envelope"
       ],
       "answer": 0,
       "responseType": "single",
       "type": "single",
-      "explanation": "A surface composition identifies exposed layers, not uniquely the current core-burning stage. The lecture’s stripping mechanism explains the other listed statements.",
-      "hint": "Identify the quantity, stage or mechanism the question actually asks about.",
+      "explanation": "Heavy mass loss strips the H envelope and exposes hotter helium-rich layers: Wolf–Rayet.",
+      "hint": "Find the one relationship or course fact the question names.",
       "source": "Lecture 23 pages 9–13, 17 · Focus assessment",
       "sourceRefs": [
         {
@@ -3335,16 +3335,16 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       ]
     },
     {
-      "id": "exam-two-item-focus-gap-collapse-sequence",
-      "rootId": "exam-two-item-focus-gap-collapse-sequence",
+      "id": "exam-two-item-focus-gap-collapse-steps-e1",
+      "rootId": "exam-two-item-focus-gap-collapse-steps-e1",
       "conceptId": "exam-two-concept-collapse-feedback",
       "moduleId": "exam-two-module-19",
-      "prompt": "Order these steps in the simplified iron-core-collapse sequence.",
+      "prompt": "Put the steps of a core-collapse supernova in order.",
       "choices": [
-        "The core loses sufficient pressure support",
-        "The inner core contracts rapidly",
-        "The compressed inner core resists further compression and rebounds",
-        "A shock propagates into surrounding layers"
+        "The iron core can no longer support itself",
+        "The core collapses",
+        "The core bounces back",
+        "A shock wave blows off the outer layers"
       ],
       "answer": [
         0,
@@ -3354,8 +3354,8 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       ],
       "responseType": "order",
       "type": "order",
-      "explanation": "Support loss precedes rapid collapse. Rebound and a propagating shock follow; shock formation by itself does not guarantee a successful explosion.",
-      "hint": "Identify the quantity, stage or mechanism the question actually asks about.",
+      "explanation": "Support fails → collapse → bounce → shock.",
+      "hint": "Find the one relationship or course fact the question names.",
       "source": "Lecture 23 pages 18 · Focus assessment",
       "sourceRefs": [
         {
@@ -3382,22 +3382,22 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       ]
     },
     {
-      "id": "exam-two-item-focus-gap-collapse-energy-loss",
-      "rootId": "exam-two-item-focus-gap-collapse-energy-loss",
+      "id": "exam-two-item-focus-gap-electron-capture-e1",
+      "rootId": "exam-two-item-focus-gap-electron-capture-e1",
       "conceptId": "exam-two-concept-collapse-feedback",
       "moduleId": "exam-two-module-19",
-      "prompt": "Which pairing correctly separates two contributions to the loss of iron-core support?",
+      "prompt": "During core collapse, electrons combine with protons to make:",
       "choices": [
-        "Electron capture removes electrons; photodisintegration consumes energy",
-        "Electron capture adds electrons; photodisintegration supplies fusion heat",
-        "Electron capture makes hydrogen fuel; photodisintegration builds iron",
-        "Electron capture halts contraction; photodisintegration traps all neutrinos"
+        "Neutrons and neutrinos",
+        "Hydrogen atoms",
+        "Iron nuclei",
+        "Helium nuclei"
       ],
       "answer": 0,
       "responseType": "single",
       "type": "single",
-      "explanation": "Electron capture reduces the electron population contributing pressure. Breaking heavy nuclei apart consumes energy. These are distinct losses, rather than the same nuclear reaction.",
-      "hint": "Identify the quantity, stage or mechanism the question actually asks about.",
+      "explanation": "e⁻ + p → n + ν. Losing electrons removes pressure support, so collapse speeds up.",
+      "hint": "Find the one relationship or course fact the question names.",
       "source": "Lecture 23 pages 18 · Focus assessment",
       "sourceRefs": [
         {
@@ -3428,7 +3428,7 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       "rootId": "exam-two-item-focus-gap-spectral-subtypes",
       "conceptId": "exam-two-concept-supernova-spectral-types",
       "moduleId": "exam-two-module-21",
-      "prompt": "Match the simplified spectral clues to the supernova classes in the course table.",
+      "prompt": "Match each supernova type to its spectrum.",
       "choices": [
         "Hydrogen lines present",
         "No hydrogen; characteristic silicon feature",
@@ -3443,7 +3443,7 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       ],
       "responseType": "match",
       "type": "match",
-      "explanation": "Type II has hydrogen. In the simplified Type I subdivision, Ia has the diagnostic silicon feature, Ib has helium, and Ic lacks hydrogen and helium.",
+      "explanation": "II: H lines. Ia: no H, silicon. Ib: no H, helium. Ic: no H or He.",
       "hint": "Identify the quantity, stage or mechanism the question actually asks about.",
       "source": "Lecture 24 pages 29–30 · Focus assessment",
       "sourceRefs": [
@@ -3485,22 +3485,22 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       ]
     },
     {
-      "id": "exam-two-item-focus-gap-spectra-engine-boundary",
-      "rootId": "exam-two-item-focus-gap-spectra-engine-boundary",
+      "id": "exam-two-item-focus-gap-type-one-meaning-e1",
+      "rootId": "exam-two-item-focus-gap-type-one-meaning-e1",
       "conceptId": "exam-two-concept-supernova-spectral-types",
       "moduleId": "exam-two-module-21",
-      "prompt": "Which statement about a Type I spectrum is justified without knowing its subtype?",
+      "prompt": "A Type I supernova’s spectrum has no:",
       "choices": [
-        "Hydrogen lines are absent",
-        "The progenitor was necessarily a white dwarf",
-        "A neutron star is necessarily absent afterward",
-        "The explosion was necessarily Type Ia"
+        "Hydrogen lines",
+        "Light",
+        "Color",
+        "Brightness"
       ],
       "answer": 0,
       "responseType": "single",
       "type": "single",
-      "explanation": "Type I is the no-hydrogen spectral category. Ib and Ic are also Type I classes and can be core-collapse events, so the broad label alone does not identify a white-dwarf explosion.",
-      "hint": "Identify the quantity, stage or mechanism the question actually asks about.",
+      "explanation": "Type I = no hydrogen lines; Type II = hydrogen lines.",
+      "hint": "Find the one relationship or course fact the question names.",
       "source": "Lecture 24 pages 29–30 · Focus assessment",
       "sourceRefs": [
         {
@@ -3531,7 +3531,7 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       "rootId": "exam-two-item-focus-gap-neutrino-count-anchor",
       "conceptId": "exam-two-concept-sn1987a-neutrinos",
       "moduleId": "exam-two-module-22",
-      "prompt": "About how many SN 1987A neutrinos were detected in the roughly ten-second burst emphasized in the review?",
+      "prompt": "About how many neutrinos from SN 1987A were detected on Earth?",
       "choices": [
         "About 19",
         "About 1 million",
@@ -3541,7 +3541,7 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       "answer": 0,
       "responseType": "single",
       "type": "single",
-      "explanation": "The review gives about 19 detections. About 10⁵⁷ refers to emitted neutrinos and about 170,000 years to travel time; neither is the detected count.",
+      "explanation": "About 10⁵⁷ were emitted; about 19 were detected in a roughly 10-second burst.",
       "hint": "Identify the quantity, stage or mechanism the question actually asks about.",
       "source": "Lecture 24 pages 31–33, 38 · Focus assessment",
       "sourceRefs": [
@@ -3569,22 +3569,22 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       ]
     },
     {
-      "id": "exam-two-item-focus-gap-degeneracy-support",
-      "rootId": "exam-two-item-focus-gap-degeneracy-support",
+      "id": "exam-two-item-focus-gap-wd-support-e1",
+      "rootId": "exam-two-item-focus-gap-wd-support-e1",
       "conceptId": "exam-two-concept-wd-electron-support",
       "moduleId": "exam-two-module-23",
-      "prompt": "A model claims that once a white dwarf cools, it must lose all support unless core fusion restarts. What physical distinction does the model omit?",
+      "prompt": "A white dwarf is held up against gravity by:",
       "choices": [
-        "Degenerate-electron support does not require ongoing fusion heating",
-        "Electron degeneracy is identical to pressure from a hydrogen-fusing core",
-        "An earlier ejected envelope supplies all inward-core support",
-        "A white dwarf must turn every electron into a neutron before cooling"
+        "Electron degeneracy pressure",
+        "Hydrogen fusion",
+        "Helium fusion",
+        "Neutrino pressure"
       ],
       "answer": 0,
       "responseType": "single",
       "type": "single",
-      "explanation": "The quantum pressure of degenerate electrons can support a cooling white dwarf. It is not simply the thermal pressure maintained by steady fusion; the mass limit still applies.",
-      "hint": "Identify the quantity, stage or mechanism the question actually asks about.",
+      "explanation": "No fusion: tightly packed electrons resist further squeezing (electron degeneracy).",
+      "hint": "Find the one relationship or course fact the question names.",
       "source": "Lecture 25 pages 8–10 · Focus assessment",
       "sourceRefs": [
         {
@@ -3615,7 +3615,7 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       "rootId": "exam-two-item-focus-gap-chandrasekhar-number",
       "conceptId": "exam-two-concept-wd-mass-limit",
       "moduleId": "exam-two-module-23",
-      "prompt": "The course’s approximate Chandrasekhar limit for an electron-supported white dwarf is:",
+      "prompt": "The Chandrasekhar limit, the maximum mass of a white dwarf, is about:",
       "choices": [
         "1.4 solar masses",
         "0.14 solar masses",
@@ -3625,7 +3625,7 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       "answer": 0,
       "responseType": "single",
       "type": "single",
-      "explanation": "The taught scale is about 1.4 solar masses for the white dwarf itself, not its progenitor’s original mass.",
+      "explanation": "Above about 1.4 solar masses, electron degeneracy cannot hold a white dwarf up.",
       "hint": "Identify the quantity, stage or mechanism the question actually asks about.",
       "source": "Lecture 25 pages 10–11 · Focus assessment",
       "sourceRefs": [
@@ -3659,22 +3659,22 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       ]
     },
     {
-      "id": "exam-two-item-focus-gap-pulsar-lighthouse",
-      "rootId": "exam-two-item-focus-gap-pulsar-lighthouse",
+      "id": "exam-two-item-focus-gap-pulsar-missed-e1",
+      "rootId": "exam-two-item-focus-gap-pulsar-missed-e1",
       "conceptId": "exam-two-concept-pulsar-beam-geometry",
       "moduleId": "exam-two-module-25",
-      "prompt": "In an idealized lighthouse model, the magnetic beam lies exactly along the rotation axis and the observer stays inside that beam. What signal does rotation alone produce?",
+      "prompt": "Why don’t we see pulses from every pulsar in the galaxy?",
       "choices": [
-        "A steady signal rather than a repeating sweep across the observer",
-        "A pulse each time the whole star expands",
-        "No radiation because aligned fields cannot emit",
-        "A burst powered by a new surface helium layer each rotation"
+        "Its beam may never sweep across Earth",
+        "All pulsars have stopped spinning",
+        "Pulsars are too cold to emit",
+        "Dust blocks every pulsar"
       ],
       "answer": 0,
       "responseType": "single",
       "type": "single",
-      "explanation": "An exactly aligned beam does not sweep in and out of that fixed line of sight. Rotation alone therefore supplies no lighthouse modulation in this idealized geometry.",
-      "hint": "Identify the quantity, stage or mechanism the question actually asks about.",
+      "explanation": "Lighthouse model: we see pulses only if the tilted beam crosses our line of sight.",
+      "hint": "Find the one relationship or course fact the question names.",
       "source": "Lecture 25 pages 17–19, 22 · Focus assessment",
       "sourceRefs": [
         {
@@ -3701,22 +3701,22 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       ]
     },
     {
-      "id": "exam-two-item-focus-gap-roche-trigger",
-      "rootId": "exam-two-item-focus-gap-roche-trigger",
+      "id": "exam-two-item-focus-gap-roche-fill-e1",
+      "rootId": "exam-two-item-focus-gap-roche-fill-e1",
       "conceptId": "exam-two-concept-roche-overflow",
       "moduleId": "exam-two-module-28",
-      "prompt": "A detached binary becomes visible as an eclipsing system because the viewing direction changes. Neither star’s physical size nor Roche boundary changes. Does the new view itself initiate overflow?",
+      "prompt": "Mass transfer in a binary begins when one star:",
       "choices": [
-        "No; the donor still has to reach its physical Roche boundary",
-        "Yes; an eclipse places the donor inside the accretor",
-        "Yes; crossing the observer’s line of sight removes angular momentum",
-        "No; eclipsing binaries can never exchange gas"
+        "Expands to fill its Roche lobe",
+        "Starts to eclipse its companion",
+        "Stops rotating",
+        "Cools down"
       ],
       "answer": 0,
       "responseType": "single",
       "type": "single",
-      "explanation": "An eclipse concerns the observer’s alignment. Overflow concerns a donor filling a gravitationally defined boundary, so a change of view alone does not start transfer.",
-      "hint": "Identify the quantity, stage or mechanism the question actually asks about.",
+      "explanation": "Filling the Roche lobe lets gas flow through the inner Lagrange point to the companion.",
+      "hint": "Find the one relationship or course fact the question names.",
       "source": "Lecture 27 pages 8 · Focus assessment",
       "sourceRefs": [
         {
@@ -3743,22 +3743,22 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       ]
     },
     {
-      "id": "exam-two-item-focus-gap-disk-angular-momentum",
-      "rootId": "exam-two-item-focus-gap-disk-angular-momentum",
+      "id": "exam-two-item-focus-gap-disk-why-e1",
+      "rootId": "exam-two-item-focus-gap-disk-why-e1",
       "conceptId": "exam-two-concept-accretion-disk-stream",
       "moduleId": "exam-two-module-28",
-      "prompt": "In a disk-fed binary, the incoming stream is suddenly shut off. Which localized feature loses its immediate fuel supply at the point where that stream meets the disk?",
+      "prompt": "Gas flowing from one star to its companion forms a disk, instead of falling straight in, because the gas has:",
       "choices": [
-        "The outer-edge impact hot spot",
-        "The donor’s entire core",
-        "The white dwarf’s stored thermal reservoir",
-        "Every orbiting gas parcel already inside the disk"
+        "Angular momentum (it is orbiting)",
+        "Too much iron",
+        "No gravity acting on it",
+        "A very low temperature"
       ],
       "answer": 0,
       "responseType": "single",
       "type": "single",
-      "explanation": "The impact hot spot is powered by newly arriving stream material. Stopping the stream removes that local supply without instantaneously removing the donor’s core or all previously accreted gas.",
-      "hint": "Identify the quantity, stage or mechanism the question actually asks about.",
+      "explanation": "Orbiting gas carries angular momentum, so it circles into an accretion disk and spirals in slowly.",
+      "hint": "Find the one relationship or course fact the question names.",
       "source": "Lecture 28 pages 8–9 · Focus assessment",
       "sourceRefs": [
         {
@@ -3789,17 +3789,17 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       "rootId": "exam-two-item-focus-gap-ia-fuel",
       "conceptId": "exam-two-concept-ia-runaway",
       "moduleId": "exam-two-module-30",
-      "prompt": "Which fuel is ignited in the thermonuclear runaway that disrupts the carbon–oxygen white dwarf in the taught Type Ia model?",
+      "prompt": "In a Type Ia supernova, which fuel ignites in the runaway that destroys the white dwarf?",
       "choices": [
         "Carbon",
         "Hydrogen in a stellar core",
         "Iron",
-        "Hydrogen in a thin nova layer"
+        "Hydrogen in a thin surface layer"
       ],
       "answer": 0,
       "responseType": "single",
       "type": "single",
-      "explanation": "Runaway carbon burning in the white dwarf differs from a surface hydrogen nova, ordinary core hydrogen fusion and the iron energy endpoint.",
+      "explanation": "The carbon–oxygen white dwarf’s carbon ignites in a runaway; degenerate gas can’t expand to cool off.",
       "hint": "Identify the quantity, stage or mechanism the question actually asks about.",
       "source": "Lecture 27 pages 12–14 · Focus assessment",
       "sourceRefs": [
@@ -3827,22 +3827,22 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       ]
     },
     {
-      "id": "exam-two-item-focus-gap-surface-afterward",
-      "rootId": "exam-two-item-focus-gap-surface-afterward",
+      "id": "exam-two-item-focus-gap-nova-survives-e1",
+      "rootId": "exam-two-item-focus-gap-nova-survives-e1",
       "conceptId": "exam-two-concept-surface-event-comparison",
       "moduleId": "exam-two-module-29",
-      "prompt": "Which comparison distinguishes an ordinary nova from a full-disruption Type Ia event?",
+      "prompt": "After a classical nova, the white dwarf:",
       "choices": [
-        "The nova leaves its white dwarf available for later eruptions",
-        "The nova always creates a neutron star",
-        "The Type Ia leaves the same intact white dwarf",
-        "Both require an iron core to collapse"
+        "Survives and can erupt again",
+        "Is completely destroyed",
+        "Becomes a neutron star",
+        "Becomes a black hole"
       ],
       "answer": 0,
       "responseType": "single",
       "type": "single",
-      "explanation": "A classical nova ejects an accreted surface layer while the white dwarf survives; the taught full Type Ia disruption does not leave that compact star intact.",
-      "hint": "Identify the quantity, stage or mechanism the question actually asks about.",
+      "explanation": "A nova is a surface H flash; the white dwarf survives. A Type Ia destroys it.",
+      "hint": "Find the one relationship or course fact the question names.",
       "source": "Lecture 27 pages 10–12 · Focus assessment",
       "sourceRefs": [
         {
@@ -3869,17 +3869,17 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       "rootId": "exam-two-item-focus-gap-surface-objects",
       "conceptId": "exam-two-concept-xray-burst-fuel",
       "moduleId": "exam-two-module-29",
-      "prompt": "In the course’s thermonuclear surface-burst comparison, which object hosts the helium-powered X-ray burst?",
+      "prompt": "Helium-powered X-ray bursts happen on the surface of a:",
       "choices": [
-        "A neutron star",
-        "A black hole",
-        "A red-giant photosphere",
-        "A white-dwarf carbon core"
+        "Neutron star",
+        "Black hole",
+        "Red giant",
+        "White dwarf’s carbon core"
       ],
       "answer": 0,
       "responseType": "single",
       "type": "single",
-      "explanation": "The taught X-ray burster is a neutron star accumulating fuel on a physical surface. A black hole lacks that material surface; a nova instead concerns a white dwarf’s hydrogen layer.",
+      "explanation": "X-ray burst: He flash on a neutron star. Nova: H flash on a white dwarf.",
       "hint": "Identify the quantity, stage or mechanism the question actually asks about.",
       "source": "Lecture 27 pages 10 · Focus assessment",
       "sourceRefs": [
@@ -3903,22 +3903,22 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       ]
     },
     {
-      "id": "exam-two-item-focus-gap-ia-candle-standardize",
-      "rootId": "exam-two-item-focus-gap-ia-candle-standardize",
+      "id": "exam-two-item-focus-gap-ia-distance-e1",
+      "rootId": "exam-two-item-focus-gap-ia-distance-e1",
       "conceptId": "exam-two-concept-ia-standard-candle",
       "moduleId": "exam-two-module-30",
-      "prompt": "Before treating a Type Ia event as a distance indicator, what role does its light-curve calibration serve?",
+      "prompt": "Type Ia supernovae are useful for measuring distances to far-away galaxies because they are:",
       "choices": [
-        "It estimates the event’s intrinsic luminosity for comparison with brightness",
-        "It measures annual parallax directly from the explosion",
-        "It sets the event’s distance to ten parsecs",
-        "It turns every Type I spectrum into the same luminosity"
+        "Very bright, with a luminosity that can be calibrated",
+        "Always very close to Earth",
+        "Too faint to see",
+        "Measured by parallax"
       ],
       "answer": 0,
       "responseType": "single",
       "type": "single",
-      "explanation": "A calibrated intrinsic luminosity allows the brightness comparison. The method is not annual parallax, and the broad Type I label includes other engines.",
-      "hint": "Identify the quantity, stage or mechanism the question actually asks about.",
+      "explanation": "Calibrated luminosity + measured brightness → distance, and they are bright enough to see far away.",
+      "hint": "Find the one relationship or course fact the question names.",
       "source": "Lecture 27 pages 15–16 · Focus assessment",
       "sourceRefs": [
         {
@@ -3941,16 +3941,16 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       ]
     },
     {
-      "id": "exam-two-item-focus-gap-merger-energy",
-      "rootId": "exam-two-item-focus-gap-merger-energy",
+      "id": "exam-two-item-focus-gap-red-nova-steps-e1",
+      "rootId": "exam-two-item-focus-gap-red-nova-steps-e1",
       "conceptId": "exam-two-concept-merger-transient",
       "moduleId": "exam-two-module-31",
-      "prompt": "Order these elements of the luminous-red-nova merger interpretation.",
+      "prompt": "Put the steps of a stellar merger that makes a luminous red nova in order.",
       "choices": [
-        "A close binary loses orbital separation",
-        "Orbital energy is transferred into surrounding matter",
-        "Heated and expelled matter produces a luminous transient",
-        "The system settles toward a merged stellar product"
+        "The two stars spiral closer together",
+        "The stars merge",
+        "Released orbital energy heats and ejects gas",
+        "The system brightens as a luminous red nova"
       ],
       "answer": [
         0,
@@ -3960,8 +3960,8 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       ],
       "responseType": "order",
       "type": "order",
-      "explanation": "Inspiral releases orbital energy into gas, allowing an optical transient and outflow during coalescence. This is a selected causal model, not the sequence of a thermonuclear white-dwarf explosion.",
-      "hint": "Identify the quantity, stage or mechanism the question actually asks about.",
+      "explanation": "Inspiral → merger → orbital energy heats gas → luminous red nova (V1309 Sco).",
+      "hint": "Find the one relationship or course fact the question names.",
       "source": "Lecture 28 pages 11–12 · Focus assessment",
       "sourceRefs": [
         {
@@ -3984,22 +3984,22 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       ]
     },
     {
-      "id": "exam-two-item-focus-gap-rejuvenated-star",
-      "rootId": "exam-two-item-focus-gap-rejuvenated-star",
+      "id": "exam-two-item-focus-gap-blue-straggler-why-e1",
+      "rootId": "exam-two-item-focus-gap-blue-straggler-why-e1",
       "conceptId": "exam-two-concept-blue-straggler",
       "moduleId": "exam-two-module-31",
-      "prompt": "A cluster member gains mass from its companion. Which comparison explains how it can lie above the normal turnoff without a later birth date?",
+      "prompt": "A blue straggler in an old cluster looks younger than its neighbors because it:",
       "choices": [
-        "Its new mass changes its evolutionary appearance while its birth date is unchanged",
-        "Its higher mass means it must have been born after the lower-mass members",
-        "Its new position resets the ordinary population’s turnoff to a younger age",
-        "Its higher luminosity requires a different distance from the rest of the cluster"
+        "Gained mass from a companion or a merger",
+        "Was born much later",
+        "Is much closer to Earth",
+        "Is a white dwarf"
       ],
       "answer": 0,
       "responseType": "single",
       "type": "single",
-      "explanation": "A changed mass history breaks the ordinary single-star clock for that object. It does not alter the shared formation history or reset the rest of the population.",
-      "hint": "Identify the quantity, stage or mechanism the question actually asks about.",
+      "explanation": "Extra mass and fresh hydrogen make it look like a younger, hotter main-sequence star.",
+      "hint": "Find the one relationship or course fact the question names.",
       "source": "Lecture 28 pages 13 · Focus assessment",
       "sourceRefs": [
         {
@@ -4022,22 +4022,22 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       ]
     },
     {
-      "id": "exam-two-item-focus-gap-pair-support-chain",
-      "rootId": "exam-two-item-focus-gap-pair-support-chain",
+      "id": "exam-two-item-focus-gap-pair-photons-e1",
+      "rootId": "exam-two-item-focus-gap-pair-photons-e1",
       "conceptId": "exam-two-concept-pair-instability-chain",
       "moduleId": "exam-two-module-32",
-      "prompt": "In the pair-instability model, some photon energy goes into electron–positron rest mass. Why does counting only total energy miss the reason contraction can start?",
+      "prompt": "In a pair-instability star, energetic gamma-ray photons turn into:",
       "choices": [
-        "Rest-mass energy does not supply the same radiation pressure as the photons it replaces",
-        "Pressure support must stay unchanged whenever total energy is conserved",
-        "Radiation pressure depends only on stellar mass, not on the form of its energy",
-        "The new pairs immediately supply greater radiation pressure and force expansion"
+        "Electron–positron pairs",
+        "Neutrons",
+        "Iron nuclei",
+        "Hydrogen atoms"
       ],
       "answer": 0,
       "responseType": "single",
       "type": "single",
-      "explanation": "The form of the energy matters for pressure support. Converting energetic photons into particle rest mass can weaken radiation support despite conservation of total energy.",
-      "hint": "Identify the quantity, stage or mechanism the question actually asks about.",
+      "explanation": "Photons → e⁻/e⁺ pairs, so pressure drops, the core contracts, and explosive burning follows.",
+      "hint": "Find the one relationship or course fact the question names.",
       "source": "Lecture 29 pages 12 · Focus assessment",
       "sourceRefs": [
         {
@@ -4060,22 +4060,22 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       ]
     },
     {
-      "id": "exam-two-item-focus-gap-pair-outcome",
-      "rootId": "exam-two-item-focus-gap-pair-outcome",
+      "id": "exam-two-item-focus-gap-pair-mass-e1",
+      "rootId": "exam-two-item-focus-gap-pair-mass-e1",
       "conceptId": "exam-two-concept-pair-model-boundaries",
       "moduleId": "exam-two-module-32",
-      "prompt": "After an outburst, observations establish that a bound stellar core survived. Which claim about that particular event is ruled out?",
+      "prompt": "Pair-instability supernovae happen only in stars that are:",
       "choices": [
-        "It completely unbound the star in a full pair-instability disruption",
-        "It expelled some material without destroying all of the star",
-        "Its final outcome differed from a full-disruption model",
-        "It left matter available for later stellar evolution"
+        "Extremely massive (over about 130 solar masses)",
+        "Smaller than the Sun",
+        "White dwarfs",
+        "Neutron stars"
       ],
       "answer": 0,
       "responseType": "single",
       "type": "single",
-      "explanation": "A surviving bound core contradicts complete disruption. The course distinguishes full pair instability from partial or pulsational outcomes; bright emission alone does not settle that distinction.",
-      "hint": "Identify the quantity, stage or mechanism the question actually asks about.",
+      "explanation": "The lecture scale is above about 130 solar masses initially.",
+      "hint": "Find the one relationship or course fact the question names.",
       "source": "Lecture 29 pages 9–12 · Focus assessment",
       "sourceRefs": [
         {
@@ -4098,22 +4098,22 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       ]
     },
     {
-      "id": "exam-two-item-focus-gap-hazard-proxy",
-      "rootId": "exam-two-item-focus-gap-hazard-proxy",
+      "id": "exam-two-item-focus-gap-ozone-uv-e1",
+      "rootId": "exam-two-item-focus-gap-ozone-uv-e1",
       "conceptId": "exam-two-concept-supernova-atmosphere",
       "moduleId": "exam-two-module-21",
-      "prompt": "A nearby supernova is unusually bright in visible light. Why is that brightness alone insufficient to quantify the ozone hazard emphasized in the course?",
+      "prompt": "If a nearby supernova’s X-rays and gamma rays destroyed Earth’s ozone layer, which sunlight would then reach the ground in dangerous amounts?",
       "choices": [
-        "The hazard depends on energetic radiation reaching Earth, not visible brightness alone",
-        "The hazard is fixed by the progenitor’s pre-explosion surface temperature",
-        "Visible brightness directly measures the collapse energy carried by neutrinos",
-        "Nearby distance alone fixes the full energetic dose regardless of spectrum"
+        "Ultraviolet",
+        "Radio",
+        "Infrared",
+        "Microwave"
       ],
       "answer": 0,
       "responseType": "single",
       "type": "single",
-      "explanation": "The stated hazard is atmospheric damage from energetic radiation with increased solar UV exposure afterward. An optical brightness measurement alone does not specify that energetic dose.",
-      "hint": "Identify the quantity, stage or mechanism the question actually asks about.",
+      "explanation": "Ozone blocks the Sun’s UV; without it, lethal UV reaches the surface.",
+      "hint": "Find the one relationship or course fact the question names.",
       "source": "Lecture 27 pages 10–12 · Focus assessment",
       "sourceRefs": [
         {
@@ -4136,22 +4136,21 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       ]
     },
     {
-      "id": "exam-two-item-focus-gap-false-color-limit",
-      "rootId": "exam-two-item-focus-gap-false-color-limit",
+      "id": "exam-two-item-focus-gap-blue-red-temp-e1",
+      "rootId": "exam-two-item-focus-gap-blue-red-temp-e1",
       "conceptId": "exam-two-concept-color-temperature",
       "moduleId": "exam-two-module-04",
-      "prompt": "A false-color image displays one star in blue and another in red. What is needed before using those display colors to compare their actual surface temperatures?",
+      "prompt": "A star that looks blue is ____ than a star that looks red.",
       "choices": [
-        "The observing bands and the image’s color assignment",
-        "Only the relative sizes of the two screen dots",
-        "Only the image’s background color",
-        "The assumption that screen blue always means a hotter star"
+        "Hotter",
+        "Cooler",
+        "The same temperature"
       ],
       "answer": 0,
       "responseType": "single",
       "type": "single",
-      "explanation": "False-color composites can map nonvisible bands or assign colors for contrast. Their display palette is not automatically the stars’ actual visible colors or a calibrated temperature comparison.",
-      "hint": "Identify the quantity, stage or mechanism the question actually asks about.",
+      "explanation": "Wien: hotter → shorter peak wavelength → bluer.",
+      "hint": "Find the one relationship or course fact the question names.",
       "source": "Lecture 15 pages 4–5 · Focus assessment",
       "sourceRefs": [
         {
@@ -4178,22 +4177,22 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       ]
     },
     {
-      "id": "exam-two-item-focus-gap-mass-relation-boundary",
-      "rootId": "exam-two-item-focus-gap-mass-relation-boundary",
+      "id": "exam-two-item-focus-gap-ms-hot-massive-e1",
+      "rootId": "exam-two-item-focus-gap-ms-hot-massive-e1",
       "conceptId": "exam-two-concept-main-sequence-mass",
       "moduleId": "exam-two-module-06",
-      "prompt": "A catalog includes two main-sequence stars, a red giant and a white dwarf. Which comparison can use the ordinary main-sequence color–mass trend directly?",
+      "prompt": "On the main sequence, the hottest, bluest stars are also the:",
       "choices": [
-        "The hotter and cooler main-sequence stars",
-        "The red giant and white dwarf based only on color",
-        "All four objects ranked by apparent brightness",
-        "All four objects ranked by radius alone"
+        "Most massive",
+        "Least massive",
+        "Oldest",
+        "Smallest"
       ],
       "answer": 0,
       "responseType": "single",
       "type": "single",
-      "explanation": "The color–mass trend is restricted to the main sequence. Post-main-sequence objects have different structures, and received brightness also depends on distance.",
-      "hint": "Identify the quantity, stage or mechanism the question actually asks about.",
+      "explanation": "Along the main sequence, more mass → hotter, bluer, brighter (upper left).",
+      "hint": "Find the one relationship or course fact the question names.",
       "source": "Lecture 16 pages 19, 23, 26, 28 · Focus assessment",
       "sourceRefs": [
         {
@@ -4225,22 +4224,21 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       ]
     },
     {
-      "id": "exam-two-item-focus-gap-pressure-input-inference",
-      "rootId": "exam-two-item-focus-gap-pressure-input-inference",
+      "id": "exam-two-item-focus-gap-heat-pressure-e1",
+      "rootId": "exam-two-item-focus-gap-heat-pressure-e1",
       "conceptId": "exam-two-concept-collapse-pressure",
       "moduleId": "exam-two-module-09",
-      "prompt": "A fixed-composition gas parcel becomes cooler, yet its gas pressure increases. Using P ∝ nT, what must have happened?",
+      "prompt": "If a gas cloud is heated while its density stays the same, its pressure:",
       "choices": [
-        "Particle density rose enough to outweigh the temperature decrease",
-        "Particle density stayed constant",
-        "Particle density decreased along with temperature",
-        "Temperature alone set the pressure independently of density"
+        "Increases",
+        "Decreases",
+        "Stays the same"
       ],
       "answer": 0,
       "responseType": "single",
       "type": "single",
-      "explanation": "If T decreases while nT increases, n must increase by more than the reciprocal temperature change. Cooling alone does not determine pressure when density is changing.",
-      "hint": "Identify the quantity, stage or mechanism the question actually asks about.",
+      "explanation": "Gas pressure scales with density × temperature, so higher T at the same density → higher pressure.",
+      "hint": "Find the one relationship or course fact the question names.",
       "source": "Lecture 18 pages 18 · Focus assessment",
       "sourceRefs": [
         {
@@ -4309,16 +4307,16 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       ]
     },
     {
-      "id": "exam-two-item-focus-gap-agb-pulse-cycle",
-      "rootId": "exam-two-item-focus-gap-agb-pulse-cycle",
+      "id": "exam-two-item-focus-gap-carbon-journey-e1",
+      "rootId": "exam-two-item-focus-gap-carbon-journey-e1",
       "conceptId": "exam-two-concept-thermal-pulses",
       "moduleId": "exam-two-module-15",
-      "prompt": "Order these selected relationships within an AGB pulse cycle.",
+      "prompt": "Put the journey of carbon made in an AGB star in order.",
       "choices": [
-        "Hydrogen-shell burning adds helium to the underlying layer",
-        "A helium-rich shell accumulates fuel",
-        "Unstable helium-shell burning produces a thermal pulse",
-        "The star readjusts and mass loss can increase"
+        "Helium fuses into carbon",
+        "Convection dredges carbon up to the surface",
+        "Winds blow the carbon into space",
+        "The carbon joins interstellar gas"
       ],
       "answer": [
         0,
@@ -4328,8 +4326,8 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       ],
       "responseType": "order",
       "type": "order",
-      "explanation": "The cycle links hydrogen-produced helium to an unstable burning shell and structural readjustment. This is a shell event, distinct from the earlier ignition of helium in the core.",
-      "hint": "Identify the quantity, stage or mechanism the question actually asks about.",
+      "explanation": "Triple-alpha → dredge-up → winds → interstellar medium (AGB stars make most galactic carbon).",
+      "hint": "Find the one relationship or course fact the question names.",
       "source": "Lecture 22 pages 10, 13–14, 17 · Focus assessment",
       "sourceRefs": [
         {
@@ -4356,22 +4354,22 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       ]
     },
     {
-      "id": "exam-two-item-focus-gap-wind-interaction-comparison",
-      "rootId": "exam-two-item-focus-gap-wind-interaction-comparison",
+      "id": "exam-two-item-focus-gap-dirty-environment-e1",
+      "rootId": "exam-two-item-focus-gap-dirty-environment-e1",
       "conceptId": "exam-two-concept-wind-environment",
       "moduleId": "exam-two-module-17",
-      "prompt": "Two otherwise comparable supernova outflows expand into different surroundings. One encounters a dense older wind shell; the other encounters very little gas. Which has more nearby material available for circumstellar shock interaction?",
+      "prompt": "Massive stars often explode in “dirty” surroundings because:",
       "choices": [
-        "The outflow encountering the older wind shell",
-        "The outflow entering nearly empty surroundings",
-        "Both necessarily encounter the same mass",
-        "Neither can encounter material expelled before the explosion"
+        "Their own strong winds left gas around them",
+        "They form in completely empty space",
+        "Planets surround them",
+        "The explosion makes the dust first"
       ],
       "answer": 0,
       "responseType": "single",
       "type": "single",
-      "explanation": "Earlier mass loss changes the environment into which later ejecta expand. A dense pre-existing shell provides more material for interaction without requiring every event to have the same mass-loss history.",
-      "hint": "Identify the quantity, stage or mechanism the question actually asks about.",
+      "explanation": "Massive stars lose mass through strong winds, so they end surrounded by the remnants of those winds.",
+      "hint": "Find the one relationship or course fact the question names.",
       "source": "Lecture 23 pages 9–14 · Focus assessment",
       "sourceRefs": [
         {
@@ -4402,17 +4400,17 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       "rootId": "exam-two-item-focus-gap-late-burning-window",
       "conceptId": "exam-two-concept-successive-fuels",
       "moduleId": "exam-two-module-18",
-      "prompt": "The lecture’s example spends millions of years burning hydrogen but only days burning silicon. Why is its silicon-burning phase much harder to catch during observation?",
+      "prompt": "Why is a massive star rarely caught in its silicon-burning stage?",
       "choices": [
-        "The time window for that phase is much shorter",
-        "Silicon burning must occur before hydrogen burning",
-        "The two stages have identical durations",
-        "No star can be observed after core hydrogen exhaustion"
+        "It lasts only days",
+        "It happens before hydrogen burning",
+        "It lasts billions of years",
+        "Silicon cannot give off light"
       ],
       "answer": 0,
       "responseType": "single",
       "type": "single",
-      "explanation": "A days-long stage offers a much shorter observing window than a millions-of-years stage. These are the lecture model’s durations, not universal clocks for every stellar mass.",
+      "explanation": "Hydrogen burning lasts millions of years; silicon burning only days.",
       "hint": "Identify the quantity, stage or mechanism the question actually asks about.",
       "source": "Lecture 23 pages 16–17, 22, 24–25 · Focus assessment",
       "sourceRefs": [
@@ -4440,22 +4438,22 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       ]
     },
     {
-      "id": "exam-two-item-focus-gap-electron-support-commonality",
-      "rootId": "exam-two-item-focus-gap-electron-support-commonality",
+      "id": "exam-two-item-focus-gap-iron-core-limit-e1",
+      "rootId": "exam-two-item-focus-gap-iron-core-limit-e1",
       "conceptId": "exam-two-concept-core-support-limit",
       "moduleId": "exam-two-module-19",
-      "prompt": "Why does an approximately Chandrasekhar-sized mass appear in discussion of both white dwarfs and a massive star’s failing iron core?",
+      "prompt": "A massive star’s iron core collapses once its mass grows past about:",
       "choices": [
-        "Both discussions involve the limit of electron degeneracy support",
-        "Both objects must have had the same initial stellar mass",
-        "Both are supported by ordinary iron fusion",
-        "Both must leave a stable white dwarf after that mass is exceeded"
+        "1.4 solar masses (the Chandrasekhar limit)",
+        "0.1 solar masses",
+        "100 solar masses",
+        "1,000 solar masses"
       ],
       "answer": 0,
       "responseType": "single",
       "type": "single",
-      "explanation": "The common support mechanism supplies the shared approximate mass scale. The objects have different histories and may have different fates; the scale is not their progenitors’ birth mass.",
-      "hint": "Identify the quantity, stage or mechanism the question actually asks about.",
+      "explanation": "Like a white dwarf, the electron-supported iron core fails near the Chandrasekhar mass.",
+      "hint": "Find the one relationship or course fact the question names.",
       "source": "Lecture 23 pages 18–19 · Focus assessment",
       "sourceRefs": [
         {
@@ -4482,22 +4480,22 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       ]
     },
     {
-      "id": "exam-two-item-focus-gap-shock-neutrino-deposition",
-      "rootId": "exam-two-item-focus-gap-shock-neutrino-deposition",
+      "id": "exam-two-item-focus-gap-collapse-leaves-e1",
+      "rootId": "exam-two-item-focus-gap-collapse-leaves-e1",
       "conceptId": "exam-two-concept-bounce-remnants",
       "moduleId": "exam-two-module-19",
-      "prompt": "A simulation’s shock stalls after core bounce. In the qualified collapse model, which process can supply some energy that helps revive it?",
+      "prompt": "After core collapse, a massive star leaves behind:",
       "choices": [
-        "Absorption of part of the escaping neutrino energy",
-        "More energy spent breaking heavy nuclei apart",
-        "Further electron capture removing supporting electrons",
-        "Neutrinos passing through without transferring energy"
+        "A neutron star or a black hole",
+        "A white dwarf",
+        "A main-sequence star",
+        "A planetary nebula"
       ],
       "answer": 0,
       "responseType": "single",
       "type": "single",
-      "explanation": "A fraction of the core’s escaping neutrino energy can be deposited behind the shock. The energy carried away and the smaller part absorbed locally are compatible, rather than contradictory.",
-      "hint": "Identify the quantity, stage or mechanism the question actually asks about.",
+      "explanation": "Core collapse → neutron star or black hole. White dwarfs come from Sun-like stars.",
+      "hint": "Find the one relationship or course fact the question names.",
       "source": "Lecture 23 pages 19–21, 26 · Focus assessment",
       "sourceRefs": [
         {
@@ -4524,22 +4522,22 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       ]
     },
     {
-      "id": "exam-two-item-focus-gap-density-missing-mass",
-      "rootId": "exam-two-item-focus-gap-density-missing-mass",
+      "id": "exam-two-item-focus-gap-ns-vs-wd-e1",
+      "rootId": "exam-two-item-focus-gap-ns-vs-wd-e1",
       "conceptId": "exam-two-concept-neutron-density-evidence",
       "moduleId": "exam-two-module-24",
-      "prompt": "An unresolved object is inferred to have a very small radius. What additional measurement is needed before claiming a neutron-star-like mean density from size alone?",
+      "prompt": "Compared with a white dwarf, a neutron star is:",
       "choices": [
-        "Its mass",
-        "Its surface temperature",
-        "Its rotation period",
-        "Its received visible brightness"
+        "Much smaller and much denser",
+        "Much larger and less dense",
+        "About the same size",
+        "A kind of red giant"
       ],
       "answer": 0,
       "responseType": "single",
       "type": "single",
-      "explanation": "Mean density depends on mass as well as volume. A tiny radius alone does not establish that a stellar mass is packed into it.",
-      "hint": "Identify the quantity, stage or mechanism the question actually asks about.",
+      "explanation": "White dwarf: Earth-sized. Neutron star: about 20 km across with a similar mass, so far denser.",
+      "hint": "Find the one relationship or course fact the question names.",
       "source": "Lecture 25 pages 17–19, 23–25 · Focus assessment",
       "sourceRefs": [
         {
@@ -4566,22 +4564,22 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       ]
     },
     {
-      "id": "exam-two-item-focus-gap-spin-cause-limit",
-      "rootId": "exam-two-item-focus-gap-spin-cause-limit",
+      "id": "exam-two-item-focus-gap-spin-up-e1",
+      "rootId": "exam-two-item-focus-gap-spin-up-e1",
       "conceptId": "exam-two-concept-compact-spin-up",
       "moduleId": "exam-two-module-25",
-      "prompt": "A compact star’s spin slows while an external braking torque acts. Does its longer period by itself prove that its radius expanded?",
+      "prompt": "When a spinning stellar core collapses to a much smaller size, its spin:",
       "choices": [
-        "No; braking changes angular momentum as well as any radius effect",
-        "Yes; the no-torque contraction model applies without modification",
-        "Yes; the period change proves expansion by preserving angular momentum",
-        "No; the torque requires the radius to shrink as the period grows"
+        "Speeds up",
+        "Slows down",
+        "Stops",
+        "Stays the same"
       ],
       "answer": 0,
       "responseType": "single",
       "type": "single",
-      "explanation": "The contraction analogy assumes negligible external torque. Once angular momentum changes, period alone does not uniquely determine a radius change.",
-      "hint": "Identify the quantity, stage or mechanism the question actually asks about.",
+      "explanation": "Like a spinning skater pulling in her arms: smaller radius → faster spin.",
+      "hint": "Find the one relationship or course fact the question names.",
       "source": "Lecture 25 pages 21 · Focus assessment",
       "sourceRefs": [
         {
@@ -4608,22 +4606,21 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       ]
     },
     {
-      "id": "exam-two-item-focus-gap-transfer-delay",
-      "rootId": "exam-two-item-focus-gap-transfer-delay",
+      "id": "exam-two-item-focus-gap-first-evolver-e1",
+      "rootId": "exam-two-item-focus-gap-first-evolver-e1",
       "conceptId": "exam-two-concept-binary-evolution-timing",
       "moduleId": "exam-two-module-28",
-      "prompt": "A primary has become a white dwarf, while its lower-mass companion is still well inside its Roche lobe. In the later-expanding-donor pathway, what controls the wait for overflow?",
+      "prompt": "In a binary, which star usually becomes a giant first?",
       "choices": [
-        "The companion’s subsequent expansion toward its Roche boundary",
-        "The cooling time of the white dwarf alone",
-        "The instant the primary first lost its envelope",
-        "The delay until both stars have identical masses"
+        "The more massive star",
+        "The less massive star",
+        "Both at exactly the same time"
       ],
       "answer": 0,
       "responseType": "single",
       "type": "single",
-      "explanation": "The companion follows its own slower evolution and can fill its lobe much later. The formation of the primary’s remnant does not make a detached companion overflow immediately.",
-      "hint": "Identify the quantity, stage or mechanism the question actually asks about.",
+      "explanation": "More massive stars burn fuel faster and evolve sooner.",
+      "hint": "Find the one relationship or course fact the question names.",
       "source": "Lecture 27 pages 9 · Focus assessment",
       "sourceRefs": [
         {
@@ -4658,7 +4655,7 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       "itemIds": [
         "exam-two-item-focus-th-parsecs",
         "exam-two-item-focus-th-parallax",
-        "exam-two-item-focus-gap-parallax-reference"
+        "exam-two-item-focus-gap-parallax-background-e1"
       ]
     },
     {
@@ -4668,8 +4665,8 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       "itemIds": [
         "exam-two-item-focus-th-mars-venus",
         "exam-two-item-focus-th-weekly-brightness",
-        "exam-two-item-focus-gap-power-definitions",
-        "exam-two-item-focus-gap-infer-intrinsic-power"
+        "exam-two-item-focus-gap-flux-definition-e1",
+        "exam-two-item-focus-gap-radius-three-e1"
       ]
     },
     {
@@ -4678,7 +4675,7 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       "page": 5,
       "itemIds": [
         "exam-two-item-focus-th-magnitude",
-        "exam-two-item-focus-gap-magnitude-from-ratio"
+        "exam-two-item-focus-gap-magnitude-five-steps-e1"
       ]
     },
     {
@@ -4687,7 +4684,7 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       "page": 6,
       "itemIds": [
         "exam-two-item-focus-th-dust-distance",
-        "exam-two-item-focus-gap-absolute-reference",
+        "exam-two-item-focus-gap-absolute-meaning-e1",
         "exam-two-item-focus-gap-nearby-modulus-sign"
       ]
     },
@@ -4709,7 +4706,7 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
         "exam-two-item-focus-th-hottest",
         "exam-two-item-focus-gap-spectral-complete-sequence",
         "exam-two-item-focus-gap-sun-subclass",
-        "exam-two-item-focus-gap-false-color-limit"
+        "exam-two-item-focus-gap-blue-red-temp-e1"
       ]
     },
     {
@@ -4721,7 +4718,7 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
         "exam-two-item-focus-th-white-dwarf-location",
         "exam-two-item-focus-hw-06-02",
         "exam-two-item-focus-hw-06-03",
-        "exam-two-item-focus-gap-hr-radius-inference"
+        "exam-two-item-focus-gap-hr-upper-right-e1"
       ]
     },
     {
@@ -4732,7 +4729,7 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
         "exam-two-item-focus-th-not-main-sequence",
         "exam-two-item-focus-hw-09-01",
         "exam-two-item-focus-gap-white-dwarf-power",
-        "exam-two-item-focus-gap-mass-relation-boundary"
+        "exam-two-item-focus-gap-ms-hot-massive-e1"
       ]
     },
     {
@@ -4743,7 +4740,7 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
         "exam-two-item-focus-th-dust-distance",
         "exam-two-item-focus-th-dust-magnitude",
         "exam-two-item-focus-hw-07-01",
-        "exam-two-item-focus-gap-ism-lines",
+        "exam-two-item-focus-gap-ism-contents-e1",
         "exam-two-item-focus-gap-dust-infrared"
       ]
     },
@@ -4753,7 +4750,7 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       "page": 12,
       "itemIds": [
         "exam-two-item-focus-th-hii-ionizers",
-        "exam-two-item-focus-gap-hii-recombination"
+        "exam-two-item-focus-gap-hii-glow-e1"
       ]
     },
     {
@@ -4761,8 +4758,8 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       "title": "Emission, reflection and dark nebulae",
       "page": 13,
       "itemIds": [
-        "exam-two-item-focus-gap-nebula-mechanism-match",
-        "exam-two-item-focus-gap-reflection-transmission"
+        "exam-two-item-focus-gap-dark-nebula-e1",
+        "exam-two-item-focus-gap-reflection-blue-e1"
       ]
     },
     {
@@ -4772,9 +4769,9 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       "itemIds": [
         "exam-two-item-focus-th-l18-collapse",
         "exam-two-item-focus-th-l22-q1",
-        "exam-two-item-focus-gap-balance-and-luminosity",
-        "exam-two-item-focus-gap-giant-core-surface",
-        "exam-two-item-focus-gap-pressure-input-inference"
+        "exam-two-item-focus-gap-hydrostatic-meaning-e1",
+        "exam-two-item-focus-gap-giant-core-envelope-e1",
+        "exam-two-item-focus-gap-heat-pressure-e1"
       ]
     },
     {
@@ -4784,7 +4781,7 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       "itemIds": [
         "exam-two-item-focus-th-l18-collapse",
         "exam-two-item-focus-hw-07-03",
-        "exam-two-item-focus-gap-trigger-versus-collapse"
+        "exam-two-item-focus-gap-trigger-shock-e1"
       ]
     },
     {
@@ -4795,7 +4792,7 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
         "exam-two-item-focus-th-l19-q3",
         "exam-two-item-focus-th-l20-q1",
         "exam-two-item-focus-hw-08-03",
-        "exam-two-item-focus-gap-mass-relation-boundary"
+        "exam-two-item-focus-gap-ms-hot-massive-e1"
       ]
     },
     {
@@ -4816,7 +4813,7 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
         "exam-two-item-focus-th-sun-direction",
         "exam-two-item-focus-th-l20-q2",
         "exam-two-item-focus-hw-08-02",
-        "exam-two-item-focus-gap-giant-core-surface"
+        "exam-two-item-focus-gap-giant-core-envelope-e1"
       ]
     },
     {
@@ -4825,8 +4822,8 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       "page": 19,
       "itemIds": [
         "exam-two-item-focus-th-l21-q2",
-        "exam-two-item-focus-gap-turnoff-selection",
-        "exam-two-item-focus-gap-cluster-age-control"
+        "exam-two-item-focus-gap-turnoff-moves-e1",
+        "exam-two-item-focus-gap-cluster-same-age-e1"
       ]
     },
     {
@@ -4834,8 +4831,8 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       "title": "Variable stars as distance indicators",
       "page": 20,
       "itemIds": [
-        "exam-two-item-focus-gap-cepheid-chain",
-        "exam-two-item-focus-gap-variable-class"
+        "exam-two-item-focus-gap-cepheid-fainter-e1",
+        "exam-two-item-focus-gap-cepheid-vs-rrlyrae-e1"
       ]
     },
     {
@@ -4848,7 +4845,7 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
         "exam-two-item-focus-hw-09-02",
         "exam-two-item-focus-hw-09-01",
         "exam-two-item-focus-gap-white-dwarf-power",
-        "exam-two-item-focus-gap-agb-pulse-cycle"
+        "exam-two-item-focus-gap-carbon-journey-e1"
       ]
     },
     {
@@ -4869,8 +4866,8 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       "itemIds": [
         "exam-two-item-focus-th-l23-q2",
         "exam-two-item-focus-th-l23-q3",
-        "exam-two-item-focus-gap-wind-exposed-layer",
-        "exam-two-item-focus-gap-wind-interaction-comparison",
+        "exam-two-item-focus-gap-wolf-rayet-e1",
+        "exam-two-item-focus-gap-dirty-environment-e1",
         "exam-two-item-focus-gap-late-burning-window"
       ]
     },
@@ -4881,10 +4878,10 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       "itemIds": [
         "exam-two-item-focus-th-l24-q1",
         "exam-two-item-focus-hw-10-01",
-        "exam-two-item-focus-gap-collapse-sequence",
-        "exam-two-item-focus-gap-collapse-energy-loss",
-        "exam-two-item-focus-gap-electron-support-commonality",
-        "exam-two-item-focus-gap-shock-neutrino-deposition"
+        "exam-two-item-focus-gap-collapse-steps-e1",
+        "exam-two-item-focus-gap-electron-capture-e1",
+        "exam-two-item-focus-gap-iron-core-limit-e1",
+        "exam-two-item-focus-gap-collapse-leaves-e1"
       ]
     },
     {
@@ -4893,7 +4890,7 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       "page": 25,
       "itemIds": [
         "exam-two-item-focus-gap-spectral-subtypes",
-        "exam-two-item-focus-gap-spectra-engine-boundary"
+        "exam-two-item-focus-gap-type-one-meaning-e1"
       ]
     },
     {
@@ -4912,7 +4909,7 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       "page": 27,
       "itemIds": [
         "exam-two-item-focus-th-white-dwarf-location",
-        "exam-two-item-focus-gap-degeneracy-support",
+        "exam-two-item-focus-gap-wd-support-e1",
         "exam-two-item-focus-gap-chandrasekhar-number"
       ]
     },
@@ -4923,9 +4920,9 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       "itemIds": [
         "exam-two-item-focus-th-l25-q1",
         "exam-two-item-focus-th-l25-q2",
-        "exam-two-item-focus-gap-pulsar-lighthouse",
-        "exam-two-item-focus-gap-density-missing-mass",
-        "exam-two-item-focus-gap-spin-cause-limit"
+        "exam-two-item-focus-gap-pulsar-missed-e1",
+        "exam-two-item-focus-gap-ns-vs-wd-e1",
+        "exam-two-item-focus-gap-spin-up-e1"
       ]
     },
     {
@@ -4951,9 +4948,9 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       "title": "Roche overflow and accretion",
       "page": 31,
       "itemIds": [
-        "exam-two-item-focus-gap-roche-trigger",
-        "exam-two-item-focus-gap-disk-angular-momentum",
-        "exam-two-item-focus-gap-transfer-delay"
+        "exam-two-item-focus-gap-roche-fill-e1",
+        "exam-two-item-focus-gap-disk-why-e1",
+        "exam-two-item-focus-gap-first-evolver-e1"
       ]
     },
     {
@@ -4974,7 +4971,7 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       ],
       "itemIds": [
         "exam-two-item-focus-th-l27-q2",
-        "exam-two-item-focus-gap-surface-afterward",
+        "exam-two-item-focus-gap-nova-survives-e1",
         "exam-two-item-focus-gap-surface-objects"
       ]
     },
@@ -4987,7 +4984,7 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       "itemIds": [
         "exam-two-item-focus-th-l24-q3",
         "exam-two-item-focus-hw-10-02",
-        "exam-two-item-focus-gap-hazard-proxy"
+        "exam-two-item-focus-gap-ozone-uv-e1"
       ]
     },
     {
@@ -4998,7 +4995,7 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
       ],
       "itemIds": [
         "exam-two-item-focus-hw-10-03",
-        "exam-two-item-focus-gap-ia-candle-standardize"
+        "exam-two-item-focus-gap-ia-distance-e1"
       ]
     },
     {
@@ -5008,8 +5005,8 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
         "exam-two-module-31"
       ],
       "itemIds": [
-        "exam-two-item-focus-gap-merger-energy",
-        "exam-two-item-focus-gap-rejuvenated-star"
+        "exam-two-item-focus-gap-red-nova-steps-e1",
+        "exam-two-item-focus-gap-blue-straggler-why-e1"
       ]
     },
     {
@@ -5019,8 +5016,8 @@ window.ASTR1102_FOCUS_ASSESSMENT = {
         "exam-two-module-32"
       ],
       "itemIds": [
-        "exam-two-item-focus-gap-pair-support-chain",
-        "exam-two-item-focus-gap-pair-outcome"
+        "exam-two-item-focus-gap-pair-photons-e1",
+        "exam-two-item-focus-gap-pair-mass-e1"
       ]
     }
   ],

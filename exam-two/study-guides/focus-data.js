@@ -24,8 +24,8 @@ window.ASTR1102_FOCUS = {
           "meaning": "gives distance in parsecs when parallax is in arcseconds. A smaller angle means a greater distance; 1 pc is about 3.26 light-years."
         }
       ],
-      "checkpoint": "Reverse the ratio before doing arithmetic: doubling the parallax halves the distance.",
-      "transfer": "Practice both angle → distance and distance → angle. The same relation survives a changed star, number, or direction.",
+      "checkpoint": "Smaller parallax = farther away. Doubling the parallax halves the distance.",
+      "transfer": "“Parsecs measure?” Distance. “Parallax 0.5″?” 2 pc. “Star A 0.2″, star B 1.2″: which is farther?” A, 6× farther.",
       "sources": [
         {
           "kind": "topHat",
@@ -68,8 +68,8 @@ window.ASTR1102_FOCUS = {
           "meaning": "is power per unit area at the observer: b = L/(4πd²), neglecting extinction."
         }
       ],
-      "checkpoint": "Specify what is held fixed. A distance change affects received brightness, not the star’s luminosity or surface flux.",
-      "transfer": "A forward dimming question can become an inverse distance or luminosity question. Identify the measured quantity first.",
+      "checkpoint": "Moving farther away changes only the brightness you receive (b), not the star’s luminosity (L) or surface flux (F).",
+      "transfer": "“Same L, twice as far?” ¼ as bright. “Mars is ~2× farther from the Sun than Venus: the Sun looks?” ¼ as bright. “10 ly vs 1,000 ly, same star?” 10,000× fainter.",
       "sources": [
         {
           "kind": "topHat",
@@ -113,8 +113,8 @@ window.ASTR1102_FOCUS = {
           "meaning": "multiply brightness ratios: about 2.5 per step in the lecture approximation; exactly five steps correspond to a factor of 100."
         }
       ],
-      "checkpoint": "Count the difference in magnitudes. Do not use the larger magnitude itself as the number of steps.",
-      "transfer": "Reverse brighter/fainter, or change the magnitude difference, while retaining the same logarithmic relationship.",
+      "checkpoint": "Lower magnitude = brighter. Count the difference between magnitudes: each step ≈ 2.5×, five steps = 100×.",
+      "transfer": "“Magnitude 2 vs 6: which is brighter, by how much?” The 2, by 2.5 × 2.5 × 2.5 × 2.5 (about 40×). “Brightest of −1, 1, 3, 6?” −1.",
       "sources": [
         {
           "kind": "topHat",
@@ -152,8 +152,8 @@ window.ASTR1102_FOCUS = {
           "meaning": "is the apparent magnitude the star would have at 10 pc without intervening extinction; it compares intrinsic output in a specified band."
         }
       ],
-      "checkpoint": "The fixed 10 pc reference defines absolute magnitude. Ignoring dust can make a photometric distance too large.",
-      "transfer": "Separate the definition, the distance effect, and the extinction effect before applying a distance modulus.",
+      "checkpoint": "Apparent magnitude m = how bright it looks from here. Absolute magnitude M = how bright it would look from 10 pc. Dust makes stars look fainter, so ignoring dust overestimates distance.",
+      "transfer": "“Dust along the line of sight: distance from the distance modulus is?” Overestimated. “Remove the dust: the apparent magnitude becomes?” Lower (brighter).",
       "sources": [
         {
           "kind": "topHat",
@@ -190,8 +190,8 @@ window.ASTR1102_FOCUS = {
           "meaning": "is the squared radius ratio times the fourth power of the temperature ratio."
         }
       ],
-      "checkpoint": "A hotter star need not be more luminous if its radius is smaller. Track both factors.",
-      "transfer": "Rehearse the supplied comparison, then solve for the radius or temperature that would keep luminosity unchanged.",
+      "checkpoint": "Luminosity depends on both size and temperature: L ∝ R²T⁴. A hotter star can still be fainter if it is much smaller.",
+      "transfer": "“Twice R, same T?” 4× L. “Same R, twice T?” 16× L. “T 10,000 K, R 5 vs T 5,000 K, R 10: L₁/L₂?” 4.",
       "sources": [
         {
           "kind": "topHat",
@@ -229,8 +229,8 @@ window.ASTR1102_FOCUS = {
           "meaning": "refine each class. The Sun is G2; a color at peak wavelength is not necessarily the color the eye perceives."
         }
       ],
-      "checkpoint": "Choose the hottest or coolest among the options actually offered. Missing O and B stars change the correct comparison.",
-      "transfer": "Practice order and offered-set comparisons rather than memorizing one answer letter or one class.",
+      "checkpoint": "Hot → cool: O B A F G K M (L, T). The Sun is G2. Pick the hottest or coolest from the options actually offered.",
+      "transfer": "“Coolest of the listed classes?” M. “Hottest of A, F, G, K?” A. “Sun’s spectral type?” G2.",
       "sources": [
         {
           "kind": "topHat",
@@ -273,8 +273,8 @@ window.ASTR1102_FOCUS = {
           "meaning": "separate temperature from size: cool luminous giants are large; hot faint white dwarfs are small."
         }
       ],
-      "checkpoint": "Read the axes before identifying the region. Position gives temperature and luminosity, not distance by itself.",
-      "transfer": "Move between a position, a named population, and a physical property; practice actual diagram targets as well as words.",
+      "checkpoint": "Up = more luminous. Left = hotter. Upper left = hot, bright, massive main sequence; lower left = white dwarfs; upper right = giants.",
+      "transfer": "“Most massive main-sequence stars?” Upper left. “White dwarfs?” Lower left. “What gives the radius lines?” Stefan–Boltzmann (L = 4πR²σT⁴).",
       "sources": [
         {
           "kind": "topHat",
@@ -338,8 +338,8 @@ window.ASTR1102_FOCUS = {
           "meaning": "have no sustained fusion and shine by losing stored thermal energy."
         }
       ],
-      "checkpoint": "The review’s rough 90% statement is a course approximation, not an exact probability for every observing sample.",
-      "transfer": "Connect a region or stage to its energy source. A matching task can combine several stages into one scored question.",
+      "checkpoint": "About 90% of stars are on the main sequence (core hydrogen fusion), so about 10% are not. White dwarfs have no fusion; they cool and fade.",
+      "transfer": "“Chance a random star is NOT on the main sequence?” About 10%. “Sun after core hydrogen runs out moves toward?” Upper right.",
       "sources": [
         {
           "kind": "topHat",
@@ -379,8 +379,8 @@ window.ASTR1102_FOCUS = {
           "meaning": "dims and reddens transmitted starlight, preferentially scatters shorter visible wavelengths, and reradiates absorbed energy in infrared."
         }
       ],
-      "checkpoint": "Red appearance alone does not distinguish a cool star from a hotter star seen through dust.",
-      "transfer": "Follow the light path: transmitted, scattered toward you, or thermally emitted. Then predict brightness and color.",
+      "checkpoint": "Dust makes background stars dimmer AND redder (it removes blue light), and it glows in the infrared.",
+      "transfer": "“Dust does what to starlight?” Dims and reddens it. “Dust re-emits absorbed energy as?” Infrared.",
       "sources": [
         {
           "kind": "topHat",
@@ -424,8 +424,8 @@ window.ASTR1102_FOCUS = {
           "meaning": "produce characteristic light from the gas; the gas is not simply reflecting a star’s whole spectrum."
         }
       ],
-      "checkpoint": "H II means ionized hydrogen, not a hydrogen molecule. Keep the ionizing source separate from the glowing gas.",
-      "transfer": "Identify the star capable of ionization, then explain how that leads to emission lines.",
+      "checkpoint": "H II = ionized hydrogen. Hot O and B stars supply the ultraviolet; the gas glows pink when electrons recombine.",
+      "transfer": "“Which stars ionize H II regions?” O and B stars. “Why the pink glow?” Electrons recombine with hydrogen nuclei and give off light.",
       "sources": [
         {
           "kind": "topHat",
@@ -467,8 +467,8 @@ window.ASTR1102_FOCUS = {
           "meaning": "obscure background sources along the line of sight through extinction by dust."
         }
       ],
-      "checkpoint": "The saved homework key says ultraviolet scattering, while this review says blue light. Retain that wording conflict; do not memorize it as a uniquely resolved wavelength claim.",
-      "transfer": "Classify by the physical source of the observed light, not only by the color in a photograph.",
+      "checkpoint": "Emission = glowing gas. Reflection = dust scattering starlight (blue). Dark = dust blocking background light, and the densest of the three.",
+      "transfer": "“Highest gas density?” Dark nebula. “Why is a reflection nebula blue?” Dust scatters blue light most. “Horsehead?” Dark nebula.",
       "sources": [
         {
           "kind": "topHat",
@@ -515,8 +515,8 @@ window.ASTR1102_FOCUS = {
           "meaning": "follow a change in support: a contracting core and an expanding envelope can coexist in the same evolved star."
         }
       ],
-      "checkpoint": "Force imbalance describes acceleration. Outward motion alone is not proof that pressure currently exceeds gravity.",
-      "transfer": "Explain which region is contracting or expanding and why; do not treat the whole star as one uniformly changing sphere.",
+      "checkpoint": "Expanding → pressure is winning. Contracting → gravity is winning. Balanced → hydrostatic equilibrium. Ultimately gravity always wins.",
+      "transfer": "“If a star is expanding?” Pressure is overcoming gravity. “If it is contracting?” Gravity is overcoming pressure.",
       "sources": [
         {
           "kind": "topHat",
@@ -562,8 +562,8 @@ window.ASTR1102_FOCUS = {
           "meaning": "include spiral-arm density waves, cloud collisions and shocks that compress suitable gas."
         }
       ],
-      "checkpoint": "A trigger compresses a cloud; gravitational collapse is the resulting process. Neither implies every compressed cloud must form a star.",
-      "transfer": "Distinguish the favorable initial conditions from the event that changes them.",
+      "checkpoint": "Stars form in the coldest, densest parts of clouds. Triggers that compress gas: spiral-arm density waves, cloud collisions, supernova shocks.",
+      "transfer": "“Where do protostars form?” The coldest, densest regions. “Bok globules often form?” Binary and multiple stars (True).",
       "sources": [
         {
           "kind": "topHat",
@@ -608,8 +608,8 @@ window.ASTR1102_FOCUS = {
           "meaning": "have more fuel but consume it much faster, so their main-sequence lives are shorter."
         }
       ],
-      "checkpoint": "Use mass divided by luminosity. A larger fuel supply does not by itself imply a longer life.",
-      "transfer": "Change the numerical pair, reverse the lifetime comparison, or explain the result without calculation.",
+      "checkpoint": "Lifetime ∝ M/L. Massive stars have more fuel but burn it much faster, so they die young.",
+      "transfer": "“10 solar masses, 10,000 solar L?” 10 million years. “5× mass, 15× L?” 1/3 of the Sun’s lifetime. “100× mass, 1,000,000× L?” 1 million years.",
       "sources": [
         {
           "kind": "topHat",
@@ -655,8 +655,8 @@ window.ASTR1102_FOCUS = {
           "meaning": "is stronger for CNO than pp in the lecture’s approximate T¹⁶ versus T⁴ comparison. Triple-alpha burns helium into carbon and is more temperature sensitive still in the taught regime."
         }
       ],
-      "checkpoint": "Do not confuse a catalyst with the net fuel or product, or confuse helium burning with either hydrogen-burning route.",
-      "transfer": "Match each process to its fuel/product and compare reactions under the same fractional temperature increase.",
+      "checkpoint": "pp chain and CNO cycle both turn H into He (C, N, O are recycled catalysts). Triple-alpha turns He into C. Temperature sensitivity: triple-alpha > CNO > pp.",
+      "transfer": "“Which pair burns H into He?” pp chain and CNO cycle. “Most temperature-sensitive?” The triple-alpha process. “pp chain does NOT make?” Electrons.",
       "sources": [
         {
           "kind": "topHat",
@@ -699,8 +699,8 @@ window.ASTR1102_FOCUS = {
           "meaning": "changes the internal support and the subsequent H–R path."
         }
       ],
-      "checkpoint": "A cooler surface does not imply a cooler core. Shell burning belongs to a different stage from ordinary core-hydrogen burning.",
-      "transfer": "Translate the track into its burning locations, or infer the next broad direction from the internal change.",
+      "checkpoint": "On the main sequence the Sun slowly brightens. After core hydrogen runs out: hydrogen burns in a shell, the core contracts and heats, the envelope expands and cools (red giant).",
+      "transfer": "“Why does the Sun slowly brighten?” H → He lowers core pressure, gravity squeezes the core hotter, so more luminosity. “Sun after core H runs out moves?” Toward the upper right.",
       "sources": [
         {
           "kind": "topHat",
@@ -759,8 +759,8 @@ window.ASTR1102_FOCUS = {
           "meaning": "marks the most massive stars still on the main sequence. An older cluster has a cooler, less luminous turnoff."
         }
       ],
-      "checkpoint": "Age comes from which stars have left the main sequence, not merely from counting all red stars in a picture.",
-      "transfer": "Read two H–R diagrams and rank their ages; connect the turnoff to the short lifetimes of high-mass stars.",
+      "checkpoint": "All stars in a cluster are about the same age. The turnoff moves down as the cluster ages; young clusters still have hot blue stars.",
+      "transfer": "“Which clusters look bluest?” Young clusters. “Highest metals?” Open clusters. “Globular clusters?” Old and metal-poor.",
       "sources": [
         {
           "kind": "topHat",
@@ -791,8 +791,8 @@ window.ASTR1102_FOCUS = {
           "meaning": "gives a distance through inverse-square reasoning, with extinction accounted for."
         }
       ],
-      "checkpoint": "The period does not directly measure distance. The chain is period → calibrated luminosity → brightness comparison → distance.",
-      "transfer": "Reconstruct the chain and identify which missing observation or calibration prevents a distance estimate.",
+      "checkpoint": "Period → luminosity (Leavitt, 1912). Luminosity + measured brightness → distance. Cepheids are luminous; RR Lyrae are fainter, with periods under a day.",
+      "transfer": "“What do Cepheids measure?” Distance, through period → luminosity. “Who found the relation?” Henrietta Leavitt.",
       "sources": [],
       "gap": "No dedicated Cepheid or RR Lyrae question appears in the saved Top Hat or HW 6–11 set. Lecture 30 explicitly includes this topic; keep its original practice in the mock pool."
     },
@@ -819,8 +819,8 @@ window.ASTR1102_FOCUS = {
           "meaning": "has a carbon–oxygen core with helium- and hydrogen-burning shells; it is not a helium core simply because helium burns in a shell."
         }
       ],
-      "checkpoint": "Match each stage to the active region. A white dwarf’s lack of ongoing fusion does not mean zero emitted light.",
-      "transfer": "Practice the complete sequence, the changing H–R direction, and stage–energy-source matching rather than only the first move off the main sequence.",
+      "checkpoint": "Sun’s path: protostar → main sequence → red giant → core helium burning → AGB → planetary nebula → white dwarf. The AGB core is carbon–oxygen, not helium.",
+      "transfer": "“AGB core made of helium?” False (carbon–oxygen). “After the helium flash, is there a signal from outside?” False. “Most galactic carbon comes from?” AGB stars.",
       "sources": [
         {
           "kind": "topHat",
@@ -873,8 +873,8 @@ window.ASTR1102_FOCUS = {
           "meaning": "make it a short-lived visible phase. The review gives illustrative speeds of 10–30 km/s and fading on a tens-of-thousands-of-years scale."
         }
       ],
-      "checkpoint": "Distinguish the glowing gas from the central star. They need not produce the same type of spectrum.",
-      "transfer": "Identify what remains, what expands away, and why the nebula eventually disappears.",
+      "checkpoint": "A planetary nebula is the ejected envelope of a Sun-like star; it has nothing to do with planets. The gas gives emission lines; the central star becomes a white dwarf.",
+      "transfer": "“Spectrum of a planetary nebula?” It depends on which part you observe. “Bipolar shape?” A companion star or an equatorial disk.",
       "sources": [
         {
           "kind": "topHat",
@@ -916,11 +916,11 @@ window.ASTR1102_FOCUS = {
         },
         {
           "term": "The iron-group endpoint",
-          "meaning": "marks the end of ordinary energy-yielding fusion. A question restricted to offered elements may have an earlier element as its answer."
+          "meaning": "marks the end of energy-releasing fusion: fusing iron gives no energy."
         }
       ],
-      "checkpoint": "State whether you are ordering inward or outward. Do not treat a shortened list of layers as every layer that exists.",
-      "transfer": "Reverse a complete layer order, identify the heaviest eligible offered product, and connect lost surface mass to the exposed star and its environment.",
+      "checkpoint": "Onion layers, outside → in: H, He, C, (Ne, O), Si, Fe. Iron fusion releases no energy. Strong winds can strip the hydrogen and expose a Wolf–Rayet star.",
+      "transfer": "“Sort from the outside in: H, He, C, Si, Fe.” H → He → C → Si → Fe. “Heaviest made during normal evolution, of those offered?” Silicon. “Why ‘dirty’ surroundings?” Their own winds.",
       "sources": [
         {
           "kind": "topHat",
@@ -967,12 +967,12 @@ window.ASTR1102_FOCUS = {
           "meaning": "are parts of the core-collapse sequence. Most released energy escapes in neutrinos; the explosion mechanism is not simply an effortless bounce."
         },
         {
-          "term": "Heavy-element production",
-          "meaning": "has more than one astrophysical site. The review’s claim that every element heavier than iron is made in supernovae is an overstatement."
+          "term": "Everything heavier than iron",
+          "meaning": "(copper, lead, gold) is made in supernovae, according to the course."
         }
       ],
-      "checkpoint": "Separate the collapsing core, the expelled envelope, and the possible compact remnant. Do not infer a unique nucleosynthesis answer from the heaviest option.",
-      "transfer": "Explain the causal sequence, then distinguish energy transport, ejecta, and remnant outcomes.",
+      "checkpoint": "Iron core loses support → collapses → bounces → shock. About 99% of the energy escapes as neutrinos; only about 1% blows off the star. Everything heavier than iron (copper, lead, gold) is made in supernovae.",
+      "transfer": "“What fraction stays to blow off the envelope?” About 1%. “Elements heavier than iron come from?” Supernovae.",
       "sources": [
         {
           "kind": "topHat",
@@ -1013,11 +1013,11 @@ window.ASTR1102_FOCUS = {
         },
         {
           "term": "Ia, Ib and Ic",
-          "meaning": "separate Type I spectra further using silicon and helium features. Similar names do not imply the same explosion engine."
+          "meaning": "separate Type I further: Ia shows silicon, Ib shows helium, Ic shows neither. Ia is a white-dwarf explosion; Ib and Ic are core collapse."
         }
       ],
-      "checkpoint": "Type I does not automatically mean a thermonuclear white-dwarf explosion; Ib and Ic are core-collapse classes.",
-      "transfer": "Classify the spectrum from its features before inferring a physical pathway.",
+      "checkpoint": "Type I = no hydrogen lines; Type II = hydrogen lines. Ia = white dwarf explodes; Ib, Ic and II = massive-star core collapse.",
+      "transfer": "“Hydrogen lines present?” Type II. “Type Ia vs core-collapse?” Ia leaves no remnant; core collapse leaves a neutron star or black hole.",
       "sources": [
         {
           "kind": "topHat",
@@ -1051,8 +1051,8 @@ window.ASTR1102_FOCUS = {
           "meaning": "explains why most emitted neutrinos were not detected even though the total emitted number was enormous."
         }
       ],
-      "checkpoint": "Do not substitute “it was bright” or “it made heavy elements” for the particular observational evidence emphasized in the review.",
-      "transfer": "Switch from why the event mattered to which observation supports the collapse mechanism.",
+      "checkpoint": "SN 1987A matters because neutrinos from a supernova were detected for the first time, proving core collapse: about 19 detected in 10 seconds, out of about 10⁵⁷ emitted, after a 170,000-year trip.",
+      "transfer": "“Why is SN 1987A so important?” First detection of supernova neutrinos. “What confirmed iron-core collapse?” The SN 1987A neutrinos.",
       "sources": [
         {
           "kind": "topHat",
@@ -1088,15 +1088,15 @@ window.ASTR1102_FOCUS = {
         },
         {
           "term": "The Chandrasekhar scale",
-          "meaning": "is about 1.4 solar masses for the white dwarf in the course model; it is not the initial mass of its parent star."
+          "meaning": "is about 1.4 solar masses: the most a white dwarf can have."
         },
         {
           "term": "A small emitting area",
           "meaning": "allows a hot white dwarf to have low total luminosity."
         }
       ],
-      "checkpoint": "Keep the support mechanism, remnant mass, progenitor mass and temperature separate.",
-      "transfer": "Identify the support, interpret the mass limit, and explain the hot-but-faint combination.",
+      "checkpoint": "White dwarfs are held up by electron degeneracy pressure, with no fusion. Maximum mass about 1.4 solar masses (Chandrasekhar). Sirius B is hotter than Sirius A but tiny, so faint.",
+      "transfer": "“Maximum white-dwarf mass?” About 1.4 solar masses. “Teaspoon of white dwarf?” About 5.5 tons.",
       "sources": [
         {
           "kind": "topHat",
@@ -1136,8 +1136,8 @@ window.ASTR1102_FOCUS = {
           "meaning": "uses a rotating beam associated with magnetic poles that are tilted relative to the spin axis; a pulse occurs when the beam sweeps across us."
         }
       ],
-      "checkpoint": "The pulse does not require the whole star to expand and contract, and not every beam geometry crosses Earth.",
-      "transfer": "Use the period as evidence for compactness, then read the beam and spin axes in a diagram.",
+      "checkpoint": "Only a neutron star can spin as fast as a pulsar (Crab: about 33 milliseconds). We see pulses when the tilted magnetic beam sweeps across Earth.",
+      "transfer": "“Which star could rotate in the shortest time?” A neutron star. “LGM-1 stood for?” Little Green Men (Jocelyn Bell, 1967).",
       "sources": [
         {
           "kind": "topHat",
@@ -1175,8 +1175,8 @@ window.ASTR1102_FOCUS = {
           "meaning": "bends light paths and can produce several images of one background source. Passing near a black hole is different from crossing its event horizon."
         }
       ],
-      "checkpoint": "Count physical sources separately from their lensed images. A static image alone may not determine a unique count.",
-      "transfer": "Connect the description of gravity to the observed light path rather than treating “light has no mass” as a reason it cannot bend.",
+      "checkpoint": "Gravity = curved spacetime: matter tells spacetime how to curve; spacetime tells matter how to move. Light passing a black hole bends (lensing); inside the horizon nothing escapes.",
+      "transfer": "“Gravity in general relativity?” Matter curves space; space tells matter how to move. “Light passing near a black hole?” Bends (gravitational lensing).",
       "sources": [
         {
           "kind": "topHat",
@@ -1229,11 +1229,11 @@ window.ASTR1102_FOCUS = {
         },
         {
           "term": "Short bursts",
-          "meaning": "are commonly associated with compact-object mergers in the supplied course material; duration groups are useful but not exception-free."
+          "meaning": "come from compact-object mergers such as two neutron stars (GW170817)."
         }
       ],
-      "checkpoint": "The particular massive-star picture on this review page is not the mechanism of every GRB.",
-      "transfer": "Change the viewing angle or compare long and short progenitors while preserving the underlying physical cause.",
+      "checkpoint": "Long GRBs come from collapsing, rapidly rotating massive stars; short GRBs come from neutron-star mergers. We miss most GRBs because their jets don’t point at us.",
+      "transfer": "“Why do we miss most GRBs?” The jets don’t point our way. “Short GRBs from massive-star collapse?” False (mergers).",
       "sources": [
         {
           "kind": "topHat",
@@ -1265,15 +1265,15 @@ window.ASTR1102_FOCUS = {
       "points": [
         {
           "term": "A Roche lobe",
-          "meaning": "bounds the region around a star in the effective potential of the rotating binary model. Filling it can allow gas to flow through the inner Lagrange region."
+          "meaning": "is the zone around a star dominated by its own gravity. When a star fills it, gas flows through the inner Lagrange point to the companion."
         },
         {
           "term": "Angular momentum",
           "meaning": "makes transferred material curve into an accretion flow rather than fall radially straight onto the companion."
         }
       ],
-      "checkpoint": "The inner Lagrange point is an effective-force balance in the rotating system, not generally a point of equal gravitational pulls alone.",
-      "transfer": "Follow donor expansion → overflow → curved stream/disk → accretion. Distinguish the immediate remnant from the companion’s later evolution.",
+      "checkpoint": "When a star fills its Roche lobe, gas flows through the inner Lagrange point. The gas is orbiting (angular momentum), so it forms an accretion disk instead of falling straight in.",
+      "transfer": "“Gas forms a disk, not a straight fall, because of?” Angular momentum. “Example system?” GRO J1655–40, a black hole fed by an F-type subgiant.",
       "sources": [
         {
           "kind": "topHat",
@@ -1301,11 +1301,11 @@ window.ASTR1102_FOCUS = {
         },
         {
           "term": "Full thermonuclear disruption",
-          "meaning": "leaves expanding ejecta but no compact stellar remnant in the course model; this differs from the usual core-collapse remnant pathway."
+          "meaning": "leaves expanding gas but no star behind. Core collapse leaves a neutron star or black hole."
         }
       ],
-      "checkpoint": "“No remnant” here means no surviving compact star, not no material. The near-limit accreting model is not the only possible Type Ia progenitor channel.",
-      "transfer": "Compare fuel, compact object, trigger and aftermath. Do not equate all explosions involving a white dwarf with a Type Ia.",
+      "checkpoint": "Type Ia: a white dwarf gains mass toward 1.4 solar masses, carbon ignites in a runaway, and the white dwarf blows itself apart. Nothing is left behind. Ia are brighter than core-collapse because no heavy layers absorb the energy.",
+      "transfer": "“Type Ia vs core-collapse?” Ia leaves no remnant. “Why are Ia brighter?” No layers above the white dwarf absorb the energy. “Example?” Tycho’s supernova, 1572.",
       "sources": [
         {
           "kind": "topHat",
