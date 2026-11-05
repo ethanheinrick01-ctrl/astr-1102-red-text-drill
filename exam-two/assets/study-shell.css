@@ -260,6 +260,10 @@ body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;ba
 #app .e2-session .e2-choice.incorrect{color:var(--bad);border-color:var(--bad);background:#2a1414}
 #app .e2-session .e2-choice:is(.correct,.incorrect) .e2-option-letter{color:inherit}
 #app .e2-session .e2-choice small{grid-column:2;font-size:16px;margin:0;line-height:1.5}
+/* Select-all rows carry a checkbox as a third child: give it its own column so the text keeps the wide one. */
+#app .e2-session .e2-choice:has(>input[type=checkbox]){grid-template-columns:30px 22px minmax(0,1fr)}
+#app .e2-session .e2-choice>input[type=checkbox]{width:18px;height:18px;margin:5px 0 0;align-self:start}
+#app .e2-session .e2-choice:has(>input[type=checkbox]) small{grid-column:3}
 #app .e2-answer-actions{display:flex;align-items:center;gap:8px;margin:8px 0}
 #app .e2-answer-actions label{display:grid;font-size:18px;line-height:1.6;color:var(--ink)}
 #app .e2-answer-actions select{font-size:18px;line-height:normal;padding:8px;width:auto;min-width:140px;min-height:44px;background:#11151c;border:1px solid #2d3544}
