@@ -1,0 +1,17 @@
+Galaxy Distances and Expanding Space
+Lecture 34 · pages 7–27
+Synthetic narration in Ethan’s voice, generated locally.
+
+A Cepheid supplies the distance
+A Cepheid repeatedly brightens and fades. Measure the time between peaks to find its pulsation period. The period tells you its luminosity. Now compare that known luminosity with the apparent brightness to find distance. Follow the four steps: identify the Cepheid, measure brightness and period, find luminosity, then find distance. This is the standard candle method. The light curve and star are a schematic illustration of the repeating measurement.
+
+Beyond the Milky Way
+The Great Debate asked whether spiral nebulae were inside the Milky Way or separate galaxies. Shapley placed them inside; Curtis argued that they were galaxies themselves. The debate did not settle the evidence. Hubble identified a Cepheid in Andromeda in nineteen twenty-three. Its faint appearance and known luminosity revealed a very large distance. Andromeda is about two and a half million light-years away. The distance measurement established that spiral nebulae are galaxies beyond our own.
+
+Distance and recession speed
+More distant galaxies recede faster. Hubble's law connects the quantities: velocity equals the Hubble constant times distance. Use seventy-two kilometers per second per megaparsec for the Hubble constant. A galaxy receding at seventy-two thousand kilometers per second is one thousand megaparsecs away: divide seventy-two thousand by seventy-two. Redshift measures the fractional increase in wavelength. For the small-redshift calculation, divide velocity by the speed of light. Seventy-two thousand divided by three hundred thousand gives zero point two four.
+
+Expansion has no special center
+The distances grow because space itself expands. Watch the separations increase between the galaxies. A farther galaxy gains more distance during the same interval. Now choose a different galaxy as the observer. The surrounding galaxies still move away, and the farther ones still separate faster. Every galaxy sees the same general pattern. There is no special center of expansion. The expanding surface illustrates growing separation, not galaxies flying away from a unique central point.
+
+Original teaching animations based on the linked lecture slides. Distances, sizes and elapsed time are schematic. Ethan · synthetic voice.

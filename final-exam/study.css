@@ -1,0 +1,18 @@
+#app .e2-match-answer {
+  grid-column: 1 / -1;
+  overflow-wrap: anywhere;
+}
+
+#app .e2-match select[hidden] {
+  display: none;
+}
+
+#app [data-lesson-anchor] {
+  scroll-margin-top: 144px;
+}
+
+#theme-status:empty {
+  margin: 0;
+}
+
+.source-question-image{display:block;width:100%;height:auto;border-radius:9px}

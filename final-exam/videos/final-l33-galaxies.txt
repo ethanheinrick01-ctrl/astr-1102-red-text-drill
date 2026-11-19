@@ -1,0 +1,17 @@
+The Galactic Center and Galaxy Types
+Lecture 33 · pages 4–23
+Synthetic narration in Ethan’s voice, generated locally.
+
+Weighing the invisible center
+Watch the stars orbit the same dark center. Their paths and speeds reveal the mass pulling on them. Astronomers combine changes in position with Doppler measurements of radial velocity. The result is about four million solar masses concentrated at Sagittarius A star. One star, S zero two, takes about fifteen years to orbit. These central stellar orbits measure the black hole. The rotation curve across the much larger Galactic disk measures how mass is distributed through the Galaxy.
+
+Tidal stretching
+A star passing too close to a black hole experiences different gravitational pulls across its body. The near side is pulled more strongly than the far side. The star stretches along that direction and is torn into a stream. This is stellar spaghettification. Keep the difference in pull in view: tidal gravity changes the shape of the star. The size and timing here are schematic.
+
+Motion and galaxy type
+Compare the motion in these two galaxies. In a spiral, stars orbit in a rotating disk. Gas and dust support continuing star formation. Young population one stars occupy the disk; older population two stars occupy the halo and bulge. An elliptical has much more random stellar motion, little rotation, and mostly old population two stars. It usually has little gas or dust and no active star formation. Hubble's tuning fork classifies these shapes. It is not an evolutionary sequence from elliptical to spiral.
+
+Encounters make new stars
+Galaxies interact through gravity. During an encounter, tidal forces reshape the galaxies and compress their gas. The compressed gas triggers a burst of star formation, called a starburst. In a central passage, a smaller galaxy moves through the middle of a larger one. A ripple of star formation spreads into a ring. Follow the sequence: encounter, gas compression, then new stars. A collision can change a galaxy's structure; the tuning fork itself does not describe an evolutionary path.
+
+Original teaching animations based on the linked lecture slides. Distances, sizes and elapsed time are schematic. Ethan · synthetic voice.
